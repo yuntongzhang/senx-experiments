@@ -7,7 +7,10 @@ CC="wllvm" CXX="wllvm++" CFLAGS="-DFORTIFY_SOURCE=2 -fstack-protector-all -fno-o
 
 make CFLAGS="-g" CXXFLAGS="$CFLAGS"
 
-cp binutils/readelf ../
+bin=readelf
+
+cp binutils/$bin ../
 cd ../
 
-extract-bc ./readelf
+extract-bc ./$bin
+llvm-dis ./$bin.bc
