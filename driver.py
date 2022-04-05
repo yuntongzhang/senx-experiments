@@ -55,7 +55,12 @@ def main():
             continue
 
         if not run_only:
-            os.system("./senx_setup.sh")
+            # see if this one has already been setup
+            ll_file = glob.glob("*.ll")
+            if ll_file:
+                print("Already built. Skipping building of this one ...")
+            else:
+                os.system("./senx_setup.sh")
         if not setup_only:
             os.system("./senx_run.sh")
             # check whether a patch file is produced
