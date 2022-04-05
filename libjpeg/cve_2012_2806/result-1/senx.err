@@ -1,0 +1,1165 @@
+KLEE: NOTE: Using libreadline: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libreadline.bca
+KLEE: NOTE: Using libxml2: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libxml2.bca
+KLEE: NOTE: Using libpcap: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libpcap.bca
+KLEE: NOTE: Using klee-uclibc : /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/klee-uclibc.bca
+KLEE: NOTE: Using model: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libkleeRuntimePOSIX.bca
+KLEE: output directory is "/home/user/fuzzfix.tmp/data/libjpeg/cve_2012_2806/senx/klee-out-0"
+KLEE: loadSensitiveFunctionList __assert_fail
+KLEE: loadSensitiveFunctionList sqlite3_realloc
+KLEE: loadSensitiveFunctionList sqlite3_alloc
+KLEE: Safety property for MemorySeqAccess is loaded.
+KLEE: Safety property for MemoryStructAccess is loaded.
+KLEE: Safety property for MemoryAllocation is loaded.
+KLEE: Safety property for SensitiveOperation is loaded.
+KLEE: Using Z3 solver backend
+global variable progname
+	1 elements of 8bytes
+global variable .str
+	6 elements of 1bytes
+global variable cdjpeg_message_table
+	45 elements of 8bytes
+global variable .str.5
+	32 elements of 1bytes
+global variable .str.6
+	43 elements of 1bytes
+global variable .str.7
+	36 elements of 1bytes
+global variable .str.8
+	42 elements of 1bytes
+global variable .str.9
+	36 elements of 1bytes
+global variable .str.10
+	41 elements of 1bytes
+global variable .str.11
+	16 elements of 1bytes
+global variable .str.12
+	40 elements of 1bytes
+global variable .str.13
+	23 elements of 1bytes
+global variable .str.14
+	34 elements of 1bytes
+global variable .str.15
+	27 elements of 1bytes
+global variable .str.16
+	38 elements of 1bytes
+global variable .str.17
+	24 elements of 1bytes
+global variable .str.18
+	22 elements of 1bytes
+global variable .str.19
+	36 elements of 1bytes
+global variable .str.20
+	27 elements of 1bytes
+global variable .str.21
+	15 elements of 1bytes
+global variable .str.22
+	19 elements of 1bytes
+global variable .str.23
+	48 elements of 1bytes
+global variable .str.24
+	44 elements of 1bytes
+global variable .str.25
+	35 elements of 1bytes
+global variable .str.26
+	25 elements of 1bytes
+global variable .str.27
+	40 elements of 1bytes
+global variable .str.28
+	27 elements of 1bytes
+global variable .str.29
+	20 elements of 1bytes
+global variable .str.30
+	36 elements of 1bytes
+global variable .str.31
+	28 elements of 1bytes
+global variable .str.32
+	19 elements of 1bytes
+global variable .str.33
+	16 elements of 1bytes
+global variable .str.34
+	21 elements of 1bytes
+global variable .str.35
+	16 elements of 1bytes
+global variable .str.36
+	21 elements of 1bytes
+global variable .str.37
+	34 elements of 1bytes
+global variable .str.38
+	34 elements of 1bytes
+global variable .str.39
+	38 elements of 1bytes
+global variable .str.40
+	22 elements of 1bytes
+global variable .str.41
+	28 elements of 1bytes
+global variable .str.42
+	30 elements of 1bytes
+global variable .str.43
+	51 elements of 1bytes
+global variable .str.44
+	53 elements of 1bytes
+global variable .str.45
+	14 elements of 1bytes
+global variable .str.46
+	59 elements of 1bytes
+global variable .str.47
+	31 elements of 1bytes
+global variable .str.48
+	22 elements of 1bytes
+global variable .str.49
+	20 elements of 1bytes
+global variable .str.50
+	2 elements of 1bytes
+global variable .str.51
+	3 elements of 1bytes
+global variable .str.52
+	6 elements of 1bytes
+global variable requested_fmt
+	1 elements of 4bytes
+global variable outfilename
+	1 elements of 8bytes
+global variable .str.53
+	4 elements of 1bytes
+global variable .str.54
+	7 elements of 1bytes
+global variable .str.55
+	8 elements of 1bytes
+global variable .str.56
+	9 elements of 1bytes
+global variable .str.57
+	9 elements of 1bytes
+global variable .str.94
+	22 elements of 1bytes
+global variable .str.95
+	13 elements of 1bytes
+global variable .str.96
+	38 elements of 1bytes
+global variable .str.97
+	56 elements of 1bytes
+global variable .str.98
+	47 elements of 1bytes
+global variable .str.99
+	41 elements of 1bytes
+global variable .str.100
+	35 elements of 1bytes
+global variable .str.101
+	62 elements of 1bytes
+global variable .str.102
+	61 elements of 1bytes
+global variable .str.103
+	1 elements of 1bytes
+global variable .str.104
+	45 elements of 1bytes
+global variable .str.105
+	58 elements of 1bytes
+global variable .str.106
+	59 elements of 1bytes
+global variable .str.107
+	11 elements of 1bytes
+global variable .str.108
+	47 elements of 1bytes
+global variable .str.109
+	30 elements of 1bytes
+global variable .str.110
+	43 elements of 1bytes
+global variable .str.111
+	57 elements of 1bytes
+global variable .str.112
+	50 elements of 1bytes
+global variable .str.113
+	46 elements of 1bytes
+global variable .str.114
+	54 elements of 1bytes
+global variable .str.115
+	63 elements of 1bytes
+global variable .str.116
+	57 elements of 1bytes
+global variable .str.117
+	52 elements of 1bytes
+global variable .str.118
+	62 elements of 1bytes
+global variable .str.119
+	52 elements of 1bytes
+global variable .str.120
+	47 elements of 1bytes
+global variable .str.121
+	44 elements of 1bytes
+global variable .str.58
+	3 elements of 1bytes
+global variable .str.59
+	4 elements of 1bytes
+global variable .str.60
+	4 elements of 1bytes
+global variable .str.61
+	5 elements of 1bytes
+global variable .str.62
+	6 elements of 1bytes
+global variable .str.63
+	7 elements of 1bytes
+global variable .str.64
+	3 elements of 1bytes
+global variable .str.65
+	5 elements of 1bytes
+global variable .str.66
+	8 elements of 1bytes
+global variable .str.67
+	6 elements of 1bytes
+global variable .str.68
+	8 elements of 1bytes
+global variable parse_switches.printed_version
+	1 elements of 4bytes
+global variable .str.69
+	26 elements of 1bytes
+global variable .str.70
+	14 elements of 1bytes
+global variable .str.71
+	6 elements of 1bytes
+global variable .str.72
+	9 elements of 1bytes
+global variable .str.73
+	5 elements of 1bytes
+global variable .str.74
+	254 elements of 1bytes
+global variable .str.75
+	61 elements of 1bytes
+global variable .str.76
+	16 elements of 1bytes
+global variable .str.77
+	4 elements of 1bytes
+global variable .str.78
+	10 elements of 1bytes
+global variable .str.79
+	10 elements of 1bytes
+global variable .str.80
+	4 elements of 1bytes
+global variable .str.81
+	4 elements of 1bytes
+global variable .str.2
+	3 elements of 1bytes
+global variable .str.3
+	19 elements of 1bytes
+global variable .str.82
+	10 elements of 1bytes
+global variable .str.83
+	6 elements of 1bytes
+global variable .str.84
+	9 elements of 1bytes
+global variable .str.85
+	8 elements of 1bytes
+global variable .str.86
+	4 elements of 1bytes
+global variable .str.87
+	8 elements of 1bytes
+global variable .str.88
+	4 elements of 1bytes
+global variable .str.89
+	4 elements of 1bytes
+global variable .str.90
+	4 elements of 1bytes
+global variable .str.91
+	6 elements of 1bytes
+global variable .str.92
+	6 elements of 1bytes
+global variable .str.93
+	6 elements of 1bytes
+global variable .str.1
+	25 elements of 1bytes
+global variable .str.4
+	3 elements of 1bytes
+global variable .str.122
+	2 elements of 1bytes
+global variable .str.1.123
+	26 elements of 1bytes
+global variable .str.2.124
+	28 elements of 1bytes
+global variable .str.3.125
+	31 elements of 1bytes
+global variable q_scale_factor
+	4 elements of 4bytes
+global variable .str.4.126
+	29 elements of 1bytes
+global variable .str.5.127
+	36 elements of 1bytes
+global variable .str.6.128
+	35 elements of 1bytes
+global variable .str.7.129
+	44 elements of 1bytes
+global variable .str.8.130
+	38 elements of 1bytes
+global variable .str.9.131
+	5 elements of 1bytes
+global variable std_luminance_quant_tbl
+	64 elements of 4bytes
+global variable std_chrominance_quant_tbl
+	64 elements of 4bytes
+global variable .str.10.132
+	45 elements of 1bytes
+global variable .str.11.133
+	9 elements of 1bytes
+global variable .str.12.134
+	36 elements of 1bytes
+global variable .str.142
+	15 elements of 1bytes
+global variable .str.1.143
+	15 elements of 1bytes
+global variable std_luminance_quant_tbl.152
+	64 elements of 4bytes
+global variable std_chrominance_quant_tbl.153
+	64 elements of 4bytes
+global variable std_huff_tables.bits_dc_luminance
+	17 elements of 1bytes
+global variable std_huff_tables.val_dc_luminance
+	12 elements of 1bytes
+global variable std_huff_tables.bits_ac_luminance
+	17 elements of 1bytes
+global variable std_huff_tables.val_ac_luminance
+	162 elements of 1bytes
+global variable std_huff_tables.bits_dc_chrominance
+	17 elements of 1bytes
+global variable std_huff_tables.val_dc_chrominance
+	12 elements of 1bytes
+global variable std_huff_tables.bits_ac_chrominance
+	17 elements of 1bytes
+global variable std_huff_tables.val_ac_chrominance
+	162 elements of 1bytes
+global variable rgb_pixelsize
+	16 elements of 4bytes
+global variable extend_test
+	16 elements of 4bytes
+global variable extend_offset
+	16 elements of 4bytes
+global variable jpeg_std_message_table
+	128 elements of 8bytes
+global variable .str.190
+	22 elements of 1bytes
+global variable .str.1.191
+	44 elements of 1bytes
+global variable .str.2.192
+	32 elements of 1bytes
+global variable .str.3.193
+	37 elements of 1bytes
+global variable .str.4.194
+	26 elements of 1bytes
+global variable .str.5.195
+	31 elements of 1bytes
+global variable .str.6.196
+	29 elements of 1bytes
+global variable .str.7.197
+	40 elements of 1bytes
+global variable .str.8.198
+	31 elements of 1bytes
+global variable .str.9.199
+	23 elements of 1bytes
+global variable .str.10.200
+	22 elements of 1bytes
+global variable .str.11.201
+	20 elements of 1bytes
+global variable .str.12.202
+	61 elements of 1bytes
+global variable .str.13.203
+	48 elements of 1bytes
+global variable .str.14.204
+	28 elements of 1bytes
+global variable .str.15.205
+	35 elements of 1bytes
+global variable .str.16.206
+	55 elements of 1bytes
+global variable .str.17.207
+	55 elements of 1bytes
+global variable .str.18.208
+	23 elements of 1bytes
+global variable .str.19.209
+	32 elements of 1bytes
+global variable .str.20.210
+	42 elements of 1bytes
+global variable .str.21.211
+	77 elements of 1bytes
+global variable .str.22.212
+	27 elements of 1bytes
+global variable .str.23.213
+	43 elements of 1bytes
+global variable .str.24.214
+	28 elements of 1bytes
+global variable .str.25.215
+	37 elements of 1bytes
+global variable .str.26.216
+	38 elements of 1bytes
+global variable .str.27.217
+	37 elements of 1bytes
+global variable .str.28.218
+	19 elements of 1bytes
+global variable .str.29.219
+	21 elements of 1bytes
+global variable .str.30.220
+	19 elements of 1bytes
+global variable .str.31.221
+	19 elements of 1bytes
+global variable .str.32.222
+	37 elements of 1bytes
+global variable .str.33.223
+	21 elements of 1bytes
+global variable .str.34.224
+	20 elements of 1bytes
+global variable .str.35.225
+	33 elements of 1bytes
+global variable .str.36.226
+	22 elements of 1bytes
+global variable .str.37.227
+	47 elements of 1bytes
+global variable .str.38.228
+	40 elements of 1bytes
+global variable .str.39.229
+	33 elements of 1bytes
+global variable .str.40.230
+	33 elements of 1bytes
+global variable .str.41.231
+	47 elements of 1bytes
+global variable .str.42.232
+	17 elements of 1bytes
+global variable .str.43.233
+	28 elements of 1bytes
+global variable .str.44.234
+	62 elements of 1bytes
+global variable .str.45.235
+	39 elements of 1bytes
+global variable .str.46.236
+	39 elements of 1bytes
+global variable .str.47.237
+	20 elements of 1bytes
+global variable .str.48.238
+	46 elements of 1bytes
+global variable .str.49.239
+	28 elements of 1bytes
+global variable .str.50.240
+	37 elements of 1bytes
+global variable .str.51.241
+	34 elements of 1bytes
+global variable .str.52.242
+	42 elements of 1bytes
+global variable .str.53.243
+	43 elements of 1bytes
+global variable .str.54.244
+	30 elements of 1bytes
+global variable .str.55.245
+	46 elements of 1bytes
+global variable .str.56.246
+	40 elements of 1bytes
+global variable .str.57.247
+	39 elements of 1bytes
+global variable .str.58.248
+	45 elements of 1bytes
+global variable .str.59.249
+	48 elements of 1bytes
+global variable .str.60.250
+	42 elements of 1bytes
+global variable .str.61.251
+	45 elements of 1bytes
+global variable .str.62.252
+	44 elements of 1bytes
+global variable .str.63.253
+	35 elements of 1bytes
+global variable .str.64.254
+	30 elements of 1bytes
+global variable .str.65.255
+	30 elements of 1bytes
+global variable .str.66.256
+	54 elements of 1bytes
+global variable .str.67.257
+	42 elements of 1bytes
+global variable .str.68.258
+	31 elements of 1bytes
+global variable .str.69.259
+	35 elements of 1bytes
+global variable .str.70.260
+	39 elements of 1bytes
+global variable .str.71.261
+	21 elements of 1bytes
+global variable .str.72.262
+	20 elements of 1bytes
+global variable .str.73.263
+	254 elements of 1bytes
+global variable .str.74.264
+	16 elements of 1bytes
+global variable .str.75.265
+	62 elements of 1bytes
+global variable .str.76.266
+	66 elements of 1bytes
+global variable .str.77.267
+	42 elements of 1bytes
+global variable .str.78.268
+	44 elements of 1bytes
+global variable .str.79.269
+	39 elements of 1bytes
+global variable .str.80.270
+	28 elements of 1bytes
+global variable .str.81.271
+	43 elements of 1bytes
+global variable .str.82.272
+	27 elements of 1bytes
+global variable .str.83.273
+	20 elements of 1bytes
+global variable .str.84.274
+	23 elements of 1bytes
+global variable .str.85.275
+	13 elements of 1bytes
+global variable .str.86.276
+	40 elements of 1bytes
+global variable .str.87.277
+	53 elements of 1bytes
+global variable .str.88.278
+	60 elements of 1bytes
+global variable .str.89.279
+	46 elements of 1bytes
+global variable .str.90.280
+	33 elements of 1bytes
+global variable .str.91.281
+	39 elements of 1bytes
+global variable .str.92.282
+	25 elements of 1bytes
+global variable .str.93.283
+	40 elements of 1bytes
+global variable .str.94.284
+	35 elements of 1bytes
+global variable .str.95.285
+	24 elements of 1bytes
+global variable .str.96.286
+	36 elements of 1bytes
+global variable .str.97.287
+	37 elements of 1bytes
+global variable .str.98.288
+	6 elements of 1bytes
+global variable .str.99.289
+	57 elements of 1bytes
+global variable .str.100.290
+	58 elements of 1bytes
+global variable .str.101.291
+	31 elements of 1bytes
+global variable .str.102.292
+	15 elements of 1bytes
+global variable .str.103.293
+	29 elements of 1bytes
+global variable .str.104.294
+	30 elements of 1bytes
+global variable .str.105.295
+	29 elements of 1bytes
+global variable .str.106.296
+	25 elements of 1bytes
+global variable .str.107.297
+	25 elements of 1bytes
+global variable .str.108.298
+	66 elements of 1bytes
+global variable .str.109.299
+	58 elements of 1bytes
+global variable .str.110.300
+	54 elements of 1bytes
+global variable .str.111.301
+	52 elements of 1bytes
+global variable .str.112.302
+	20 elements of 1bytes
+global variable .str.113.303
+	23 elements of 1bytes
+global variable .str.114.304
+	38 elements of 1bytes
+global variable .str.115.305
+	66 elements of 1bytes
+global variable .str.116.306
+	60 elements of 1bytes
+global variable .str.117.307
+	49 elements of 1bytes
+global variable .str.118.308
+	36 elements of 1bytes
+global variable .str.119.309
+	46 elements of 1bytes
+global variable .str.120.310
+	27 elements of 1bytes
+global variable .str.121.311
+	56 elements of 1bytes
+global variable .str.122.312
+	43 elements of 1bytes
+global variable .str.123
+	43 elements of 1bytes
+global variable .str.124
+	21 elements of 1bytes
+global variable .str.125
+	40 elements of 1bytes
+global variable .str.126
+	39 elements of 1bytes
+global variable .str.127
+	4 elements of 1bytes
+global variable base_dither_matrix
+	16 elements of 16bytes
+global variable select_ncolors.RGB_order
+	3 elements of 4bytes
+global variable rgb_green
+	16 elements of 4bytes
+global variable rgb_red
+	16 elements of 4bytes
+global variable rgb_blue
+	16 elements of 4bytes
+global variable rgb_red.319
+	16 elements of 4bytes
+global variable c_scales
+	3 elements of 4bytes
+global variable rgb_green.320
+	16 elements of 4bytes
+global variable rgb_blue.321
+	16 elements of 4bytes
+global variable jpeg_natural_order
+	80 elements of 4bytes
+global variable first_pool_slop
+	2 elements of 8bytes
+global variable extra_pool_slop
+	2 elements of 8bytes
+global variable .str.334
+	8 elements of 1bytes
+global variable .str.1.335
+	6 elements of 1bytes
+global variable jconst_rgb_ycc_convert_sse2
+	0 elements of 4bytes
+global variable jconst_rgb_gray_convert_sse2
+	0 elements of 4bytes
+global variable jconst_ycc_rgb_convert_sse2
+	0 elements of 4bytes
+global variable jconst_fancy_upsample_sse2
+	0 elements of 4bytes
+global variable jconst_merged_upsample_sse2
+	0 elements of 4bytes
+global variable jconst_fdct_islow_sse2
+	0 elements of 4bytes
+global variable jconst_fdct_ifast_sse2
+	0 elements of 4bytes
+global variable jconst_fdct_float_sse
+	0 elements of 4bytes
+global variable jconst_idct_red_sse2
+	0 elements of 4bytes
+global variable jconst_idct_islow_sse2
+	0 elements of 4bytes
+global variable jconst_idct_ifast_sse2
+	0 elements of 4bytes
+global variable jconst_idct_float_sse2
+	0 elements of 4bytes
+global variable rgb_pixelsize.396
+	16 elements of 4bytes
+global variable rgb_red.398
+	16 elements of 4bytes
+global variable rgb_green.399
+	16 elements of 4bytes
+global variable rgb_blue.400
+	16 elements of 4bytes
+global variable start_pass.aanscales
+	64 elements of 2bytes
+global variable start_pass.aanscalefactor
+	8 elements of 8bytes
+global variable jpeg_aritab
+	114 elements of 8bytes
+global variable __C_ctype_tolower_data
+	384 elements of 2bytes
+global variable __C_ctype_tolower
+	1 elements of 8bytes
+global variable __ctype_tolower
+	1 elements of 8bytes
+global variable static_fd
+	1 elements of 4bytes
+global variable static_ut_name
+	1 elements of 8bytes
+global variable default_file_name
+	14 elements of 1bytes
+global variable static_utmp
+	1 elements of 400bytes
+global variable stdin
+	1 elements of 8bytes
+global variable _stdio_streams
+	3 elements of 80bytes
+global variable stdout
+	1 elements of 8bytes
+global variable stderr
+	1 elements of 8bytes
+global variable __stdin
+	1 elements of 8bytes
+global variable __stdout
+	1 elements of 8bytes
+global variable _stdio_openlist
+	1 elements of 8bytes
+global variable _do_one_spec.spec_base
+	7 elements of 1bytes
+global variable .str.128
+	6 elements of 1bytes
+global variable .str.1.129
+	7 elements of 1bytes
+global variable _do_one_spec.prefix
+	12 elements of 1bytes
+global variable _ppfs_parsespec.spec_flags
+	8 elements of 1bytes
+global variable _ppfs_parsespec.qual_chars
+	20 elements of 1bytes
+global variable _ppfs_parsespec.spec_chars
+	21 elements of 1bytes
+global variable _ppfs_parsespec.spec_ranges
+	9 elements of 1bytes
+global variable _ppfs_parsespec.spec_or_mask
+	8 elements of 2bytes
+global variable _ppfs_parsespec.spec_and_mask
+	8 elements of 2bytes
+global variable type_codes
+	12 elements of 2bytes
+global variable type_sizes
+	12 elements of 1bytes
+global variable __libc_stack_end
+	1 elements of 8bytes
+global variable __uclibc_progname
+	1 elements of 8bytes
+global variable .str.178
+	1 elements of 1bytes
+global variable __environ
+	1 elements of 8bytes
+global variable __pagesize
+	1 elements of 8bytes
+global variable __app_fini
+	1 elements of 8bytes
+global variable __rtld_fini
+	1 elements of 8bytes
+global variable __uClibc_init.been_there_done_that
+	1 elements of 4bytes
+global variable .str.1.183
+	10 elements of 1bytes
+global variable __C_ctype_b_data
+	384 elements of 2bytes
+global variable __C_ctype_b
+	1 elements of 8bytes
+global variable __ctype_b
+	1 elements of 8bytes
+global variable errno
+	1 elements of 4bytes
+global variable h_errno
+	1 elements of 4bytes
+global variable fmt
+	20 elements of 1bytes
+global variable exp10_table
+	13 elements of 16bytes
+global variable .str.1.248
+	47 elements of 1bytes
+global variable .str.2.251
+	44 elements of 1bytes
+global variable close.n_calls
+	1 elements of 4bytes
+global variable read.n_calls
+	1 elements of 4bytes
+global variable .str.3.256
+	12 elements of 1bytes
+global variable .str.4.257
+	59 elements of 1bytes
+global variable __PRETTY_FUNCTION__.read
+	34 elements of 1bytes
+global variable write.n_calls
+	1 elements of 4bytes
+global variable .str.5.260
+	7 elements of 1bytes
+global variable __PRETTY_FUNCTION__.write
+	41 elements of 1bytes
+global variable .str.6.261
+	2 elements of 1bytes
+global variable .str.7.262
+	24 elements of 1bytes
+global variable .str.8.265
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__fd_lseek
+	38 elements of 1bytes
+global variable .str.9.270
+	33 elements of 1bytes
+global variable chmod.n_calls
+	1 elements of 4bytes
+global variable fchmod.n_calls
+	1 elements of 4bytes
+global variable .str.24.271
+	32 elements of 1bytes
+global variable __fd_ftruncate.n_calls
+	1 elements of 4bytes
+global variable .str.10.276
+	30 elements of 1bytes
+global variable .str.11.279
+	33 elements of 1bytes
+global variable .str.12.280
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__fd_getdents
+	65 elements of 1bytes
+global variable .str.13.283
+	41 elements of 1bytes
+global variable .str.14.284
+	42 elements of 1bytes
+global variable .str.15.285
+	43 elements of 1bytes
+global variable .str.16.286
+	43 elements of 1bytes
+global variable .str.17.287
+	45 elements of 1bytes
+global variable .str.18.288
+	46 elements of 1bytes
+global variable .str.19.289
+	43 elements of 1bytes
+global variable .str.20.290
+	44 elements of 1bytes
+global variable .str.21.295
+	32 elements of 1bytes
+global variable .str.22.296
+	17 elements of 1bytes
+global variable getcwd.n_calls
+	1 elements of 4bytes
+global variable .str.23.301
+	18 elements of 1bytes
+global variable __exe_env
+	1 elements of 784bytes
+global variable __exe_fs
+	1 elements of 104bytes
+global variable klee_init_fds.name
+	32 elements of 1bytes
+global variable .str.306
+	2 elements of 1bytes
+global variable .str.9.307
+	6 elements of 1bytes
+global variable .str.10.308
+	5 elements of 1bytes
+global variable .str.11.309
+	64 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__create_new_dfile
+	88 elements of 1bytes
+global variable .str.1.310
+	6 elements of 1bytes
+global variable .str.2.311
+	10 elements of 1bytes
+global variable .str.3.312
+	11 elements of 1bytes
+global variable .str.4.313
+	11 elements of 1bytes
+global variable .str.5.314
+	15 elements of 1bytes
+global variable .str.6.315
+	12 elements of 1bytes
+global variable .str.7.316
+	7 elements of 1bytes
+global variable .str.8.317
+	14 elements of 1bytes
+global variable .str.320
+	7 elements of 1bytes
+global variable .str.1.321
+	964 elements of 1bytes
+global variable .str.24.322
+	70 elements of 1bytes
+global variable .str.25.323
+	9 elements of 1bytes
+global variable .str.2.324
+	10 elements of 1bytes
+global variable .str.3.325
+	9 elements of 1bytes
+global variable .str.4.326
+	48 elements of 1bytes
+global variable .str.26.327
+	37 elements of 1bytes
+global variable .str.5.328
+	11 elements of 1bytes
+global variable .str.6.329
+	10 elements of 1bytes
+global variable .str.7.330
+	77 elements of 1bytes
+global variable .str.8.331
+	7 elements of 1bytes
+global variable .str.9.332
+	12 elements of 1bytes
+global variable .str.10.333
+	11 elements of 1bytes
+global variable .str.11.334
+	109 elements of 1bytes
+global variable .str.12.335
+	12 elements of 1bytes
+global variable .str.13.336
+	11 elements of 1bytes
+global variable .str.14.337
+	57 elements of 1bytes
+global variable .str.15.338
+	13 elements of 1bytes
+global variable .str.16.339
+	12 elements of 1bytes
+global variable .str.17.340
+	18 elements of 1bytes
+global variable .str.18.341
+	17 elements of 1bytes
+global variable .str.19.342
+	10 elements of 1bytes
+global variable .str.20.343
+	9 elements of 1bytes
+global variable .str.21.344
+	11 elements of 1bytes
+global variable .str.22.345
+	10 elements of 1bytes
+global variable .str.23.346
+	54 elements of 1bytes
+global variable .str.347
+	18 elements of 1bytes
+global variable .str.1.348
+	24 elements of 1bytes
+global variable .str.2.353
+	15 elements of 1bytes
+global variable .str.3.354
+	18 elements of 1bytes
+global variable .str.4.355
+	17 elements of 1bytes
+global variable .str.5.356
+	13 elements of 1bytes
+global variable .str.6.357
+	40 elements of 1bytes
+global variable .str.7.358
+	17 elements of 1bytes
+global variable .str.8.361
+	21 elements of 1bytes
+global variable .str.9.362
+	18 elements of 1bytes
+global variable .str.10.363
+	32 elements of 1bytes
+global variable str.13
+	18 elements of 1bytes
+global variable str
+	17 elements of 1bytes
+global variable getnameinfo.hostname
+	10 elements of 1bytes
+global variable getnameinfo.service
+	10 elements of 1bytes
+global variable .str.366
+	80 elements of 1bytes
+global variable .str.1.367
+	15 elements of 1bytes
+global variable .str.2.368
+	8 elements of 1bytes
+global variable .str.3.371
+	8 elements of 1bytes
+global variable .str.1.4
+	16 elements of 1bytes
+global variable .str.2.5
+	14 elements of 1bytes
+global variable .str.6.374
+	71 elements of 1bytes
+global variable .str.1.7
+	14 elements of 1bytes
+global variable .str.2.8
+	5 elements of 1bytes
+KLEE: WARNING: undefined reference to function: __ctype_b_loc
+KLEE: WARNING: undefined reference to function: __isoc99_sscanf
+KLEE: WARNING: undefined reference to variable: jconst_fancy_upsample_sse2
+KLEE: WARNING: undefined reference to variable: jconst_fdct_float_sse
+KLEE: WARNING: undefined reference to variable: jconst_fdct_ifast_sse2
+KLEE: WARNING: undefined reference to variable: jconst_fdct_islow_sse2
+KLEE: WARNING: undefined reference to variable: jconst_idct_float_sse2
+KLEE: WARNING: undefined reference to variable: jconst_idct_ifast_sse2
+KLEE: WARNING: undefined reference to variable: jconst_idct_islow_sse2
+KLEE: WARNING: undefined reference to variable: jconst_idct_red_sse2
+KLEE: WARNING: undefined reference to variable: jconst_merged_upsample_sse2
+KLEE: WARNING: undefined reference to variable: jconst_rgb_gray_convert_sse2
+KLEE: WARNING: undefined reference to variable: jconst_rgb_ycc_convert_sse2
+KLEE: WARNING: undefined reference to variable: jconst_ycc_rgb_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_convsamp_float_sse2
+KLEE: WARNING: undefined reference to function: jsimd_convsamp_sse2
+KLEE: WARNING: undefined reference to function: jsimd_extbgr_gray_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_extbgr_ycc_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_extbgrx_gray_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_extbgrx_ycc_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_extrgb_gray_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_extrgb_ycc_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_extrgbx_gray_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_extrgbx_ycc_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_extxbgr_gray_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_extxbgr_ycc_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_extxrgb_gray_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_extxrgb_ycc_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_fdct_float_sse
+KLEE: WARNING: undefined reference to function: jsimd_fdct_ifast_sse2
+KLEE: WARNING: undefined reference to function: jsimd_fdct_islow_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v1_downsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v1_extbgr_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v1_extbgrx_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v1_extrgb_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v1_extrgbx_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v1_extxbgr_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v1_extxrgb_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v1_fancy_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v1_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v1_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v2_downsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v2_extbgr_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v2_extbgrx_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v2_extrgb_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v2_extrgbx_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v2_extxbgr_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v2_extxrgb_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v2_fancy_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v2_merged_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_h2v2_upsample_sse2
+KLEE: WARNING: undefined reference to function: jsimd_idct_2x2_sse2
+KLEE: WARNING: undefined reference to function: jsimd_idct_4x4_sse2
+KLEE: WARNING: undefined reference to function: jsimd_idct_float_sse2
+KLEE: WARNING: undefined reference to function: jsimd_idct_ifast_sse2
+KLEE: WARNING: undefined reference to function: jsimd_idct_islow_sse2
+KLEE: WARNING: undefined reference to function: jsimd_quantize_float_sse2
+KLEE: WARNING: undefined reference to function: jsimd_quantize_sse2
+KLEE: WARNING: undefined reference to function: jsimd_rgb_gray_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_rgb_ycc_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_ycc_extbgr_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_ycc_extbgrx_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_ycc_extrgb_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_ycc_extrgbx_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_ycc_extxbgr_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_ycc_extxrgb_convert_sse2
+KLEE: WARNING: undefined reference to function: jsimd_ycc_rgb_convert_sse2
+KLEE: WARNING: undefined reference to function: puts
+KLEE: WARNING: undefined reference to function: strncpy
+KLEE: ARGV 0: djpeg.bc
+
+KLEE: ARGV 1: ../exploit
+
+KLEE: WARNING: Unable to find size for global variable: jconst_rgb_ycc_convert_sse2 (use will result in out of bounds access)
+KLEE: WARNING: Unable to find size for global variable: jconst_rgb_gray_convert_sse2 (use will result in out of bounds access)
+KLEE: WARNING: Unable to find size for global variable: jconst_ycc_rgb_convert_sse2 (use will result in out of bounds access)
+KLEE: WARNING: Unable to find size for global variable: jconst_fancy_upsample_sse2 (use will result in out of bounds access)
+KLEE: WARNING: Unable to find size for global variable: jconst_merged_upsample_sse2 (use will result in out of bounds access)
+KLEE: WARNING: Unable to find size for global variable: jconst_fdct_islow_sse2 (use will result in out of bounds access)
+KLEE: WARNING: Unable to find size for global variable: jconst_fdct_ifast_sse2 (use will result in out of bounds access)
+KLEE: WARNING: Unable to find size for global variable: jconst_fdct_float_sse (use will result in out of bounds access)
+KLEE: WARNING: Unable to find size for global variable: jconst_idct_red_sse2 (use will result in out of bounds access)
+KLEE: WARNING: Unable to find size for global variable: jconst_idct_islow_sse2 (use will result in out of bounds access)
+KLEE: WARNING: Unable to find size for global variable: jconst_idct_ifast_sse2 (use will result in out of bounds access)
+KLEE: WARNING: Unable to find size for global variable: jconst_idct_float_sse2 (use will result in out of bounds access)
+Undefined struct struct.exe_sym_env_t
+Undefined struct struct.exe_file_t
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 165163968)
+Undefined struct struct.stat.1833
+Undefined struct struct.exe_disk_file_t
+Undefined struct struct.__kernel_termios.1623
+Undefined struct struct.termios.1618
+Undefined struct struct.Elf64_auxv_t
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+	pointer parm derived from itself!
+KLEE: 0x7410bb0: Symbolic value  used to determine branching at /home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_init.c:100 (75777)
+Undefined struct struct.jpeg_error_mgr
+Undefined struct struct.jpeg_decompress_struct
+Undefined struct struct.jpeg_common_struct.479
+Undefined struct struct.my_memory_mgr
+Undefined struct struct.jpeg_memory_mgr.477
+Undefined struct struct.jpeg_decompress_struct.291
+Undefined struct struct.jpeg_memory_mgr
+Undefined struct struct.small_pool_struct
+Undefined struct struct.my_marker_reader
+Undefined struct struct.jpeg_marker_reader.285
+Undefined struct struct.jpeg_decompress_struct.267
+Undefined struct struct.my_input_controller
+Undefined struct struct.jpeg_input_controller.260
+Undefined struct struct.__STDIO_FILE_STRUCT.1362
+Undefined struct struct.__mbstate_t.1361
+Undefined struct struct.my_source_mgr
+Undefined struct struct.jpeg_source_mgr
+Undefined struct struct.jpeg_input_controller
+Undefined struct struct.jpeg_common_struct
+Undefined struct struct.jpeg_marker_reader.261
+Undefined struct struct.jpeg_source_mgr.275
+Undefined struct struct.__STDIO_FILE_STRUCT.1403
+Undefined struct struct.__STDIO_FILE_STRUCT.1406
+Undefined struct struct.ppfs_t
+Undefined struct struct.printf_info.1489
+Undefined struct struct.__va_list_tag.1407
+	pointer parm derived from other vars!
+KLEE: WARNING ONCE: calling external: vprintf(78336480, 100418240)
+Undefined struct struct.jpeg_common_struct.556
+Undefined struct struct.jpeg_memory_mgr.554
+Undefined struct struct.JQUANT_TBL
+Undefined struct struct.jpeg_component_info
+KLEE: A safety property (bad cast) is violated!
+KLEE: Print SE for get_sos
+KLEE: Print SE for get_sos
+KLEE: Print SE for read_markers
+KLEE: Print SE for consume_markers
+KLEE: Print SE for jpeg_consume_input
+KLEE: Print SE for jpeg_read_header
+KLEE: Print SE for __user_main
+KLEE: Print SE for __uClibc_main
+KLEE: Print SE for main
+KLEE: 14600 cinfo@67+i=NULL -- Struct Access Fault
+
+KLEE: 1. Analyzing buffer
+
+KLEE: buf: 0x8607e00
+
+KLEE: buf size
+
+analyze_buffer
+	NOTE: buf is not dynamically allocated!
+get_buf_start_expr
+get_buf_start_expr
+KLEE: 2. Analyzing pointer
+
+KLEE: get_se_in_scopes_ex_raw cinfo@67+i=NULL
+
+KLEE: 	cinfo@67+i=NULL = cinfo@67+i=NULL
+
+KLEE: vars:
+KLEE: 	cinfo = 
+	13131(jdmarker.c:1016) read_markers cinfo
+KLEE: vars:
+KLEE: 	cinfo = 
+	11330(jdinput.c:386) consume_markers cinfo
+KLEE: vars:
+KLEE: 	cinfo = 
+	9494(jdapimin.c:301) jpeg_consume_input cinfo
+KLEE: vars:
+KLEE: 	cinfo = 
+	9399(jdapimin.c:249) jpeg_read_header cinfo
+KLEE: vars:
+KLEE: 	cinfo = 
+	1048(djpeg.c:542) __user_main cinfo
+KLEE: vars:
+KLEE: 	cinfo = 
+Unable to translate cinfo to caller
+
+	stack dump:
+	read_markers	 jdmarker.c:1016(13131)
+KLEE: Print SE for read_markers
+	consume_markers	 jdinput.c:386(11330)
+KLEE: Print SE for consume_markers
+	jpeg_consume_input	 jdapimin.c:301(9494)
+KLEE: Print SE for jpeg_consume_input
+	jpeg_read_header	 jdapimin.c:249(9399)
+KLEE: Print SE for jpeg_read_header
+	__user_main	 djpeg.c:542(1048)
+KLEE: Print SE for __user_main
+	__uClibc_main	 libc/misc/internals/__uClibc_main.c:401(66815)
+KLEE: Print SE for __uClibc_main
+	main	 :0(69788)
+KLEE: Print SE for main
+
+se_mappings for buffer start
+
+se_mappings for buffer size
+
+se_mappings for memory address
+	get_sos: cinfo
+	read_markers: cinfo
+	consume_markers: cinfo
+	jpeg_consume_input: cinfo
+	jpeg_read_header: cinfo
+	__user_main: cinfo
+
+KLEE: converge...
+se_mappings for buffer size
+
+se_mappings for access range
+	get_sos: cinfo
+	read_markers: cinfo
+	consume_markers: cinfo
+	jpeg_consume_input: cinfo
+	jpeg_read_header: cinfo
+	__user_main: cinfo
+
+KLEE: Fault@14600 W (8608078) jdmarker.c:327
+
+KLEE: ERROR: jdmarker.c:327: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+
+KLEE: done: total instructions = 50677
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1

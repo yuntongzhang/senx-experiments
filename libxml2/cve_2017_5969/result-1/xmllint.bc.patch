@@ -1,0 +1,55 @@
+File: valid.c
+Function: xmlDumpElementContent
+Line: 1181
++	if ( > noname348(48)+48)
++		exit(0);
+File: valid.c
+Function: xmlDumpElementContent
+Line: 1177
++	if ( > noname348(48)+48)
++		exit(0);
+File: valid.c
+Function: xmlDumpElementDecl
+Line: 1708
++	if ( > noname348(48)+48)
++		exit(0);
+File: xmlsave.c
+Function: xmlBufDumpElementDecl
+Line: 501
++	if ( > noname348(48)+48)
++		exit(0);
+File: xmlsave.c
+Function: xmlNodeDumpOutputInternal
+Line: 939
++	if ( > noname348(48)+48)
++		exit(0);
+File: xmlsave.c
+Function: xmlNodeListDumpOutput
+Line: 825
++	if ( > noname348(48)+48)
++		exit(0);
+File: xmlsave.c
+Function: xmlDtdDumpOutput
+Line: 749
++	if ( > noname348(48)+48)
++		exit(0);
+File: xmlsave.c
+Function: xmlNodeDumpOutputInternal
+Line: 931
++	if ( > noname348(48)+48)
++		exit(0);
+File: xmlsave.c
+Function: xmlDocContentDumpOutput
+Line: 1234
++	if ( > noname348(48)+48)
++		exit(0);
+File: xmlsave.c
+Function: xmlSaveDoc
+Line: 1936
++	if ( > noname348(48)+48)
++		exit(0);
+File: xmllint.c
+Function: parseAndPrintFile
+Line: 2712
++	if ( > noname348(48)+48)
++		exit(0);

@@ -1,0 +1,5 @@
+File: tiff2ps.c
+Function: PSDataColorContig
+Line: 2470
++	if ((cp)+(nc) + (h)*(1+((tf_bytesperrow)/(samplesperpixel))) >= (char *)tf_buf + tf_bytesperrow)
++		exit(0);
