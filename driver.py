@@ -7,6 +7,15 @@ import glob
 
 FILE_META_DATA = "meta-data"
 
+FILE_ANALYZE_ERR = "analyze.err"
+FILE_SENX_ERR = "senx.err"
+FILE_STRUCT_DEF = "def_file"
+FILE_GDB_SCRIPT = "gdb_script"
+
+PATTERN_TALOS = "*.bc.talos"
+PATTERN_PATCH = "*.bc.patch"
+
+
 def main():
     parser = argparse.ArgumentParser(description="Driver to run SenX on all vulnerabilities.")
     parser.add_argument('--setup', default=False, action='store_true',
@@ -15,11 +24,14 @@ def main():
                         help='Only run the vulnerabilities.')
     parser.add_argument('--saveres', default=False, action='store_true',
                         help='Only save the result of previous run to some dir.')
+    parser.add_argument('--cleanup', default=False, action='store_true',
+                        help='Clean up files generated from last run.')
 
     parsed_args = parser.parse_args()
     setup_only = parsed_args.setup
     run_only = parsed_args.run
     save_result = parsed_args.saveres
+    clean_up = parsed_args.cleanup
 
     with open(FILE_META_DATA, 'r') as f:
         vulnerabilities = json.load(f)
@@ -45,13 +57,24 @@ def main():
             new_dir_name = "result-" + str(num_existing_res + 1)
             # copy files generated from previous run to new result directory
             os.mkdir(new_dir_name)
-            if os.path.isfile("analyze.err"):
-                shutil.copy2("analyze.err", new_dir_name)
-            if os.path.isfile("senx.err"):
-                shutil.copy2("senx.err", new_dir_name)
-            generated_patch = glob.glob("*.bc.patch")
+            if os.path.isfile(FILE_ANALYZE_ERR):
+                shutil.copy2(FILE_ANALYZE_ERR, new_dir_name)
+            if os.path.isfile(FILE_SENX_ERR):
+                shutil.copy2(FILE_SENX_ERR, new_dir_name)
+            generated_patch = glob.glob(PATTERN_PATCH)
             for p in generated_patch:
                 shutil.copy2(p, new_dir_name)
+            continue
+
+        if clean_up:
+            files_to_remove = [FILE_ANALYZE_ERR, FILE_SENX_ERR, FILE_STRUCT_DEF, FILE_GDB_SCRIPT]
+            old_patch = glob.glob(PATTERN_PATCH)
+            old_talos = glob.glob(PATTERN_TALOS)
+            files_to_remove.extend(old_patch)
+            files_to_remove.extend(old_talos)
+            for f in files_to_remove:
+                if os.path.isfile(f):
+                    os.remove(f)
             continue
 
         if not run_only:
