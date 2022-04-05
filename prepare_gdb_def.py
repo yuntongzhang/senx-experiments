@@ -33,4 +33,4 @@ with open(gdb_script_path, "w") as out_file:
         out_file.writelines("offsets-of \"{}\"\n".format(struct_name))
         out_file.writelines("printf \"\\n\"\n")
 
-os.system(f"gdb -batch -silent -x {gdb_script_path} {binary_path} > {def_file_path}")
+os.system("gdb -batch -silent -x {} {} > {}".format(gdb_script_path, binary_path, def_file_path))
