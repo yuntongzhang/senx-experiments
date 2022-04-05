@@ -13,6 +13,6 @@ VBoxManage hostonlyif create
 VBoxManage discardstate "Ubuntu 16.04 - Senx"
 # start the VM in headless mode
 VBoxHeadless --startvm "Ubuntu 16.04 - Senx"
-# ssh into it
-ssh -p 3022 username@127.0.0.1
+# ssh into it, passwd is `user`
+ssh -p 3022 user@127.0.0.1
 ```
