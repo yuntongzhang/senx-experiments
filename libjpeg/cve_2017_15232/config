@@ -1,0 +1,11 @@
+binary=/home/yuntong/fuzzfix.tmp/data/libjpeg/cve_2017_15232/source/djpeg
+cmd=-crop 1x1+16+16 -onepass -dither ordered -dct float -colors 8 -targa -grayscale -outfile out.tmp <exploit>
+exploit=/home/yuntong/fuzzfix.tmp/data/libjpeg/cve_2017_15232/exploit
+normal-in=/home/yuntong/fuzzfix.tmp/data/libjpeg/cve_2017_15232/testorig.jpg
+fix-location=jquant1.c:533
+crash-location=jquant1.c:536
+runtime-dir=/home/yuntong/fuzzfix.tmp/data/libjpeg/cve_2017_15232/runtime
+source-dir=/home/yuntong/fuzzfix.tmp/data/libjpeg/cve_2017_15232/source
+fix-file-path=jquant1.c
+fix-line=533
+build-cmd=make clean && make CFLAGS="-static -fsanitize=address -fsanitize=undefined -g" CXXFLAGS="-static -fsanitize=address -fsanitize=undefined -g" -j10

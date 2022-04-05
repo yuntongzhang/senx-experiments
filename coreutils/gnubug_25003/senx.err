@@ -1,0 +1,1048 @@
+KLEE: NOTE: Using libreadline: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libreadline.bca
+KLEE: NOTE: Using libxml2: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libxml2.bca
+KLEE: NOTE: Using libpcap: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libpcap.bca
+KLEE: NOTE: Using klee-uclibc : /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/klee-uclibc.bca
+KLEE: NOTE: Using model: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libkleeRuntimePOSIX.bca
+KLEE: output directory is "/home/user/fuzzfix.tmp/data/coreutils/gnubug_25003/senx/./klee-out-0"
+KLEE: loadSensitiveFunctionList __assert_fail
+KLEE: loadSensitiveFunctionList sqlite3_realloc
+KLEE: loadSensitiveFunctionList sqlite3_alloc
+KLEE: Safety property for MemorySeqAccess is loaded.
+KLEE: Safety property for MemoryStructAccess is loaded.
+KLEE: Safety property for MemoryAllocation is loaded.
+KLEE: Safety property for SensitiveOperation is loaded.
+KLEE: Using Z3 solver backend
+global variable .str
+	39 elements of 1bytes
+global variable .str.1
+	39 elements of 1bytes
+global variable .str.2
+	106 elements of 1bytes
+global variable .str.42
+	56 elements of 1bytes
+global variable .str.43
+	75 elements of 1bytes
+global variable .str.3
+	942 elements of 1bytes
+global variable .str.4
+	113 elements of 1bytes
+global variable .str.5
+	45 elements of 1bytes
+global variable .str.6
+	54 elements of 1bytes
+global variable .str.44
+	153 elements of 1bytes
+global variable .str.7
+	340 elements of 1bytes
+global variable .str.8
+	6 elements of 1bytes
+global variable emit_ancillary_info.infomap
+	7 elements of 16bytes
+global variable .str.45
+	2 elements of 1bytes
+global variable .str.46
+	16 elements of 1bytes
+global variable .str.10
+	10 elements of 1bytes
+global variable .str.47
+	22 elements of 1bytes
+global variable .str.48
+	10 elements of 1bytes
+global variable .str.49
+	15 elements of 1bytes
+global variable .str.50
+	10 elements of 1bytes
+global variable .str.51
+	10 elements of 1bytes
+global variable .str.52
+	10 elements of 1bytes
+global variable .str.53
+	23 elements of 1bytes
+global variable .str.31
+	14 elements of 1bytes
+global variable .str.54
+	39 elements of 1bytes
+global variable .str.55
+	4 elements of 1bytes
+global variable .str.56
+	69 elements of 1bytes
+global variable .str.57
+	31 elements of 1bytes
+global variable .str.58
+	51 elements of 1bytes
+global variable .str.59
+	12 elements of 1bytes
+global variable .str.9
+	1 elements of 1bytes
+global variable .str.11
+	24 elements of 1bytes
+global variable .str.12
+	2 elements of 1bytes
+global variable infile
+	1 elements of 8bytes
+global variable .str.13
+	2 elements of 1bytes
+global variable outbase
+	1 elements of 8bytes
+global variable .str.14
+	26 elements of 1bytes
+global variable longopts
+	16 elements of 32bytes
+global variable .str.60
+	6 elements of 1bytes
+global variable .str.61
+	6 elements of 1bytes
+global variable .str.62
+	11 elements of 1bytes
+global variable .str.63
+	7 elements of 1bytes
+global variable .str.64
+	18 elements of 1bytes
+global variable .str.65
+	11 elements of 1bytes
+global variable .str.66
+	14 elements of 1bytes
+global variable .str.67
+	18 elements of 1bytes
+global variable .str.68
+	17 elements of 1bytes
+global variable .str.69
+	7 elements of 1bytes
+global variable .str.70
+	8 elements of 1bytes
+global variable .str.71
+	10 elements of 1bytes
+global variable .str.72
+	12 elements of 1bytes
+global variable .str.73
+	5 elements of 1bytes
+global variable .str.74
+	8 elements of 1bytes
+global variable .str.15
+	22 elements of 1bytes
+global variable suffix_length
+	1 elements of 8bytes
+global variable .str.16
+	48 elements of 1bytes
+global variable additional_suffix
+	1 elements of 8bytes
+global variable .str.17
+	34 elements of 1bytes
+global variable .str.18
+	24 elements of 1bytes
+global variable main.multipliers
+	13 elements of 1bytes
+global variable .str.19
+	24 elements of 1bytes
+global variable .str.20
+	3 elements of 1bytes
+global variable .str.21
+	3 elements of 1bytes
+global variable .str.22
+	25 elements of 1bytes
+global variable .str.75
+	21 elements of 1bytes
+global variable unbuffered
+	1 elements of 1bytes
+global variable .str.23
+	23 elements of 1bytes
+global variable .str.24
+	3 elements of 1bytes
+global variable .str.25
+	29 elements of 1bytes
+global variable eolchar
+	1 elements of 4bytes
+global variable .str.26
+	40 elements of 1bytes
+global variable .str.27
+	40 elements of 1bytes
+global variable .str.28
+	11 elements of 1bytes
+global variable suffix_alphabet
+	1 elements of 8bytes
+global variable .str.76
+	27 elements of 1bytes
+global variable .str.29
+	45 elements of 1bytes
+global variable numeric_suffix_start
+	1 elements of 8bytes
+global variable elide_empty_files
+	1 elements of 1bytes
+global variable filter_command
+	1 elements of 8bytes
+global variable .str.30
+	22 elements of 1bytes
+global variable verbose
+	1 elements of 1bytes
+global variable .str.32
+	18 elements of 1bytes
+global variable .str.33
+	20 elements of 1bytes
+global variable .str.34
+	54 elements of 1bytes
+global variable .str.36
+	2 elements of 1bytes
+global variable .str.35
+	7 elements of 1bytes
+global variable suffix_auto
+	1 elements of 1bytes
+global variable .str.77
+	43 elements of 1bytes
+global variable .str.37
+	17 elements of 1bytes
+global variable .str.38
+	64 elements of 1bytes
+global variable .str.39
+	27 elements of 1bytes
+global variable in_stat_buf
+	1 elements of 144bytes
+global variable .str.40
+	3 elements of 1bytes
+global variable .str.41
+	31 elements of 1bytes
+global variable newblocked
+	1 elements of 128bytes
+global variable oldblocked
+	1 elements of 128bytes
+global variable output_desc
+	1 elements of 4bytes
+global variable filter_pid
+	1 elements of 4bytes
+global variable outfile
+	1 elements of 8bytes
+global variable n_open_pipes
+	1 elements of 8bytes
+global variable open_pipes
+	1 elements of 8bytes
+global variable .str.103
+	26 elements of 1bytes
+global variable .str.104
+	3 elements of 1bytes
+global variable .str.105
+	41 elements of 1bytes
+global variable .str.106
+	39 elements of 1bytes
+global variable .str.107
+	35 elements of 1bytes
+global variable next_file_name.outfile_length
+	1 elements of 8bytes
+global variable next_file_name.outbase_length
+	1 elements of 8bytes
+global variable next_file_name.addsuf_length
+	1 elements of 8bytes
+global variable next_file_name.sufindex
+	1 elements of 8bytes
+global variable outfile_mid
+	1 elements of 8bytes
+global variable .str.78
+	8 elements of 1bytes
+global variable .str.79
+	12 elements of 1bytes
+global variable __PRETTY_FUNCTION__.next_file_name
+	22 elements of 1bytes
+global variable .str.80
+	31 elements of 1bytes
+global variable .str.81
+	18 elements of 1bytes
+global variable .str.82
+	18 elements of 1bytes
+global variable .str.83
+	35 elements of 1bytes
+global variable .str.84
+	21 elements of 1bytes
+global variable .str.85
+	6 elements of 1bytes
+global variable .str.86
+	8 elements of 1bytes
+global variable .str.87
+	5 elements of 1bytes
+global variable .str.88
+	40 elements of 1bytes
+global variable .str.89
+	24 elements of 1bytes
+global variable .str.90
+	22 elements of 1bytes
+global variable .str.91
+	19 elements of 1bytes
+global variable .str.92
+	20 elements of 1bytes
+global variable .str.93
+	18 elements of 1bytes
+global variable .str.94
+	19 elements of 1bytes
+global variable .str.95
+	3 elements of 1bytes
+global variable .str.96
+	34 elements of 1bytes
+global variable .str.97
+	24 elements of 1bytes
+global variable .str.98
+	27 elements of 1bytes
+global variable open_pipes_alloc
+	1 elements of 8bytes
+global variable .str.99
+	35 elements of 1bytes
+global variable __PRETTY_FUNCTION__.bytes_chunk_extract
+	78 elements of 1bytes
+global variable .str.100
+	30 elements of 1bytes
+global variable __PRETTY_FUNCTION__.lines_chunk_split
+	76 elements of 1bytes
+global variable .str.101
+	12 elements of 1bytes
+global variable .str.102
+	2 elements of 1bytes
+global variable Version
+	1 elements of 8bytes
+global variable .str.108
+	15 elements of 1bytes
+global variable file_name
+	1 elements of 8bytes
+global variable ignore_EPIPE
+	1 elements of 1bytes
+global variable .str.111
+	12 elements of 1bytes
+global variable .str.1.112
+	7 elements of 1bytes
+global variable .str.2.113
+	3 elements of 1bytes
+global variable exit_failure
+	1 elements of 4bytes
+global variable program_name
+	1 elements of 8bytes
+global variable .str.130
+	56 elements of 1bytes
+global variable .str.1.131
+	8 elements of 1bytes
+global variable .str.2.132
+	4 elements of 1bytes
+global variable program_invocation_short_name
+	1 elements of 8bytes
+global variable program_invocation_name
+	1 elements of 8bytes
+global variable quoting_style_args
+	11 elements of 8bytes
+global variable .str.133
+	8 elements of 1bytes
+global variable .str.1.134
+	6 elements of 1bytes
+global variable .str.2.135
+	13 elements of 1bytes
+global variable .str.3.136
+	13 elements of 1bytes
+global variable .str.4.137
+	20 elements of 1bytes
+global variable .str.5.138
+	2 elements of 1bytes
+global variable .str.6.139
+	8 elements of 1bytes
+global variable .str.7.140
+	7 elements of 1bytes
+global variable .str.8.141
+	7 elements of 1bytes
+global variable .str.9.142
+	8 elements of 1bytes
+global variable quoting_style_vals
+	10 elements of 4bytes
+global variable quote_quoting_options
+	1 elements of 56bytes
+global variable default_quoting_options
+	1 elements of 56bytes
+global variable .str.10.143
+	2 elements of 1bytes
+global variable .str.11.144
+	2 elements of 1bytes
+global variable .str.13.145
+	6 elements of 1bytes
+global variable .str.14.146
+	4 elements of 1bytes
+global variable .str.15.147
+	4 elements of 1bytes
+global variable .str.16.148
+	8 elements of 1bytes
+global variable .str.17.149
+	4 elements of 1bytes
+global variable .str.18.150
+	3 elements of 1bytes
+global variable .str.12.151
+	2 elements of 1bytes
+global variable slotvec
+	1 elements of 8bytes
+global variable slotvec0
+	1 elements of 16bytes
+global variable slot0
+	256 elements of 1bytes
+global variable nslots
+	1 elements of 4bytes
+global variable .str.166
+	12 elements of 1bytes
+global variable .str.1.167
+	7 elements of 1bytes
+global variable .str.2.168
+	4 elements of 1bytes
+global variable .str.3.169
+	203 elements of 1bytes
+global variable .str.4.170
+	16 elements of 1bytes
+global variable .str.5.171
+	23 elements of 1bytes
+global variable .str.6.172
+	28 elements of 1bytes
+global variable .str.7.173
+	32 elements of 1bytes
+global variable .str.8.174
+	36 elements of 1bytes
+global variable .str.9.175
+	40 elements of 1bytes
+global variable .str.10.176
+	44 elements of 1bytes
+global variable .str.11.177
+	48 elements of 1bytes
+global variable .str.12.178
+	52 elements of 1bytes
+global variable .str.13.179
+	60 elements of 1bytes
+global variable .str.14.182
+	21 elements of 1bytes
+global variable .str.15.183
+	22 elements of 1bytes
+global variable .str.16.184
+	20 elements of 1bytes
+global variable .str.17.185
+	14 elements of 1bytes
+global variable .str.18.186
+	39 elements of 1bytes
+global variable .str.19.187
+	64 elements of 1bytes
+global variable version_etc_copyright
+	47 elements of 1bytes
+global variable .str.1.208
+	17 elements of 1bytes
+global variable .str.209
+	3 elements of 1bytes
+global variable .str.210
+	7 elements of 1bytes
+global variable .str.215
+	38 elements of 1bytes
+global variable .str.1.216
+	16 elements of 1bytes
+global variable __PRETTY_FUNCTION__.xstrtoumax
+	79 elements of 1bytes
+global variable numname_table
+	35 elements of 12bytes
+global variable .str.225
+	6 elements of 1bytes
+global variable .str.1.226
+	6 elements of 1bytes
+global variable .str.2.229
+	4 elements of 1bytes
+global variable .str.236
+	2 elements of 1bytes
+global variable .str.1.237
+	6 elements of 1bytes
+global variable .str.240
+	1 elements of 1bytes
+global variable charset_aliases
+	1 elements of 8bytes
+global variable .str.2.241
+	14 elements of 1bytes
+global variable .str.3.242
+	16 elements of 1bytes
+global variable .str.4.243
+	15 elements of 1bytes
+global variable .str.5.244
+	2 elements of 1bytes
+global variable .str.6.245
+	10 elements of 1bytes
+global variable .str.1.246
+	6 elements of 1bytes
+global variable rpl_fcntl.have_dupfd_cloexec
+	1 elements of 4bytes
+global variable error_message_count
+	1 elements of 4bytes
+global variable error_one_per_line
+	1 elements of 4bytes
+global variable .str.109
+	5 elements of 1bytes
+global variable __error_at_line.old_line_number
+	1 elements of 4bytes
+global variable __error_at_line.old_file_name
+	1 elements of 8bytes
+global variable .str.1.110
+	8 elements of 1bytes
+global variable .str.117
+	6 elements of 1bytes
+global variable C_string
+	2 elements of 1bytes
+global variable nl_data
+	417 elements of 1bytes
+global variable static_fd
+	1 elements of 4bytes
+global variable static_ut_name
+	1 elements of 8bytes
+global variable default_file_name
+	14 elements of 1bytes
+global variable static_utmp
+	1 elements of 400bytes
+global variable mbrtowc.mbstate
+	1 elements of 8bytes
+global variable mbsnrtowcs.mbstate
+	1 elements of 8bytes
+global variable desc2flag
+	13 elements of 2bytes
+global variable stdin
+	1 elements of 8bytes
+global variable _stdio_streams
+	3 elements of 80bytes
+global variable stdout
+	1 elements of 8bytes
+global variable stderr
+	1 elements of 8bytes
+global variable __stdin
+	1 elements of 8bytes
+global variable __stdout
+	1 elements of 8bytes
+global variable _stdio_openlist
+	1 elements of 8bytes
+global variable llvm.used
+	1 elements of 8bytes
+global variable __evoke_link_warning___fpending
+	167 elements of 1bytes
+global variable _do_one_spec.spec_base
+	7 elements of 1bytes
+global variable .str.170
+	6 elements of 1bytes
+global variable .str.1.171
+	7 elements of 1bytes
+global variable _do_one_spec.prefix
+	12 elements of 1bytes
+global variable _ppfs_parsespec.spec_flags
+	8 elements of 1bytes
+global variable _ppfs_parsespec.qual_chars
+	20 elements of 1bytes
+global variable _ppfs_parsespec.spec_chars
+	21 elements of 1bytes
+global variable _ppfs_parsespec.spec_ranges
+	9 elements of 1bytes
+global variable _ppfs_parsespec.spec_or_mask
+	8 elements of 2bytes
+global variable _ppfs_parsespec.spec_and_mask
+	8 elements of 2bytes
+global variable type_codes
+	12 elements of 2bytes
+global variable type_sizes
+	12 elements of 1bytes
+global variable strerror.buf
+	50 elements of 1bytes
+global variable __xpg_strerror_r.unknown
+	14 elements of 1bytes
+global variable _string_syserrmsgs
+	2906 elements of 1bytes
+global variable current_rtmin
+	1 elements of 4bytes
+global variable current_rtmax
+	1 elements of 4bytes
+global variable last_environ
+	1 elements of 8bytes
+global variable optind
+	1 elements of 4bytes
+global variable opterr
+	1 elements of 4bytes
+global variable optopt
+	1 elements of 4bytes
+global variable optarg
+	1 elements of 8bytes
+global variable getopt_data
+	1 elements of 56bytes
+global variable .str.11.272
+	16 elements of 1bytes
+global variable .str.273
+	3 elements of 1bytes
+global variable .str.1.274
+	30 elements of 1bytes
+global variable .str.2.275
+	45 elements of 1bytes
+global variable .str.3.276
+	45 elements of 1bytes
+global variable .str.4.277
+	38 elements of 1bytes
+global variable .str.5.278
+	32 elements of 1bytes
+global variable .str.6.279
+	32 elements of 1bytes
+global variable .str.7.280
+	1 elements of 1bytes
+global variable .str.8.281
+	26 elements of 1bytes
+global variable .str.9.282
+	26 elements of 1bytes
+global variable .str.10.283
+	39 elements of 1bytes
+global variable __libc_stack_end
+	1 elements of 8bytes
+global variable __uclibc_progname
+	1 elements of 8bytes
+global variable .str.288
+	1 elements of 1bytes
+global variable __environ
+	1 elements of 8bytes
+global variable __pagesize
+	1 elements of 8bytes
+global variable __app_fini
+	1 elements of 8bytes
+global variable __rtld_fini
+	1 elements of 8bytes
+global variable __uClibc_init.been_there_done_that
+	1 elements of 4bytes
+global variable .str.1.293
+	10 elements of 1bytes
+global variable __dso_handle
+	1 elements of 8bytes
+global variable __C_ctype_b_data
+	384 elements of 2bytes
+global variable __C_ctype_b
+	1 elements of 8bytes
+global variable __ctype_b
+	1 elements of 8bytes
+global variable errno
+	1 elements of 4bytes
+global variable h_errno
+	1 elements of 4bytes
+global variable fmt
+	20 elements of 1bytes
+global variable exp10_table
+	13 elements of 16bytes
+global variable decpt_str
+	2 elements of 1bytes
+global variable spec_flags
+	4 elements of 1bytes
+global variable qual_chars
+	18 elements of 1bytes
+global variable spec_chars
+	23 elements of 1bytes
+global variable spec_ranges
+	8 elements of 1bytes
+global variable spec_allowed
+	8 elements of 2bytes
+global variable spec_base
+	15 elements of 1bytes
+global variable nil_string
+	6 elements of 1bytes
+global variable __psfs_do_numeric.nan_inf_str
+	11 elements of 1bytes
+global variable __strtofpmax.nan_inf_str
+	21 elements of 1bytes
+global variable __exit_count
+	1 elements of 4bytes
+global variable __exit_function_table
+	1 elements of 8bytes
+global variable __exit_slots
+	1 elements of 4bytes
+global variable __exit_cleanup
+	1 elements of 8bytes
+global variable __C_ctype_tolower_data
+	384 elements of 2bytes
+global variable __C_ctype_tolower
+	1 elements of 8bytes
+global variable __ctype_tolower
+	1 elements of 8bytes
+global variable .str.1.370
+	47 elements of 1bytes
+global variable .str.2.373
+	44 elements of 1bytes
+global variable close.n_calls
+	1 elements of 4bytes
+global variable read.n_calls
+	1 elements of 4bytes
+global variable .str.3.378
+	12 elements of 1bytes
+global variable .str.4.379
+	59 elements of 1bytes
+global variable __PRETTY_FUNCTION__.read
+	34 elements of 1bytes
+global variable write.n_calls
+	1 elements of 4bytes
+global variable .str.5.382
+	7 elements of 1bytes
+global variable __PRETTY_FUNCTION__.write
+	41 elements of 1bytes
+global variable .str.6.383
+	2 elements of 1bytes
+global variable .str.7.384
+	24 elements of 1bytes
+global variable .str.8.387
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__fd_lseek
+	38 elements of 1bytes
+global variable .str.9.392
+	33 elements of 1bytes
+global variable chmod.n_calls
+	1 elements of 4bytes
+global variable fchmod.n_calls
+	1 elements of 4bytes
+global variable .str.24.393
+	32 elements of 1bytes
+global variable __fd_ftruncate.n_calls
+	1 elements of 4bytes
+global variable .str.10.398
+	30 elements of 1bytes
+global variable .str.11.401
+	33 elements of 1bytes
+global variable .str.12.402
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__fd_getdents
+	65 elements of 1bytes
+global variable .str.13.405
+	41 elements of 1bytes
+global variable .str.14.406
+	42 elements of 1bytes
+global variable .str.15.407
+	43 elements of 1bytes
+global variable .str.16.408
+	43 elements of 1bytes
+global variable .str.17.409
+	45 elements of 1bytes
+global variable .str.18.410
+	46 elements of 1bytes
+global variable .str.19.411
+	43 elements of 1bytes
+global variable .str.20.412
+	44 elements of 1bytes
+global variable .str.21.417
+	32 elements of 1bytes
+global variable .str.22.420
+	17 elements of 1bytes
+global variable getcwd.n_calls
+	1 elements of 4bytes
+global variable .str.23.425
+	18 elements of 1bytes
+global variable __exe_env
+	1 elements of 784bytes
+global variable __exe_fs
+	1 elements of 104bytes
+global variable klee_init_fds.name
+	32 elements of 1bytes
+global variable .str.430
+	2 elements of 1bytes
+global variable .str.9.431
+	6 elements of 1bytes
+global variable .str.10.432
+	5 elements of 1bytes
+global variable .str.11.433
+	64 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__create_new_dfile
+	88 elements of 1bytes
+global variable .str.1.434
+	6 elements of 1bytes
+global variable .str.2.435
+	10 elements of 1bytes
+global variable .str.3.436
+	11 elements of 1bytes
+global variable .str.4.437
+	11 elements of 1bytes
+global variable .str.5.438
+	15 elements of 1bytes
+global variable .str.6.439
+	12 elements of 1bytes
+global variable .str.7.440
+	7 elements of 1bytes
+global variable .str.8.441
+	14 elements of 1bytes
+global variable .str.442
+	17 elements of 1bytes
+global variable .str.1.443
+	9 elements of 1bytes
+global variable .str.2.444
+	64 elements of 1bytes
+global variable .str.3.445
+	20 elements of 1bytes
+global variable .str.4.446
+	8 elements of 1bytes
+global variable .str.5.447
+	18 elements of 1bytes
+global variable .str.6.452
+	18 elements of 1bytes
+global variable .str.455
+	7 elements of 1bytes
+global variable .str.1.456
+	964 elements of 1bytes
+global variable .str.24.457
+	70 elements of 1bytes
+global variable .str.25.458
+	9 elements of 1bytes
+global variable .str.2.459
+	10 elements of 1bytes
+global variable .str.3.460
+	9 elements of 1bytes
+global variable .str.4.461
+	48 elements of 1bytes
+global variable .str.26.462
+	37 elements of 1bytes
+global variable .str.5.463
+	11 elements of 1bytes
+global variable .str.6.464
+	10 elements of 1bytes
+global variable .str.7.465
+	77 elements of 1bytes
+global variable .str.8.466
+	7 elements of 1bytes
+global variable .str.9.467
+	12 elements of 1bytes
+global variable .str.10.468
+	11 elements of 1bytes
+global variable .str.11.469
+	109 elements of 1bytes
+global variable .str.12.470
+	12 elements of 1bytes
+global variable .str.13.471
+	11 elements of 1bytes
+global variable .str.14.472
+	57 elements of 1bytes
+global variable .str.15.473
+	13 elements of 1bytes
+global variable .str.16.474
+	12 elements of 1bytes
+global variable .str.17.475
+	18 elements of 1bytes
+global variable .str.18.476
+	17 elements of 1bytes
+global variable .str.19.477
+	10 elements of 1bytes
+global variable .str.20.478
+	9 elements of 1bytes
+global variable .str.21.479
+	11 elements of 1bytes
+global variable .str.22.480
+	10 elements of 1bytes
+global variable .str.23.481
+	54 elements of 1bytes
+global variable .str.484
+	18 elements of 1bytes
+global variable .str.1.487
+	24 elements of 1bytes
+global variable .str.2.488
+	15 elements of 1bytes
+global variable .str.3.491
+	18 elements of 1bytes
+global variable .str.4.492
+	17 elements of 1bytes
+global variable .str.5.493
+	13 elements of 1bytes
+global variable .str.6.494
+	40 elements of 1bytes
+global variable .str.7.495
+	17 elements of 1bytes
+global variable .str.8.498
+	21 elements of 1bytes
+global variable .str.9.499
+	18 elements of 1bytes
+global variable .str.10.502
+	32 elements of 1bytes
+global variable str.13
+	18 elements of 1bytes
+global variable str
+	17 elements of 1bytes
+global variable getnameinfo.hostname
+	10 elements of 1bytes
+global variable getnameinfo.service
+	10 elements of 1bytes
+global variable .str.505
+	80 elements of 1bytes
+global variable .str.1.506
+	15 elements of 1bytes
+global variable .str.2.507
+	8 elements of 1bytes
+global variable .str.3.510
+	8 elements of 1bytes
+global variable .str.1.4
+	16 elements of 1bytes
+global variable .str.2.5
+	14 elements of 1bytes
+global variable .str.6.513
+	71 elements of 1bytes
+global variable .str.1.7
+	14 elements of 1bytes
+global variable .str.2.8
+	5 elements of 1bytes
+KLEE: WARNING: undefined reference to function: __ctype_b_loc
+KLEE: WARNING: undefined reference to function: bindtextdomain
+KLEE: WARNING: undefined reference to function: gettext
+KLEE: WARNING: undefined reference to variable: program_invocation_name
+KLEE: WARNING: undefined reference to variable: program_invocation_short_name
+KLEE: WARNING: undefined reference to function: puts
+KLEE: WARNING: undefined reference to function: strncpy
+KLEE: WARNING: undefined reference to function: textdomain
+KLEE: ARGV 0: ./split.bc
+
+KLEE: ARGV 1: -n7/75
+
+KLEE: ARGV 2: ../dummy
+
+KLEE: WARNING: executable has module level assembly (ignoring)
+Undefined struct struct.exe_sym_env_t
+Undefined struct struct.exe_file_t
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 136939136)
+Undefined struct struct.stat
+Undefined struct struct.exe_disk_file_t
+Undefined struct struct.__kernel_termios.1629
+Undefined struct struct.termios.1624
+Undefined struct struct.Elf64_auxv_t
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+	pointer parm derived from itself!
+KLEE: 0x74f0d90: Symbolic value  used to determine branching at /home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_init.c:100 (33266)
+KLEE: WARNING ONCE: calling external: getpagesize()
+	pointer parm derived from itself!
+KLEE: WARNING ONCE: calling external: bindtextdomain(141260640, 141119088)
+KLEE: WARNING ONCE: calling external: textdomain(141260640)
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+Undefined struct struct.exit_function
+Undefined struct struct.anon.0.1800
+Undefined struct struct._getopt_data
+	pointer parm derived from itself!
+	pointer parm derived from itself!
+KLEE: WARNING ONCE: calling external: __ctype_b_loc()
+	pointer parm derived from itself!
+KLEE: WARNING ONCE: calling external: gettext(89023744)
+	pointer parm derived from other vars!
+	slash=0
+	__arg_2=0
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: IntegerOverflow (32:2147483647): cast 6076574518398440533 @/home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_32.c:44(27688)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2880154539 @/home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_32.c:46(27698)
+
+Undefined struct struct.quoting_options
+Undefined struct struct.slotvec
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+Undefined struct struct.__STDIO_FILE_STRUCT.1368
+Undefined struct struct.__STDIO_FILE_STRUCT.1189
+Undefined struct struct.ppfs_t
+Undefined struct struct.printf_info.1495
+Undefined struct struct.__va_list_tag
+Undefined struct struct.__STDIO_FILE_STRUCT.1380
+../dummy	pointer parm derived from itself!
+	pointer parm derived from other vars!
+KLEE: WARNING ONCE: calling external: vprintf(77545888, 83564032)
+
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+Undefined struct struct.__STDIO_FILE_STRUCT.1471
+Undefined struct struct.__STDIO_FILE_STRUCT.1588
+Undefined struct struct.__STDIO_FILE_STRUCT.1596
+Undefined struct struct.__STDIO_FILE_STRUCT.1477
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+KLEE: checkOverflow: unsupported bit width 1
+
+
+KLEE: done: total instructions = 25864
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1

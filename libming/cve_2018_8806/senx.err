@@ -1,0 +1,2291 @@
+KLEE: NOTE: Using libreadline: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libreadline.bca
+KLEE: NOTE: Using libxml2: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libxml2.bca
+KLEE: NOTE: Using libpcap: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libpcap.bca
+KLEE: NOTE: Using klee-uclibc : /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/klee-uclibc.bca
+KLEE: NOTE: Using model: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libkleeRuntimePOSIX.bca
+KLEE: output directory is "/home/user/fuzzfix.tmp/data/libming/cve_2018_8806/senx/klee-out-0"
+KLEE: loadSensitiveFunctionList __assert_fail
+KLEE: loadSensitiveFunctionList sqlite3_realloc
+KLEE: loadSensitiveFunctionList sqlite3_alloc
+KLEE: Safety property for MemorySeqAccess is loaded.
+KLEE: Safety property for MemoryStructAccess is loaded.
+KLEE: Safety property for MemoryAllocation is loaded.
+KLEE: Safety property for SensitiveOperation is loaded.
+KLEE: Using Z3 solver backend
+global variable methodcall.buf
+	256 elements of 1bytes
+global variable .str
+	8 elements of 1bytes
+global variable .str.1
+	3 elements of 1bytes
+global variable .str.2
+	2 elements of 1bytes
+global variable .str.3
+	3 elements of 1bytes
+global variable .str.4
+	2 elements of 1bytes
+global variable newobj.buf
+	256 elements of 1bytes
+global variable .str.5
+	16 elements of 1bytes
+global variable .str.6
+	10 elements of 1bytes
+global variable .str.7
+	22 elements of 1bytes
+global variable .str.8
+	22 elements of 1bytes
+global variable .str.9
+	22 elements of 1bytes
+global variable .str.10
+	22 elements of 1bytes
+global variable .str.12
+	8 elements of 1bytes
+global variable .str.11
+	9 elements of 1bytes
+global variable .str.13
+	8 elements of 1bytes
+global variable .str.14
+	13 elements of 1bytes
+global variable .str.15
+	9 elements of 1bytes
+global variable .str.17
+	7 elements of 1bytes
+global variable .str.16
+	15 elements of 1bytes
+global variable .str.19
+	10 elements of 1bytes
+global variable .str.20
+	7 elements of 1bytes
+global variable .str.280
+	16 elements of 1bytes
+global variable .str.281
+	18 elements of 1bytes
+global variable .str.282
+	18 elements of 1bytes
+global variable .str.283
+	20 elements of 1bytes
+global variable .str.284
+	20 elements of 1bytes
+global variable .str.285
+	17 elements of 1bytes
+global variable .str.286
+	21 elements of 1bytes
+global variable .str.287
+	17 elements of 1bytes
+global variable .str.288
+	19 elements of 1bytes
+global variable .str.289
+	18 elements of 1bytes
+global variable .str.290
+	19 elements of 1bytes
+global variable .str.291
+	25 elements of 1bytes
+global variable .str.292
+	18 elements of 1bytes
+global variable .str.293
+	16 elements of 1bytes
+global variable .str.294
+	15 elements of 1bytes
+global variable .str.295
+	15 elements of 1bytes
+global variable .str.296
+	20 elements of 1bytes
+global variable .str.297
+	19 elements of 1bytes
+global variable .str.298
+	18 elements of 1bytes
+global variable .str.299
+	13 elements of 1bytes
+global variable .str.18
+	19 elements of 1bytes
+global variable .str.22
+	9 elements of 1bytes
+global variable .str.21
+	7 elements of 1bytes
+global variable .str.24
+	9 elements of 1bytes
+global variable .str.23
+	41 elements of 1bytes
+global variable .str.25
+	7 elements of 1bytes
+global variable .str.26
+	3 elements of 1bytes
+global variable .str.28
+	13 elements of 1bytes
+global variable .str.27
+	70 elements of 1bytes
+global variable .str.29
+	7 elements of 1bytes
+global variable .str.31
+	16 elements of 1bytes
+global variable .str.30
+	39 elements of 1bytes
+global variable .str.32
+	39 elements of 1bytes
+global variable .str.33
+	21 elements of 1bytes
+global variable .str.34
+	23 elements of 1bytes
+global variable .str.35
+	33 elements of 1bytes
+global variable .str.36
+	35 elements of 1bytes
+global variable .str.37
+	20 elements of 1bytes
+global variable .str.38
+	12 elements of 1bytes
+global variable .str.40
+	14 elements of 1bytes
+global variable .str.39
+	18 elements of 1bytes
+global variable .str.41
+	21 elements of 1bytes
+global variable .str.42
+	7 elements of 1bytes
+global variable .str.43
+	13 elements of 1bytes
+global variable .str.44
+	11 elements of 1bytes
+global variable .str.45
+	34 elements of 1bytes
+global variable .str.46
+	22 elements of 1bytes
+global variable .str.47
+	42 elements of 1bytes
+global variable .str.48
+	9 elements of 1bytes
+global variable .str.50
+	10 elements of 1bytes
+global variable .str.49
+	25 elements of 1bytes
+global variable .str.51
+	34 elements of 1bytes
+global variable .str.52
+	27 elements of 1bytes
+global variable .str.54
+	8 elements of 1bytes
+global variable .str.53
+	16 elements of 1bytes
+global variable .str.55
+	82 elements of 1bytes
+global variable .str.57
+	13 elements of 1bytes
+global variable .str.56
+	4 elements of 1bytes
+global variable .str.58
+	9 elements of 1bytes
+global variable .str.59
+	4 elements of 1bytes
+global variable .str.60
+	12 elements of 1bytes
+global variable .str.61
+	10 elements of 1bytes
+global variable .str.62
+	25 elements of 1bytes
+global variable .str.63
+	23 elements of 1bytes
+global variable .str.64
+	38 elements of 1bytes
+global variable .str.65
+	39 elements of 1bytes
+global variable .str.67
+	7 elements of 1bytes
+global variable .str.66
+	15 elements of 1bytes
+global variable .str.68
+	28 elements of 1bytes
+global variable .str.69
+	39 elements of 1bytes
+global variable .str.70
+	28 elements of 1bytes
+global variable .str.71
+	39 elements of 1bytes
+global variable .str.72
+	26 elements of 1bytes
+global variable .str.73
+	25 elements of 1bytes
+global variable .str.74
+	7 elements of 1bytes
+global variable .str.76
+	13 elements of 1bytes
+global variable .str.75
+	13 elements of 1bytes
+global variable .str.77
+	4 elements of 1bytes
+global variable .str.78
+	14 elements of 1bytes
+global variable .str.79
+	15 elements of 1bytes
+global variable .str.80
+	15 elements of 1bytes
+global variable .str.81
+	13 elements of 1bytes
+global variable .str.82
+	25 elements of 1bytes
+global variable .str.83
+	26 elements of 1bytes
+global variable .str.84
+	7 elements of 1bytes
+global variable .str.92
+	20 elements of 1bytes
+global variable .str.93
+	18 elements of 1bytes
+global variable .str.91
+	20 elements of 1bytes
+global variable .str.90
+	19 elements of 1bytes
+global variable .str.300
+	19 elements of 1bytes
+global variable .str.301
+	25 elements of 1bytes
+global variable .str.302
+	18 elements of 1bytes
+global variable .str.85
+	31 elements of 1bytes
+global variable .str.86
+	30 elements of 1bytes
+global variable .str.87
+	13 elements of 1bytes
+global variable .str.89
+	9 elements of 1bytes
+global variable .str.88
+	13 elements of 1bytes
+global variable .str.94
+	29 elements of 1bytes
+global variable fip
+	1 elements of 8bytes
+global variable .str.95
+	27 elements of 1bytes
+global variable .str.96
+	10 elements of 1bytes
+global variable .str.97
+	9 elements of 1bytes
+global variable .str.98
+	22 elements of 1bytes
+global variable .str.99
+	23 elements of 1bytes
+global variable .str.100
+	22 elements of 1bytes
+global variable .str.101
+	20 elements of 1bytes
+global variable .str.102
+	22 elements of 1bytes
+global variable .str.103
+	22 elements of 1bytes
+global variable .str.104
+	21 elements of 1bytes
+global variable .str.105
+	18 elements of 1bytes
+global variable .str.106
+	10 elements of 1bytes
+global variable .str.108
+	8 elements of 1bytes
+global variable .str.107
+	11 elements of 1bytes
+global variable .str.110
+	10 elements of 1bytes
+global variable .str.109
+	9 elements of 1bytes
+global variable .str.112
+	9 elements of 1bytes
+global variable .str.111
+	5 elements of 1bytes
+global variable .str.113
+	2 elements of 1bytes
+global variable .str.114
+	3 elements of 1bytes
+global variable .str.115
+	5 elements of 1bytes
+global variable .str.117
+	9 elements of 1bytes
+global variable .str.116
+	37 elements of 1bytes
+global variable .str.118
+	10 elements of 1bytes
+global variable .str.119
+	6 elements of 1bytes
+global variable .str.120
+	24 elements of 1bytes
+global variable .str.121
+	25 elements of 1bytes
+global variable .str.122
+	26 elements of 1bytes
+global variable .str.123
+	27 elements of 1bytes
+global variable .str.124
+	14 elements of 1bytes
+global variable .str.125
+	15 elements of 1bytes
+global variable .str.126
+	15 elements of 1bytes
+global variable .str.127
+	15 elements of 1bytes
+global variable .str.129
+	8 elements of 1bytes
+global variable .str.128
+	11 elements of 1bytes
+global variable .str.130
+	10 elements of 1bytes
+global variable .str.131
+	23 elements of 1bytes
+global variable .str.132
+	4 elements of 1bytes
+global variable .str.133
+	27 elements of 1bytes
+global variable .str.135
+	5 elements of 1bytes
+global variable .str.134
+	20 elements of 1bytes
+global variable .str.136
+	24 elements of 1bytes
+global variable .str.137
+	20 elements of 1bytes
+global variable fip_current
+	1 elements of 8bytes
+global variable .str.303
+	30 elements of 1bytes
+global variable .str.139
+	12 elements of 1bytes
+global variable .str.138
+	12 elements of 1bytes
+global variable .str.140
+	24 elements of 1bytes
+global variable .str.141
+	27 elements of 1bytes
+global variable .str.142
+	16 elements of 1bytes
+global variable .str.143
+	28 elements of 1bytes
+global variable .str.144
+	27 elements of 1bytes
+global variable .str.145
+	42 elements of 1bytes
+global variable .str.146
+	39 elements of 1bytes
+global variable .str.147
+	15 elements of 1bytes
+global variable .str.148
+	28 elements of 1bytes
+global variable .str.149
+	42 elements of 1bytes
+global variable .str.150
+	29 elements of 1bytes
+global variable .str.151
+	24 elements of 1bytes
+global variable .str.152
+	43 elements of 1bytes
+global variable .str.153
+	6 elements of 1bytes
+global variable .str.154
+	25 elements of 1bytes
+global variable .str.155
+	43 elements of 1bytes
+global variable .str.156
+	25 elements of 1bytes
+global variable .str.157
+	43 elements of 1bytes
+global variable .str.158
+	25 elements of 1bytes
+global variable .str.159
+	43 elements of 1bytes
+global variable .str.160
+	24 elements of 1bytes
+global variable .str.162
+	6 elements of 1bytes
+global variable .str.161
+	22 elements of 1bytes
+global variable .str.163
+	25 elements of 1bytes
+global variable spritenum
+	1 elements of 4bytes
+global variable spframenum
+	1 elements of 4bytes
+global variable spritename
+	64 elements of 1bytes
+global variable .str.164
+	23 elements of 1bytes
+global variable .str.166
+	10 elements of 1bytes
+global variable .str.165
+	23 elements of 1bytes
+global variable init_script.initialized
+	1 elements of 4bytes
+global variable .str.310
+	2 elements of 1bytes
+global variable numOutputs
+	1 elements of 4bytes
+global variable outputs
+	67 elements of 16bytes
+global variable .str.167
+	23 elements of 1bytes
+global variable .str.169
+	5 elements of 1bytes
+global variable .str.168
+	8 elements of 1bytes
+global variable .str.304
+	29 elements of 1bytes
+global variable .str.181
+	13 elements of 1bytes
+global variable .str.305
+	82 elements of 1bytes
+global variable .str.170
+	11 elements of 1bytes
+global variable .str.171
+	24 elements of 1bytes
+global variable .str.172
+	8 elements of 1bytes
+global variable .str.173
+	29 elements of 1bytes
+global variable .str.174
+	24 elements of 1bytes
+global variable .str.175
+	30 elements of 1bytes
+global variable .str.176
+	42 elements of 1bytes
+global variable .str.178
+	12 elements of 1bytes
+global variable .str.177
+	19 elements of 1bytes
+global variable .str.179
+	7 elements of 1bytes
+global variable .str.180
+	28 elements of 1bytes
+global variable .str.182
+	13 elements of 1bytes
+global variable .str.184
+	13 elements of 1bytes
+global variable .str.183
+	34 elements of 1bytes
+global variable .str.185
+	21 elements of 1bytes
+global variable .str.187
+	2 elements of 1bytes
+global variable .str.188
+	4 elements of 1bytes
+global variable .str.186
+	16 elements of 1bytes
+global variable .str.189
+	27 elements of 1bytes
+global variable .str.190
+	16 elements of 1bytes
+global variable .str.191
+	25 elements of 1bytes
+global variable .str.193
+	10 elements of 1bytes
+global variable .str.192
+	14 elements of 1bytes
+global variable .str.194
+	13 elements of 1bytes
+global variable .str.195
+	20 elements of 1bytes
+global variable .str.196
+	23 elements of 1bytes
+global variable .str.197
+	12 elements of 1bytes
+global variable .str.198
+	11 elements of 1bytes
+global variable .str.199
+	21 elements of 1bytes
+global variable .str.200
+	20 elements of 1bytes
+global variable .str.201
+	26 elements of 1bytes
+global variable .str.202
+	23 elements of 1bytes
+global variable .str.203
+	25 elements of 1bytes
+global variable .str.204
+	23 elements of 1bytes
+global variable .str.205
+	26 elements of 1bytes
+global variable .str.206
+	31 elements of 1bytes
+global variable .str.207
+	24 elements of 1bytes
+global variable .str.208
+	25 elements of 1bytes
+global variable .str.209
+	5 elements of 1bytes
+global variable .str.210
+	2 elements of 1bytes
+global variable .str.211
+	15 elements of 1bytes
+global variable .str.212
+	4 elements of 1bytes
+global variable .str.213
+	9 elements of 1bytes
+global variable .str.214
+	45 elements of 1bytes
+global variable .str.215
+	26 elements of 1bytes
+global variable offsetX
+	1 elements of 4bytes
+global variable offsetY
+	1 elements of 4bytes
+global variable .str.307
+	10 elements of 1bytes
+global variable .str.306
+	30 elements of 1bytes
+global variable .str.309
+	9 elements of 1bytes
+global variable .str.308
+	22 elements of 1bytes
+global variable .str.216
+	25 elements of 1bytes
+global variable .str.217
+	13 elements of 1bytes
+global variable .str.218
+	25 elements of 1bytes
+global variable .str.219
+	21 elements of 1bytes
+global variable .str.220
+	25 elements of 1bytes
+global variable .str.221
+	20 elements of 1bytes
+global variable .str.222
+	8 elements of 1bytes
+global variable .str.223
+	25 elements of 1bytes
+global variable .str.225
+	7 elements of 1bytes
+global variable .str.224
+	11 elements of 1bytes
+global variable .str.226
+	26 elements of 1bytes
+global variable .str.227
+	11 elements of 1bytes
+global variable .str.228
+	25 elements of 1bytes
+global variable .str.229
+	31 elements of 1bytes
+global variable .str.230
+	14 elements of 1bytes
+global variable .str.231
+	7 elements of 1bytes
+global variable .str.232
+	3 elements of 1bytes
+global variable .str.233
+	22 elements of 1bytes
+global variable .str.234
+	10 elements of 1bytes
+global variable .str.236
+	6 elements of 1bytes
+global variable .str.237
+	1 elements of 1bytes
+global variable framenum
+	1 elements of 4bytes
+global variable .str.235
+	27 elements of 1bytes
+global variable .str.238
+	29 elements of 1bytes
+global variable .str.239
+	28 elements of 1bytes
+global variable .str.240
+	29 elements of 1bytes
+global variable .str.241
+	23 elements of 1bytes
+global variable .str.242
+	22 elements of 1bytes
+global variable .str.243
+	23 elements of 1bytes
+global variable .str.244
+	58 elements of 1bytes
+global variable .str.246
+	11 elements of 1bytes
+global variable .str.245
+	7 elements of 1bytes
+global variable .str.247
+	13 elements of 1bytes
+global variable .str.248
+	23 elements of 1bytes
+global variable .str.249
+	29 elements of 1bytes
+global variable .str.250
+	21 elements of 1bytes
+global variable .str.251
+	12 elements of 1bytes
+global variable .str.252
+	24 elements of 1bytes
+global variable .str.253
+	12 elements of 1bytes
+global variable .str.254
+	25 elements of 1bytes
+global variable .str.255
+	16 elements of 1bytes
+global variable .str.256
+	24 elements of 1bytes
+global variable .str.258
+	13 elements of 1bytes
+global variable .str.257
+	16 elements of 1bytes
+global variable .str.259
+	36 elements of 1bytes
+global variable .str.261
+	12 elements of 1bytes
+global variable .str.260
+	16 elements of 1bytes
+global variable .str.262
+	32 elements of 1bytes
+global variable .str.279
+	27 elements of 1bytes
+global variable .str.263
+	16 elements of 1bytes
+global variable .str.264
+	7 elements of 1bytes
+global variable .str.266
+	6 elements of 1bytes
+global variable .str.265
+	8 elements of 1bytes
+global variable .str.267
+	10 elements of 1bytes
+global variable .str.268
+	21 elements of 1bytes
+global variable .str.269
+	85 elements of 1bytes
+global variable .str.270
+	8 elements of 1bytes
+global variable .str.271
+	43 elements of 1bytes
+global variable .str.273
+	10 elements of 1bytes
+global variable .str.272
+	9 elements of 1bytes
+global variable .str.274
+	58 elements of 1bytes
+global variable .str.275
+	7 elements of 1bytes
+global variable .str.276
+	5 elements of 1bytes
+global variable .str.277
+	5 elements of 1bytes
+global variable .str.278
+	4 elements of 1bytes
+global variable swftargetfile
+	1 elements of 8bytes
+global variable verbose
+	1 elements of 4bytes
+global variable tmp_name
+	4096 elements of 1bytes
+global variable tempfile
+	1 elements of 8bytes
+global variable filename
+	1 elements of 8bytes
+global variable m
+	1 elements of 56bytes
+global variable .str.311
+	23 elements of 1bytes
+global variable .str.1.312
+	27 elements of 1bytes
+global variable .str.2.313
+	3 elements of 1bytes
+global variable .str.3.314
+	11 elements of 1bytes
+global variable .str.4.315
+	28 elements of 1bytes
+global variable .str.5.316
+	16 elements of 1bytes
+global variable .str.6.317
+	25 elements of 1bytes
+global variable .str.7.318
+	19 elements of 1bytes
+global variable .str.8.319
+	20 elements of 1bytes
+global variable .str.9.320
+	22 elements of 1bytes
+global variable .str.10.321
+	38 elements of 1bytes
+global variable .str.11.322
+	38 elements of 1bytes
+global variable .str.12.323
+	35 elements of 1bytes
+global variable .str.13.324
+	27 elements of 1bytes
+global variable .str.14.325
+	3 elements of 1bytes
+global variable .str.18.326
+	36 elements of 1bytes
+global variable .str.15.327
+	3 elements of 1bytes
+global variable .str.16.328
+	41 elements of 1bytes
+global variable .str.19.329
+	38 elements of 1bytes
+global variable .str.20.330
+	53 elements of 1bytes
+global variable .str.21.331
+	14 elements of 1bytes
+global variable .str.22.332
+	56 elements of 1bytes
+global variable .str.17.333
+	29 elements of 1bytes
+global variable .str.28.334
+	58 elements of 1bytes
+global variable .str.23.335
+	101 elements of 1bytes
+global variable .str.24.336
+	77 elements of 1bytes
+global variable .str.25.337
+	57 elements of 1bytes
+global variable .str.26.338
+	46 elements of 1bytes
+global variable .str.27.339
+	3 elements of 1bytes
+global variable numBlocks
+	1 elements of 4bytes
+global variable blocks
+	80 elements of 24bytes
+global variable .str.1.342
+	17 elements of 1bytes
+global variable .str.2.343
+	15 elements of 1bytes
+global variable .str.3.344
+	20 elements of 1bytes
+global variable .str.4.345
+	20 elements of 1bytes
+global variable .str.5.346
+	18 elements of 1bytes
+global variable .str.6.347
+	17 elements of 1bytes
+global variable .str.7.348
+	18 elements of 1bytes
+global variable .str.8.349
+	23 elements of 1bytes
+global variable .str.9.350
+	22 elements of 1bytes
+global variable .str.10.351
+	21 elements of 1bytes
+global variable .str.11.352
+	19 elements of 1bytes
+global variable .str.12.353
+	15 elements of 1bytes
+global variable .str.13.354
+	16 elements of 1bytes
+global variable .str.14.355
+	16 elements of 1bytes
+global variable .str.15.356
+	19 elements of 1bytes
+global variable .str.16.357
+	20 elements of 1bytes
+global variable .str.17.358
+	20 elements of 1bytes
+global variable .str.18.359
+	19 elements of 1bytes
+global variable .str.19.360
+	25 elements of 1bytes
+global variable .str.20.361
+	19 elements of 1bytes
+global variable .str.21.362
+	20 elements of 1bytes
+global variable .str.22.363
+	21 elements of 1bytes
+global variable .str.23.364
+	22 elements of 1bytes
+global variable .str.24.365
+	16 elements of 1bytes
+global variable .str.25.366
+	17 elements of 1bytes
+global variable .str.26.367
+	17 elements of 1bytes
+global variable .str.27.368
+	17 elements of 1bytes
+global variable .str.28.369
+	16 elements of 1bytes
+global variable .str.29.370
+	17 elements of 1bytes
+global variable .str.30.371
+	15 elements of 1bytes
+global variable .str.31.372
+	16 elements of 1bytes
+global variable .str.32.373
+	21 elements of 1bytes
+global variable .str.33.374
+	16 elements of 1bytes
+global variable .str.34.375
+	22 elements of 1bytes
+global variable .str.35.376
+	13 elements of 1bytes
+global variable .str.36.377
+	19 elements of 1bytes
+global variable .str.37.378
+	20 elements of 1bytes
+global variable .str.38.379
+	8 elements of 1bytes
+global variable .str.39.380
+	17 elements of 1bytes
+global variable .str.40.381
+	12 elements of 1bytes
+global variable .str.41.382
+	15 elements of 1bytes
+global variable .str.42.383
+	13 elements of 1bytes
+global variable .str.43.384
+	12 elements of 1bytes
+global variable .str.44.385
+	18 elements of 1bytes
+global variable .str.45.386
+	15 elements of 1bytes
+global variable .str.46.387
+	17 elements of 1bytes
+global variable .str.47.388
+	18 elements of 1bytes
+global variable .str.48.389
+	15 elements of 1bytes
+global variable .str.49.390
+	15 elements of 1bytes
+global variable .str.50.391
+	18 elements of 1bytes
+global variable .str.51.392
+	23 elements of 1bytes
+global variable .str.52.393
+	16 elements of 1bytes
+global variable .str.53.394
+	17 elements of 1bytes
+global variable .str.54.395
+	17 elements of 1bytes
+global variable .str.55.396
+	13 elements of 1bytes
+global variable .str.56.397
+	17 elements of 1bytes
+global variable .str.57.398
+	12 elements of 1bytes
+global variable .str.58.399
+	17 elements of 1bytes
+global variable .str.59.400
+	18 elements of 1bytes
+global variable .str.60.401
+	17 elements of 1bytes
+global variable .str.61.402
+	23 elements of 1bytes
+global variable .str.62.403
+	14 elements of 1bytes
+global variable .str.63.404
+	21 elements of 1bytes
+global variable .str.64.405
+	20 elements of 1bytes
+global variable .str.65.406
+	21 elements of 1bytes
+global variable .str.66.407
+	15 elements of 1bytes
+global variable .str.67.408
+	16 elements of 1bytes
+global variable .str.68.409
+	14 elements of 1bytes
+global variable .str.69.410
+	15 elements of 1bytes
+global variable .str.70.411
+	11 elements of 1bytes
+global variable .str.71.412
+	19 elements of 1bytes
+global variable .str.72.413
+	13 elements of 1bytes
+global variable .str.73.414
+	17 elements of 1bytes
+global variable .str.74.415
+	22 elements of 1bytes
+global variable .str.75.416
+	16 elements of 1bytes
+global variable .str.76.417
+	10 elements of 1bytes
+global variable .str.77.418
+	16 elements of 1bytes
+global variable .str.78.419
+	28 elements of 1bytes
+global variable .str.79.420
+	21 elements of 1bytes
+global variable .str.80.421
+	12 elements of 1bytes
+global variable .str.422
+	19 elements of 1bytes
+global variable Stack
+	1 elements of 8bytes
+global variable regs
+	256 elements of 8bytes
+global variable strsize
+	1 elements of 4bytes
+global variable strmaxsize
+	1 elements of 4bytes
+global variable dcstr
+	1 elements of 8bytes
+global variable dcptr
+	1 elements of 8bytes
+global variable newlinestring
+	1 elements of 8bytes
+global variable .str.25.427
+	3 elements of 1bytes
+global variable .str.428
+	55 elements of 1bytes
+global variable .str.1.429
+	20 elements of 1bytes
+global variable .str.2.430
+	21 elements of 1bytes
+global variable .str.3.431
+	18 elements of 1bytes
+global variable pool
+	1 elements of 8bytes
+global variable gIndent
+	1 elements of 4bytes
+global variable .str.26.432
+	13 elements of 1bytes
+global variable .str.27.433
+	13 elements of 1bytes
+global variable .str.28.434
+	7 elements of 1bytes
+global variable .str.30.435
+	5 elements of 1bytes
+global variable .str.29.436
+	5 elements of 1bytes
+global variable .str.32.437
+	5 elements of 1bytes
+global variable .str.33.438
+	3 elements of 1bytes
+global variable .str.34.439
+	3 elements of 1bytes
+global variable .str.35.440
+	5 elements of 1bytes
+global variable .str.36.441
+	10 elements of 1bytes
+global variable .str.43.442
+	5 elements of 1bytes
+global variable .str.44.443
+	2 elements of 1bytes
+global variable .str.45.444
+	5 elements of 1bytes
+global variable .str.37.445
+	4 elements of 1bytes
+global variable .str.38.446
+	5 elements of 1bytes
+global variable .str.39.447
+	6 elements of 1bytes
+global variable .str.40.448
+	3 elements of 1bytes
+global variable .str.41.449
+	4 elements of 1bytes
+global variable .str.46.450
+	33 elements of 1bytes
+global variable .str.47.451
+	1 elements of 1bytes
+global variable .str.42.452
+	20 elements of 1bytes
+global variable .str.31.453
+	3 elements of 1bytes
+global variable .str.48.454
+	21 elements of 1bytes
+global variable .str.49.455
+	15 elements of 1bytes
+global variable .str.50.456
+	18 elements of 1bytes
+global variable .str.51.457
+	11 elements of 1bytes
+global variable .str.52.458
+	14 elements of 1bytes
+global variable .str.53.459
+	8 elements of 1bytes
+global variable .str.54.460
+	2 elements of 1bytes
+global variable .str.55.461
+	7 elements of 1bytes
+global variable .str.56.462
+	8 elements of 1bytes
+global variable .str.57.463
+	17 elements of 1bytes
+global variable .str.58.464
+	30 elements of 1bytes
+global variable .str.59.465
+	9 elements of 1bytes
+global variable .str.60.466
+	11 elements of 1bytes
+global variable .str.61.467
+	12 elements of 1bytes
+global variable .str.62.468
+	14 elements of 1bytes
+global variable .str.63.469
+	14 elements of 1bytes
+global variable .str.64.470
+	16 elements of 1bytes
+global variable .str.65.471
+	6 elements of 1bytes
+global variable .str.66.472
+	2 elements of 1bytes
+global variable .str.67.473
+	2 elements of 1bytes
+global variable .str.93.474
+	30 elements of 1bytes
+global variable .str.70.475
+	3 elements of 1bytes
+global variable .str.71.476
+	3 elements of 1bytes
+global variable .str.72.477
+	8 elements of 1bytes
+global variable .str.73.478
+	8 elements of 1bytes
+global variable .str.74.479
+	8 elements of 1bytes
+global variable .str.75.480
+	8 elements of 1bytes
+global variable .str.76.481
+	14 elements of 1bytes
+global variable .str.77.482
+	13 elements of 1bytes
+global variable .str.78.483
+	7 elements of 1bytes
+global variable .str.79.484
+	9 elements of 1bytes
+global variable .str.80.485
+	7 elements of 1bytes
+global variable .str.81.486
+	8 elements of 1bytes
+global variable .str.82.487
+	10 elements of 1bytes
+global variable .str.83.488
+	8 elements of 1bytes
+global variable .str.84.489
+	14 elements of 1bytes
+global variable .str.85.490
+	6 elements of 1bytes
+global variable .str.86.491
+	12 elements of 1bytes
+global variable .str.87.492
+	5 elements of 1bytes
+global variable .str.88.493
+	9 elements of 1bytes
+global variable .str.89.494
+	11 elements of 1bytes
+global variable .str.90.495
+	14 elements of 1bytes
+global variable .str.91.496
+	9 elements of 1bytes
+global variable .str.92.497
+	18 elements of 1bytes
+global variable .str.68.498
+	4 elements of 1bytes
+global variable .str.69.499
+	2 elements of 1bytes
+global variable .str.94.500
+	12 elements of 1bytes
+global variable .str.95.501
+	11 elements of 1bytes
+global variable .str.96.502
+	7 elements of 1bytes
+global variable .str.97.503
+	11 elements of 1bytes
+global variable .str.98.504
+	6 elements of 1bytes
+global variable .str.99.505
+	11 elements of 1bytes
+global variable .str.100.506
+	13 elements of 1bytes
+global variable .str.101.507
+	9 elements of 1bytes
+global variable .str.102.508
+	3 elements of 1bytes
+global variable .str.103.509
+	2 elements of 1bytes
+global variable .str.104.510
+	2 elements of 1bytes
+global variable .str.105.511
+	2 elements of 1bytes
+global variable .str.106.512
+	5 elements of 1bytes
+global variable .str.107.513
+	2 elements of 1bytes
+global variable .str.108.514
+	2 elements of 1bytes
+global variable .str.109.515
+	2 elements of 1bytes
+global variable .str.110.516
+	5 elements of 1bytes
+global variable .str.111.517
+	3 elements of 1bytes
+global variable .str.112.518
+	3 elements of 1bytes
+global variable .str.113.519
+	4 elements of 1bytes
+global variable .str.114.520
+	6 elements of 1bytes
+global variable .str.115.521
+	7 elements of 1bytes
+global variable .str.116.522
+	54 elements of 1bytes
+global variable offseoloop
+	1 elements of 4bytes
+global variable .str.121.523
+	8 elements of 1bytes
+global variable .str.117.524
+	7 elements of 1bytes
+global variable .str.118.525
+	8 elements of 1bytes
+global variable .str.119.526
+	44 elements of 1bytes
+global variable .str.120.527
+	25 elements of 1bytes
+global variable .str.122.528
+	2 elements of 1bytes
+global variable .str.123.529
+	5 elements of 1bytes
+global variable .str.124.530
+	8 elements of 1bytes
+global variable .str.125.531
+	38 elements of 1bytes
+global variable .str.126.532
+	10 elements of 1bytes
+global variable .str.127.533
+	7 elements of 1bytes
+global variable .str.128.534
+	5 elements of 1bytes
+global variable .str.129.535
+	5 elements of 1bytes
+global variable .str.130.536
+	41 elements of 1bytes
+global variable .str.131.537
+	12 elements of 1bytes
+global variable .str.132.538
+	38 elements of 1bytes
+global variable .str.133.539
+	6 elements of 1bytes
+global variable .str.134.540
+	4 elements of 1bytes
+global variable .str.135.541
+	4 elements of 1bytes
+global variable .str.136.542
+	5 elements of 1bytes
+global variable .str.137.543
+	5 elements of 1bytes
+global variable .str.138.544
+	38 elements of 1bytes
+global variable .str.142.545
+	7 elements of 1bytes
+global variable .str.143.546
+	69 elements of 1bytes
+global variable .str.144.547
+	8 elements of 1bytes
+global variable .str.145.548
+	42 elements of 1bytes
+global variable .str.146.549
+	52 elements of 1bytes
+global variable .str.147.550
+	30 elements of 1bytes
+global variable .str.139.551
+	5 elements of 1bytes
+global variable .str.140.552
+	43 elements of 1bytes
+global variable .str.141.553
+	9 elements of 1bytes
+global variable .str.148.554
+	6 elements of 1bytes
+global variable .str.149.555
+	3 elements of 1bytes
+global variable .str.150.556
+	46 elements of 1bytes
+global variable .str.151.557
+	10 elements of 1bytes
+global variable .str.152.558
+	10 elements of 1bytes
+global variable .str.153.559
+	6 elements of 1bytes
+global variable .str.154.560
+	5 elements of 1bytes
+global variable .str.155.561
+	7 elements of 1bytes
+global variable .str.156.562
+	7 elements of 1bytes
+global variable .str.157.563
+	11 elements of 1bytes
+global variable .str.158.564
+	4 elements of 1bytes
+global variable .str.159.565
+	7 elements of 1bytes
+global variable .str.160.566
+	3 elements of 1bytes
+global variable .str.161.567
+	15 elements of 1bytes
+global variable .str.162.568
+	33 elements of 1bytes
+global variable .str.163.569
+	58 elements of 1bytes
+global variable .str.164.570
+	56 elements of 1bytes
+global variable .str.165.571
+	3 elements of 1bytes
+global variable precedence.ops
+	22 elements of 1bytes
+global variable .str.166.572
+	13 elements of 1bytes
+global variable .str.167.573
+	2 elements of 1bytes
+global variable .str.168.574
+	2 elements of 1bytes
+global variable .str.169.575
+	2 elements of 1bytes
+global variable .str.170.576
+	2 elements of 1bytes
+global variable .str.171.577
+	2 elements of 1bytes
+global variable .str.172.578
+	3 elements of 1bytes
+global variable .str.173.579
+	3 elements of 1bytes
+global variable .str.174.580
+	4 elements of 1bytes
+global variable .str.175.581
+	3 elements of 1bytes
+global variable .str.176.582
+	3 elements of 1bytes
+global variable .str.177.583
+	2 elements of 1bytes
+global variable .str.178.584
+	2 elements of 1bytes
+global variable .str.179.585
+	2 elements of 1bytes
+global variable .str.180.586
+	3 elements of 1bytes
+global variable .str.181.587
+	3 elements of 1bytes
+global variable .str.182.588
+	3 elements of 1bytes
+global variable .str.183.589
+	2 elements of 1bytes
+global variable .str.184.590
+	2 elements of 1bytes
+global variable .str.185.591
+	14 elements of 1bytes
+global variable .str.186.592
+	4 elements of 1bytes
+global variable .str.187.593
+	4 elements of 1bytes
+global variable .str.188.594
+	34 elements of 1bytes
+global variable .str.189.595
+	11 elements of 1bytes
+global variable .str.190.596
+	8 elements of 1bytes
+global variable .str.4.597
+	11 elements of 1bytes
+global variable .str.5.598
+	7 elements of 1bytes
+global variable .str.6.599
+	4 elements of 1bytes
+global variable .str.7.600
+	4 elements of 1bytes
+global variable .str.8.601
+	4 elements of 1bytes
+global variable .str.9.602
+	7 elements of 1bytes
+global variable .str.10.603
+	7 elements of 1bytes
+global variable .str.11.604
+	7 elements of 1bytes
+global variable .str.12.605
+	7 elements of 1bytes
+global variable .str.13.606
+	5 elements of 1bytes
+global variable .str.191.607
+	4 elements of 1bytes
+global variable .str.14.608
+	5 elements of 1bytes
+global variable .str.15.609
+	10 elements of 1bytes
+global variable .str.16.610
+	10 elements of 1bytes
+global variable .str.17.611
+	9 elements of 1bytes
+global variable .str.18.612
+	14 elements of 1bytes
+global variable .str.19.613
+	18 elements of 1bytes
+global variable .str.192.614
+	7 elements of 1bytes
+global variable .str.193.615
+	7 elements of 1bytes
+global variable .str.194.616
+	17 elements of 1bytes
+global variable .str.195.617
+	20 elements of 1bytes
+global variable .str.196.618
+	19 elements of 1bytes
+global variable .str.197.619
+	13 elements of 1bytes
+global variable .str.198.620
+	3 elements of 1bytes
+global variable .str.199.621
+	7 elements of 1bytes
+global variable .str.200.622
+	6 elements of 1bytes
+global variable .str.201.623
+	13 elements of 1bytes
+global variable .str.202.624
+	13 elements of 1bytes
+global variable .str.20.627
+	3 elements of 1bytes
+global variable .str.21.628
+	3 elements of 1bytes
+global variable .str.22.629
+	3 elements of 1bytes
+global variable .str.23.630
+	3 elements of 1bytes
+global variable .str.24.631
+	64 elements of 1bytes
+global variable .str.1.632
+	23 elements of 1bytes
+global variable .str.11.633
+	19 elements of 1bytes
+global variable .str.6.634
+	30 elements of 1bytes
+global variable .str.7.635
+	15 elements of 1bytes
+global variable .str.8.636
+	33 elements of 1bytes
+global variable .str.9.637
+	18 elements of 1bytes
+global variable .str.10.638
+	33 elements of 1bytes
+global variable .str.639
+	52 elements of 1bytes
+global variable .str.2.640
+	57 elements of 1bytes
+global variable .str.3.641
+	52 elements of 1bytes
+global variable .str.5.642
+	55 elements of 1bytes
+global variable .str.4.643
+	48 elements of 1bytes
+global variable .str.12.646
+	19 elements of 1bytes
+global variable .str.13.659
+	40 elements of 1bytes
+global variable .str.14.676
+	20 elements of 1bytes
+global variable .str.15.681
+	22 elements of 1bytes
+global variable .str.16.684
+	49 elements of 1bytes
+global variable .str.17.693
+	41 elements of 1bytes
+global variable .str.18.696
+	42 elements of 1bytes
+global variable .str.19.707
+	31 elements of 1bytes
+global variable .str.20.708
+	23 elements of 1bytes
+global variable .str.21.709
+	79 elements of 1bytes
+global variable .str.22.804
+	51 elements of 1bytes
+global variable .str.23.805
+	26 elements of 1bytes
+global variable .str.24.806
+	17 elements of 1bytes
+global variable .str.25.807
+	36 elements of 1bytes
+global variable __FUNCTION__.parseABC_OPTION_INFO
+	21 elements of 1bytes
+global variable .str.26.808
+	44 elements of 1bytes
+global variable .str.27.809
+	45 elements of 1bytes
+global variable .str.28.810
+	17 elements of 1bytes
+global variable .str.29.811
+	47 elements of 1bytes
+global variable .str.30.812
+	23 elements of 1bytes
+global variable __FUNCTION__.parseABC_CLASS_INFO
+	20 elements of 1bytes
+global variable __FUNCTION__.parseABC_SCRIPT_INFO
+	21 elements of 1bytes
+global variable __FUNCTION__.parseABC_INSTANCE_INFO
+	23 elements of 1bytes
+global variable __FUNCTION__.parseABC_METHOD_BODY_INFO
+	26 elements of 1bytes
+global variable __FUNCTION__.parseABC_FILE
+	14 elements of 1bytes
+global variable __FUNCTION__.parseSWF_SYMBOLCLASS
+	21 elements of 1bytes
+global variable __FUNCTION__.parseSWF_DEFINESCENEANDFRAMEDATA
+	33 elements of 1bytes
+global variable fileOffset
+	1 elements of 4bytes
+global variable bufbits
+	1 elements of 4bytes
+global variable buffer
+	1 elements of 4bytes
+global variable .str.831
+	16 elements of 1bytes
+global variable .str.1.854
+	40 elements of 1bytes
+global variable .str.2.857
+	28 elements of 1bytes
+global variable .str.3.858
+	67 elements of 1bytes
+global variable .str.4.867
+	30 elements of 1bytes
+global variable .str.5.868
+	8 elements of 1bytes
+global variable .str.6.869
+	6 elements of 1bytes
+global variable .str.7.870
+	4 elements of 1bytes
+global variable indent
+	1 elements of 4bytes
+global variable .str.879
+	3 elements of 1bytes
+global variable .str.1.880
+	12 elements of 1bytes
+global variable pool.881
+	1 elements of 8bytes
+global variable .str.2.882
+	15 elements of 1bytes
+global variable .str.3.883
+	14 elements of 1bytes
+global variable .str.4.884
+	16 elements of 1bytes
+global variable .str.5.885
+	39 elements of 1bytes
+global variable .str.6.886
+	13 elements of 1bytes
+global variable .str.7.887
+	16 elements of 1bytes
+global variable numActions
+	1 elements of 4bytes
+global variable actions
+	100 elements of 24bytes
+global variable .str.76.890
+	14 elements of 1bytes
+global variable .str.77.891
+	20 elements of 1bytes
+global variable .str.78.892
+	15 elements of 1bytes
+global variable .str.79.893
+	15 elements of 1bytes
+global variable .str.80.894
+	24 elements of 1bytes
+global variable .str.81.895
+	21 elements of 1bytes
+global variable .str.82.896
+	20 elements of 1bytes
+global variable .str.10.897
+	14 elements of 1bytes
+global variable .str.83.898
+	17 elements of 1bytes
+global variable .str.46.899
+	18 elements of 1bytes
+global variable .str.47.900
+	21 elements of 1bytes
+global variable .str.84.901
+	23 elements of 1bytes
+global variable .str.9.902
+	15 elements of 1bytes
+global variable .str.11.903
+	18 elements of 1bytes
+global variable .str.85.904
+	20 elements of 1bytes
+global variable .str.12.905
+	19 elements of 1bytes
+global variable .str.86.906
+	20 elements of 1bytes
+global variable .str.87.907
+	15 elements of 1bytes
+global variable .str.45.908
+	12 elements of 1bytes
+global variable .str.35.909
+	16 elements of 1bytes
+global variable .str.36.910
+	13 elements of 1bytes
+global variable .str.37.911
+	10 elements of 1bytes
+global variable .str.38.912
+	13 elements of 1bytes
+global variable .str.39.913
+	15 elements of 1bytes
+global variable .str.40.914
+	14 elements of 1bytes
+global variable .str.41.915
+	16 elements of 1bytes
+global variable .str.42.916
+	15 elements of 1bytes
+global variable .str.43.917
+	6 elements of 1bytes
+global variable .str.44.918
+	20 elements of 1bytes
+global variable .str.88.919
+	14 elements of 1bytes
+global variable .str.89.920
+	14 elements of 1bytes
+global variable .str.90.921
+	19 elements of 1bytes
+global variable .str.91.922
+	19 elements of 1bytes
+global variable .str.92.923
+	17 elements of 1bytes
+global variable .str.93.924
+	16 elements of 1bytes
+global variable .str.94.925
+	19 elements of 1bytes
+global variable .str.95.926
+	21 elements of 1bytes
+global variable .str.96.927
+	20 elements of 1bytes
+global variable .str.97.928
+	21 elements of 1bytes
+global variable .str.98.929
+	19 elements of 1bytes
+global variable .str.99.930
+	23 elements of 1bytes
+global variable .str.100.931
+	23 elements of 1bytes
+global variable .str.101.932
+	20 elements of 1bytes
+global variable .str.102.933
+	24 elements of 1bytes
+global variable .str.103.934
+	19 elements of 1bytes
+global variable .str.104.935
+	22 elements of 1bytes
+global variable .str.105.936
+	14 elements of 1bytes
+global variable .str.106.937
+	14 elements of 1bytes
+global variable .str.107.938
+	14 elements of 1bytes
+global variable .str.108.939
+	16 elements of 1bytes
+global variable .str.109.940
+	16 elements of 1bytes
+global variable .str.110.941
+	15 elements of 1bytes
+global variable .str.111.942
+	13 elements of 1bytes
+global variable .str.112.943
+	20 elements of 1bytes
+global variable .str.113.944
+	22 elements of 1bytes
+global variable .str.114.945
+	22 elements of 1bytes
+global variable .str.115.946
+	18 elements of 1bytes
+global variable .str.48.947
+	16 elements of 1bytes
+global variable .str.49.948
+	15 elements of 1bytes
+global variable .str.50.949
+	16 elements of 1bytes
+global variable .str.51.950
+	18 elements of 1bytes
+global variable .str.52.951
+	18 elements of 1bytes
+global variable .str.53.952
+	16 elements of 1bytes
+global variable .str.54.953
+	17 elements of 1bytes
+global variable .str.55.954
+	21 elements of 1bytes
+global variable .str.116.955
+	21 elements of 1bytes
+global variable .str.56.956
+	23 elements of 1bytes
+global variable .str.57.957
+	18 elements of 1bytes
+global variable .str.58.958
+	19 elements of 1bytes
+global variable .str.117.959
+	21 elements of 1bytes
+global variable .str.118.960
+	22 elements of 1bytes
+global variable .str.119.961
+	22 elements of 1bytes
+global variable .str.120.962
+	24 elements of 1bytes
+global variable .str.121.963
+	21 elements of 1bytes
+global variable .str.122.964
+	20 elements of 1bytes
+global variable .str.123.965
+	18 elements of 1bytes
+global variable .str.124.966
+	24 elements of 1bytes
+global variable .str.125.967
+	16 elements of 1bytes
+global variable .str.126.968
+	18 elements of 1bytes
+global variable .str.127.969
+	23 elements of 1bytes
+global variable .str.128.970
+	23 elements of 1bytes
+global variable .str.129.971
+	21 elements of 1bytes
+global variable .str.130.972
+	23 elements of 1bytes
+global variable .str.131.973
+	25 elements of 1bytes
+global variable .str.16.974
+	12 elements of 1bytes
+global variable .str.17.975
+	17 elements of 1bytes
+global variable .str.18.976
+	15 elements of 1bytes
+global variable .str.19.977
+	16 elements of 1bytes
+global variable .str.20.978
+	17 elements of 1bytes
+global variable .str.21.979
+	15 elements of 1bytes
+global variable .str.132.980
+	22 elements of 1bytes
+global variable .str.133.981
+	23 elements of 1bytes
+global variable .str.134.982
+	17 elements of 1bytes
+global variable .str.135.983
+	18 elements of 1bytes
+global variable .str.136.984
+	20 elements of 1bytes
+global variable .str.137.985
+	18 elements of 1bytes
+global variable .str.138.986
+	20 elements of 1bytes
+global variable .str.139.987
+	20 elements of 1bytes
+global variable .str.140.988
+	21 elements of 1bytes
+global variable .str.141.989
+	20 elements of 1bytes
+global variable .str.142.990
+	20 elements of 1bytes
+global variable .str.143.991
+	20 elements of 1bytes
+global variable .str.144.992
+	21 elements of 1bytes
+global variable .str.145.993
+	15 elements of 1bytes
+global variable .str.13.994
+	12 elements of 1bytes
+global variable .str.14.995
+	18 elements of 1bytes
+global variable .str.15.996
+	16 elements of 1bytes
+global variable .str.146.997
+	19 elements of 1bytes
+global variable .str.147.998
+	19 elements of 1bytes
+global variable .str.148.999
+	17 elements of 1bytes
+global variable .str.149.1000
+	15 elements of 1bytes
+global variable .str.150.1001
+	16 elements of 1bytes
+global variable .str.151.1002
+	17 elements of 1bytes
+global variable .str.152.1003
+	21 elements of 1bytes
+global variable .str.153.1004
+	20 elements of 1bytes
+global variable .str.154.1005
+	20 elements of 1bytes
+global variable .str.155.1006
+	21 elements of 1bytes
+global variable .str.156.1007
+	22 elements of 1bytes
+global variable .str.157.1008
+	21 elements of 1bytes
+global variable .str.158.1009
+	20 elements of 1bytes
+global variable .str.159.1010
+	20 elements of 1bytes
+global variable .str.160.1011
+	18 elements of 1bytes
+global variable .str.161.1012
+	17 elements of 1bytes
+global variable .str.162.1013
+	20 elements of 1bytes
+global variable .str.163.1014
+	24 elements of 1bytes
+global variable .str.164.1015
+	21 elements of 1bytes
+global variable .str.165.1016
+	21 elements of 1bytes
+global variable .str.166.1017
+	23 elements of 1bytes
+global variable .str.167.1018
+	18 elements of 1bytes
+global variable .str.168.1019
+	24 elements of 1bytes
+global variable .str.169.1020
+	26 elements of 1bytes
+global variable .str.22.1021
+	21 elements of 1bytes
+global variable .str.23.1022
+	24 elements of 1bytes
+global variable .str.24.1023
+	24 elements of 1bytes
+global variable .str.25.1024
+	29 elements of 1bytes
+global variable .str.26.1025
+	25 elements of 1bytes
+global variable .str.27.1026
+	25 elements of 1bytes
+global variable .str.28.1027
+	27 elements of 1bytes
+global variable .str.29.1028
+	27 elements of 1bytes
+global variable .str.30.1029
+	18 elements of 1bytes
+global variable .str.31.1030
+	11 elements of 1bytes
+global variable .str.32.1031
+	48 elements of 1bytes
+global variable .str.33.1032
+	18 elements of 1bytes
+global variable .str.34.1033
+	16 elements of 1bytes
+global variable .str.170.1034
+	18 elements of 1bytes
+global variable .str.171.1035
+	17 elements of 1bytes
+global variable .str.172.1036
+	23 elements of 1bytes
+global variable .str.173.1037
+	14 elements of 1bytes
+global variable .str.59.1038
+	16 elements of 1bytes
+global variable .str.60.1039
+	15 elements of 1bytes
+global variable .str.61.1040
+	68 elements of 1bytes
+global variable .str.62.1041
+	16 elements of 1bytes
+global variable .str.63.1042
+	18 elements of 1bytes
+global variable .str.64.1043
+	20 elements of 1bytes
+global variable .str.65.1044
+	22 elements of 1bytes
+global variable .str.66.1045
+	18 elements of 1bytes
+global variable .str.67.1046
+	19 elements of 1bytes
+global variable .str.68.1047
+	2 elements of 1bytes
+global variable .str.69.1048
+	21 elements of 1bytes
+global variable .str.70.1049
+	23 elements of 1bytes
+global variable .str.71.1050
+	18 elements of 1bytes
+global variable .str.174.1051
+	16 elements of 1bytes
+global variable .str.175.1052
+	21 elements of 1bytes
+global variable .str.73.1053
+	14 elements of 1bytes
+global variable .str.72.1054
+	21 elements of 1bytes
+global variable .str.74.1055
+	10 elements of 1bytes
+global variable .str.75.1056
+	15 elements of 1bytes
+global variable .str.8.1057
+	14 elements of 1bytes
+global variable _SWF_warn
+	1 elements of 8bytes
+global variable _SWF_error
+	1 elements of 8bytes
+global variable static_fd
+	1 elements of 4bytes
+global variable static_ut_name
+	1 elements of 8bytes
+global variable default_file_name
+	14 elements of 1bytes
+global variable static_utmp
+	1 elements of 400bytes
+global variable .str.312
+	3 elements of 1bytes
+global variable .str.1.313
+	8 elements of 1bytes
+global variable stdin
+	1 elements of 8bytes
+global variable _stdio_streams
+	3 elements of 80bytes
+global variable stdout
+	1 elements of 8bytes
+global variable stderr
+	1 elements of 8bytes
+global variable __stdin
+	1 elements of 8bytes
+global variable __stdout
+	1 elements of 8bytes
+global variable _stdio_openlist
+	1 elements of 8bytes
+global variable _do_one_spec.spec_base
+	7 elements of 1bytes
+global variable .str.346
+	6 elements of 1bytes
+global variable .str.1.347
+	7 elements of 1bytes
+global variable _do_one_spec.prefix
+	12 elements of 1bytes
+global variable _ppfs_parsespec.spec_flags
+	8 elements of 1bytes
+global variable _ppfs_parsespec.qual_chars
+	20 elements of 1bytes
+global variable _ppfs_parsespec.spec_chars
+	21 elements of 1bytes
+global variable _ppfs_parsespec.spec_ranges
+	9 elements of 1bytes
+global variable _ppfs_parsespec.spec_or_mask
+	8 elements of 2bytes
+global variable _ppfs_parsespec.spec_and_mask
+	8 elements of 2bytes
+global variable type_codes
+	12 elements of 2bytes
+global variable type_sizes
+	12 elements of 1bytes
+global variable strerror.buf
+	50 elements of 1bytes
+global variable __xpg_strerror_r.unknown
+	14 elements of 1bytes
+global variable _string_syserrmsgs
+	2906 elements of 1bytes
+global variable __libc_stack_end
+	1 elements of 8bytes
+global variable __uclibc_progname
+	1 elements of 8bytes
+global variable .str.414
+	1 elements of 1bytes
+global variable __environ
+	1 elements of 8bytes
+global variable __pagesize
+	1 elements of 8bytes
+global variable __app_fini
+	1 elements of 8bytes
+global variable __rtld_fini
+	1 elements of 8bytes
+global variable __uClibc_init.been_there_done_that
+	1 elements of 4bytes
+global variable .str.1.417
+	10 elements of 1bytes
+global variable __C_ctype_b_data
+	384 elements of 2bytes
+global variable __C_ctype_b
+	1 elements of 8bytes
+global variable __ctype_b
+	1 elements of 8bytes
+global variable .str.420
+	5 elements of 1bytes
+global variable .str.1.421
+	5 elements of 1bytes
+global variable .str.2.422
+	16 elements of 1bytes
+global variable .str.3.425
+	7 elements of 1bytes
+global variable .str.4.426
+	13 elements of 1bytes
+global variable .str.5.427
+	12 elements of 1bytes
+global variable brain_damaged_fillrand.value
+	1 elements of 8bytes
+global variable letters
+	63 elements of 1bytes
+global variable errno
+	1 elements of 4bytes
+global variable h_errno
+	1 elements of 4bytes
+global variable fmt
+	20 elements of 1bytes
+global variable exp10_table
+	13 elements of 16bytes
+global variable .str.1.480
+	47 elements of 1bytes
+global variable .str.2.483
+	44 elements of 1bytes
+global variable close.n_calls
+	1 elements of 4bytes
+global variable read.n_calls
+	1 elements of 4bytes
+global variable .str.3.488
+	12 elements of 1bytes
+global variable .str.4.489
+	59 elements of 1bytes
+global variable __PRETTY_FUNCTION__.read
+	34 elements of 1bytes
+global variable write.n_calls
+	1 elements of 4bytes
+global variable .str.5.492
+	7 elements of 1bytes
+global variable __PRETTY_FUNCTION__.write
+	41 elements of 1bytes
+global variable .str.6.493
+	2 elements of 1bytes
+global variable .str.7.494
+	24 elements of 1bytes
+global variable .str.8.497
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__fd_lseek
+	38 elements of 1bytes
+global variable .str.9.502
+	33 elements of 1bytes
+global variable chmod.n_calls
+	1 elements of 4bytes
+global variable fchmod.n_calls
+	1 elements of 4bytes
+global variable .str.24.503
+	32 elements of 1bytes
+global variable __fd_ftruncate.n_calls
+	1 elements of 4bytes
+global variable .str.10.508
+	30 elements of 1bytes
+global variable .str.11.511
+	33 elements of 1bytes
+global variable .str.12.512
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__fd_getdents
+	65 elements of 1bytes
+global variable .str.13.515
+	41 elements of 1bytes
+global variable .str.14.516
+	42 elements of 1bytes
+global variable .str.15.517
+	43 elements of 1bytes
+global variable .str.16.518
+	43 elements of 1bytes
+global variable .str.17.519
+	45 elements of 1bytes
+global variable .str.18.520
+	46 elements of 1bytes
+global variable .str.19.521
+	43 elements of 1bytes
+global variable .str.20.522
+	44 elements of 1bytes
+global variable .str.21.527
+	32 elements of 1bytes
+global variable .str.22.528
+	17 elements of 1bytes
+global variable getcwd.n_calls
+	1 elements of 4bytes
+global variable .str.23.535
+	18 elements of 1bytes
+global variable __exe_env
+	1 elements of 784bytes
+global variable __exe_fs
+	1 elements of 104bytes
+global variable klee_init_fds.name
+	32 elements of 1bytes
+global variable .str.540
+	2 elements of 1bytes
+global variable .str.9.541
+	6 elements of 1bytes
+global variable .str.10.542
+	5 elements of 1bytes
+global variable .str.11.543
+	64 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__create_new_dfile
+	88 elements of 1bytes
+global variable .str.1.544
+	6 elements of 1bytes
+global variable .str.2.545
+	10 elements of 1bytes
+global variable .str.3.546
+	11 elements of 1bytes
+global variable .str.4.547
+	11 elements of 1bytes
+global variable .str.5.548
+	15 elements of 1bytes
+global variable .str.6.549
+	12 elements of 1bytes
+global variable .str.7.550
+	7 elements of 1bytes
+global variable .str.8.551
+	14 elements of 1bytes
+global variable .str.554
+	7 elements of 1bytes
+global variable .str.1.555
+	964 elements of 1bytes
+global variable .str.24.556
+	70 elements of 1bytes
+global variable .str.25.557
+	9 elements of 1bytes
+global variable .str.2.558
+	10 elements of 1bytes
+global variable .str.3.559
+	9 elements of 1bytes
+global variable .str.4.560
+	48 elements of 1bytes
+global variable .str.26.561
+	37 elements of 1bytes
+global variable .str.5.562
+	11 elements of 1bytes
+global variable .str.6.563
+	10 elements of 1bytes
+global variable .str.7.564
+	77 elements of 1bytes
+global variable .str.8.565
+	7 elements of 1bytes
+global variable .str.9.566
+	12 elements of 1bytes
+global variable .str.10.567
+	11 elements of 1bytes
+global variable .str.11.568
+	109 elements of 1bytes
+global variable .str.12.569
+	12 elements of 1bytes
+global variable .str.13.570
+	11 elements of 1bytes
+global variable .str.14.571
+	57 elements of 1bytes
+global variable .str.15.572
+	13 elements of 1bytes
+global variable .str.16.573
+	12 elements of 1bytes
+global variable .str.17.574
+	18 elements of 1bytes
+global variable .str.18.575
+	17 elements of 1bytes
+global variable .str.19.576
+	10 elements of 1bytes
+global variable .str.20.577
+	9 elements of 1bytes
+global variable .str.21.578
+	11 elements of 1bytes
+global variable .str.22.579
+	10 elements of 1bytes
+global variable .str.23.580
+	54 elements of 1bytes
+global variable .str.581
+	18 elements of 1bytes
+global variable .str.1.582
+	24 elements of 1bytes
+global variable .str.2.585
+	15 elements of 1bytes
+global variable .str.3.586
+	18 elements of 1bytes
+global variable .str.4.587
+	17 elements of 1bytes
+global variable .str.5.588
+	13 elements of 1bytes
+global variable .str.6.589
+	40 elements of 1bytes
+global variable .str.7.590
+	17 elements of 1bytes
+global variable .str.8.593
+	21 elements of 1bytes
+global variable .str.9.594
+	18 elements of 1bytes
+global variable .str.10.595
+	32 elements of 1bytes
+global variable str.13
+	18 elements of 1bytes
+global variable str
+	17 elements of 1bytes
+global variable getnameinfo.hostname
+	10 elements of 1bytes
+global variable getnameinfo.service
+	10 elements of 1bytes
+global variable .str.598
+	80 elements of 1bytes
+global variable .str.1.599
+	15 elements of 1bytes
+global variable .str.2.600
+	8 elements of 1bytes
+global variable .str.3.603
+	8 elements of 1bytes
+global variable .str.1.4
+	16 elements of 1bytes
+global variable .str.2.5
+	14 elements of 1bytes
+global variable .str.6.606
+	71 elements of 1bytes
+global variable .str.1.7
+	14 elements of 1bytes
+global variable .str.2.8
+	5 elements of 1bytes
+KLEE: WARNING: undefined reference to function: atan
+KLEE: WARNING: undefined reference to function: puts
+KLEE: WARNING: undefined reference to function: sqrt
+KLEE: WARNING: undefined reference to function: strncpy
+KLEE: WARNING: undefined reference to function: uncompress
+KLEE: ARGV 0: swftophp.bc
+
+KLEE: ARGV 1: ../exploit
+
+Undefined struct struct.exe_sym_env_t
+Undefined struct struct.exe_file_t
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 105512256)
+Undefined struct struct.stat
+Undefined struct struct.exe_disk_file_t
+Undefined struct struct.__kernel_termios.1634
+Undefined struct struct.termios.1629
+Undefined struct struct.Elf64_auxv_t
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+	pointer parm derived from itself!
+KLEE: 0x804fb80: Symbolic value  used to determine branching at /home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_init.c:100 (57059)
+Undefined struct struct.__STDIO_FILE_STRUCT.1406
+	pointer parm derived from other vars!
+Undefined struct struct.__STDIO_FILE_STRUCT.1373
+Undefined struct struct.FontInfo
+Undefined struct struct.__STDIO_FILE_STRUCT.1601
+KLEE: IntegerOverflow (32:2147483647): cast 4294967329277 @/home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_32.c:44(51478)
+
+Undefined struct struct.__STDIO_FILE_STRUCT.1498
+Undefined struct struct.ppfs_t
+Undefined struct struct.printf_info.1500
+Undefined struct struct.__STDIO_FILE_STRUCT.1385
+header indicates a filesize of 	pointer parm derived from itself!
+Undefined struct struct.__va_list_tag
+140	pointer parm derived from other vars!
+ but filesize is 166
+Undefined struct struct.Rect
+Undefined struct struct.Movie
+KLEE: WARNING ONCE: calling external: printf(177277456)
+Undefined struct struct.__STDIO_FILE_STRUCT.1429
+Undefined struct struct.SWFBlock
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+Undefined struct struct.SWF_Parserstruct_s
+Undefined struct struct.SWF_DOACTION
+Undefined struct struct.SWF_ACTIONRECORD
+KLEE: IntegerOverflow (8:127): cast 136 @parser.c:911(20781)
+
+Undefined struct struct.SWF_ACTIONCONSTANTPOOL
+KLEE: IntegerOverflow (8:127): cast 255 @read.c:280(37982)
+
+KLEE: IntegerOverflow (8:127): cast 255 @read.c:280(37982)
+
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: IntegerOverflow (8:127): cast 150 @parser.c:911(20781)
+
+Undefined struct struct.SWF_ACTIONPUSH
+Undefined struct struct.SWF_ACTIONPUSHPARAM
+Undefined struct struct.__STDIO_FILE_STRUCT.1390
+	pointer parm derived from other vars!
+	pointer parm derived from other vars!
+Undefined struct struct.SWFBlockOutput
+Undefined struct struct._stack
+Undefined struct struct.SWFActionName
+KLEE: A safety property (buffer overflow) is violated!
+KLEE: Print SE for getString
+KLEE: Print SE for getString
+KLEE: Print SE for decompileArithmeticOp
+KLEE: Print SE for decompileAction
+KLEE: Print SE for decompileActions
+KLEE: Print SE for decompile5Action
+KLEE: Print SE for outputSWF_DOACTION
+KLEE: Print SE for outputBlock
+KLEE: Print SE for readMovie
+KLEE: Print SE for __user_main
+KLEE: Print SE for __uClibc_main
+KLEE: Print SE for main
+update_se_for_func getString
+KLEE: 349(10061) pool+act@4 -- Read Fault pool+act@4
+
+KLEE: Analyzing fault
+
+KLEE: 1. Analyzing buffer
+
+KLEE: buf: (nil)
+
+KLEE: buf size
+
+analyze_buffer
+	allocated at 1124(21596)
+	buf name: malloc((act315@3)*(8))
+
+	stack dump:
+	parseSWF_ACTIONRECORD	 parser.c:1124(21596)
+KLEE: Print SE for parseSWF_ACTIONRECORD
+	parseSWF_DOACTION	 parser.c:2434(31576)
+KLEE: Print SE for parseSWF_DOACTION
+	blockParse	 blocktypes.c:145(7895)
+KLEE: Print SE for blockParse
+	readMovie	 main.c:269(7663)
+KLEE: Print SE for readMovie
+	__user_main	 main.c:354(7377)
+KLEE: Print SE for __user_main
+	__uClibc_main	 libc/misc/internals/__uClibc_main.c:401(47941)
+KLEE: Print SE for __uClibc_main
+	main	 :0(51070)
+KLEE: Print SE for main
+
+get_buf_start_expr
+parseSWF_ACTIONRECORD
+assigned to act315@4
+Undefined struct struct.SWF_ACTIONDEFINEFUNCTION
+Undefined struct struct.SWF_ACTIONIF
+Undefined struct struct.SWF_ACTIONSTOREREGISTER
+Undefined struct struct.SWF_ACTIONDEFINEFUNCTION2
+Undefined struct struct.REGISTERPARAM
+Undefined struct struct.SWF_ACTIONTRY
+parseSWF_ACTIONRECORD 1124(21596): act315@4
+get_buf_size_expr
+KLEE: get_se_in_scopes_ex_raw 
+
+KLEE: 	(act315@3)*(8) = (act315@3)*(8)
+
+	21596(parser.c:1124) parseSWF_ACTIONRECORD (act315@3)*(8)
+KLEE: vars:
+KLEE: 	act315 = action
+Unable to translate (act315@3)*(8) to caller
+KLEE: get_se_in_scopes_ex_raw act
+
+KLEE: 	act = act
+
+KLEE: vars:
+KLEE: 	act = 
+	17339(decompile.c:1080) decompileArithmeticOp left
+KLEE: vars:
+KLEE: 	left = pop()
+Unable to translate left to caller
+se_mappings for buf start
+	parseSWF_ACTIONRECORD: act315
+
+se_mappings for buf size
+	parseSWF_ACTIONRECORD: act315
+
+KLEE: 2. Analyzing memory access
+
+
+	stack dump:
+	decompileArithmeticOp	 decompile.c:1080(17339)
+KLEE: Print SE for decompileArithmeticOp
+	decompileAction	 decompile.c:3310(8918)
+KLEE: Print SE for decompileAction
+	decompileActions	 decompile.c:3419(13246)
+KLEE: Print SE for decompileActions
+	decompile5Action	 decompile.c:3441(18796)
+KLEE: Print SE for decompile5Action
+	outputSWF_DOACTION	 outputscript.c:1552(5791)
+KLEE: Print SE for outputSWF_DOACTION
+	outputBlock	 outputscript.c:2083(5121)
+KLEE: Print SE for outputBlock
+	readMovie	 main.c:281(7695)
+KLEE: Print SE for readMovie
+	__user_main	 main.c:354(7377)
+KLEE: Print SE for __user_main
+	__uClibc_main	 libc/misc/internals/__uClibc_main.c:401(47941)
+KLEE: Print SE for __uClibc_main
+	main	 :0(51070)
+KLEE: Print SE for main
+
+retrieve_loop_info getString 0
+KLEE: 	memory access not inside any loop!
+KLEE: get_se_in_scopes_ex_raw 
+
+KLEE: 	left = left
+
+	17339(decompile.c:1080) decompileArithmeticOp left
+KLEE: vars:
+KLEE: 	left = pop()
+Unable to translate left to caller
+se_mappings for buf access increment
+
+KLEE: converge...
+se_mappings for buffer size
+	parseSWF_ACTIONRECORD: act315
+
+se_mappings for access range
+
+KLEE: Fault@10061 R (766cf60) decompile.c:349
+
+KLEE: ERROR: decompile.c:349: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+
+KLEE: done: total instructions = 69678
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1
