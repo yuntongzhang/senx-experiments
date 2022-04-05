@@ -81,12 +81,12 @@
  },
  {
    "id": 17,
-   "bug_id": "cve_2016_8806",
+   "bug_id": "cve_2018_8806",
    "subject": "libming"
  },
  {
    "id": 18,
-   "bug_id": "cve_2016_8964",
+   "bug_id": "cve_2018_8964",
    "subject": "libming"
  },
  {
