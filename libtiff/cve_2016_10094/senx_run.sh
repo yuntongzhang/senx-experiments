@@ -1,3 +1,6 @@
 #!/bin/bash
-analyze_bc ./tiff2pdf.bc 2>analyze.err
-timeout 1800 senx tiff2pdf.bc ./exploit -o foo 2>senx.err
+bin=tiff2pdf
+
+analyze_bc ./$bin.bc 2>analyze.err
+python3 ../../prepare_gdb_def.py $bin $(pwd)
+timeout 1800 senx -struct-def=def_file ./$bin.bc ./exploit -o foo 2>senx.err

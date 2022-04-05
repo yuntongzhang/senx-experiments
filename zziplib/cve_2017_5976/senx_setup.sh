@@ -12,7 +12,10 @@ CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS" ./configure 
 
 make CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS"
 
-cp Linux_4.4.0-210-generic_x86_64.d/bins/unzzipcat-mem ../
+bin=unzzipcat-mem
+
+cp Linux_4.4.0-210-generic_x86_64.d/bins/$bin ../
 cd ../
 
-extract-bc ./unzzipcat-mem
+extract-bc ./$bin
+llvm-dis ./$bin.bc

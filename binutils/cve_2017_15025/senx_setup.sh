@@ -7,7 +7,10 @@ CC="wllvm" CXX="wllvm++" CFLAGS="-DFORTIFY_SOURCE=2 -fstack-protector-all -fno-o
 
 make CFLAGS="-g" CXXFLAGS="$CFLAGS"
 
-cp binutils/nm-new ../
+bin=nm-new
+
+cp binutils/$bin ../
 cd ../
 
-extract-bc ./nm-new
+extract-bc ./$bin
+llvm-dis ./$bin.bc

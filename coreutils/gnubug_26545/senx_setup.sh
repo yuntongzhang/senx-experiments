@@ -9,7 +9,10 @@ export FORCE_UNSAFE_CONFIGURE=1 && CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0" CXXF
 CC="wllvm" CXX="wllvm++" make CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS"
 CC="wllvm" CXX="wllvm++" make CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS" src/shred
 
-cp src/shred ../
+bin=shred
+
+cp src/$bin ../
 
 cd ../
-extract-bc ./shred
+extract-bc ./$bin
+llvm-dis ./$bin.bc

@@ -10,7 +10,10 @@ CC="wllvm" CXX="wllvm++" make CFLAGS="-g -O0 -static -fPIC -fPIE" CXXFLAGS="$CFL
 # do it again as some other unrelated binary fails for previous step
 CC="wllvm" CXX="wllvm++" make CFLAGS="-g -O0 -static -fPIC -fPIE" CXXFLAGS="$CFLAGS" src/split
 
-cp src/split ../
+bin=split
+
+cp src/$bin ../
 
 cd ../
-extract-bc ./split
+extract-bc ./$bin
+llvm-dis ./$bin.bc

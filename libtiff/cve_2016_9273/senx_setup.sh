@@ -7,7 +7,10 @@ CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0" CXXFLAGS="$CFLAGS" ./configure --enable
 
 make CFLAGS="-g -O0" CXXFLAGS="$CFLAGS"
 
-cp tools/tiffsplit ../
+bin=tiffsplit
+
+cp tools/$bin ../
 cd ../
 
-extract-bc ./tiffsplit
+extract-bc ./$bin
+llvm-dis ./$bin.bc

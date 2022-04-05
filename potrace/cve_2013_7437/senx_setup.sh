@@ -7,7 +7,10 @@ CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS" ./configure 
 
 make CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS"
 
-cp src/potrace ../
+bin=potrace
+
+cp src/$bin ../
 cd ../
 
-extract-bc ./potrace
+extract-bc ./$bin
+llvm-dis ./$bin.bc

@@ -7,7 +7,10 @@ CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0" CXXFLAGS="$CFLAGS" ./configure --enable
 
 make CFLAGS="-g -O0" CXXFLAGS="$CFLAGS"
 
-cp tools/tiffcrop ../
+bin=tiffcrop
+
+cp tools/$bin ../
 cd ../
 
-extract-bc ./tiffcrop
+extract-bc ./$bin
+llvm-dis ./$bin.bc

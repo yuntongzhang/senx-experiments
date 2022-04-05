@@ -8,7 +8,10 @@ CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0" CXXFLAGS="$CFLAGS" ./configure --enable
 
 make CFLAGS="-g -O0" CXXFLAGS="$CFLAGS"
 
-cp ./xmllint ../
+bin=xmllint
+
+cp ./$bin ../
 cd ../
 
-extract-bc ./xmllint
+extract-bc ./$bin
+llvm-dis ./$bin.bc

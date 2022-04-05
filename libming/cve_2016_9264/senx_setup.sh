@@ -8,7 +8,10 @@ CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS" ./configure 
 
 make CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS"
 
-cp util/listmp3 ../
+bin=listmp3
+
+cp util/$bin ../
 cd ../
 
-extract-bc ./listmp3
+extract-bc ./$bin
+llvm-dis ./$bin.bc

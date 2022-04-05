@@ -7,7 +7,10 @@ CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0" CXXFLAGS="$CFLAGS" ./configure --enable
 
 make CFLAGS="-g -O0" CXXFLAGS="$CFLAGS"
 
-cp tools/tiff2pdf ../
+bin=tiff2pdf
+
+cp tools/$bin ../
 cd ../
 
-extract-bc ./tiff2pdf
+extract-bc ./$bin
+llvm-dis ./$bin.bc

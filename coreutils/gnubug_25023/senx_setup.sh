@@ -9,7 +9,10 @@ export FORCE_UNSAFE_CONFIGURE=1 && CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0" CXXF
 CC="wllvm" CXX="wllvm++" make CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS"
 CC="wllvm" CXX="wllvm++" make CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS" src/pr
 
-cp src/pr ../
+bin=pr
+
+cp src/$bin ../
 
 cd ../
-extract-bc ./pr
+extract-bc ./$bin
+llvm-dis ./$bin.bc

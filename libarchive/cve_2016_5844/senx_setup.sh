@@ -9,7 +9,10 @@ CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS" ./configure 
 
 make CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS"
 
-cp ./bsdtar ../
+bin=bsdtar
+
+cp ./$bin ../
 cd ../
 
-extract-bc ./bsdtar
+extract-bc ./$bin
+llvm-dis ./$bin.bc

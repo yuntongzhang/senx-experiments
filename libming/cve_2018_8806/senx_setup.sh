@@ -8,7 +8,10 @@ CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS" ./configure 
 
 make CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS"
 
-cp util/swftophp ../
+bin=swftophp
+
+cp util/$bin ../
 cd ../
 
-extract-bc ./swftophp
+extract-bc ./$bin
+llvm-dis ./$bin.bc

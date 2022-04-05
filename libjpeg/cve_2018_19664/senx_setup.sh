@@ -8,7 +8,10 @@ cmake -G"Unix Makefiles" -DCMAKE_C_COMPILER="wllvm"  -DCMAKE_C_FLAGS_RELEASE='-g
 
 make
 
-cp ./djpeg ../../
+bin=djpeg
+
+cp ./$bin ../../
 cd ../../
 
-extract-bc ./djpeg
+extract-bc ./$bin
+llvm-dis ./$bin.bc

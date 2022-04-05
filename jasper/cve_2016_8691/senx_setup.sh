@@ -7,7 +7,10 @@ autoreconf -i
 CC="wllvm" CXX="wllvm++" CFLAGS="-static -g -O0" CXXFLAGS="$CFLAGS" ./configure
 make CFLAGS="-static -g -O0" CXXFLAGS="$CFLAGS"
 
-cp src/appl/imginfo ../
+bin=imginfo
+
+cp src/appl/$bin ../
 cd ../
 
-extract-bc ./imginfo
+extract-bc ./$bin
+llvm-dis ./$bin.bc
