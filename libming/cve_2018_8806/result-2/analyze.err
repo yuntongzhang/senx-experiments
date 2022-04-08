@@ -1,0 +1,1 @@
+/home/user/bin/analyze_bc: line 13: 24503 Aborted                 (core dumped) opt-3.8 -load $LIBANALYZER -analyzer-output=$BCFILE.talos -analyzer-config=~/Projects/Talos/analyzer.cfg -Analyzer -o /dev/null $BCFILE 2> opt.log

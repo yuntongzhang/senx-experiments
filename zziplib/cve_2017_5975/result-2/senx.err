@@ -1,0 +1,443 @@
+KLEE: NOTE: Using libreadline: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libreadline.bca
+KLEE: NOTE: Using libxml2: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libxml2.bca
+KLEE: NOTE: Using libpcap: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libpcap.bca
+KLEE: NOTE: Using klee-uclibc : /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/klee-uclibc.bca
+KLEE: NOTE: Using model: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libkleeRuntimePOSIX.bca
+KLEE: output directory is "/home/user/senx-experiments/zziplib/cve_2017_5975/./klee-out-0"
+KLEE: loadSensitiveFunctionList __assert_fail
+KLEE: loadSensitiveFunctionList sqlite3_realloc
+KLEE: loadSensitiveFunctionList sqlite3_alloc
+KLEE: Safety property for MemorySeqAccess is loaded.
+KLEE: Safety property for MemoryStructAccess is loaded.
+KLEE: Safety property for MemoryAllocation is loaded.
+KLEE: Safety property for SensitiveOperation is loaded.
+loadStructDef def_file
+Error at line 1 in def_file
+Error at line 3 in def_file
+Error at line 5 in def_file
+Error at line 7 in def_file
+Error at line 9 in def_file
+Error at line 11 in def_file
+Error at line 13 in def_file
+Error at line 15 in def_file
+Error at line 17 in def_file
+Error at line 19 in def_file
+Error at line 21 in def_file
+Error at line 23 in def_file
+	zzip_extra_zip64 z_datatype:zzip_byte_t [2]
+	zzip_extra_zip64 None:<range type>
+	zzip_extra_zip64 z_datasize:zzip_byte_t [2]
+	zzip_extra_zip64 None:<range type>
+	zzip_extra_zip64 z_usize:zzip_byte_t [8]
+	zzip_extra_zip64 None:<range type>
+	zzip_extra_zip64 z_csize:zzip_byte_t [8]
+	zzip_extra_zip64 None:<range type>
+	zzip_extra_zip64 z_offset:zzip_byte_t [8]
+	zzip_extra_zip64 None:<range type>
+	zzip_extra_zip64 z_diskstart:zzip_byte_t [4]
+	zzip_extra_zip64 None:<range type>
+Error at line 40 in def_file
+Error at line 42 in def_file
+Error at line 44 in def_file
+Error at line 46 in def_file
+Error at line 48 in def_file
+KLEE: Using Z3 solver backend
+global variable .str
+	7 elements of 1bytes
+global variable usage
+	93 elements of 1bytes
+global variable .str.1
+	10 elements of 1bytes
+global variable .str.2
+	52 elements of 1bytes
+global variable .str.3
+	4 elements of 1bytes
+global variable error
+	4 elements of 8bytes
+global variable .str.1.3
+	3 elements of 1bytes
+global variable .str.2.4
+	44 elements of 1bytes
+global variable .str.3.5
+	93 elements of 1bytes
+global variable .str.10
+	6 elements of 1bytes
+global variable .str.35
+	6 elements of 1bytes
+global variable __vals
+	13 elements of 1bytes
+global variable ll_tzname
+	2 elements of 16bytes
+global variable day_cor
+	13 elements of 1bytes
+global variable static_fd
+	1 elements of 4bytes
+global variable static_ut_name
+	1 elements of 8bytes
+global variable default_file_name
+	14 elements of 1bytes
+global variable static_utmp
+	1 elements of 400bytes
+global variable .str.17
+	3 elements of 1bytes
+global variable .str.1.18
+	8 elements of 1bytes
+global variable stdin
+	1 elements of 8bytes
+global variable _stdio_streams
+	3 elements of 80bytes
+global variable stdout
+	1 elements of 8bytes
+global variable stderr
+	1 elements of 8bytes
+global variable __stdin
+	1 elements of 8bytes
+global variable __stdout
+	1 elements of 8bytes
+global variable _stdio_openlist
+	1 elements of 8bytes
+global variable _do_one_spec.spec_base
+	7 elements of 1bytes
+global variable .str.29
+	6 elements of 1bytes
+global variable .str.1.30
+	7 elements of 1bytes
+global variable _do_one_spec.prefix
+	12 elements of 1bytes
+global variable _ppfs_parsespec.spec_flags
+	8 elements of 1bytes
+global variable _ppfs_parsespec.qual_chars
+	20 elements of 1bytes
+global variable _ppfs_parsespec.spec_chars
+	21 elements of 1bytes
+global variable _ppfs_parsespec.spec_ranges
+	9 elements of 1bytes
+global variable _ppfs_parsespec.spec_or_mask
+	8 elements of 2bytes
+global variable _ppfs_parsespec.spec_and_mask
+	8 elements of 2bytes
+global variable type_codes
+	12 elements of 2bytes
+global variable type_sizes
+	12 elements of 1bytes
+global variable __libc_stack_end
+	1 elements of 8bytes
+global variable __uclibc_progname
+	1 elements of 8bytes
+global variable .str.77
+	1 elements of 1bytes
+global variable __environ
+	1 elements of 8bytes
+global variable __pagesize
+	1 elements of 8bytes
+global variable __app_fini
+	1 elements of 8bytes
+global variable __rtld_fini
+	1 elements of 8bytes
+global variable __uClibc_init.been_there_done_that
+	1 elements of 4bytes
+global variable .str.1.80
+	10 elements of 1bytes
+global variable __C_ctype_b_data
+	384 elements of 2bytes
+global variable __C_ctype_b
+	1 elements of 8bytes
+global variable __ctype_b
+	1 elements of 8bytes
+global variable __C_ctype_tolower_data
+	384 elements of 2bytes
+global variable __C_ctype_tolower
+	1 elements of 8bytes
+global variable __ctype_tolower
+	1 elements of 8bytes
+global variable errno
+	1 elements of 4bytes
+global variable h_errno
+	1 elements of 4bytes
+global variable daylight
+	1 elements of 4bytes
+global variable timezone
+	1 elements of 8bytes
+global variable tzname
+	2 elements of 8bytes
+global variable vals
+	54 elements of 1bytes
+global variable _time_tzinfo
+	2 elements of 32bytes
+global variable .str.97
+	8 elements of 1bytes
+global variable _time_tzset.oldval
+	68 elements of 1bytes
+global variable _vals
+	8 elements of 2bytes
+global variable days
+	13 elements of 1bytes
+global variable utc_string
+	4 elements of 1bytes
+global variable fmt
+	20 elements of 1bytes
+global variable exp10_table
+	13 elements of 16bytes
+global variable __xpg_strerror_r.unknown
+	14 elements of 1bytes
+global variable _string_syserrmsgs
+	2906 elements of 1bytes
+global variable .str.1.168
+	47 elements of 1bytes
+global variable .str.2.171
+	44 elements of 1bytes
+global variable close.n_calls
+	1 elements of 4bytes
+global variable read.n_calls
+	1 elements of 4bytes
+global variable .str.3.176
+	12 elements of 1bytes
+global variable .str.4
+	59 elements of 1bytes
+global variable __PRETTY_FUNCTION__.read
+	34 elements of 1bytes
+global variable write.n_calls
+	1 elements of 4bytes
+global variable .str.5
+	7 elements of 1bytes
+global variable __PRETTY_FUNCTION__.write
+	41 elements of 1bytes
+global variable .str.6
+	2 elements of 1bytes
+global variable .str.7
+	24 elements of 1bytes
+global variable .str.8
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__fd_lseek
+	38 elements of 1bytes
+global variable .str.9
+	33 elements of 1bytes
+global variable chmod.n_calls
+	1 elements of 4bytes
+global variable fchmod.n_calls
+	1 elements of 4bytes
+global variable .str.24
+	32 elements of 1bytes
+global variable __fd_ftruncate.n_calls
+	1 elements of 4bytes
+global variable .str.10.189
+	30 elements of 1bytes
+global variable .str.11
+	33 elements of 1bytes
+global variable .str.12
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__fd_getdents
+	65 elements of 1bytes
+global variable .str.13
+	41 elements of 1bytes
+global variable .str.14
+	42 elements of 1bytes
+global variable .str.15
+	43 elements of 1bytes
+global variable .str.16
+	43 elements of 1bytes
+global variable .str.17.194
+	45 elements of 1bytes
+global variable .str.18
+	46 elements of 1bytes
+global variable .str.19
+	43 elements of 1bytes
+global variable .str.20
+	44 elements of 1bytes
+global variable .str.21
+	32 elements of 1bytes
+global variable .str.22
+	17 elements of 1bytes
+global variable getcwd.n_calls
+	1 elements of 4bytes
+global variable .str.23
+	18 elements of 1bytes
+global variable __exe_env
+	1 elements of 784bytes
+global variable __exe_fs
+	1 elements of 104bytes
+global variable klee_init_fds.name
+	32 elements of 1bytes
+global variable .str.207
+	2 elements of 1bytes
+global variable .str.9.208
+	6 elements of 1bytes
+global variable .str.10.209
+	5 elements of 1bytes
+global variable .str.11.210
+	64 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__create_new_dfile
+	88 elements of 1bytes
+global variable .str.1.211
+	6 elements of 1bytes
+global variable .str.2.212
+	10 elements of 1bytes
+global variable .str.3.213
+	11 elements of 1bytes
+global variable .str.4.214
+	11 elements of 1bytes
+global variable .str.5.215
+	15 elements of 1bytes
+global variable .str.6.216
+	12 elements of 1bytes
+global variable .str.7.217
+	7 elements of 1bytes
+global variable .str.8.218
+	14 elements of 1bytes
+global variable .str.221
+	7 elements of 1bytes
+global variable .str.1.222
+	964 elements of 1bytes
+global variable .str.24.223
+	70 elements of 1bytes
+global variable .str.25
+	9 elements of 1bytes
+global variable .str.2.224
+	10 elements of 1bytes
+global variable .str.3.225
+	9 elements of 1bytes
+global variable .str.4.226
+	48 elements of 1bytes
+global variable .str.26
+	37 elements of 1bytes
+global variable .str.5.227
+	11 elements of 1bytes
+global variable .str.6.228
+	10 elements of 1bytes
+global variable .str.7.229
+	77 elements of 1bytes
+global variable .str.8.230
+	7 elements of 1bytes
+global variable .str.9.231
+	12 elements of 1bytes
+global variable .str.10.232
+	11 elements of 1bytes
+global variable .str.11.233
+	109 elements of 1bytes
+global variable .str.12.234
+	12 elements of 1bytes
+global variable .str.13.235
+	11 elements of 1bytes
+global variable .str.14.236
+	57 elements of 1bytes
+global variable .str.15.237
+	13 elements of 1bytes
+global variable .str.16.238
+	12 elements of 1bytes
+global variable .str.17.239
+	18 elements of 1bytes
+global variable .str.18.240
+	17 elements of 1bytes
+global variable .str.19.241
+	10 elements of 1bytes
+global variable .str.20.242
+	9 elements of 1bytes
+global variable .str.21.243
+	11 elements of 1bytes
+global variable .str.22.244
+	10 elements of 1bytes
+global variable .str.23.245
+	54 elements of 1bytes
+global variable .str.246
+	18 elements of 1bytes
+global variable .str.1.247
+	24 elements of 1bytes
+global variable .str.2.248
+	15 elements of 1bytes
+global variable .str.3.249
+	18 elements of 1bytes
+global variable .str.4.250
+	17 elements of 1bytes
+global variable .str.5.253
+	13 elements of 1bytes
+global variable .str.6.254
+	40 elements of 1bytes
+global variable .str.7.255
+	17 elements of 1bytes
+global variable .str.8.258
+	21 elements of 1bytes
+global variable .str.9.259
+	18 elements of 1bytes
+global variable .str.10.260
+	32 elements of 1bytes
+global variable str.13
+	18 elements of 1bytes
+global variable str
+	17 elements of 1bytes
+global variable getnameinfo.hostname
+	10 elements of 1bytes
+global variable getnameinfo.service
+	10 elements of 1bytes
+global variable .str.263
+	80 elements of 1bytes
+global variable .str.1.264
+	15 elements of 1bytes
+global variable .str.2.265
+	8 elements of 1bytes
+global variable .str.3.268
+	8 elements of 1bytes
+global variable .str.1.4
+	16 elements of 1bytes
+global variable .str.2.5
+	14 elements of 1bytes
+global variable .str.6.271
+	71 elements of 1bytes
+global variable .str.1.7
+	14 elements of 1bytes
+global variable .str.2.8
+	5 elements of 1bytes
+KLEE: WARNING: undefined reference to function: inflate
+KLEE: WARNING: undefined reference to function: inflateEnd
+KLEE: WARNING: undefined reference to function: inflateInit2_
+KLEE: WARNING: undefined reference to function: puts
+KLEE: ARGV 0: ./unzzipcat-mem.bc
+
+KLEE: ARGV 1: ./exploit
+
+Undefined struct struct.exe_sym_env_t
+Undefined struct struct.exe_file_t
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 156440704)
+Undefined struct struct.stat
+Undefined struct struct.exe_disk_file_t
+Undefined struct struct.__kernel_termios.1627
+Undefined struct struct.termios.1622
+Undefined struct struct.Elf64_auxv_t
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+	pointer parm derived from itself!
+KLEE: 0x75b33e0: Symbolic value  used to determine branching at /home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_init.c:100 (20854)
+	pointer parm derived from itself!
+KLEE: IntegerOverflow (32:2147483647): cast 4294967329277 @/home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_32.c:44(15042)
+
+KLEE: IntegerOverflow (32:2147483647): cast 4294967329277 @/home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_32.c:44(15270)
+
+Undefined struct struct.zzip_disk
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+Undefined struct struct._zzip_mem_disk
+Undefined struct struct.zzip_disk_trailer
+Undefined struct struct.zzip_disk_entry
+Undefined struct struct.zzip_file_header
+Undefined struct struct._zzip_mem_entry
+KLEE: A safety property (bad cast) is violated!
+KLEE: Print SE for zzip_mem_entry_new
+KLEE: Print SE for zzip_mem_entry_new
+KLEE: Print SE for zzip_mem_disk_load
+KLEE: Print SE for zzip_mem_disk_open
+KLEE: Print SE for __user_main
+KLEE: Print SE for __uClibc_main
+KLEE: Print SE for main
+KLEE: 953 header@8 -- Struct Access Fault
+
+KLEE: 1. Analyzing buffer
+
+KLEE: buf: (nil)
+
+KLEE: Unable to generate patch!
+KLEE: Fault@953 R (1a) ../../zzip/memdisk.c:182
+
+KLEE: ERROR: ../../zzip/memdisk.c:182: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+
+KLEE: done: total instructions = 7492
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1

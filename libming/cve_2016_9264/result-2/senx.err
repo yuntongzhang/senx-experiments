@@ -1,0 +1,1178 @@
+KLEE: NOTE: Using libreadline: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libreadline.bca
+KLEE: NOTE: Using libxml2: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libxml2.bca
+KLEE: NOTE: Using libpcap: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libpcap.bca
+KLEE: NOTE: Using klee-uclibc : /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/klee-uclibc.bca
+KLEE: NOTE: Using model: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libkleeRuntimePOSIX.bca
+KLEE: output directory is "/home/user/senx-experiments/libming/cve_2016_9264/./klee-out-0"
+KLEE: loadSensitiveFunctionList __assert_fail
+KLEE: loadSensitiveFunctionList sqlite3_realloc
+KLEE: loadSensitiveFunctionList sqlite3_alloc
+KLEE: Safety property for MemorySeqAccess is loaded.
+KLEE: Safety property for MemoryStructAccess is loaded.
+KLEE: Safety property for MemoryAllocation is loaded.
+KLEE: Safety property for SensitiveOperation is loaded.
+loadStructDef def_file
+Error at line 1 in def_file
+Error at line 3 in def_file
+KLEE: Using Z3 solver backend
+global variable mp1l1_bitrate_table
+	15 elements of 4bytes
+global variable mp1l2_bitrate_table
+	15 elements of 4bytes
+global variable mp1l3_bitrate_table
+	15 elements of 4bytes
+global variable mp2l1_bitrate_table
+	15 elements of 4bytes
+global variable mp2l23_bitrate_table
+	15 elements of 4bytes
+global variable mp1_samplerate_table
+	3 elements of 4bytes
+global variable mp2_samplerate_table
+	3 elements of 4bytes
+global variable mp25_samplerate_table
+	3 elements of 4bytes
+global variable .str
+	21 elements of 1bytes
+global variable .str.1
+	19 elements of 1bytes
+global variable .str.3
+	7 elements of 1bytes
+global variable .str.4
+	5 elements of 1bytes
+global variable .str.5
+	3 elements of 1bytes
+global variable .str.6
+	4 elements of 1bytes
+global variable .str.2
+	67 elements of 1bytes
+global variable .str.7
+	22 elements of 1bytes
+global variable .str.8
+	21 elements of 1bytes
+global variable .str.9
+	17 elements of 1bytes
+global variable .str.10
+	16 elements of 1bytes
+global variable .str.11
+	3 elements of 1bytes
+global variable .str.12
+	19 elements of 1bytes
+global variable static_fd
+	1 elements of 4bytes
+global variable static_ut_name
+	1 elements of 8bytes
+global variable default_file_name
+	14 elements of 1bytes
+global variable static_utmp
+	1 elements of 400bytes
+global variable stdin
+	1 elements of 8bytes
+global variable _stdio_streams
+	3 elements of 80bytes
+global variable stdout
+	1 elements of 8bytes
+global variable stderr
+	1 elements of 8bytes
+global variable __stdin
+	1 elements of 8bytes
+global variable __stdout
+	1 elements of 8bytes
+global variable _stdio_openlist
+	1 elements of 8bytes
+global variable __libc_stack_end
+	1 elements of 8bytes
+global variable __uclibc_progname
+	1 elements of 8bytes
+global variable .str.41
+	1 elements of 1bytes
+global variable __environ
+	1 elements of 8bytes
+global variable __pagesize
+	1 elements of 8bytes
+global variable __app_fini
+	1 elements of 8bytes
+global variable __rtld_fini
+	1 elements of 8bytes
+global variable __uClibc_init.been_there_done_that
+	1 elements of 4bytes
+global variable .str.1.44
+	10 elements of 1bytes
+global variable errno
+	1 elements of 4bytes
+global variable h_errno
+	1 elements of 4bytes
+global variable .str.1.99
+	47 elements of 1bytes
+global variable .str.2.102
+	44 elements of 1bytes
+global variable close.n_calls
+	1 elements of 4bytes
+global variable read.n_calls
+	1 elements of 4bytes
+global variable .str.3.107
+	12 elements of 1bytes
+global variable .str.4.108
+	59 elements of 1bytes
+global variable __PRETTY_FUNCTION__.read
+	34 elements of 1bytes
+global variable write.n_calls
+	1 elements of 4bytes
+global variable .str.5.111
+	7 elements of 1bytes
+global variable __PRETTY_FUNCTION__.write
+	41 elements of 1bytes
+global variable .str.6.112
+	2 elements of 1bytes
+global variable .str.7.113
+	24 elements of 1bytes
+global variable .str.8.116
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__fd_lseek
+	38 elements of 1bytes
+global variable .str.9.121
+	33 elements of 1bytes
+global variable chmod.n_calls
+	1 elements of 4bytes
+global variable fchmod.n_calls
+	1 elements of 4bytes
+global variable .str.24
+	32 elements of 1bytes
+global variable __fd_ftruncate.n_calls
+	1 elements of 4bytes
+global variable .str.10.126
+	30 elements of 1bytes
+global variable .str.11.129
+	33 elements of 1bytes
+global variable .str.12.130
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__fd_getdents
+	65 elements of 1bytes
+global variable .str.13
+	41 elements of 1bytes
+global variable .str.14
+	42 elements of 1bytes
+global variable .str.15
+	43 elements of 1bytes
+global variable .str.16
+	43 elements of 1bytes
+global variable .str.17
+	45 elements of 1bytes
+global variable .str.18
+	46 elements of 1bytes
+global variable .str.19
+	43 elements of 1bytes
+global variable .str.20
+	44 elements of 1bytes
+global variable .str.21
+	32 elements of 1bytes
+global variable .str.22
+	17 elements of 1bytes
+global variable getcwd.n_calls
+	1 elements of 4bytes
+global variable .str.23
+	18 elements of 1bytes
+global variable __exe_env
+	1 elements of 784bytes
+global variable __exe_fs
+	1 elements of 104bytes
+global variable klee_init_fds.name
+	32 elements of 1bytes
+global variable .str.145
+	2 elements of 1bytes
+global variable .str.9.146
+	6 elements of 1bytes
+global variable .str.10.147
+	5 elements of 1bytes
+global variable .str.11.148
+	64 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__create_new_dfile
+	88 elements of 1bytes
+global variable .str.1.149
+	6 elements of 1bytes
+global variable .str.2.150
+	10 elements of 1bytes
+global variable .str.3.151
+	11 elements of 1bytes
+global variable .str.4.152
+	11 elements of 1bytes
+global variable .str.5.153
+	15 elements of 1bytes
+global variable .str.6.154
+	12 elements of 1bytes
+global variable .str.7.155
+	7 elements of 1bytes
+global variable .str.8.156
+	14 elements of 1bytes
+global variable .str.159
+	7 elements of 1bytes
+global variable .str.1.160
+	964 elements of 1bytes
+global variable .str.24.161
+	70 elements of 1bytes
+global variable .str.25
+	9 elements of 1bytes
+global variable .str.2.162
+	10 elements of 1bytes
+global variable .str.3.163
+	9 elements of 1bytes
+global variable .str.4.164
+	48 elements of 1bytes
+global variable .str.26
+	37 elements of 1bytes
+global variable .str.5.165
+	11 elements of 1bytes
+global variable .str.6.166
+	10 elements of 1bytes
+global variable .str.7.167
+	77 elements of 1bytes
+global variable .str.8.168
+	7 elements of 1bytes
+global variable .str.9.169
+	12 elements of 1bytes
+global variable .str.10.170
+	11 elements of 1bytes
+global variable .str.11.171
+	109 elements of 1bytes
+global variable .str.12.172
+	12 elements of 1bytes
+global variable .str.13.173
+	11 elements of 1bytes
+global variable .str.14.174
+	57 elements of 1bytes
+global variable .str.15.175
+	13 elements of 1bytes
+global variable .str.16.176
+	12 elements of 1bytes
+global variable .str.17.177
+	18 elements of 1bytes
+global variable .str.18.178
+	17 elements of 1bytes
+global variable .str.19.179
+	10 elements of 1bytes
+global variable .str.20.180
+	9 elements of 1bytes
+global variable .str.21.181
+	11 elements of 1bytes
+global variable .str.22.182
+	10 elements of 1bytes
+global variable .str.23.183
+	54 elements of 1bytes
+global variable .str.186
+	80 elements of 1bytes
+global variable .str.1.187
+	15 elements of 1bytes
+global variable .str.2.188
+	8 elements of 1bytes
+global variable .str.3.191
+	8 elements of 1bytes
+global variable .str.1.4
+	16 elements of 1bytes
+global variable .str.2.5
+	14 elements of 1bytes
+global variable .str.6.194
+	71 elements of 1bytes
+global variable .str.1.7
+	14 elements of 1bytes
+global variable .str.2.8
+	5 elements of 1bytes
+KLEE: ARGV 0: ./listmp3.bc
+
+KLEE: ARGV 1: ./exploit
+
+Undefined struct struct.exe_sym_env_t
+Undefined struct struct.exe_file_t
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 154334128)
+Undefined struct struct.stat.1832
+Undefined struct struct.exe_disk_file_t
+Undefined struct struct.__kernel_termios.1622
+Undefined struct struct.termios.1617
+Undefined struct struct.Elf64_auxv_t
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+	pointer parm derived from itself!
+KLEE: 0x6675e30: Symbolic value  used to determine branching at /home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_init.c:100 (10489)
+Undefined struct struct.__STDIO_FILE_STRUCT.1369
+Undefined struct struct.__mbstate_t.1368
+Undefined struct struct.__STDIO_FILE_STRUCT.1388
+KLEE: WARNING ONCE: calling external: printf(119712496, 1, 25, 1, 8000, 0, 89743088, 0, 89703424)
+KLEE: A safety property (buffer overflow) is violated!
+KLEE: Print SE for printMP3Headers
+KLEE: Print SE for printMP3Headers
+KLEE: Print SE for __user_main
+KLEE: Print SE for __uClibc_main
+KLEE: Print SE for main
+update_se_for_func printMP3Headers
+KLEE: 128(403) mp1_samplerate_table+samplerate_idx -- Read Fault mp1_samplerate_table+samplerate_idx
+
+KLEE: Analyzing fault
+
+KLEE: 1. Analyzing buffer
+
+KLEE: buf: (nil)
+
+KLEE: buf size
+
+analyze_buffer
+	NOTE: buf is not dynamically allocated!
+get_buf_start_expr
+Local buffer: mp1_samplerate_table
+KLEE: get_se_in_scopes_ex_raw mp1_samplerate_table
+
+KLEE: 	mp1_samplerate_table = mp1_samplerate_table
+
+KLEE: vars:
+KLEE: 	mp1_samplerate_table = 
+Unable to translate mp1_samplerate_table to caller
+get_buf_size_expr
+se_mappings for buf start
+	printMP3Headers: mp1_samplerate_table
+
+se_mappings for buf size
+	printMP3Headers: 12
+
+KLEE: 2. Analyzing memory access
+
+
+	stack dump:
+	__user_main	 listmp3.c:191(630)
+KLEE: Print SE for __user_main
+	__uClibc_main	 libc/misc/internals/__uClibc_main.c:401(2823)
+KLEE: Print SE for __uClibc_main
+	main	 :0(4488)
+KLEE: Print SE for main
+
+retrieve_loop_info printMP3Headers 1
+KLEE: get_loop_begin_end: head@77 (240)
+
+KLEE: get_loop_begin_end: iter:fgetc(f) end:-1 @77 (244)
+
+KLEE: get_loop_begin_end: begin:fgetc(f) @68 (218)
+
+KLEE: get_loop_incrs 240(77) f
+
+KLEE: get_loop_incrs 241(77) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 242(77) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 243(77) flags=fgetc(f)
+
+KLEE: get_loop_incrs 244(77) fgetc(f)==-1?
+
+KLEE: get_loop_incrs 245(77) 
+
+KLEE: get_loop_incrs 248(81) flags
+
+KLEE: get_loop_incrs 249(81) flags==73?
+
+KLEE: get_loop_incrs 250(81) 
+
+KLEE: get_loop_incrs 253(81) f
+
+KLEE: get_loop_incrs 254(81) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 255(81) fgetc(f)==68?
+
+KLEE: get_loop_incrs 256(81) 
+
+KLEE: get_loop_incrs 259(81) f
+
+KLEE: get_loop_incrs 260(81) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 261(81) fgetc(f)==51?
+
+KLEE: get_loop_incrs 262(81) 
+
+KLEE: get_loop_incrs 265(85) f
+
+KLEE: get_loop_incrs 266(85) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 267(85) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 268(85) flags=fgetc(f)
+
+KLEE: get_loop_incrs 269(87) flags
+
+KLEE: get_loop_incrs 270(87) flags!=255?
+
+KLEE: get_loop_incrs 271(87) flags
+
+KLEE: get_loop_incrs 272(87) flags!=-1?
+
+KLEE: get_loop_incrs 273(87) flags!=255?flags!=-1?:0
+
+KLEE: get_loop_incrs 274(86) 
+
+KLEE: get_loop_incrs 277(90) flags
+
+KLEE: get_loop_incrs 278(90) flags==-1?
+
+KLEE: get_loop_incrs 279(90) 
+
+KLEE: get_loop_incrs 282(93) flags
+
+KLEE: get_loop_incrs 283(93) 24
+
+KLEE: get_loop_incrs 284(93) klee_overshift_check(64,24)=klee_overshift_check(64,24)
+
+KLEE: get_loop_incrs 285(93) (flags)*(2^24)
+
+KLEE: get_loop_incrs 286(93) flags=(flags)*(2^24)
+
+KLEE: get_loop_incrs 287(94) f
+
+KLEE: get_loop_incrs 288(94) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 289(94) 16
+
+KLEE: get_loop_incrs 290(94) klee_overshift_check(32,16)=klee_overshift_check(32,16)
+
+KLEE: get_loop_incrs 291(94) (fgetc(f))*(2^16)
+
+KLEE: get_loop_incrs 292(94) (fgetc(f))*(2^16)
+
+KLEE: get_loop_incrs 293(94) flags
+
+KLEE: get_loop_incrs 294(94) (flags)+((fgetc(f))*(2^16))
+
+KLEE: get_loop_incrs 295(94) flags=(flags)+((fgetc(f))*(2^16))
+
+KLEE: get_loop_incrs 296(95) f
+
+KLEE: get_loop_incrs 297(95) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 298(95) 8
+
+KLEE: get_loop_incrs 299(95) klee_overshift_check(32,8)=klee_overshift_check(32,8)
+
+KLEE: get_loop_incrs 300(95) (fgetc(f))*(2^8)
+
+KLEE: get_loop_incrs 301(95) (fgetc(f))*(2^8)
+
+KLEE: get_loop_incrs 302(95) flags
+
+KLEE: get_loop_incrs 303(95) (flags)+((fgetc(f))*(2^8))
+
+KLEE: get_loop_incrs 304(95) flags=(flags)+((fgetc(f))*(2^8))
+
+KLEE: get_loop_incrs 305(96) f
+
+KLEE: get_loop_incrs 306(96) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 307(96) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 308(96) flags
+
+KLEE: get_loop_incrs 309(96) (flags)+(fgetc(f))
+
+KLEE: get_loop_incrs 310(96) flags=(flags)+(fgetc(f))
+
+KLEE: get_loop_incrs 311(98) flags
+
+KLEE: get_loop_incrs 312(98) (flags)&(4292870144)
+
+KLEE: get_loop_incrs 313(98) (flags)&(4292870144)!=4292870144?
+
+KLEE: get_loop_incrs 314(98) 
+
+KLEE: get_loop_incrs 317(102) numFrames
+
+KLEE: get_loop_incrs 318(102) (numFrames)+(1)
+
+KLEE: get_loop_incrs 319(102) numFrames=(numFrames)+(1)
+
+KLEE: get_loop_incrs: new IV numFrames
+
+KLEE: get_loop_incrs 320(104) flags
+
+KLEE: get_loop_incrs 321(104) (flags)&(61440)
+
+KLEE: get_loop_incrs 322(104) 12
+
+KLEE: get_loop_incrs 323(104) klee_overshift_check(64,12)=klee_overshift_check(64,12)
+
+KLEE: get_loop_incrs 324(104) ((flags)&(61440))/(2^12)
+
+KLEE: get_loop_incrs 325(104) ((flags)&(61440))/(2^12)
+
+KLEE: get_loop_incrs 326(104) bitrate_idx=((flags)&(61440))/(2^12)
+
+KLEE: get_loop_incrs 327(105) flags
+
+KLEE: get_loop_incrs 328(105) (flags)&(3072)
+
+KLEE: get_loop_incrs 329(105) 10
+
+KLEE: get_loop_incrs 330(105) klee_overshift_check(64,10)=klee_overshift_check(64,10)
+
+KLEE: get_loop_incrs 331(105) ((flags)&(3072))/(2^10)
+
+KLEE: get_loop_incrs 332(105) ((flags)&(3072))/(2^10)
+
+KLEE: get_loop_incrs 333(105) samplerate_idx=((flags)&(3072))/(2^10)
+
+KLEE: get_loop_incrs 334(107) flags
+
+KLEE: get_loop_incrs 335(107) (flags)&(192)
+
+KLEE: get_loop_incrs 336(107) (flags)&(192)==192?
+
+KLEE: get_loop_incrs 337(107) (flags)&(192)==192?1:2
+
+KLEE: get_loop_incrs 338(107) channels=(flags)&(192)==192?1:2
+
+KLEE: get_loop_incrs 339(109) flags
+
+KLEE: get_loop_incrs 340(109) (flags)&(1572864)
+
+KLEE: get_loop_incrs 341(109) 
+
+KLEE: get_loop_incrs 348(111) version=1
+
+KLEE: get_loop_incrs 349(111) 
+
+KLEE: get_loop_incrs 352(112) version=2
+
+KLEE: get_loop_incrs 353(112) 
+
+KLEE: get_loop_incrs 356(113) version=25
+
+KLEE: get_loop_incrs 357(113) 
+
+KLEE: get_loop_incrs 365(116) flags
+
+KLEE: get_loop_incrs 366(116) (flags)&(393216)
+
+KLEE: get_loop_incrs 367(116) 
+
+KLEE: get_loop_incrs 374(118) layer=1
+
+KLEE: get_loop_incrs 375(118) 
+
+KLEE: get_loop_incrs 378(119) layer=2
+
+KLEE: get_loop_incrs 379(119) 
+
+KLEE: get_loop_incrs 382(120) layer=3
+
+KLEE: get_loop_incrs 383(120) 
+
+KLEE: get_loop_incrs 391(124) bitrate
+
+KLEE: get_loop_incrs 392(124) bitrateSum
+
+KLEE: get_loop_incrs 393(124) (bitrateSum)+(bitrate)
+
+KLEE: get_loop_incrs 394(124) bitrateSum=(bitrateSum)+(bitrate)
+
+KLEE: get_loop_incrs: new IV bitrateSum
+
+KLEE: get_loop_incrs 395(126) version
+
+KLEE: get_loop_incrs 396(126) version==1?
+
+KLEE: get_loop_incrs 397(126) 
+
+KLEE: get_loop_incrs 400(128) samplerate_idx
+
+KLEE: get_loop_incrs 401(128) samplerate_idx
+
+KLEE: get_loop_incrs 402(128) mp1_samplerate_table+samplerate_idx
+
+KLEE: get_loop_incrs 403(128) mp1_samplerate_table+samplerate_idx
+
+KLEE: get_loop_incrs 404(128) samplerate=mp1_samplerate_table+samplerate_idx
+
+KLEE: get_loop_incrs: new IV samplerate
+
+KLEE: get_loop_incrs 405(130) layer
+
+KLEE: get_loop_incrs 406(130) layer==1?
+
+KLEE: get_loop_incrs 407(130) 
+
+KLEE: get_loop_incrs 410(131) bitrate_idx
+
+KLEE: get_loop_incrs 411(131) bitrate_idx
+
+KLEE: get_loop_incrs 412(131) mp1l1_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 413(131) mp1l1_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 414(131) bitrate=mp1l1_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs: new IV bitrate
+
+KLEE: get_loop_incrs 415(131) 
+
+KLEE: get_loop_incrs 418(133) layer
+
+KLEE: get_loop_incrs 419(133) layer==2?
+
+KLEE: get_loop_incrs 420(133) 
+
+KLEE: get_loop_incrs 423(134) bitrate_idx
+
+KLEE: get_loop_incrs 424(134) bitrate_idx
+
+KLEE: get_loop_incrs 425(134) mp1l2_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 426(134) mp1l2_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 427(134) bitrate=mp1l2_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 428(134) 
+
+KLEE: get_loop_incrs 431(136) layer
+
+KLEE: get_loop_incrs 432(136) layer==3?
+
+KLEE: get_loop_incrs 433(136) 
+
+KLEE: get_loop_incrs 436(137) bitrate_idx
+
+KLEE: get_loop_incrs 437(137) bitrate_idx
+
+KLEE: get_loop_incrs 438(137) mp1l3_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 439(137) mp1l3_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 440(137) bitrate=mp1l3_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 441(137) 
+
+KLEE: get_loop_incrs 444(141) version
+
+KLEE: get_loop_incrs 445(141) version==2?
+
+KLEE: get_loop_incrs 446(142) samplerate_idx
+
+KLEE: get_loop_incrs 447(142) samplerate_idx
+
+KLEE: get_loop_incrs 448(141) 
+
+KLEE: get_loop_incrs 463(146) layer
+
+KLEE: get_loop_incrs 464(146) layer==1?
+
+KLEE: get_loop_incrs 465(147) bitrate_idx
+
+KLEE: get_loop_incrs 466(147) bitrate_idx
+
+KLEE: get_loop_incrs 467(146) 
+
+KLEE: get_loop_incrs 482(152) flags
+
+KLEE: get_loop_incrs 483(152) (flags)&(512)
+
+KLEE: get_loop_incrs 484(152) (flags)&(512)!=0?
+
+KLEE: get_loop_incrs 485(152) (flags)&(512)!=0?1:0
+
+KLEE: get_loop_incrs 486(152) padding=(flags)&(512)!=0?1:0
+
+KLEE: get_loop_incrs 487(154) layer
+
+KLEE: get_loop_incrs 488(154) layer==1?
+
+KLEE: get_loop_incrs 489(154) 
+
+KLEE: get_loop_incrs 492(155) padding
+
+KLEE: get_loop_incrs 493(155) 2
+
+KLEE: get_loop_incrs 494(155) klee_overshift_check(32,2)=klee_overshift_check(32,2)
+
+KLEE: get_loop_incrs 495(155) (padding)*(2^2)
+
+KLEE: get_loop_incrs 496(155) padding=(padding)*(2^2)
+
+KLEE: get_loop_incrs 497(155) 
+
+KLEE: get_loop_incrs 500(157) version
+
+KLEE: get_loop_incrs 501(157) version==1?
+
+KLEE: get_loop_incrs 502(158) bitrate
+
+KLEE: get_loop_incrs 503(157) 
+
+KLEE: get_loop_incrs 530(163) numFrames
+
+KLEE: get_loop_incrs 531(163) version
+
+KLEE: get_loop_incrs 532(163) layer
+
+KLEE: get_loop_incrs 533(163) samplerate
+
+KLEE: get_loop_incrs 534(163) bitrate
+
+KLEE: get_loop_incrs 535(164) channels
+
+KLEE: get_loop_incrs 536(164) channels==2?
+
+KLEE: get_loop_incrs 537(164) channels==2?str.3:str.4
+
+KLEE: get_loop_incrs 538(164) frameLen
+
+KLEE: get_loop_incrs 539(165) flags
+
+KLEE: get_loop_incrs 540(165) (flags)&(65536)
+
+KLEE: get_loop_incrs 541(165) (flags)&(65536)!=0?
+
+KLEE: get_loop_incrs 542(165) (flags)&(65536)!=0?str.5:str.6
+
+KLEE: get_loop_incrs 543(162) printf(str.2,numFrames,version,layer,samplerate,bitrate,channels==2?str.3:str.4,frameLen,(flags)&(65536)!=0?str.5:str.6)=printf(str.2,numFrames,version,layer,samplerate,bitrate,channels==2?str.3:str.4,frameLen,(flags)&(65536)!=0?str.5:str.6)
+
+KLEE: get_loop_incrs 544(167) f
+
+KLEE: get_loop_incrs 545(167) frameLen
+
+KLEE: get_loop_incrs 546(167) (frameLen)-(4)
+
+KLEE: get_loop_incrs 547(167) skipBytes(f,(frameLen)-(4))=skipBytes(f,(frameLen)-(4))
+
+KLEE: get_loop_incrs 548(74) 
+
+KLEE: get_loop_incrs 240(77) f
+
+KLEE: get_loop_incrs 241(77) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 242(77) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 243(77) flags=fgetc(f)
+
+KLEE: get_loop_incrs 244(77) fgetc(f)==-1?
+
+KLEE: get_loop_incrs 245(77) 
+
+KLEE: get_loop_incrs 248(81) flags
+
+KLEE: get_loop_incrs 249(81) flags==73?
+
+KLEE: get_loop_incrs 250(81) 
+
+KLEE: get_loop_incrs 253(81) f
+
+KLEE: get_loop_incrs 254(81) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 255(81) fgetc(f)==68?
+
+KLEE: get_loop_incrs 256(81) 
+
+KLEE: get_loop_incrs 259(81) f
+
+KLEE: get_loop_incrs 260(81) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 261(81) fgetc(f)==51?
+
+KLEE: get_loop_incrs 262(81) 
+
+KLEE: get_loop_incrs 265(85) f
+
+KLEE: get_loop_incrs 266(85) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 267(85) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 268(85) flags=fgetc(f)
+
+KLEE: get_loop_incrs 269(87) flags
+
+KLEE: get_loop_incrs 270(87) flags!=255?
+
+KLEE: get_loop_incrs 271(87) flags
+
+KLEE: get_loop_incrs 272(87) flags!=-1?
+
+KLEE: get_loop_incrs 273(87) flags!=255?flags!=-1?:0
+
+KLEE: get_loop_incrs 274(86) 
+
+KLEE: get_loop_incrs 277(90) flags
+
+KLEE: get_loop_incrs 278(90) flags==-1?
+
+KLEE: get_loop_incrs 279(90) 
+
+KLEE: get_loop_incrs 282(93) flags
+
+KLEE: get_loop_incrs 283(93) 24
+
+KLEE: get_loop_incrs 284(93) klee_overshift_check(64,24)=klee_overshift_check(64,24)
+
+KLEE: get_loop_incrs 285(93) (flags)*(2^24)
+
+KLEE: get_loop_incrs 286(93) flags=(flags)*(2^24)
+
+KLEE: get_loop_incrs 287(94) f
+
+KLEE: get_loop_incrs 288(94) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 289(94) 16
+
+KLEE: get_loop_incrs 290(94) klee_overshift_check(32,16)=klee_overshift_check(32,16)
+
+KLEE: get_loop_incrs 291(94) (fgetc(f))*(2^16)
+
+KLEE: get_loop_incrs 292(94) (fgetc(f))*(2^16)
+
+KLEE: get_loop_incrs 293(94) flags
+
+KLEE: get_loop_incrs 294(94) (flags)+((fgetc(f))*(2^16))
+
+KLEE: get_loop_incrs 295(94) flags=(flags)+((fgetc(f))*(2^16))
+
+KLEE: get_loop_incrs 296(95) f
+
+KLEE: get_loop_incrs 297(95) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 298(95) 8
+
+KLEE: get_loop_incrs 299(95) klee_overshift_check(32,8)=klee_overshift_check(32,8)
+
+KLEE: get_loop_incrs 300(95) (fgetc(f))*(2^8)
+
+KLEE: get_loop_incrs 301(95) (fgetc(f))*(2^8)
+
+KLEE: get_loop_incrs 302(95) flags
+
+KLEE: get_loop_incrs 303(95) (flags)+((fgetc(f))*(2^8))
+
+KLEE: get_loop_incrs 304(95) flags=(flags)+((fgetc(f))*(2^8))
+
+KLEE: get_loop_incrs 305(96) f
+
+KLEE: get_loop_incrs 306(96) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 307(96) fgetc(f)=fgetc(f)
+
+KLEE: get_loop_incrs 308(96) flags
+
+KLEE: get_loop_incrs 309(96) (flags)+(fgetc(f))
+
+KLEE: get_loop_incrs 310(96) flags=(flags)+(fgetc(f))
+
+KLEE: get_loop_incrs 311(98) flags
+
+KLEE: get_loop_incrs 312(98) (flags)&(4292870144)
+
+KLEE: get_loop_incrs 313(98) (flags)&(4292870144)!=4292870144?
+
+KLEE: get_loop_incrs 314(98) 
+
+KLEE: get_loop_incrs 317(102) numFrames
+
+KLEE: get_loop_incrs 318(102) (numFrames)+(1)
+
+KLEE: get_loop_incrs 319(102) numFrames=(numFrames)+(1)
+
+KLEE: get_loop_incrs 320(104) flags
+
+KLEE: get_loop_incrs 321(104) (flags)&(61440)
+
+KLEE: get_loop_incrs 322(104) 12
+
+KLEE: get_loop_incrs 323(104) klee_overshift_check(64,12)=klee_overshift_check(64,12)
+
+KLEE: get_loop_incrs 324(104) ((flags)&(61440))/(2^12)
+
+KLEE: get_loop_incrs 325(104) ((flags)&(61440))/(2^12)
+
+KLEE: get_loop_incrs 326(104) bitrate_idx=((flags)&(61440))/(2^12)
+
+KLEE: get_loop_incrs 327(105) flags
+
+KLEE: get_loop_incrs 328(105) (flags)&(3072)
+
+KLEE: get_loop_incrs 329(105) 10
+
+KLEE: get_loop_incrs 330(105) klee_overshift_check(64,10)=klee_overshift_check(64,10)
+
+KLEE: get_loop_incrs 331(105) ((flags)&(3072))/(2^10)
+
+KLEE: get_loop_incrs 332(105) ((flags)&(3072))/(2^10)
+
+KLEE: get_loop_incrs 333(105) samplerate_idx=((flags)&(3072))/(2^10)
+
+KLEE: get_loop_incrs 334(107) flags
+
+KLEE: get_loop_incrs 335(107) (flags)&(192)
+
+KLEE: get_loop_incrs 336(107) (flags)&(192)==192?
+
+KLEE: get_loop_incrs 337(107) (flags)&(192)==192?1:2
+
+KLEE: get_loop_incrs 338(107) channels=(flags)&(192)==192?1:2
+
+KLEE: get_loop_incrs 339(109) flags
+
+KLEE: get_loop_incrs 340(109) (flags)&(1572864)
+
+KLEE: get_loop_incrs 341(109) 
+
+KLEE: get_loop_incrs 348(111) version=1
+
+KLEE: get_loop_incrs 349(111) 
+
+KLEE: get_loop_incrs 352(112) version=2
+
+KLEE: get_loop_incrs 353(112) 
+
+KLEE: get_loop_incrs 356(113) version=25
+
+KLEE: get_loop_incrs 357(113) 
+
+KLEE: get_loop_incrs 365(116) flags
+
+KLEE: get_loop_incrs 366(116) (flags)&(393216)
+
+KLEE: get_loop_incrs 367(116) 
+
+KLEE: get_loop_incrs 374(118) layer=1
+
+KLEE: get_loop_incrs 375(118) 
+
+KLEE: get_loop_incrs 378(119) layer=2
+
+KLEE: get_loop_incrs 379(119) 
+
+KLEE: get_loop_incrs 382(120) layer=3
+
+KLEE: get_loop_incrs 383(120) 
+
+KLEE: get_loop_incrs 391(124) bitrate
+
+KLEE: get_loop_incrs 392(124) bitrateSum
+
+KLEE: get_loop_incrs 393(124) (bitrateSum)+(bitrate)
+
+KLEE: get_loop_incrs 394(124) bitrateSum=(bitrateSum)+(bitrate)
+
+KLEE: get_loop_incrs 395(126) version
+
+KLEE: get_loop_incrs 396(126) version==1?
+
+KLEE: get_loop_incrs 397(126) 
+
+KLEE: get_loop_incrs 400(128) samplerate_idx
+
+KLEE: get_loop_incrs 401(128) samplerate_idx
+
+KLEE: get_loop_incrs 402(128) mp1_samplerate_table+samplerate_idx
+
+KLEE: get_loop_incrs 403(128) mp1_samplerate_table+samplerate_idx
+
+KLEE: get_loop_incrs 404(128) samplerate=mp1_samplerate_table+samplerate_idx
+
+KLEE: get_loop_incrs 405(130) layer
+
+KLEE: get_loop_incrs 406(130) layer==1?
+
+KLEE: get_loop_incrs 407(130) 
+
+KLEE: get_loop_incrs 410(131) bitrate_idx
+
+KLEE: get_loop_incrs 411(131) bitrate_idx
+
+KLEE: get_loop_incrs 412(131) mp1l1_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 413(131) mp1l1_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 414(131) bitrate=mp1l1_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 415(131) 
+
+KLEE: get_loop_incrs 418(133) layer
+
+KLEE: get_loop_incrs 419(133) layer==2?
+
+KLEE: get_loop_incrs 420(133) 
+
+KLEE: get_loop_incrs 423(134) bitrate_idx
+
+KLEE: get_loop_incrs 424(134) bitrate_idx
+
+KLEE: get_loop_incrs 425(134) mp1l2_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 426(134) mp1l2_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 427(134) bitrate=mp1l2_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 428(134) 
+
+KLEE: get_loop_incrs 431(136) layer
+
+KLEE: get_loop_incrs 432(136) layer==3?
+
+KLEE: get_loop_incrs 433(136) 
+
+KLEE: get_loop_incrs 436(137) bitrate_idx
+
+KLEE: get_loop_incrs 437(137) bitrate_idx
+
+KLEE: get_loop_incrs 438(137) mp1l3_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 439(137) mp1l3_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 440(137) bitrate=mp1l3_bitrate_table+bitrate_idx
+
+KLEE: get_loop_incrs 441(137) 
+
+KLEE: get_loop_incrs 444(141) version
+
+KLEE: get_loop_incrs 445(141) version==2?
+
+KLEE: get_loop_incrs 446(142) samplerate_idx
+
+KLEE: get_loop_incrs 447(142) samplerate_idx
+
+KLEE: get_loop_incrs 448(141) 
+
+KLEE: get_loop_incrs 463(146) layer
+
+KLEE: get_loop_incrs 464(146) layer==1?
+
+KLEE: get_loop_incrs 465(147) bitrate_idx
+
+KLEE: get_loop_incrs 466(147) bitrate_idx
+
+KLEE: get_loop_incrs 467(146) 
+
+KLEE: get_loop_incrs 482(152) flags
+
+KLEE: get_loop_incrs 483(152) (flags)&(512)
+
+KLEE: get_loop_incrs 484(152) (flags)&(512)!=0?
+
+KLEE: get_loop_incrs 485(152) (flags)&(512)!=0?1:0
+
+KLEE: get_loop_incrs 486(152) padding=(flags)&(512)!=0?1:0
+
+KLEE: get_loop_incrs 487(154) layer
+
+KLEE: get_loop_incrs 488(154) layer==1?
+
+KLEE: get_loop_incrs 489(154) 
+
+KLEE: get_loop_incrs 492(155) padding
+
+KLEE: get_loop_incrs 493(155) 2
+
+KLEE: get_loop_incrs 494(155) klee_overshift_check(32,2)=klee_overshift_check(32,2)
+
+KLEE: get_loop_incrs 495(155) (padding)*(2^2)
+
+KLEE: get_loop_incrs 496(155) padding=(padding)*(2^2)
+
+KLEE: get_loop_incrs 497(155) 
+
+KLEE: get_loop_incrs 500(157) version
+
+KLEE: get_loop_incrs 501(157) version==1?
+
+KLEE: get_loop_incrs 502(158) bitrate
+
+KLEE: get_loop_incrs 503(157) 
+
+KLEE: get_loop_incrs 530(163) numFrames
+
+KLEE: get_loop_incrs 531(163) version
+
+KLEE: get_loop_incrs 532(163) layer
+
+KLEE: get_loop_incrs 533(163) samplerate
+
+KLEE: get_loop_incrs 534(163) bitrate
+
+KLEE: get_loop_incrs 535(164) channels
+
+KLEE: get_loop_incrs 536(164) channels==2?
+
+KLEE: get_loop_incrs 537(164) channels==2?str.3:str.4
+
+KLEE: get_loop_incrs 538(164) frameLen
+
+KLEE: get_loop_incrs 539(165) flags
+
+KLEE: get_loop_incrs 540(165) (flags)&(65536)
+
+KLEE: get_loop_incrs 541(165) (flags)&(65536)!=0?
+
+KLEE: get_loop_incrs 542(165) (flags)&(65536)!=0?str.5:str.6
+
+KLEE: get_loop_incrs 543(162) printf(str.2,numFrames,version,layer,samplerate,bitrate,channels==2?str.3:str.4,frameLen,(flags)&(65536)!=0?str.5:str.6)=printf(str.2,numFrames,version,layer,samplerate,bitrate,channels==2?str.3:str.4,frameLen,(flags)&(65536)!=0?str.5:str.6)
+
+KLEE: get_loop_incrs 544(167) f
+
+KLEE: get_loop_incrs 545(167) frameLen
+
+KLEE: get_loop_incrs 546(167) (frameLen)-(4)
+
+KLEE: get_loop_incrs 547(167) skipBytes(f,(frameLen)-(4))=skipBytes(f,(frameLen)-(4))
+
+KLEE: get_loop_incrs 548(74) 
+
+KLEE: enclosing loop 2 iter:fgetc(f) begin:fgetc(f) end:-1
+
+KLEE: increments
+
+KLEE: 	 bitrate: (mp1l1_bitrate_table)+(bitrate_idx)
+
+KLEE: 	 bitrateSum: 0
+
+KLEE: 	 numFrames: 1
+
+KLEE: 	 samplerate: (-0)+((mp1_samplerate_table)+(samplerate_idx))
+
+KLEE: Invalid iter increment!
+
+KLEE: Assume loop executes only once before fault
+
+KLEE: iter_incr: count:1
+
+KLEE: accumulated increments
+
+KLEE: 	 bitrate: (1) * ((bitrate_idx)+(mp1l1_bitrate_table))
+KLEE: 	 bitrateSum: (1) * (0)
+KLEE: 	 fgetc(f): (1) * (1)
+KLEE: 	 numFrames: (1) * (1)
+KLEE: 	 samplerate: (1) * ((mp1_samplerate_table)+(samplerate_idx))
+KLEE: propagate increments
+
+KLEE: 	 0: (bitrate_idx)+(mp1l1_bitrate_table)
+KLEE: 	 0: 0
+KLEE: 	 fgetc(f): 1
+KLEE: 	 0: 1
+KLEE: 	 0: (samplerate_idx)+(mp1_samplerate_table)
+KLEE: Unable to find increment for variable samplerate_idx
+
+update_se_for_func printMP3Headers
+KLEE: Print SE for printMP3Headers
+Cloning loop: slicer -criteria=printMP3Headers:128 -controldep=./listmp3.bc.talos -sefile=klee-last/printMP3Headers.SE ./listmp3.bc
+get_slice_lines printMP3Headers
+	Found slice lines
+find_first_assn mp1_samplerate_table+samplerate_idx
+KLEE: Creating patch in ./listmp3.bc.patch
+
+update_se_for_func __user_main
+KLEE: Print SE for __user_main
+Cloning loop: slicer -criteria=__user_main:191 -controldep=./listmp3.bc.talos -sefile=klee-last/__user_main.SE ./listmp3.bc
+Failed to run slicer!
+se_mappings for buf access increment
+	__user_main: printMP3Headers_clone_end
+
+KLEE: converge...
+se_mappings for buffer size
+	printMP3Headers: 12
+
+se_mappings for access range
+	__user_main: printMP3Headers_clone_end
+
+KLEE: Fault@403 R (5595a0c) listmp3.c:128
+
+KLEE: ERROR: listmp3.c:128: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+
+KLEE: done: total instructions = 7788
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1
