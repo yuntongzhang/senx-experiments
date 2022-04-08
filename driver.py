@@ -15,6 +15,7 @@ FILE_GDB_SCRIPT = "gdb_script"
 PATTERN_TALOS = "*.bc.talos"
 PATTERN_PATCH = "*.bc.patch"
 
+DEFAULT_LIST = list(range(1, 40)) # 39 entries in total
 
 def main():
     parser = argparse.ArgumentParser(description="Driver to run SenX on all vulnerabilities.")
@@ -26,18 +27,29 @@ def main():
                         help='Only save the result of previous run to some dir.')
     parser.add_argument('--cleanup', default=False, action='store_true',
                         help='Clean up files generated from last run.')
+    parser.add_argument('--bug', action='append', type=int,
+                        help='Specify which bug(s) to run. If nothing specified, all will be run.')
 
     parsed_args = parser.parse_args()
     setup_only = parsed_args.setup
     run_only = parsed_args.run
     save_result = parsed_args.saveres
     clean_up = parsed_args.cleanup
+    selected_vul_list = parsed_args.bug
+
+    if selected_vul_list: # user speicified some
+        vul_ids_to_run = selected_vul_list
+    else: # user did not specify anything
+        vul_ids_to_run = DEFAULT_LIST
 
     with open(FILE_META_DATA, 'r') as f:
         vulnerabilities = json.load(f)
 
     curr_dir = os.getcwd()
     for vulnerability in vulnerabilities:
+        if int(vulnerabilities['id']) not in vul_ids_to_run:
+            continue
+
         bug_name = str(vulnerability['bug_id'])
         subject = str(vulnerability['subject'])
 
