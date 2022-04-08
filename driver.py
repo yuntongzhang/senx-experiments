@@ -47,7 +47,7 @@ def main():
         os.chdir(vul_dir)
         if save_result:
             # determine the name for result directory
-            existing_dirs = [x[0] for x in os.walk(vul_dir)]
+            existing_dirs = os.listdir(vul_dir)
             num_existing_res = 0
             res_dir_pattern = re.compile("^result-([0-9]+)")
             for dir in existing_dirs:
