@@ -47,7 +47,7 @@ def main():
 
     curr_dir = os.getcwd()
     for vulnerability in vulnerabilities:
-        if int(vulnerabilities['id']) not in vul_ids_to_run:
+        if int(vulnerability['id']) not in vul_ids_to_run:
             continue
 
         bug_name = str(vulnerability['bug_id'])
