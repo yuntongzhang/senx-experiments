@@ -1,0 +1,10 @@
+File: tiffcrop.c
+Function: readSeparateTilesIntoBuffer
+Line: 994
++	if ((imagewidth)*((((1/(tw))/(tl))*(imagelength))*(spp)) >= 64)
++		exit(0);
+File: tiffcrop.c
+Function: loadImage
+Line: 6079
++	if (0 >= 64)
++		exit(0);

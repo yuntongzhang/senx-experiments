@@ -3,7 +3,7 @@ KLEE: NOTE: Using libxml2: /home/user/Projects/Senx/code/build3.8/Release+Debug+
 KLEE: NOTE: Using libpcap: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libpcap.bca
 KLEE: NOTE: Using klee-uclibc : /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/klee-uclibc.bca
 KLEE: NOTE: Using model: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libkleeRuntimePOSIX.bca
-KLEE: output directory is "/home/user/senx-experiments/libjpeg/cve_2018_14498/./klee-out-0"
+KLEE: output directory is "/home/user/senx-experiments/libjpeg/cve_2018_14498/./klee-out-2"
 KLEE: loadSensitiveFunctionList __assert_fail
 KLEE: loadSensitiveFunctionList sqlite3_realloc
 KLEE: loadSensitiveFunctionList sqlite3_alloc
@@ -22,6 +22,10 @@ Error at line 13 in def_file
 Error at line 15 in def_file
 Error at line 17 in def_file
 Error at line 19 in def_file
+Error at line 21 in def_file
+Error at line 23 in def_file
+Error at line 25 in def_file
+Error at line 27 in def_file
 	jpeg_component_info component_id:int
 	jpeg_component_info component_index:int
 	jpeg_component_info h_samp_factor:int
@@ -51,15 +55,15 @@ Error at line 19 in def_file
 	JHUFF_TBL huffval:UINT8 [256]
 	JHUFF_TBL None:<range type>
 	JHUFF_TBL sent_table:boolean
-Error at line 59 in def_file
-Error at line 61 in def_file
-Error at line 63 in def_file
-Error at line 65 in def_file
 Error at line 67 in def_file
 Error at line 69 in def_file
 Error at line 71 in def_file
 Error at line 73 in def_file
 Error at line 75 in def_file
+Error at line 77 in def_file
+Error at line 79 in def_file
+Error at line 81 in def_file
+Error at line 83 in def_file
 	jpeg_scan_info comps_in_scan:int
 	jpeg_scan_info component_index:int [4]
 	jpeg_scan_info None:<range type>
@@ -67,7 +71,7 @@ Error at line 75 in def_file
 	jpeg_scan_info Se:int
 	jpeg_scan_info Ah:int
 	jpeg_scan_info Al:int
-Error at line 87 in def_file
+Error at line 95 in def_file
 	cjpeg_source_struct start_input:void (*)(j_compress_ptr, cjpeg_source_ptr)
 	cjpeg_source_struct get_pixel_rows:JDIMENSION (*)(j_compress_ptr, cjpeg_source_ptr)
 	cjpeg_source_struct finish_input:void (*)(j_compress_ptr, cjpeg_source_ptr)
@@ -79,9 +83,327 @@ Error at line 87 in def_file
 	cjpeg_source_struct buffer_width:size_t
 	cjpeg_source_struct rescale:JSAMPLE *
 	cjpeg_source_struct maxval:int
-Error at line 104 in def_file
-Error at line 106 in def_file
-Error at line 108 in def_file
+Error at line 112 in def_file
+Error at line 114 in def_file
+Error at line 116 in def_file
+Error at line 118 in def_file
+Error at line 120 in def_file
+Error at line 122 in def_file
+Error at line 124 in def_file
+Error at line 126 in def_file
+Error at line 128 in def_file
+Error at line 130 in def_file
+Error at line 132 in def_file
+Error at line 134 in def_file
+Error at line 136 in def_file
+Error at line 138 in def_file
+Error at line 140 in def_file
+Error at line 142 in def_file
+Error at line 144 in def_file
+Error at line 146 in def_file
+Error at line 148 in def_file
+Error at line 150 in def_file
+Error at line 152 in def_file
+Error at line 154 in def_file
+Error at line 156 in def_file
+Error at line 158 in def_file
+Error at line 160 in def_file
+Error at line 162 in def_file
+Error at line 164 in def_file
+Error at line 166 in def_file
+Error at line 168 in def_file
+Error at line 170 in def_file
+Error at line 172 in def_file
+Error at line 174 in def_file
+Error at line 176 in def_file
+Error at line 178 in def_file
+Error at line 180 in def_file
+Error at line 182 in def_file
+	jpeg_c_main_controller start_pass:void (*)(j_compress_ptr, J_BUF_MODE)
+	jpeg_c_main_controller process_data:void (*)(j_compress_ptr, JSAMPARRAY, JDIMENSION *, JDIMENSION)
+	jpeg_c_main_controller cur_iMCU_row:JDIMENSION
+	jpeg_c_main_controller rowgroup_ctr:JDIMENSION
+	jpeg_c_main_controller suspended:boolean
+	jpeg_c_main_controller pass_mode:J_BUF_MODE
+	jpeg_c_main_controller buffer:JSAMPARRAY [10]
+	jpeg_c_main_controller None:<range type>
+Error at line 196 in def_file
+Error at line 198 in def_file
+Error at line 200 in def_file
+Error at line 202 in def_file
+Error at line 204 in def_file
+Error at line 206 in def_file
+Error at line 208 in def_file
+Error at line 210 in def_file
+Error at line 212 in def_file
+Error at line 214 in def_file
+	jpeg_marker_writer write_file_header:void (*)(j_compress_ptr)
+	jpeg_marker_writer write_frame_header:void (*)(j_compress_ptr)
+	jpeg_marker_writer write_scan_header:void (*)(j_compress_ptr)
+	jpeg_marker_writer write_file_trailer:void (*)(j_compress_ptr)
+	jpeg_marker_writer write_tables_only:void (*)(j_compress_ptr)
+	jpeg_marker_writer write_marker_header:void (*)(j_compress_ptr, int, unsigned int)
+	jpeg_marker_writer write_marker_byte:void (*)(j_compress_ptr, int)
+	jpeg_marker_writer last_restart_interval:unsigned int
+Error at line 228 in def_file
+Error at line 230 in def_file
+Error at line 232 in def_file
+Error at line 234 in def_file
+Error at line 236 in def_file
+Error at line 238 in def_file
+Error at line 240 in def_file
+Error at line 242 in def_file
+Error at line 244 in def_file
+Error at line 246 in def_file
+Error at line 248 in def_file
+	jpeg_comp_master prepare_for_pass:void (*)(j_compress_ptr)
+	jpeg_comp_master pass_startup:void (*)(j_compress_ptr)
+	jpeg_comp_master finish_pass:void (*)(j_compress_ptr)
+	jpeg_comp_master call_pass_startup:boolean
+	jpeg_comp_master is_last_pass:boolean
+	jpeg_comp_master pass_type:c_pass_type
+	jpeg_comp_master pass_number:int
+	jpeg_comp_master total_passes:int
+	jpeg_comp_master scan_number:int
+	jpeg_comp_master jpeg_version:const char *
+Error at line 264 in def_file
+Error at line 266 in def_file
+Error at line 268 in def_file
+Error at line 270 in def_file
+Error at line 272 in def_file
+Error at line 274 in def_file
+Error at line 276 in def_file
+Error at line 278 in def_file
+Error at line 280 in def_file
+Error at line 282 in def_file
+Error at line 284 in def_file
+Error at line 286 in def_file
+Error at line 288 in def_file
+Error at line 290 in def_file
+Error at line 292 in def_file
+Error at line 294 in def_file
+Error at line 296 in def_file
+Error at line 298 in def_file
+Error at line 300 in def_file
+Error at line 302 in def_file
+Error at line 304 in def_file
+Error at line 306 in def_file
+Error at line 308 in def_file
+Error at line 310 in def_file
+Error at line 312 in def_file
+Error at line 314 in def_file
+Error at line 316 in def_file
+Error at line 318 in def_file
+Error at line 320 in def_file
+Error at line 322 in def_file
+	jpeg_entropy_encoder start_pass:void (*)(j_compress_ptr, boolean)
+	jpeg_entropy_encoder encode_mcu:boolean (*)(j_compress_ptr, JBLOCKROW *)
+	jpeg_entropy_encoder finish_pass:void (*)(j_compress_ptr)
+	jpeg_entropy_encoder gather_statistics:boolean
+	jpeg_entropy_encoder next_output_byte:JOCTET *
+	jpeg_entropy_encoder free_in_buffer:size_t
+	jpeg_entropy_encoder put_buffer:size_t
+	jpeg_entropy_encoder put_bits:int
+	jpeg_entropy_encoder cinfo:j_compress_ptr
+	jpeg_entropy_encoder last_dc_val:int [4]
+	jpeg_entropy_encoder None:<range type>
+	jpeg_entropy_encoder ac_tbl_no:int
+	jpeg_entropy_encoder EOBRUN:unsigned int
+	jpeg_entropy_encoder BE:unsigned int
+	jpeg_entropy_encoder bit_buffer:char *
+	jpeg_entropy_encoder restarts_to_go:unsigned int
+	jpeg_entropy_encoder next_restart_num:int
+	jpeg_entropy_encoder derived_tbls:c_derived_tbl *[4]
+	jpeg_entropy_encoder None:<range type>
+	jpeg_entropy_encoder count_ptrs:long int *[4]
+	jpeg_entropy_encoder None:<range type>
+	c_derived_tbl ehufco:unsigned int [256]
+	c_derived_tbl None:<range type>
+	c_derived_tbl ehufsi:char [256]
+	c_derived_tbl None:<range type>
+Error at line 356 in def_file
+Error at line 358 in def_file
+Error at line 360 in def_file
+Error at line 362 in def_file
+Error at line 364 in def_file
+Error at line 366 in def_file
+Error at line 368 in def_file
+Error at line 370 in def_file
+Error at line 372 in def_file
+Error at line 374 in def_file
+Error at line 376 in def_file
+	jpeg_c_prep_controller start_pass:void (*)(j_compress_ptr, J_BUF_MODE)
+	jpeg_c_prep_controller pre_process_data:void (*)(j_compress_ptr, JSAMPARRAY, JDIMENSION *, JDIMENSION, JSAMPIMAGE, JDIMENSION *, JDIMENSION)
+	jpeg_c_prep_controller color_buf:JSAMPARRAY [10]
+	jpeg_c_prep_controller None:<range type>
+	jpeg_c_prep_controller rows_to_go:JDIMENSION
+	jpeg_c_prep_controller next_buf_row:int
+	jpeg_c_prep_controller this_row_group:int
+	jpeg_c_prep_controller next_buf_stop:int
+	jpeg_downsampler start_pass:void (*)(j_compress_ptr)
+	jpeg_downsampler downsample:void (*)(j_compress_ptr, JSAMPIMAGE, JDIMENSION, JSAMPIMAGE, JDIMENSION)
+	jpeg_downsampler need_context_rows:boolean
+	jpeg_downsampler methods:downsample1_ptr [10]
+	jpeg_downsampler None:<range type>
+	jpeg_destination_mgr next_output_byte:JOCTET *
+	jpeg_destination_mgr free_in_buffer:size_t
+	jpeg_destination_mgr init_destination:void (*)(j_compress_ptr)
+	jpeg_destination_mgr empty_output_buffer:boolean (*)(j_compress_ptr)
+	jpeg_destination_mgr term_destination:void (*)(j_compress_ptr)
+	jpeg_destination_mgr outfile:FILE *
+	jpeg_destination_mgr buffer:JOCTET *
+	jpeg_destination_mgr next_output_byte:JOCTET *
+	jpeg_destination_mgr free_in_buffer:size_t
+	jpeg_destination_mgr init_destination:void (*)(j_compress_ptr)
+	jpeg_destination_mgr empty_output_buffer:boolean (*)(j_compress_ptr)
+	jpeg_destination_mgr term_destination:void (*)(j_compress_ptr)
+	jpeg_destination_mgr outbuffer:unsigned char **
+	jpeg_destination_mgr outsize:long unsigned int *
+	jpeg_destination_mgr newbuffer:unsigned char *
+	jpeg_destination_mgr buffer:JOCTET *
+	jpeg_destination_mgr bufsize:size_t
+	jpeg_memory_mgr alloc_small:void *(*)(j_common_ptr, int, size_t)
+	jpeg_memory_mgr alloc_large:void *(*)(j_common_ptr, int, size_t)
+	jpeg_memory_mgr alloc_sarray:JSAMPARRAY (*)(j_common_ptr, int, JDIMENSION, JDIMENSION)
+	jpeg_memory_mgr alloc_barray:JBLOCKARRAY (*)(j_common_ptr, int, JDIMENSION, JDIMENSION)
+	jpeg_memory_mgr request_virt_sarray:jvirt_sarray_ptr (*)(j_common_ptr, int, boolean, JDIMENSION, JDIMENSION, JDIMENSION)
+	jpeg_memory_mgr request_virt_barray:jvirt_barray_ptr (*)(j_common_ptr, int, boolean, JDIMENSION, JDIMENSION, JDIMENSION)
+	jpeg_memory_mgr realize_virt_arrays:void (*)(j_common_ptr)
+	jpeg_memory_mgr access_virt_sarray:JSAMPARRAY (*)(j_common_ptr, jvirt_sarray_ptr, JDIMENSION, JDIMENSION, boolean)
+	jpeg_memory_mgr access_virt_barray:JBLOCKARRAY (*)(j_common_ptr, jvirt_barray_ptr, JDIMENSION, JDIMENSION, boolean)
+	jpeg_memory_mgr free_pool:void (*)(j_common_ptr, int)
+	jpeg_memory_mgr self_destruct:void (*)(j_common_ptr)
+	jpeg_memory_mgr max_memory_to_use:long int
+	jpeg_memory_mgr max_alloc_chunk:long int
+	jpeg_memory_mgr small_list:small_pool_ptr [2]
+	jpeg_memory_mgr None:<range type>
+	jpeg_memory_mgr large_list:large_pool_ptr [2]
+	jpeg_memory_mgr None:<range type>
+	jpeg_memory_mgr virt_sarray_list:jvirt_sarray_ptr
+	jpeg_memory_mgr virt_barray_list:jvirt_barray_ptr
+	jpeg_memory_mgr total_space_allocated:size_t
+	jpeg_memory_mgr last_rowsperchunk:JDIMENSION
+Error at line 449 in def_file
+Error at line 451 in def_file
+Error at line 453 in def_file
+Error at line 455 in def_file
+Error at line 457 in def_file
+Error at line 459 in def_file
+Error at line 461 in def_file
+	jpeg_entropy_encoder start_pass:void (*)(j_compress_ptr, boolean)
+	jpeg_entropy_encoder encode_mcu:boolean (*)(j_compress_ptr, JBLOCKROW *)
+	jpeg_entropy_encoder finish_pass:void (*)(j_compress_ptr)
+	jpeg_entropy_encoder c:JLONG
+	jpeg_entropy_encoder a:JLONG
+	jpeg_entropy_encoder sc:JLONG
+	jpeg_entropy_encoder zc:JLONG
+	jpeg_entropy_encoder ct:int
+	jpeg_entropy_encoder buffer:int
+	jpeg_entropy_encoder last_dc_val:int [4]
+	jpeg_entropy_encoder None:<range type>
+	jpeg_entropy_encoder dc_context:int [4]
+	jpeg_entropy_encoder None:<range type>
+	jpeg_entropy_encoder restarts_to_go:unsigned int
+	jpeg_entropy_encoder next_restart_num:int
+	jpeg_entropy_encoder dc_stats:unsigned char *[16]
+	jpeg_entropy_encoder None:<range type>
+	jpeg_entropy_encoder ac_stats:unsigned char *[16]
+	jpeg_entropy_encoder None:<range type>
+	jpeg_entropy_encoder fixed_bin:unsigned char [4]
+	jpeg_entropy_encoder None:<range type>
+Error at line 488 in def_file
+Error at line 490 in def_file
+Error at line 492 in def_file
+Error at line 494 in def_file
+Error at line 496 in def_file
+Error at line 498 in def_file
+Error at line 500 in def_file
+Error at line 502 in def_file
+Error at line 504 in def_file
+Error at line 506 in def_file
+Error at line 508 in def_file
+Error at line 510 in def_file
+Error at line 512 in def_file
+Error at line 514 in def_file
+Error at line 516 in def_file
+Error at line 518 in def_file
+Error at line 520 in def_file
+Error at line 522 in def_file
+Error at line 524 in def_file
+Error at line 526 in def_file
+Error at line 528 in def_file
+Error at line 530 in def_file
+Error at line 532 in def_file
+Error at line 534 in def_file
+Error at line 536 in def_file
+Error at line 538 in def_file
+Error at line 540 in def_file
+Error at line 542 in def_file
+Error at line 544 in def_file
+Error at line 546 in def_file
+Error at line 548 in def_file
+Error at line 550 in def_file
+Error at line 552 in def_file
+Error at line 554 in def_file
+Error at line 556 in def_file
+	jpeg_c_coef_controller start_pass:void (*)(j_compress_ptr, J_BUF_MODE)
+	jpeg_c_coef_controller compress_data:boolean (*)(j_compress_ptr, JSAMPIMAGE)
+	jpeg_c_coef_controller iMCU_row_num:JDIMENSION
+	jpeg_c_coef_controller mcu_ctr:JDIMENSION
+	jpeg_c_coef_controller MCU_vert_offset:int
+	jpeg_c_coef_controller MCU_rows_per_iMCU_row:int
+	jpeg_c_coef_controller MCU_buffer:JBLOCKROW [10]
+	jpeg_c_coef_controller None:<range type>
+	jpeg_c_coef_controller whole_image:jvirt_barray_ptr [10]
+	jpeg_c_coef_controller None:<range type>
+	jpeg_color_converter start_pass:void (*)(j_compress_ptr)
+	jpeg_color_converter color_convert:void (*)(j_compress_ptr, JSAMPARRAY, JSAMPIMAGE, JDIMENSION, int)
+	jpeg_color_converter rgb_ycc_tab:JLONG *
+	jpeg_forward_dct start_pass:void (*)(j_compress_ptr)
+	jpeg_forward_dct forward_DCT:void (*)(j_compress_ptr, jpeg_component_info *, JSAMPARRAY, JBLOCKROW, JDIMENSION, JDIMENSION, JDIMENSION)
+	jpeg_forward_dct dct:forward_DCT_method_ptr
+	jpeg_forward_dct convsamp:convsamp_method_ptr
+	jpeg_forward_dct quantize:quantize_method_ptr
+	jpeg_forward_dct divisors:DCTELEM *[4]
+	jpeg_forward_dct None:<range type>
+	jpeg_forward_dct workspace:DCTELEM *
+	jpeg_forward_dct float_dct:float_DCT_method_ptr
+	jpeg_forward_dct float_convsamp:float_convsamp_method_ptr
+	jpeg_forward_dct float_quantize:float_quantize_method_ptr
+	jpeg_forward_dct float_divisors:float *[4]
+	jpeg_forward_dct None:<range type>
+	jpeg_forward_dct float_workspace:float *
+	jpeg_entropy_encoder start_pass:void (*)(j_compress_ptr, boolean)
+	jpeg_entropy_encoder encode_mcu:boolean (*)(j_compress_ptr, JBLOCKROW *)
+	jpeg_entropy_encoder finish_pass:void (*)(j_compress_ptr)
+	jpeg_entropy_encoder saved:savable_state
+	jpeg_entropy_encoder put_buffer:size_t
+	jpeg_entropy_encoder put_bits:int
+	jpeg_entropy_encoder last_dc_val:int [4]
+	jpeg_entropy_encoder None:<range type>
+	jpeg_entropy_encoder restarts_to_go:unsigned int
+	jpeg_entropy_encoder next_restart_num:int
+	jpeg_entropy_encoder dc_derived_tbls:c_derived_tbl *[4]
+	jpeg_entropy_encoder None:<range type>
+	jpeg_entropy_encoder ac_derived_tbls:c_derived_tbl *[4]
+	jpeg_entropy_encoder None:<range type>
+	jpeg_entropy_encoder dc_count_ptrs:long int *[4]
+	jpeg_entropy_encoder None:<range type>
+	jpeg_entropy_encoder ac_count_ptrs:long int *[4]
+	jpeg_entropy_encoder None:<range type>
+	jpeg_entropy_encoder simd:int
+	savable_state put_buffer:size_t
+	savable_state put_bits:int
+	savable_state last_dc_val:int [4]
+	savable_state None:<range type>
+	working_state next_output_byte:JOCTET *
+	working_state free_in_buffer:size_t
+	working_state cur:savable_state
+	working_state put_buffer:size_t
+	working_state put_bits:int
+	working_state last_dc_val:int [4]
+	working_state None:<range type>
+	working_state cinfo:j_compress_ptr
 KLEE: Using Z3 solver backend
 global variable memdst
 	1 elements of 4bytes
@@ -91,237 +413,231 @@ global variable .str
 	6 elements of 1bytes
 global variable cdjpeg_message_table
 	46 elements of 8bytes
-global variable .str.9
+global variable .str.6
 	32 elements of 1bytes
-global variable .str.10
+global variable .str.7
 	43 elements of 1bytes
-global variable .str.11
+global variable .str.8
 	36 elements of 1bytes
-global variable .str.12
+global variable .str.9
 	42 elements of 1bytes
-global variable .str.13
+global variable .str.10
 	36 elements of 1bytes
-global variable .str.14
+global variable .str.11
 	41 elements of 1bytes
-global variable .str.15
+global variable .str.12
 	16 elements of 1bytes
-global variable .str.16
+global variable .str.13
 	40 elements of 1bytes
-global variable .str.17
+global variable .str.14
 	23 elements of 1bytes
+global variable .str.15
+	34 elements of 1bytes
+global variable .str.16
+	27 elements of 1bytes
+global variable .str.17
+	38 elements of 1bytes
 global variable .str.18
-	34 elements of 1bytes
-global variable .str.19
-	27 elements of 1bytes
-global variable .str.20
-	38 elements of 1bytes
-global variable .str.21
 	24 elements of 1bytes
+global variable .str.19
+	22 elements of 1bytes
+global variable .str.20
+	36 elements of 1bytes
+global variable .str.21
+	27 elements of 1bytes
 global variable .str.22
-	22 elements of 1bytes
-global variable .str.23
-	36 elements of 1bytes
-global variable .str.24
-	27 elements of 1bytes
-global variable .str.25
 	15 elements of 1bytes
-global variable .str.26
+global variable .str.23
 	19 elements of 1bytes
-global variable .str.27
+global variable .str.24
 	48 elements of 1bytes
-global variable .str.28
+global variable .str.25
 	44 elements of 1bytes
-global variable .str.29
+global variable .str.26
 	35 elements of 1bytes
-global variable .str.30
+global variable .str.27
 	25 elements of 1bytes
-global variable .str.31
+global variable .str.28
 	40 elements of 1bytes
-global variable .str.32
+global variable .str.29
 	27 elements of 1bytes
-global variable .str.33
+global variable .str.30
 	20 elements of 1bytes
+global variable .str.31
+	36 elements of 1bytes
+global variable .str.32
+	28 elements of 1bytes
+global variable .str.33
+	36 elements of 1bytes
 global variable .str.34
-	36 elements of 1bytes
-global variable .str.35
-	28 elements of 1bytes
-global variable .str.36
-	36 elements of 1bytes
-global variable .str.37
 	19 elements of 1bytes
+global variable .str.35
+	16 elements of 1bytes
+global variable .str.36
+	21 elements of 1bytes
+global variable .str.37
+	16 elements of 1bytes
 global variable .str.38
-	16 elements of 1bytes
+	21 elements of 1bytes
 global variable .str.39
-	21 elements of 1bytes
+	34 elements of 1bytes
 global variable .str.40
-	16 elements of 1bytes
+	34 elements of 1bytes
 global variable .str.41
-	21 elements of 1bytes
-global variable .str.42
-	34 elements of 1bytes
-global variable .str.43
-	34 elements of 1bytes
-global variable .str.44
 	38 elements of 1bytes
-global variable .str.45
+global variable .str.42
 	22 elements of 1bytes
-global variable .str.46
+global variable .str.43
 	28 elements of 1bytes
-global variable .str.47
+global variable .str.44
 	30 elements of 1bytes
-global variable .str.48
+global variable .str.45
 	51 elements of 1bytes
-global variable .str.49
+global variable .str.46
 	53 elements of 1bytes
-global variable .str.50
+global variable .str.47
 	14 elements of 1bytes
-global variable .str.51
+global variable .str.48
 	59 elements of 1bytes
-global variable .str.52
+global variable .str.49
 	31 elements of 1bytes
 global variable is_targa
 	1 elements of 4bytes
-global variable icc_filename
-	1 elements of 8bytes
 global variable outfilename
 	1 elements of 8bytes
-global variable .str.53
+global variable .str.50
 	11 elements of 1bytes
-global variable .str.54
+global variable .str.51
 	9 elements of 1bytes
-global variable .str.55
+global variable .str.52
 	4 elements of 1bytes
-global variable .str.90
+global variable .str.86
 	22 elements of 1bytes
-global variable .str.91
+global variable .str.87
 	13 elements of 1bytes
-global variable .str.92
+global variable .str.88
 	38 elements of 1bytes
+global variable .str.89
+	78 elements of 1bytes
+global variable .str.90
+	37 elements of 1bytes
+global variable .str.91
+	46 elements of 1bytes
+global variable .str.92
+	39 elements of 1bytes
 global variable .str.93
 	78 elements of 1bytes
 global variable .str.94
-	37 elements of 1bytes
+	47 elements of 1bytes
 global variable .str.95
-	46 elements of 1bytes
-global variable .str.96
-	39 elements of 1bytes
-global variable .str.97
-	78 elements of 1bytes
-global variable .str.98
-	47 elements of 1bytes
-global variable .str.99
 	66 elements of 1bytes
-global variable .str.100
+global variable .str.96
 	30 elements of 1bytes
-global variable .str.101
+global variable .str.97
 	40 elements of 1bytes
-global variable .str.102
+global variable .str.98
 	43 elements of 1bytes
-global variable .str.103
+global variable .str.99
 	11 elements of 1bytes
-global variable .str.104
+global variable .str.100
 	57 elements of 1bytes
-global variable .str.105
+global variable .str.101
 	1 elements of 1bytes
-global variable .str.106
+global variable .str.102
 	50 elements of 1bytes
-global variable .str.107
-	54 elements of 1bytes
-global variable .str.108
+global variable .str.103
 	68 elements of 1bytes
-global variable .str.109
+global variable .str.104
 	63 elements of 1bytes
-global variable .str.110
+global variable .str.105
 	52 elements of 1bytes
-global variable .str.111
+global variable .str.106
 	47 elements of 1bytes
-global variable .str.112
+global variable .str.107
 	79 elements of 1bytes
-global variable .str.113
+global variable .str.108
 	44 elements of 1bytes
+global variable .str.109
+	53 elements of 1bytes
+global variable .str.110
+	23 elements of 1bytes
+global variable .str.111
+	53 elements of 1bytes
+global variable .str.112
+	56 elements of 1bytes
+global variable .str.113
+	56 elements of 1bytes
 global variable .str.114
 	53 elements of 1bytes
 global variable .str.115
-	23 elements of 1bytes
-global variable .str.116
-	53 elements of 1bytes
-global variable .str.117
-	56 elements of 1bytes
-global variable .str.118
-	56 elements of 1bytes
-global variable .str.119
-	53 elements of 1bytes
-global variable .str.120
 	57 elements of 1bytes
-global variable .str.56
+global variable .str.53
 	4 elements of 1bytes
-global variable .str.57
+global variable .str.54
 	5 elements of 1bytes
-global variable .str.58
+global variable .str.55
 	6 elements of 1bytes
-global variable .str.59
+global variable .str.56
 	6 elements of 1bytes
-global variable .str.60
+global variable .str.57
 	8 elements of 1bytes
 global variable parse_switches.printed_version
 	1 elements of 4bytes
-global variable .str.61
+global variable .str.58
 	26 elements of 1bytes
-global variable .str.62
+global variable .str.59
 	14 elements of 1bytes
-global variable .str.63
-	7 elements of 1bytes
-global variable .str.64
+global variable .str.60
+	6 elements of 1bytes
+global variable .str.61
 	9 elements of 1bytes
-global variable .str.65
+global variable .str.62
 	5 elements of 1bytes
-global variable .str.66
-	494 elements of 1bytes
-global variable .str.67
+global variable .str.63
+	451 elements of 1bytes
+global variable .str.64
 	62 elements of 1bytes
-global variable .str.68
+global variable .str.65
 	16 elements of 1bytes
-global variable .str.69
+global variable .str.66
 	8 elements of 1bytes
+global variable .str.67
+	10 elements of 1bytes
+global variable .str.68
+	10 elements of 1bytes
+global variable .str.69
+	4 elements of 1bytes
 global variable .str.70
 	10 elements of 1bytes
 global variable .str.71
-	10 elements of 1bytes
+	6 elements of 1bytes
 global variable .str.72
-	4 elements of 1bytes
+	9 elements of 1bytes
 global variable .str.73
-	4 elements of 1bytes
+	9 elements of 1bytes
 global variable .str.74
-	10 elements of 1bytes
+	8 elements of 1bytes
 global variable .str.75
-	6 elements of 1bytes
-global variable .str.76
-	9 elements of 1bytes
-global variable .str.77
-	9 elements of 1bytes
-global variable .str.78
-	8 elements of 1bytes
-global variable .str.79
 	12 elements of 1bytes
+global variable .str.76
+	7 elements of 1bytes
+global variable .str.77
+	8 elements of 1bytes
+global variable .str.78
+	7 elements of 1bytes
+global variable .str.79
+	8 elements of 1bytes
 global variable .str.80
-	7 elements of 1bytes
+	8 elements of 1bytes
 global variable .str.81
-	8 elements of 1bytes
+	7 elements of 1bytes
 global variable .str.82
-	7 elements of 1bytes
-global variable .str.83
-	8 elements of 1bytes
-global variable .str.84
-	8 elements of 1bytes
-global variable .str.85
-	7 elements of 1bytes
-global variable .str.86
 	6 elements of 1bytes
-global variable .str.87
+global variable .str.83
 	7 elements of 1bytes
-global variable .str.88
+global variable .str.84
 	3 elements of 1bytes
-global variable .str.89
+global variable .str.85
 	6 elements of 1bytes
 global variable .str.1
 	25 elements of 1bytes
@@ -332,69 +648,349 @@ global variable .str.3
 global variable .str.4
 	3 elements of 1bytes
 global variable .str.5
-	32 elements of 1bytes
-global variable .str.6
-	43 elements of 1bytes
-global variable .str.7
-	36 elements of 1bytes
-global variable .str.8
 	29 elements of 1bytes
-global variable .str.121
+global variable .str.116
 	53 elements of 1bytes
+global variable .str.121
+	2 elements of 1bytes
+global variable .str.1.122
+	26 elements of 1bytes
+global variable .str.2.123
+	28 elements of 1bytes
+global variable .str.3.124
+	31 elements of 1bytes
+global variable q_scale_factor
+	4 elements of 4bytes
+global variable .str.4.125
+	29 elements of 1bytes
+global variable .str.5.128
+	36 elements of 1bytes
+global variable .str.6.129
+	35 elements of 1bytes
+global variable .str.7.130
+	44 elements of 1bytes
+global variable .str.8.131
+	38 elements of 1bytes
+global variable .str.9.134
+	5 elements of 1bytes
+global variable std_luminance_quant_tbl
+	64 elements of 4bytes
+global variable std_chrominance_quant_tbl
+	64 elements of 4bytes
+global variable .str.10.137
+	45 elements of 1bytes
+global variable .str.11.140
+	9 elements of 1bytes
+global variable .str.12.141
+	36 elements of 1bytes
+global variable c5to8bits
+	32 elements of 1bytes
+global variable .str.169
+	45 elements of 1bytes
+global variable std_luminance_quant_tbl.176
+	64 elements of 4bytes
+global variable std_chrominance_quant_tbl.177
+	64 elements of 4bytes
+global variable std_huff_tables.bits_dc_luminance
+	17 elements of 1bytes
+global variable std_huff_tables.val_dc_luminance
+	12 elements of 1bytes
+global variable std_huff_tables.bits_ac_luminance
+	17 elements of 1bytes
+global variable std_huff_tables.val_ac_luminance
+	162 elements of 1bytes
+global variable std_huff_tables.bits_dc_chrominance
+	17 elements of 1bytes
+global variable std_huff_tables.val_dc_chrominance
+	12 elements of 1bytes
+global variable std_huff_tables.bits_ac_chrominance
+	17 elements of 1bytes
+global variable std_huff_tables.val_ac_chrominance
+	162 elements of 1bytes
+global variable jpeg_std_message_table
+	128 elements of 8bytes
+global variable .str.198
+	22 elements of 1bytes
+global variable .str.1.199
+	44 elements of 1bytes
+global variable .str.2.200
+	32 elements of 1bytes
+global variable .str.3.201
+	37 elements of 1bytes
+global variable .str.4.202
+	26 elements of 1bytes
+global variable .str.5.203
+	31 elements of 1bytes
+global variable .str.6.204
+	29 elements of 1bytes
+global variable .str.7.205
+	40 elements of 1bytes
+global variable .str.8.206
+	31 elements of 1bytes
+global variable .str.9.207
+	23 elements of 1bytes
+global variable .str.10.208
+	22 elements of 1bytes
+global variable .str.11.209
+	20 elements of 1bytes
+global variable .str.12.210
+	61 elements of 1bytes
+global variable .str.13.211
+	48 elements of 1bytes
+global variable .str.14.212
+	28 elements of 1bytes
+global variable .str.15.213
+	35 elements of 1bytes
+global variable .str.16.214
+	55 elements of 1bytes
+global variable .str.17.215
+	55 elements of 1bytes
+global variable .str.18.216
+	23 elements of 1bytes
+global variable .str.19.217
+	32 elements of 1bytes
+global variable .str.20.218
+	42 elements of 1bytes
+global variable .str.21.219
+	77 elements of 1bytes
+global variable .str.22.220
+	27 elements of 1bytes
+global variable .str.23.221
+	43 elements of 1bytes
+global variable .str.24.222
+	28 elements of 1bytes
+global variable .str.25.223
+	37 elements of 1bytes
+global variable .str.26.224
+	38 elements of 1bytes
+global variable .str.27.225
+	37 elements of 1bytes
+global variable .str.28.226
+	19 elements of 1bytes
+global variable .str.29.227
+	21 elements of 1bytes
+global variable .str.30.228
+	19 elements of 1bytes
+global variable .str.31.229
+	19 elements of 1bytes
+global variable .str.32.230
+	37 elements of 1bytes
+global variable .str.33.231
+	21 elements of 1bytes
+global variable .str.34.232
+	20 elements of 1bytes
+global variable .str.35.233
+	33 elements of 1bytes
+global variable .str.36.234
+	22 elements of 1bytes
+global variable .str.37.235
+	47 elements of 1bytes
+global variable .str.38.236
+	40 elements of 1bytes
+global variable .str.39.237
+	33 elements of 1bytes
+global variable .str.40.238
+	33 elements of 1bytes
+global variable .str.41.239
+	47 elements of 1bytes
+global variable .str.42.240
+	17 elements of 1bytes
+global variable .str.43.241
+	28 elements of 1bytes
+global variable .str.44.242
+	62 elements of 1bytes
+global variable .str.45.243
+	39 elements of 1bytes
+global variable .str.46.244
+	39 elements of 1bytes
+global variable .str.47.245
+	20 elements of 1bytes
+global variable .str.48.246
+	46 elements of 1bytes
+global variable .str.49.247
+	28 elements of 1bytes
+global variable .str.50.248
+	37 elements of 1bytes
+global variable .str.51.249
+	34 elements of 1bytes
+global variable .str.52.250
+	42 elements of 1bytes
+global variable .str.53.251
+	43 elements of 1bytes
+global variable .str.54.252
+	30 elements of 1bytes
+global variable .str.55.253
+	46 elements of 1bytes
+global variable .str.56.254
+	40 elements of 1bytes
+global variable .str.57.255
+	39 elements of 1bytes
+global variable .str.58.256
+	45 elements of 1bytes
+global variable .str.59.257
+	48 elements of 1bytes
+global variable .str.60.258
+	42 elements of 1bytes
+global variable .str.61.259
+	45 elements of 1bytes
+global variable .str.62.260
+	44 elements of 1bytes
+global variable .str.63.261
+	35 elements of 1bytes
+global variable .str.64.262
+	30 elements of 1bytes
+global variable .str.65.263
+	30 elements of 1bytes
+global variable .str.66.264
+	54 elements of 1bytes
+global variable .str.67.265
+	42 elements of 1bytes
+global variable .str.68.266
+	31 elements of 1bytes
+global variable .str.69.267
+	35 elements of 1bytes
+global variable .str.70.268
+	39 elements of 1bytes
+global variable .str.71.269
+	21 elements of 1bytes
+global variable .str.72.270
+	20 elements of 1bytes
+global variable .str.73.271
+	66 elements of 1bytes
+global variable .str.74.272
+	16 elements of 1bytes
+global variable .str.75.273
+	62 elements of 1bytes
+global variable .str.76.274
+	66 elements of 1bytes
+global variable .str.77.275
+	42 elements of 1bytes
+global variable .str.78.276
+	44 elements of 1bytes
+global variable .str.79.277
+	39 elements of 1bytes
+global variable .str.80.278
+	28 elements of 1bytes
+global variable .str.81.279
+	43 elements of 1bytes
+global variable .str.82.280
+	27 elements of 1bytes
+global variable .str.83.281
+	20 elements of 1bytes
+global variable .str.84.282
+	23 elements of 1bytes
+global variable .str.85.283
+	13 elements of 1bytes
+global variable .str.86.284
+	40 elements of 1bytes
+global variable .str.87.285
+	53 elements of 1bytes
+global variable .str.88.286
+	60 elements of 1bytes
+global variable .str.89.287
+	46 elements of 1bytes
+global variable .str.90.288
+	33 elements of 1bytes
+global variable .str.91.289
+	39 elements of 1bytes
+global variable .str.92.290
+	25 elements of 1bytes
+global variable .str.93.291
+	40 elements of 1bytes
+global variable .str.94.292
+	35 elements of 1bytes
+global variable .str.95.293
+	24 elements of 1bytes
+global variable .str.96.294
+	36 elements of 1bytes
+global variable .str.97.295
+	37 elements of 1bytes
+global variable .str.98.296
+	6 elements of 1bytes
+global variable .str.99.297
+	57 elements of 1bytes
+global variable .str.100.298
+	58 elements of 1bytes
+global variable .str.101.299
+	31 elements of 1bytes
+global variable .str.102.300
+	15 elements of 1bytes
+global variable .str.103.301
+	29 elements of 1bytes
+global variable .str.104.302
+	30 elements of 1bytes
+global variable .str.105.303
+	29 elements of 1bytes
+global variable .str.106.304
+	25 elements of 1bytes
+global variable .str.107.305
+	25 elements of 1bytes
+global variable .str.108.306
+	66 elements of 1bytes
+global variable .str.109.307
+	58 elements of 1bytes
+global variable .str.110.308
+	54 elements of 1bytes
+global variable .str.111.309
+	52 elements of 1bytes
+global variable .str.112.310
+	20 elements of 1bytes
+global variable .str.113.311
+	23 elements of 1bytes
+global variable .str.114.312
+	38 elements of 1bytes
+global variable .str.115.313
+	66 elements of 1bytes
+global variable .str.116.314
+	60 elements of 1bytes
+global variable .str.117
+	49 elements of 1bytes
+global variable .str.118
+	36 elements of 1bytes
+global variable .str.119
+	46 elements of 1bytes
+global variable .str.120
+	27 elements of 1bytes
+global variable .str.121.315
+	56 elements of 1bytes
+global variable .str.122
+	43 elements of 1bytes
+global variable .str.123
+	43 elements of 1bytes
+global variable .str.124
+	21 elements of 1bytes
+global variable .str.125
+	40 elements of 1bytes
+global variable .str.126
+	39 elements of 1bytes
+global variable .str.127
+	4 elements of 1bytes
+global variable jpeg_natural_order
+	80 elements of 4bytes
+global variable first_pool_slop
+	2 elements of 8bytes
+global variable extra_pool_slop
+	2 elements of 8bytes
+global variable .str.326
+	8 elements of 1bytes
+global variable .str.1.327
+	6 elements of 1bytes
+global variable rgb_pixelsize
+	17 elements of 4bytes
 global variable rgb_red
 	17 elements of 4bytes
 global variable rgb_green
 	17 elements of 4bytes
 global variable rgb_blue
 	17 elements of 4bytes
-global variable alpha_index
-	17 elements of 4bytes
-global variable rgb_pixelsize
-	17 elements of 4bytes
-global variable .str.126
-	2 elements of 1bytes
-global variable .str.1.127
-	26 elements of 1bytes
-global variable .str.2.128
-	28 elements of 1bytes
-global variable .str.3.129
-	31 elements of 1bytes
-global variable q_scale_factor
-	4 elements of 4bytes
-global variable .str.4.130
-	29 elements of 1bytes
-global variable .str.5.133
-	36 elements of 1bytes
-global variable .str.6.134
-	35 elements of 1bytes
-global variable .str.7.135
-	44 elements of 1bytes
-global variable .str.8.136
-	38 elements of 1bytes
-global variable .str.9.139
-	5 elements of 1bytes
-global variable std_luminance_quant_tbl
-	64 elements of 4bytes
-global variable std_chrominance_quant_tbl
-	64 elements of 4bytes
-global variable .str.10.142
-	45 elements of 1bytes
-global variable .str.11.145
-	9 elements of 1bytes
-global variable .str.12.146
-	36 elements of 1bytes
-global variable rgb_pixelsize.149
-	17 elements of 4bytes
-global variable rgb_red.150
-	17 elements of 4bytes
-global variable rgb_green.151
-	17 elements of 4bytes
-global variable rgb_blue.152
-	17 elements of 4bytes
-global variable alpha_index.153
-	17 elements of 4bytes
-global variable c5to8bits
-	32 elements of 1bytes
+global variable start_pass_fdctmgr.aanscales
+	64 elements of 2bytes
+global variable start_pass_fdctmgr.aanscalefactor
+	8 elements of 8bytes
+global variable jpeg_nbits_table
+	65536 elements of 1bytes
+global variable jpeg_aritab
+	114 elements of 8bytes
 global variable __C_ctype_tolower_data
 	384 elements of 2bytes
 global variable __C_ctype_tolower
@@ -425,9 +1021,9 @@ global variable _stdio_openlist
 	1 elements of 8bytes
 global variable _do_one_spec.spec_base
 	7 elements of 1bytes
-global variable .str.122
+global variable .str.128
 	6 elements of 1bytes
-global variable .str.1.123
+global variable .str.1.129
 	7 elements of 1bytes
 global variable _do_one_spec.prefix
 	12 elements of 1bytes
@@ -451,7 +1047,7 @@ global variable __libc_stack_end
 	1 elements of 8bytes
 global variable __uclibc_progname
 	1 elements of 8bytes
-global variable .str.166
+global variable .str.180
 	1 elements of 1bytes
 global variable __environ
 	1 elements of 8bytes
@@ -463,7 +1059,7 @@ global variable __rtld_fini
 	1 elements of 8bytes
 global variable __uClibc_init.been_there_done_that
 	1 elements of 4bytes
-global variable .str.1.169
+global variable .str.1.185
 	10 elements of 1bytes
 global variable __C_ctype_b_data
 	384 elements of 2bytes
@@ -479,75 +1075,75 @@ global variable fmt
 	20 elements of 1bytes
 global variable exp10_table
 	13 elements of 16bytes
-global variable .str.1.224
+global variable .str.1.250
 	47 elements of 1bytes
-global variable .str.2.227
+global variable .str.2.253
 	44 elements of 1bytes
 global variable close.n_calls
 	1 elements of 4bytes
 global variable read.n_calls
 	1 elements of 4bytes
-global variable .str.3.232
+global variable .str.3.258
 	12 elements of 1bytes
-global variable .str.4.233
+global variable .str.4.259
 	59 elements of 1bytes
 global variable __PRETTY_FUNCTION__.read
 	34 elements of 1bytes
 global variable write.n_calls
 	1 elements of 4bytes
-global variable .str.5.236
+global variable .str.5.262
 	7 elements of 1bytes
 global variable __PRETTY_FUNCTION__.write
 	41 elements of 1bytes
-global variable .str.6.237
+global variable .str.6.263
 	2 elements of 1bytes
-global variable .str.7.238
+global variable .str.7.264
 	24 elements of 1bytes
-global variable .str.8.241
+global variable .str.8.267
 	18 elements of 1bytes
 global variable __PRETTY_FUNCTION__.__fd_lseek
 	38 elements of 1bytes
-global variable .str.9.246
+global variable .str.9.272
 	33 elements of 1bytes
 global variable chmod.n_calls
 	1 elements of 4bytes
 global variable fchmod.n_calls
 	1 elements of 4bytes
-global variable .str.24.247
+global variable .str.24.273
 	32 elements of 1bytes
 global variable __fd_ftruncate.n_calls
 	1 elements of 4bytes
-global variable .str.10.252
+global variable .str.10.278
 	30 elements of 1bytes
-global variable .str.11.255
+global variable .str.11.281
 	33 elements of 1bytes
-global variable .str.12.256
+global variable .str.12.282
 	18 elements of 1bytes
 global variable __PRETTY_FUNCTION__.__fd_getdents
 	65 elements of 1bytes
-global variable .str.13.259
+global variable .str.13.285
 	41 elements of 1bytes
-global variable .str.14.260
+global variable .str.14.286
 	42 elements of 1bytes
-global variable .str.15.261
+global variable .str.15.287
 	43 elements of 1bytes
-global variable .str.16.262
+global variable .str.16.288
 	43 elements of 1bytes
-global variable .str.17.263
+global variable .str.17.289
 	45 elements of 1bytes
-global variable .str.18.264
+global variable .str.18.290
 	46 elements of 1bytes
-global variable .str.19.265
+global variable .str.19.291
 	43 elements of 1bytes
-global variable .str.20.266
+global variable .str.20.292
 	44 elements of 1bytes
-global variable .str.21.271
+global variable .str.21.297
 	32 elements of 1bytes
-global variable .str.22.272
+global variable .str.22.298
 	17 elements of 1bytes
 global variable getcwd.n_calls
 	1 elements of 4bytes
-global variable .str.23.277
+global variable .str.23.303
 	18 elements of 1bytes
 global variable __exe_env
 	1 elements of 784bytes
@@ -555,107 +1151,107 @@ global variable __exe_fs
 	1 elements of 104bytes
 global variable klee_init_fds.name
 	32 elements of 1bytes
-global variable .str.282
+global variable .str.308
 	2 elements of 1bytes
-global variable .str.9.283
+global variable .str.9.309
 	6 elements of 1bytes
-global variable .str.10.284
+global variable .str.10.310
 	5 elements of 1bytes
-global variable .str.11.285
+global variable .str.11.311
 	64 elements of 1bytes
 global variable __PRETTY_FUNCTION__.__create_new_dfile
 	88 elements of 1bytes
-global variable .str.1.286
+global variable .str.1.312
 	6 elements of 1bytes
-global variable .str.2.287
+global variable .str.2.313
 	10 elements of 1bytes
-global variable .str.3.288
+global variable .str.3.314
 	11 elements of 1bytes
-global variable .str.4.289
+global variable .str.4.315
 	11 elements of 1bytes
-global variable .str.5.290
+global variable .str.5.316
 	15 elements of 1bytes
-global variable .str.6.291
+global variable .str.6.317
 	12 elements of 1bytes
-global variable .str.7.292
+global variable .str.7.318
 	7 elements of 1bytes
-global variable .str.8.293
+global variable .str.8.319
 	14 elements of 1bytes
-global variable .str.296
+global variable .str.322
 	7 elements of 1bytes
-global variable .str.1.297
+global variable .str.1.323
 	964 elements of 1bytes
-global variable .str.24.298
+global variable .str.24.324
 	70 elements of 1bytes
-global variable .str.25.299
+global variable .str.25.325
 	9 elements of 1bytes
-global variable .str.2.300
+global variable .str.2.326
 	10 elements of 1bytes
-global variable .str.3.301
+global variable .str.3.327
 	9 elements of 1bytes
-global variable .str.4.302
+global variable .str.4.328
 	48 elements of 1bytes
-global variable .str.26.303
+global variable .str.26.329
 	37 elements of 1bytes
-global variable .str.5.304
-	11 elements of 1bytes
-global variable .str.6.305
-	10 elements of 1bytes
-global variable .str.7.306
-	77 elements of 1bytes
-global variable .str.8.307
-	7 elements of 1bytes
-global variable .str.9.308
-	12 elements of 1bytes
-global variable .str.10.309
-	11 elements of 1bytes
-global variable .str.11.310
-	109 elements of 1bytes
-global variable .str.12.311
-	12 elements of 1bytes
-global variable .str.13.312
-	11 elements of 1bytes
-global variable .str.14.313
-	57 elements of 1bytes
-global variable .str.15.314
-	13 elements of 1bytes
-global variable .str.16.315
-	12 elements of 1bytes
-global variable .str.17.316
-	18 elements of 1bytes
-global variable .str.18.317
-	17 elements of 1bytes
-global variable .str.19.318
-	10 elements of 1bytes
-global variable .str.20.319
-	9 elements of 1bytes
-global variable .str.21.320
-	11 elements of 1bytes
-global variable .str.22.321
-	10 elements of 1bytes
-global variable .str.23.322
-	54 elements of 1bytes
-global variable .str.323
-	18 elements of 1bytes
-global variable .str.1.324
-	24 elements of 1bytes
-global variable .str.2.327
-	15 elements of 1bytes
-global variable .str.3.328
-	18 elements of 1bytes
-global variable .str.4.329
-	17 elements of 1bytes
 global variable .str.5.330
-	13 elements of 1bytes
+	11 elements of 1bytes
 global variable .str.6.331
-	40 elements of 1bytes
+	10 elements of 1bytes
 global variable .str.7.332
-	17 elements of 1bytes
-global variable .str.8.335
-	21 elements of 1bytes
-global variable .str.9.336
+	77 elements of 1bytes
+global variable .str.8.333
+	7 elements of 1bytes
+global variable .str.9.334
+	12 elements of 1bytes
+global variable .str.10.335
+	11 elements of 1bytes
+global variable .str.11.336
+	109 elements of 1bytes
+global variable .str.12.337
+	12 elements of 1bytes
+global variable .str.13.338
+	11 elements of 1bytes
+global variable .str.14.339
+	57 elements of 1bytes
+global variable .str.15.340
+	13 elements of 1bytes
+global variable .str.16.341
+	12 elements of 1bytes
+global variable .str.17.342
 	18 elements of 1bytes
-global variable .str.10.337
+global variable .str.18.343
+	17 elements of 1bytes
+global variable .str.19.344
+	10 elements of 1bytes
+global variable .str.20.345
+	9 elements of 1bytes
+global variable .str.21.346
+	11 elements of 1bytes
+global variable .str.22.347
+	10 elements of 1bytes
+global variable .str.23.348
+	54 elements of 1bytes
+global variable .str.349
+	18 elements of 1bytes
+global variable .str.1.350
+	24 elements of 1bytes
+global variable .str.2.353
+	15 elements of 1bytes
+global variable .str.3.354
+	18 elements of 1bytes
+global variable .str.4.355
+	17 elements of 1bytes
+global variable .str.5.356
+	13 elements of 1bytes
+global variable .str.6.357
+	40 elements of 1bytes
+global variable .str.7.358
+	17 elements of 1bytes
+global variable .str.8.361
+	21 elements of 1bytes
+global variable .str.9.362
+	18 elements of 1bytes
+global variable .str.10.363
 	32 elements of 1bytes
 global variable str.13
 	18 elements of 1bytes
@@ -665,19 +1261,19 @@ global variable getnameinfo.hostname
 	10 elements of 1bytes
 global variable getnameinfo.service
 	10 elements of 1bytes
-global variable .str.340
+global variable .str.366
 	80 elements of 1bytes
-global variable .str.1.341
+global variable .str.1.367
 	15 elements of 1bytes
-global variable .str.2.342
+global variable .str.2.368
 	8 elements of 1bytes
-global variable .str.3.345
+global variable .str.3.371
 	8 elements of 1bytes
 global variable .str.1.4
 	16 elements of 1bytes
 global variable .str.2.5
 	14 elements of 1bytes
-global variable .str.6.348
+global variable .str.6.374
 	71 elements of 1bytes
 global variable .str.1.7
 	14 elements of 1bytes
@@ -685,21 +1281,6 @@ global variable .str.2.8
 	5 elements of 1bytes
 KLEE: WARNING: undefined reference to function: __ctype_b_loc
 KLEE: WARNING: undefined reference to function: __isoc99_sscanf
-KLEE: WARNING: undefined reference to function: jpeg_CreateCompress
-KLEE: WARNING: undefined reference to function: jpeg_add_quant_table
-KLEE: WARNING: undefined reference to function: jpeg_default_colorspace
-KLEE: WARNING: undefined reference to function: jpeg_destroy_compress
-KLEE: WARNING: undefined reference to function: jpeg_finish_compress
-KLEE: WARNING: undefined reference to function: jpeg_mem_dest
-KLEE: WARNING: undefined reference to function: jpeg_quality_scaling
-KLEE: WARNING: undefined reference to function: jpeg_set_colorspace
-KLEE: WARNING: undefined reference to function: jpeg_set_defaults
-KLEE: WARNING: undefined reference to function: jpeg_simple_progression
-KLEE: WARNING: undefined reference to function: jpeg_start_compress
-KLEE: WARNING: undefined reference to function: jpeg_std_error
-KLEE: WARNING: undefined reference to function: jpeg_stdio_dest
-KLEE: WARNING: undefined reference to function: jpeg_write_icc_profile
-KLEE: WARNING: undefined reference to function: jpeg_write_scanlines
 KLEE: WARNING: undefined reference to function: puts
 KLEE: WARNING: undefined reference to function: strncpy
 KLEE: ARGV 0: ./cjpeg.bc
@@ -712,7 +1293,7 @@ KLEE: ARGV 3: ./exploit
 
 Undefined struct struct.exe_sym_env_t
 Undefined struct struct.exe_file_t
-KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 110608928)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 108598560)
 Undefined struct struct.stat.1833
 Undefined struct struct.exe_disk_file_t
 Undefined struct struct.__kernel_termios.1623
@@ -721,11 +1302,1369 @@ Undefined struct struct.Elf64_auxv_t
 KLEE: WARNING ONCE: calling __user_main with extra arguments.
 KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
 	pointer parm derived from itself!
-KLEE: 0x81a9390: Symbolic value  used to determine branching at /home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_init.c:100 (26810)
-KLEE: WARNING ONCE: calling external: jpeg_std_error(97205088)
-KLEE: ERROR: /home/user/senx-experiments/libjpeg/cve_2018_14498/source/cjpeg.c:532: failed external call: jpeg_std_error
-KLEE: NOTE: now ignoring this error at this location
+KLEE: 0x79275b0: Symbolic value  used to determine branching at /home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_init.c:100 (82861)
+Undefined struct struct.jpeg_error_mgr
+Undefined struct struct.jpeg_compress_struct
+Undefined struct struct.jpeg_common_struct.412
+Undefined struct struct.my_memory_mgr
+20976: mem@0 + . alloc_small
+20980: mem@0 + . alloc_large
+20984: mem@0 + . alloc_sarray
+20988: mem@0 + . alloc_barray
+20992: mem@0 + . request_virt_sarray
+20996: mem@0 + . request_virt_barray
+21000: mem@0 + . realize_virt_arrays
+21005: mem@0 + . access_virt_sarray
+21009: mem@0 + . access_virt_barray
+21013: mem@0 + . free_pool
+21017: mem@0 + . self_destruct
+21022: mem@0 + . max_alloc_chunk
+21027: mem@0 + . max_memory_to_use
+13715: cinfo@1 + @ alloc_small
+Undefined struct struct.small_pool_struct
+Undefined struct struct.jpeg_common_struct.265
+13395: cinfo@1 + @ alloc_small
+13402: tbl + @ None
+13575: qtblptr + @ quantval
+13586: qtblptr + @ None
+Undefined struct struct.jpeg_common_struct
+13417: cinfo@1 + @ alloc_small
+13424: tbl + @ huffval
+13914: htblptr + @ bits
+13968: htblptr + @ None
+13979: htblptr + @ None
+13988: htblptr + @ huffval
+14258: compptr + @ component_id
+14261: compptr + @ h_samp_factor
+14264: compptr + @ v_samp_factor
+14267: compptr + @ quant_tbl_no
+14270: compptr + @ dc_tbl_no
+14273: compptr + @ ac_tbl_no
+14281: compptr + @ component_id
+14284: compptr + @ h_samp_factor
+14287: compptr + @ v_samp_factor
+14290: compptr + @ quant_tbl_no
+14293: compptr + @ dc_tbl_no
+14296: compptr + @ ac_tbl_no
+14304: compptr + @ component_id
+14307: compptr + @ h_samp_factor
+14310: compptr + @ v_samp_factor
+14313: compptr + @ quant_tbl_no
+14316: compptr + @ dc_tbl_no
+14319: compptr + @ ac_tbl_no
+KLEE: WARNING ONCE: calling external: __ctype_b_loc()
+	pointer parm derived from itself!
+Undefined struct struct.__STDIO_FILE_STRUCT.1362
+Undefined struct struct.__mbstate_t.1361
+Undefined struct struct.__STDIO_FILE_STRUCT.1403
+4592: cinfo@1 + @ alloc_small
+Undefined struct struct._bmp_source_struct
+4605: source@0 + . start_input
+4609: source@0 + . finish_input
+962: src_mgr + @ input_file
+965: src_mgr + @ start_input
+4647: source@0 + . input_file
+4732: source@0 + . input_file
+4811: source@0 + . input_file
+5460: cinfo@1 + @ alloc_sarray
+Undefined struct struct.large_pool_struct
+5817: sinfo@0 + . input_file
+KLEE: IntegerOverflow (8:127): cast 208 @rdbmp.c:104(5753)
 
-KLEE: done: total instructions = 6169
-KLEE: done: completed paths = 1
-KLEE: done: generated tests = 1
+KLEE: IntegerOverflow (8:127): cast 208 @rdbmp.c:103(5741)
+
+KLEE: IntegerOverflow (8:127): cast 216 @rdbmp.c:103(5741)
+
+KLEE: IntegerOverflow (8:127): cast 216 @rdbmp.c:103(5741)
+
+KLEE: IntegerOverflow (8:127): cast 216 @rdbmp.c:105(5765)
+
+KLEE: IntegerOverflow (8:127): cast 216 @rdbmp.c:103(5741)
+
+5562: cinfo@1 + @ request_virt_sarray
+Undefined struct struct.jvirt_sarray_control
+5574: source@0 + . get_pixel_rows
+5622: cinfo@1 + @ alloc_sarray
+5631: source@0 + . buffer
+5635: source@0 + . buffer_height
+19837: cinfo@1 + @ alloc_small
+Undefined struct struct.my_destination_mgr
+19880: dest@0 + . init_destination
+19884: dest@0 + . empty_output_buffer
+19888: dest@0 + . term_destination
+Undefined struct struct.jpeg_compress_struct.170
+8033: qtbl + @ None
+8066: htbl + @ huffval
+8084: htbl + @ huffval
+8644: cinfo@6 + @ init_destination
+19911: cinfo@1 + @ alloc_small
+19924: dest@0 + . next_output_byte
+19928: dest@0 + . free_in_buffer
+Undefined struct struct.jpeg_compress_struct.258
+10987: cinfo@1 + @ alloc_small
+Undefined struct struct.my_comp_master
+11001: master@0 + . prepare_for_pass
+11005: master@0 + . pass_startup
+11009: master@0 + . finish_pass
+11013: master@0 + . is_last_pass
+12280: compptr + @ h_samp_factor
+12287: compptr + @ h_samp_factor
+12294: compptr + @ v_samp_factor
+12301: compptr + @ v_samp_factor
+12327: compptr + @ h_samp_factor
+12340: compptr + @ h_samp_factor
+12353: compptr + @ v_samp_factor
+12366: compptr + @ v_samp_factor
+12402: compptr + @ component_index
+12405: compptr + @ DCT_scaled_size
+12412: compptr + @ h_samp_factor
+12424: compptr + @ width_in_blocks
+12431: compptr + @ v_samp_factor
+12443: compptr + @ height_in_blocks
+12450: compptr + @ h_samp_factor
+12461: compptr + @ downsampled_width
+12468: compptr + @ v_samp_factor
+12479: compptr + @ downsampled_height
+12482: compptr + @ component_needed
+Undefined struct struct.jpeg_compress_struct.192
+28970: cinfo@1 + @ alloc_small
+Undefined struct struct.my_color_converter
+28984: cconvert@0 + . start_pass
+29590: cconvert@0 + . start_pass
+29595: cconvert@0 + . color_convert
+18200: cinfo@1 + @ alloc_small
+Undefined struct struct.my_downsampler
+18214: downsample@0 + . start_pass
+18219: downsample@0 + . downsample
+18223: downsample@0 + . need_context_rows
+18265: compptr + @ h_samp_factor
+18275: compptr + @ v_samp_factor
+18309: compptr + @ h_samp_factor
+18320: compptr + @ v_samp_factor
+18349: compptr + @ h_samp_factor
+18360: compptr + @ v_samp_factor
+Undefined struct struct.jpeg_compress_struct.348
+17252: cinfo@1 + @ alloc_small
+Undefined struct struct.my_prep_controller
+17266: prep@0 + . start_pass
+17271: cinfo@60 + @ need_context_rows
+17276: prep@0 + . pre_process_data
+17306: cinfo@1 + @ alloc_sarray
+17311: compptr + @ width_in_blocks
+17321: compptr + @ h_samp_factor
+33686: cinfo@1 + @ alloc_small
+Undefined struct struct.my_fdct_controller
+33700: fdct@0 + . start_pass
+33715: fdct@0 + . forward_DCT
+33879: cinfo@1 + @ alloc_small
+36043: cinfo@1 + @ alloc_small
+Undefined struct struct.huff_entropy_encoder
+36057: entropy@0 + . start_pass
+Undefined struct struct.jpeg_compress_struct.503
+27668: cinfo@1 + @ alloc_small
+Undefined struct struct.my_coef_controller
+27682: coef@0 + . start_pass
+27754: cinfo@1 + @ alloc_large
+Undefined struct struct.jpeg_compress_struct.214
+9127: cinfo@1 + @ alloc_small
+Undefined struct struct.my_main_controller
+9141: main_ptr@0 + . start_pass
+9190: cinfo@1 + @ alloc_sarray
+9195: compptr + @ width_in_blocks
+9199: compptr + @ v_samp_factor
+Undefined struct struct.jpeg_compress_struct.236
+9414: cinfo@1 + @ alloc_small
+Undefined struct struct.my_marker_writer
+9428: marker@0 + . write_file_header
+9433: marker@0 + . write_frame_header
+9438: marker@0 + . write_scan_header
+9443: marker@0 + . write_file_trailer
+9448: marker@0 + . write_tables_only
+9453: marker@0 + . write_marker_header
+9457: marker@0 + . write_marker_byte
+9097: cinfo@1 + @ realize_virt_arrays
+Undefined struct struct.jpeg_common_struct.419
+23906: cinfo@1 + @ max_memory_to_use
+9106: cinfo@58 + @ write_file_header
+KLEE: IntegerOverflow (8:127): cast 255 @jcmarker.c:118(9536)
+
+9538: dest + @ next_output_byte
+9544: dest + @ free_in_buffer
+KLEE: IntegerOverflow (8:127): cast 216 @jcmarker.c:118(9536)
+
+KLEE: IntegerOverflow (8:127): cast 255 @jcmarker.c:118(9536)
+
+KLEE: IntegerOverflow (8:127): cast 224 @jcmarker.c:118(9536)
+
+8653: cinfo@54 + @ prepare_for_pass
+11780: compptr + @ h_samp_factor
+11783: compptr + @ MCU_width
+11786: compptr + @ v_samp_factor
+11789: compptr + @ MCU_height
+11792: compptr + @ MCU_width
+11795: compptr + @ MCU_height
+11799: compptr + @ MCU_blocks
+11802: compptr + @ MCU_width
+11806: compptr + @ MCU_sample_width
+11809: compptr + @ width_in_blocks
+11812: compptr + @ MCU_width
+11832: compptr + @ last_col_width
+11835: compptr + @ height_in_blocks
+11838: compptr + @ MCU_height
+11858: compptr + @ last_row_height
+11861: compptr + @ MCU_blocks
+11824: compptr + @ MCU_width
+11850: compptr + @ MCU_height
+11156: cinfo@59 + @ start_pass
+29909: cinfo@1 + @ alloc_small
+11163: cinfo@60 + @ start_pass
+11170: cinfo@56 + @ start_pass
+11180: cinfo@61 + @ start_pass
+33968: compptr + @ quant_tbl_no
+34043: cinfo@1 + @ alloc_small
+34077: qtbl + @ quantval
+KLEE: IntegerOverflow (16:32767): cast 32768 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2147483648 @jcdctmgr.c:210(34437)
+
+	pointer parm derived from other vars!
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:102(34544)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 40960 @jcdctmgr.c:102(34544)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3435973837 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 32768 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2147483648 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 40960 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3435973837 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 53248 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2643056798 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 63488 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2216757314 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:102(34544)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:102(34544)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 57344 @jcdctmgr.c:102(34544)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2454267026 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 40960 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3435973837 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 53248 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2643056798 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 59392 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2369637129 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 61440 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2290649225 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 57344 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2454267026 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 57344 @jcdctmgr.c:102(34544)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2454267026 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 57344 @jcdctmgr.c:102(34544)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2454267026 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 32768 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2147483648 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 40960 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3435973837 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 59392 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2369637129 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 35840 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3926827242 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 57344 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2454267026 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 57344 @jcdctmgr.c:102(34544)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2454267026 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 36864 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3817748708 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 45056 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3123612579 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 61440 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2290649225 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 53248 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2643056798 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 45056 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3123612579 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 40960 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3435973837 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 63488 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2216757314 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 36864 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3817748708 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 45056 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3123612579 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 38912 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3616814565 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 57344 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2454267026 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 34816 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 4042322161 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 56320 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2498890063 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 53248 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2643056798 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 39936 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3524075730 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 36864 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3817748708 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 57344 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2454267026 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 32768 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2147483648 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 41984 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3352169597 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 53248 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2643056798 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 58368 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2411209710 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 47104 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2987803336 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 32768 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2147483648 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 39936 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3524075730 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 45056 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3123612579 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 53248 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2643056798 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 62464 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2253097598 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 61440 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2290649225 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 52224 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2694881441 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 36864 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3817748708 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 47104 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2987803336 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 50176 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2804876601 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 57344 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2454267026 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 53248 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2643056798 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 36864 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3817748708 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 36864 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3817748708 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 36864 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3817748708 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 45056 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3123612579 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 53248 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2643056798 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 33792 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 4164816772 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 53248 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2643056798 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 57344 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2454267026 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 33792 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 4164816772 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 36864 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3817748708 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 36864 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3817748708 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 36864 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3817748708 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 45056 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 3123612579 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 53248 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2643056798 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 33792 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 4164816772 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 53248 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2643056798 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 57344 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2454267026 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 49152 @jcdctmgr.c:94(34504)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2863311531 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 33792 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 4164816772 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+KLEE: IntegerOverflow (16:32767): cast 51200 @jcdctmgr.c:106(34564)
+
+KLEE: IntegerOverflow (32:2147483647): cast 2748779069 @jcdctmgr.c:210(34437)
+
+11187: cinfo@62 + @ start_pass
+36122: entropy@0 + . encode_mcu
+36137: entropy@0 + . finish_pass
+36166: compptr + @ dc_tbl_no
+36170: compptr + @ ac_tbl_no
+35316: cinfo@1 + @ alloc_small
+35343: htbl + @ bits
+35483: dtbl + @ None
+35503: htbl + @ None
+35522: dtbl + @ None
+35553: dtbl + @ ehufco
+35563: dtbl + @ None
+	pointer parm derived from other vars!
+36340: entropy@1 + . last_dc_val
+36351: entropy@1 + . put_buffer
+36355: entropy@1 + . put_bits
+11198: cinfo@57 + @ start_pass
+27848: coef@0 + . compress_data
+11210: cinfo@55 + @ start_pass
+9277: main_ptr@0 + . process_data
+11220: master@0 + . call_pass_startup
+11377: master@0 + . is_last_pass
+1001: src_mgr + @ get_pixel_rows
+5871: source@0 + . input_file
+5924: cinfo@1 + @ access_virt_sarray
+6016: source@0 + . get_pixel_rows
+6059: source@0 + . get_pixel_rows
+6096: cinfo@1 + @ access_virt_sarray
+6114: source@0 + . buffer
+KLEE: A safety property (buffer overflow) is violated!
+KLEE: Print SE for get_8bit_row
+KLEE: Print SE for get_8bit_row
+KLEE: Print SE for preload_image
+KLEE: Print SE for __user_main
+KLEE: Print SE for __uClibc_main
+KLEE: Print SE for main
+update_se_for_func get_8bit_row
+KLEE: 145(6143) colormap+t -- Read Fault colormap+t
+
+KLEE: Analyzing fault
+
+KLEE: 1. Analyzing buffer
+
+KLEE: buf: (nil)
+
+KLEE: buf size
+
+analyze_buffer
+	allocated at 56(23873)
+
+	stack dump:
+	jpeg_get_large	 jmemnobs.c:56(23873)
+KLEE: Print SE for jpeg_get_large
+	alloc_large	 jmemmgr.c:393(21512)
+KLEE: Print SE for alloc_large
+	alloc_sarray	 jmemmgr.c:477(21723)
+KLEE: Print SE for alloc_sarray
+	start_input_bmp	 rdbmp.c:401(5465)
+KLEE: Print SE for start_input_bmp
+	__user_main	 cjpeg.c:595(968)
+KLEE: Print SE for __user_main
+	__uClibc_main	 libc/misc/internals/__uClibc_main.c:401(73899)
+KLEE: Print SE for __uClibc_main
+	main	 :0(76872)
+KLEE: Print SE for main
+
+get_buf_start_expr
+jpeg_get_large
+alloc_large
+assigned to hdr_ptr
+alloc_large 393(21512): hdr_ptr
+get_buf_size_expr
+KLEE: get_se_in_scopes_ex_raw 
+
+KLEE: 	sizeofobject = sizeofobject
+
+	23873(jmemnobs.c:56) jpeg_get_large sizeofobject
+KLEE: vars:
+KLEE: 	sizeofobject = 
+	21512(jmemmgr.c:393) alloc_large 31+(sizeofobject)
+KLEE: vars:
+KLEE: 	sizeofobject = round_up_pow2(sizeofobject,8)
+Unable to translate 31+(sizeofobject) to caller
+KLEE: get_se_in_scopes_ex_raw cinfo
+
+KLEE: 	cinfo = cinfo
+
+KLEE: vars:
+KLEE: 	cinfo = 
+	6063(rdbmp.c:270) preload_image cinfo
+KLEE: vars:
+KLEE: 	cinfo = 
+	1004(cjpeg.c:616) __user_main cinfo
+KLEE: vars:
+KLEE: 	cinfo = 
+Unable to translate cinfo to caller
+KLEE: get_se_in_scopes_ex_raw sinfo
+
+KLEE: 	sinfo = sinfo
+
+KLEE: vars:
+KLEE: 	sinfo = 
+	6063(rdbmp.c:270) preload_image sinfo
+KLEE: vars:
+KLEE: 	sinfo = 
+	1004(cjpeg.c:616) __user_main src_mgr
+KLEE: vars:
+KLEE: 	src_mgr = select_file_type(cinfo,input_file)
+Unable to translate src_mgr to caller
+se_mappings for buf start
+	alloc_large: hdr_ptr
+
+se_mappings for buf size
+	jpeg_get_large: sizeofobject
+	alloc_large: 31+(sizeofobject)
+
+KLEE: 2. Analyzing memory access
+
+
+	stack dump:
+	preload_image	 rdbmp.c:270(6063)
+KLEE: Print SE for preload_image
+	__user_main	 cjpeg.c:616(1004)
+KLEE: Print SE for __user_main
+	__uClibc_main	 libc/misc/internals/__uClibc_main.c:401(73899)
+KLEE: Print SE for __uClibc_main
+	main	 :0(76872)
+KLEE: Print SE for main
+
+retrieve_loop_info get_8bit_row 1
+KLEE: get_loop_begin_end: head@143 (6126)
+
+KLEE: get_loop_begin_end: iter:col end:0 @143 (6127)
+
+KLEE: get_loop_begin_end: begin:cinfo@7 @143 (6122)
+
+KLEE: get_loop_incrs 6126(143) col
+
+KLEE: get_loop_incrs 6127(143) col> 0?
+
+KLEE: get_loop_incrs 6128(143) 
+
+KLEE: get_loop_incrs 6131(144) inptr
+
+KLEE: get_loop_incrs 6132(144) inptr+1
+
+KLEE: get_loop_incrs 6133(144) inptr=inptr+1
+
+KLEE: get_loop_incrs: new IV inptr
+
+KLEE: get_loop_incrs 6134(144) *(inptr)
+
+KLEE: get_loop_incrs 6135(144) *(inptr)
+
+KLEE: get_loop_incrs 6136(144) t=*(inptr)
+
+KLEE: get_loop_incrs 6137(145) t
+
+KLEE: get_loop_incrs 6138(145) t
+
+KLEE: get_loop_incrs 6139(145) colormap
+
+KLEE: get_loop_incrs 6140(145) colormap
+
+KLEE: get_loop_incrs 6141(145) colormap
+
+KLEE: get_loop_incrs 6142(145) colormap+t
+
+KLEE: get_loop_incrs 6143(145) colormap+t
+
+KLEE: get_loop_incrs 6144(145) outptr
+
+KLEE: get_loop_incrs 6145(145) outptr+1
+
+KLEE: get_loop_incrs 6146(145) outptr=outptr+1
+
+KLEE: get_loop_incrs: new IV outptr
+
+KLEE: get_loop_incrs 6147(145) outptr=colormap+t
+
+KLEE: get_loop_incrs 6148(146) t
+
+KLEE: get_loop_incrs 6149(146) t
+
+KLEE: get_loop_incrs 6150(146) colormap
+
+KLEE: get_loop_incrs 6151(146) colormap+1
+
+KLEE: get_loop_incrs 6152(146) colormap+1
+
+KLEE: get_loop_incrs 6153(146) colormap+1+t
+
+KLEE: get_loop_incrs 6154(146) colormap+1+t
+
+KLEE: get_loop_incrs 6155(146) outptr
+
+KLEE: get_loop_incrs 6156(146) outptr+1
+
+KLEE: get_loop_incrs 6157(146) outptr=outptr+1
+
+KLEE: get_loop_incrs 6158(146) outptr=colormap+1+t
+
+KLEE: get_loop_incrs 6159(147) t
+
+KLEE: get_loop_incrs 6160(147) t
+
+KLEE: get_loop_incrs 6161(147) colormap
+
+KLEE: get_loop_incrs 6162(147) colormap+2
+
+KLEE: get_loop_incrs 6163(147) colormap+2
+
+KLEE: get_loop_incrs 6164(147) colormap+2+t
+
+KLEE: get_loop_incrs 6165(147) colormap+2+t
+
+KLEE: get_loop_incrs 6166(147) outptr
+
+KLEE: get_loop_incrs 6167(147) outptr+1
+
+KLEE: get_loop_incrs 6168(147) outptr=outptr+1
+
+KLEE: get_loop_incrs 6169(147) outptr=colormap+2+t
+
+KLEE: get_loop_incrs 6170(143) col
+
+KLEE: get_loop_incrs 6171(143) (col)+(-1)
+
+KLEE: get_loop_incrs 6172(143) col=(col)+(-1)
+
+KLEE: get_loop_incrs: new IV col
+
+KLEE: get_loop_incrs 6173(143) 
+
+KLEE: get_loop_incrs 6126(143) col
+
+KLEE: get_loop_incrs 6127(143) col> 0?
+
+KLEE: get_loop_incrs 6128(143) 
+
+KLEE: get_loop_incrs 6131(144) inptr
+
+KLEE: get_loop_incrs 6132(144) inptr+1
+
+KLEE: get_loop_incrs 6133(144) inptr=inptr+1
+
+KLEE: get_loop_incrs 6134(144) *(inptr)
+
+KLEE: get_loop_incrs 6135(144) *(inptr)
+
+KLEE: get_loop_incrs 6136(144) t=*(inptr)
+
+KLEE: get_loop_incrs 6137(145) t
+
+KLEE: get_loop_incrs 6138(145) t
+
+KLEE: get_loop_incrs 6139(145) colormap
+
+KLEE: get_loop_incrs 6140(145) colormap
+
+KLEE: get_loop_incrs 6141(145) colormap
+
+KLEE: get_loop_incrs 6142(145) colormap+t
+
+KLEE: get_loop_incrs 6143(145) colormap+t
+
+KLEE: get_loop_incrs 6144(145) outptr
+
+KLEE: get_loop_incrs 6145(145) outptr+1
+
+KLEE: get_loop_incrs 6146(145) outptr=outptr+1
+
+KLEE: get_loop_incrs 6147(145) outptr=colormap+t
+
+KLEE: get_loop_incrs 6148(146) t
+
+KLEE: get_loop_incrs 6149(146) t
+
+KLEE: get_loop_incrs 6150(146) colormap
+
+KLEE: get_loop_incrs 6151(146) colormap+1
+
+KLEE: get_loop_incrs 6152(146) colormap+1
+
+KLEE: get_loop_incrs 6153(146) colormap+1+t
+
+KLEE: get_loop_incrs 6154(146) colormap+1+t
+
+KLEE: get_loop_incrs 6155(146) outptr
+
+KLEE: get_loop_incrs 6156(146) outptr+1
+
+KLEE: get_loop_incrs 6157(146) outptr=outptr+1
+
+KLEE: get_loop_incrs 6158(146) outptr=colormap+1+t
+
+KLEE: get_loop_incrs 6159(147) t
+
+KLEE: get_loop_incrs 6160(147) t
+
+KLEE: get_loop_incrs 6161(147) colormap
+
+KLEE: get_loop_incrs 6162(147) colormap+2
+
+KLEE: get_loop_incrs 6163(147) colormap+2
+
+KLEE: get_loop_incrs 6164(147) colormap+2+t
+
+KLEE: get_loop_incrs 6165(147) colormap+2+t
+
+KLEE: get_loop_incrs 6166(147) outptr
+
+KLEE: get_loop_incrs 6167(147) outptr+1
+
+KLEE: get_loop_incrs 6168(147) outptr=outptr+1
+
+KLEE: get_loop_incrs 6169(147) outptr=colormap+2+t
+
+KLEE: get_loop_incrs 6170(143) col
+
+KLEE: get_loop_incrs 6171(143) (col)+(-1)
+
+KLEE: get_loop_incrs 6172(143) col=(col)+(-1)
+
+KLEE: get_loop_incrs 6173(143) 
+
+KLEE: enclosing loop 1 iter:col begin:cinfo@7 end:0
+
+KLEE: increments
+
+KLEE: 	 col: -1
+
+KLEE: 	 inptr: 1
+
+KLEE: 	 outptr: 1
+
+KLEE: iter_incr:-1 count:(0-cinfo@7) / (-1)
+
+KLEE: accumulated increments
+
+KLEE: 	 col: ((0-cinfo@7) / (-1)) * (-1)
+KLEE: 	 inptr: ((0-cinfo@7) / (-1)) * (1)
+KLEE: 	 outptr: ((0-cinfo@7) / (-1)) * (1)
+KLEE: propagate increments
+
+KLEE: 	 cinfo@7: ((0-cinfo@7) / (-1)) * (-1)
+KLEE: 	 inptr: ((0-cinfo@7) / (-1)) * (1)
+KLEE: 	 outptr: ((0-cinfo@7) / (-1)) * (1)
+KLEE: Unable to find increment for variable t
+
+update_se_for_func get_8bit_row
+KLEE: Print SE for get_8bit_row
+Cloning loop: slicer -criteria=get_8bit_row:145 -controldep=./cjpeg.bc.talos -sefile=klee-last/get_8bit_row.SE ./cjpeg.bc
+get_slice_lines get_8bit_row
+	Found slice lines
+find_first_assn colormap+t
+KLEE: Creating patch in ./cjpeg.bc.patch
+
+0  klee            0x0000000001e9d8e5 llvm::sys::PrintStackTrace(llvm::raw_ostream&) + 44
+1  klee            0x0000000001e9dbfa
+2  klee            0x0000000001e9c312 llvm::sys::RunSignalHandlers() + 118
+3  klee            0x0000000001e9d40c
+4  libpthread.so.0 0x00007f9e16851390
+5  klee            0x0000000000c25cb7 klee::PatchIngredientMaker::get_caller_inst(std::vector<klee::StackFrame, std::allocator<klee::StackFrame> > const&, klee::KInstruction const*) + 167
+6  klee            0x0000000000c3aa5a klee::PatchIngredientMaker::get_access_start_expr(klee::ExecutionState&, klee::KInstruction const*, bool) + 378
+7  klee            0x0000000000c3d53c klee::PatchIngredientMaker::faultMemorySeqAccess(klee::KInstruction*, klee::ExecutionState&, klee::MemoryObject const*, bool, klee::ref<klee::Expr>) + 1228
+8  klee            0x0000000000c3dcb4 klee::PatchIngredientMaker::faultEx(klee::KInstruction*, klee::ExecutionState&, klee::MemoryObject const*, klee::ref<klee::Expr>, bool, klee::PatchIngredientMaker::FAULT_TYPE, klee::KInstruction*) + 164
+9  klee            0x0000000000c3e14d klee::PatchIngredientMaker::access_mem(klee::ExecutionState&, klee::MemoryObject const*, bool, klee::ref<klee::Expr>, klee::ref<klee::Expr>, unsigned int, klee::KInstruction*) + 877
+10 klee            0x0000000000bf88d6 klee::Executor::executeMemoryOperation(klee::ExecutionState&, bool, klee::ref<klee::Expr>, klee::ref<klee::Expr>, klee::KInstruction*, klee::KInstruction*) + 662
+11 klee            0x0000000000bfab55 klee::Executor::executeInstruction(klee::ExecutionState&, klee::KInstruction*) + 2949
+12 klee            0x0000000000bff699 klee::Executor::run(klee::ExecutionState&) + 1561
+13 klee            0x0000000000bffea2 klee::Executor::runFunctionAsMain(llvm::Function*, int, char**, char**) + 1570
+14 klee            0x0000000000bde6ff main + 11023
+15 libc.so.6       0x00007f9e13f93840 __libc_start_main + 240
+16 klee            0x0000000000be65a9 _start + 41
+/home/user/bin/senx: line 7: 16469 Segmentation fault      (core dumped) ~/Projects/Senx/code/build3.8/bin/klee --write-kqueries --allow-external-sym-calls --libc=uclibc --posix-runtime --libxml2 --libpcap --libreadline -check-overflow -make-patch $*

@@ -3,7 +3,7 @@ KLEE: NOTE: Using libxml2: /home/user/Projects/Senx/code/build3.8/Release+Debug+
 KLEE: NOTE: Using libpcap: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libpcap.bca
 KLEE: NOTE: Using klee-uclibc : /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/klee-uclibc.bca
 KLEE: NOTE: Using model: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libkleeRuntimePOSIX.bca
-KLEE: output directory is "/home/user/senx-experiments/libtiff/cve_2016_5321/./klee-out-0"
+KLEE: output directory is "/home/user/senx-experiments/libtiff/cve_2016_5321/./klee-out-1"
 KLEE: loadSensitiveFunctionList __assert_fail
 KLEE: loadSensitiveFunctionList sqlite3_realloc
 KLEE: loadSensitiveFunctionList sqlite3_alloc
@@ -4015,7 +4015,7 @@ KLEE: ARGV 2: ./tmpout.tif
 
 Undefined struct struct.exe_sym_env_t
 Undefined struct struct.exe_file_t
-KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 236606336)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 242366112)
 Undefined struct struct.stat
 Undefined struct struct.exe_disk_file_t
 Undefined struct struct.__kernel_termios.1633
@@ -4024,7 +4024,7 @@ Undefined struct struct.Elf64_auxv_t
 KLEE: WARNING ONCE: calling __user_main with extra arguments.
 KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
 	pointer parm derived from itself!
-KLEE: 0xdfe8130: Symbolic value  used to determine branching at /home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_init.c:100 (150331)
+KLEE: 0xe566430: Symbolic value  used to determine branching at /home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_init.c:100 (150331)
 Undefined struct struct.image_data
 Undefined struct struct.crop_mask
 Undefined struct struct.coordpairs
@@ -4060,7 +4060,7 @@ KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Usi
 	pointer parm derived from other vars!
 46064: o + @ tdir_tag
 46081: o + @ tdir_tag
-KLEE: WARNING ONCE: calling external: vprintf(235674144, 237099264)
+KLEE: WARNING ONCE: calling external: vprintf(241433920, 244369504)
 Undefined struct struct.__STDIO_FILE_STRUCT.1416
 Invalid TIFF directory; tags are not sorted in ascending order	pointer parm derived from itself!
 43217: ma + @ tdir_tag
@@ -4349,7 +4349,7 @@ KLEE: Analyzing fault
 
 KLEE: 1. Analyzing buffer
 
-KLEE: buf: 0xe76ae00
+KLEE: buf: 0xec142f0
 
 KLEE: buf size
 
@@ -5311,17 +5311,17 @@ KLEE: accumulated increments
 
 KLEE: 	 col: ((imagelength)/(tl)) * (imagewidth)
 KLEE: 	 row: ((imagelength)/(tl)) * (tl)
-KLEE: 	 s: ((imagelength)/(tl)) * ((spp)*((imagewidth)/(tw)))
+KLEE: 	 s: ((imagelength)/(tl)) * ((imagewidth)*((spp)/(tw)))
 KLEE: propagate increments
 
-KLEE: 	 0: (imagelength)*((imagewidth)/(tl))
+KLEE: 	 0: ((imagelength)*(imagewidth))/(tl)
 KLEE: 	 0: imagelength
-KLEE: 	 0: ((((imagelength)*(imagewidth))*(spp))/(tl))/(tw)
+KLEE: 	 0: (imagewidth)*((((1/(tl))/(tw))*(imagelength))*(spp))
 KLEE: complicated expr: s(0)
 
 KLEE: begin:0 expr:srcbuffs+s
 
-KLEE: begin:(srcbuffs)+0 increment:((((imagelength)*(imagewidth))*(spp))/(tl))/(tw)
+KLEE: begin:(srcbuffs)+0 increment:(imagewidth)*((((1/(tl))/(tw))*(imagelength))*(spp))
 
 KLEE: get_se_in_scopes_ex_raw (srcbuffs)+0
 
@@ -5330,9 +5330,9 @@ KLEE: 	(srcbuffs)+0 = (srcbuffs)+0
 KLEE: vars:
 KLEE: 	srcbuffs = 
 Unable to translate (srcbuffs)+0 to caller
-KLEE: get_se_in_scopes_ex_raw ((((imagelength)*(imagewidth))*(spp))/(tl))/(tw)
+KLEE: get_se_in_scopes_ex_raw (imagewidth)*((((1/(tl))/(tw))*(imagelength))*(spp))
 
-KLEE: 	((((imagelength)*(imagewidth))*(spp))/(tl))/(tw) = ((((imagelength)*(imagewidth))*(spp))/(tl))/(tw)
+KLEE: 	(imagewidth)*((((1/(tl))/(tw))*(imagelength))*(spp)) = (imagewidth)*((((1/(tl))/(tw))*(imagelength))*(spp))
 
 KLEE: vars:
 KLEE: 	imagelength = 
@@ -5340,42 +5340,47 @@ KLEE: 	imagewidth =
 KLEE: 	spp = 
 KLEE: 	tl = 
 KLEE: 	tw = 
-terminate called after throwing an instance of 'GiNaC::pole_error'
-  what():  power::eval(): division by zero
-0  klee            0x0000000001e9d8e5 llvm::sys::PrintStackTrace(llvm::raw_ostream&) + 44
-1  klee            0x0000000001e9dbfa
-2  klee            0x0000000001e9c312 llvm::sys::RunSignalHandlers() + 118
-3  klee            0x0000000001e9d40c
-4  libpthread.so.0 0x00007f994a856390
-5  libc.so.6       0x00007f9947fad438 gsignal + 56
-6  libc.so.6       0x00007f9947faf03a abort + 362
-7  libstdc++.so.6  0x00007f99485e784d __gnu_cxx::__verbose_terminate_handler() + 365
-8  libstdc++.so.6  0x00007f99485e56b6
-9  libstdc++.so.6  0x00007f99485e5701
-10 libstdc++.so.6  0x00007f99485e5919
-11 libginac.so.6   0x00007f9948abceee GiNaC::power::eval() const + 6830
-12 libginac.so.6   0x00007f99489a5031 GiNaC::ex::construct_from_basic(GiNaC::basic const&) + 97
-13 libginac.so.6   0x00007f9948ae5140
-14 libginac.so.6   0x00007f9948ae58bf GiNaC::parser::parse_binop_rhs(int, GiNaC::ex&) + 543
-15 libginac.so.6   0x00007f9948ae7549 GiNaC::parser::parse_expression() + 41
-16 libginac.so.6   0x00007f9948ae75aa GiNaC::parser::parse_paren_expr() + 42
-17 libginac.so.6   0x00007f9948ae72d5 GiNaC::parser::parse_primary() + 1157
-18 libginac.so.6   0x00007f9948ae7539 GiNaC::parser::parse_expression() + 25
-19 libginac.so.6   0x00007f9948ae7fd6 GiNaC::parser::operator()(std::istream&) + 54
-20 libginac.so.6   0x00007f9948ae8371 GiNaC::parser::operator()(std::string const&) + 401
-21 klee            0x0000000000c2b2db klee::PatchIngredientMaker::simplify_expr(std::string const&) + 331
-22 klee            0x0000000000c2c049 klee::PatchIngredientMaker::get_se_in_caller(klee::KFunction*, std::string&, klee::KInstruction*, klee::KInstruction const*) + 2057
-23 klee            0x0000000000c2c4ca klee::PatchIngredientMaker::get_se_in_scopes_ex_raw(klee::ExecutionState&, std::vector<klee::StackFrame, std::allocator<klee::StackFrame> > const&, klee::KInstruction const*, std::string, bool*) + 1034
-24 klee            0x0000000000c2cd13 klee::PatchIngredientMaker::get_se_in_scopes_ex(klee::ExecutionState&, std::vector<klee::StackFrame, std::allocator<klee::StackFrame> > const&, klee::KInstruction const*, std::string, bool*) + 83
-25 klee            0x0000000000c35b23 klee::PatchIngredientMaker::get_access_range_expr(klee::ExecutionState&, klee::KInstruction const*, bool) + 835
-26 klee            0x0000000000c3d6cf klee::PatchIngredientMaker::faultMemorySeqAccess(klee::KInstruction*, klee::ExecutionState&, klee::MemoryObject const*, bool, klee::ref<klee::Expr>) + 1631
-27 klee            0x0000000000c3dcb4 klee::PatchIngredientMaker::faultEx(klee::KInstruction*, klee::ExecutionState&, klee::MemoryObject const*, klee::ref<klee::Expr>, bool, klee::PatchIngredientMaker::FAULT_TYPE, klee::KInstruction*) + 164
-28 klee            0x0000000000c3e14d klee::PatchIngredientMaker::access_mem(klee::ExecutionState&, klee::MemoryObject const*, bool, klee::ref<klee::Expr>, klee::ref<klee::Expr>, unsigned int, klee::KInstruction*) + 877
-29 klee            0x0000000000bf88d6 klee::Executor::executeMemoryOperation(klee::ExecutionState&, bool, klee::ref<klee::Expr>, klee::ref<klee::Expr>, klee::KInstruction*, klee::KInstruction*) + 662
-30 klee            0x0000000000bfab55 klee::Executor::executeInstruction(klee::ExecutionState&, klee::KInstruction*) + 2949
-31 klee            0x0000000000bff699 klee::Executor::run(klee::ExecutionState&) + 1561
-32 klee            0x0000000000bffea2 klee::Executor::runFunctionAsMain(llvm::Function*, int, char**, char**) + 1570
-33 klee            0x0000000000bde6ff main + 11023
-34 libc.so.6       0x00007f9947f98840 __libc_start_main + 240
-35 klee            0x0000000000be65a9 _start + 41
-/home/user/bin/senx: line 7: 19706 Aborted                 (core dumped) ~/Projects/Senx/code/build3.8/bin/klee --write-kqueries --allow-external-sym-calls --libc=uclibc --posix-runtime --libxml2 --libpcap --libreadline -check-overflow -make-patch $*
+	5688(tiffcrop.c:6079) loadImage 0
+KLEE: 	0 is a constant
+
+se_mappings for buf access increment
+	readSeparateTilesIntoBuffer: (imagewidth)*((((1/(tw))/(tl))*(imagelength))*(spp))
+	loadImage: 0
+
+KLEE: converge...
+se_mappings for buffer size
+
+se_mappings for access range
+	readSeparateTilesIntoBuffer: (imagewidth)*((((1/(tw))/(tl))*(imagelength))*(spp))
+	loadImage: 0
+
+KLEE: Converge@readSeparateTilesIntoBuffer
+
+KLEE: tiffcrop.c
+
+KLEE: prepare_expr_list access_upper:(imagewidth)*((((1/(tw))/(tl))*(imagelength))*(spp)) access_lower: buf_upper:64 buf_lower:
+
+KLEE: Converge@loadImage
+
+KLEE: tiffcrop.c
+
+KLEE: prepare_expr_list access_upper:0 access_lower: buf_upper:64 buf_lower:
+
+KLEE: Failed to open ./tiffcrop.bc.return!
+
+KLEE: Failed to find error return for tiffcrop.c:readSeparateTilesIntoBuffer
+
+KLEE: Failed to open ./tiffcrop.bc.return!
+
+KLEE: Failed to find error return for tiffcrop.c:loadImage
+
+KLEE: Creating patch in ./tiffcrop.bc.patch
+
+KLEE: Fault@11926 R (ec14330) tiffcrop.c:994
+
+KLEE: ERROR: tiffcrop.c:994: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+
+KLEE: done: total instructions = 623071
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1
