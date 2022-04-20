@@ -3,9 +3,9 @@
 unzip source.zip
 cd source/
 
-CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS" ./configure --enable-static --disable-shared
+CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0 -static" CPPFLAGS="$CFLAGS" ./configure --enable-static --disable-shared
 
-make CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS"
+make CFLAGS="-g -O0 -static" CPPFLAGS="$CFLAGS" -j10
 
 bin=potrace
 
