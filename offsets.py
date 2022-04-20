@@ -163,7 +163,10 @@ class Offsets(gdb.Command):
         try:
             # Print name and size
             # print(type_name + '[' + str(stype.sizeof) + '] {')
-            print(type_name + " {")
+            if type_name.startswith("struct "):
+                print(type_name + " {")
+            else:
+                print("struct " + type_name + " {")
 
             # Add the fields to a list and print them using create_table.
             rows = []
