@@ -149,7 +149,7 @@ class Offsets(gdb.Command):
             type_name = stype.name
         except gdb.error: # did not find class_name
             stype = gdb.lookup_type("struct " + class_name)
-            type_name = stype
+            type_name = str(stype)
         except BaseException as e: # still fails
             exc_type, _, exc_tb = sys.exc_info()
             fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
