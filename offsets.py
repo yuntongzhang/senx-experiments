@@ -162,7 +162,8 @@ class Offsets(gdb.Command):
         # stype has been found, proceed to find its fields
         try:
             # Print name and size
-            print(type_name + '[' + str(stype.sizeof) + '] {')
+            # print(type_name + '[' + str(stype.sizeof) + '] {')
+            print(type_name + " {")
 
             # Add the fields to a list and print them using create_table.
             rows = []
