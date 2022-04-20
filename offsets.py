@@ -163,7 +163,7 @@ class Offsets(gdb.Command):
 
             # Add the fields to a list and print them using create_table.
             rows = []
-            get_fields(rows, stype, 0, "    ", verbose_mode, "(("+stype.name+"*)0)->")
+            get_fields(rows, stype, 0, "    ", verbose_mode, "(("+type_name+"*)0)->")
             print(create_table(rows, "<<<<><>>>") + "}")
 
         except BaseException as e:
