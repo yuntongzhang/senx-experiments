@@ -148,12 +148,15 @@ class Offsets(gdb.Command):
             stype = gdb.lookup_type(class_name)
             type_name = stype.name
         except gdb.error: # did not find class_name
-            stype = gdb.lookup_type("struct " + class_name)
-            type_name = str(stype)
-        except BaseException as e: # still fails
-            exc_type, _, exc_tb = sys.exc_info()
-            fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-            print(str(e), exc_type, fname, exc_tb.tb_lineno)
+            try:
+                stype = gdb.lookup_type("struct " + class_name)
+                type_name = str(stype)
+            except Exception: # failed to find type obj for both names
+                return
+        except Exception as e: # other exception occurred
+            # exc_type, _, exc_tb = sys.exc_info()
+            # fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+            # print(str(e), exc_type, fname, exc_tb.tb_lineno)
             return
 
         # stype has been found, proceed to find its fields
@@ -167,8 +170,9 @@ class Offsets(gdb.Command):
             print(create_table(rows, "<<<<><>>>") + "}")
 
         except BaseException as e:
-            exc_type, exc_obj, exc_tb = sys.exc_info()
-            fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-            print(str(e), exc_type, fname, exc_tb.tb_lineno)
+            # exc_type, exc_obj, exc_tb = sys.exc_info()
+            # fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+            # print(str(e), exc_type, fname, exc_tb.tb_lineno)
+            return
 
 Offsets()
