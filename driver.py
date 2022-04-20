@@ -101,7 +101,7 @@ def main():
             # check whether a patch file is produced
             generated_patch = glob.glob("*.bc.patch")
             if generated_patch:
-                print("A patch has been generated. Please check.")
+                print("\033[96m A patch has been generated. Please check. \033[0m")
         os.chdir(curr_dir)
 
 
