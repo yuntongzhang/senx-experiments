@@ -146,8 +146,10 @@ class Offsets(gdb.Command):
         try:
             # look up class_name
             stype = gdb.lookup_type(class_name)
+            type_name = stype.name
         except gdb.error: # did not find class_name
             stype = gdb.lookup_type("struct " + class_name)
+            type_name = stype
         except BaseException as e: # still fails
             exc_type, _, exc_tb = sys.exc_info()
             fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
@@ -157,7 +159,7 @@ class Offsets(gdb.Command):
         # stype has been found, proceed to find its fields
         try:
             # Print name and size
-            print(stype.name + '[' + str(stype.sizeof) + '] {')
+            print(type_name + '[' + str(stype.sizeof) + '] {')
 
             # Add the fields to a list and print them using create_table.
             rows = []
