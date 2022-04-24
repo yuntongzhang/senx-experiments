@@ -1,0 +1,5 @@
+File: bitmap_io.c
+Function: bm_readbody_bmp
+Line: 615
++	if (((bmpinfo.h)/1)*((bmpinfo.w)/1) >= ((bmpinfo.h)*(63+(bmpinfo.w)))/8)
++		exit(0);
