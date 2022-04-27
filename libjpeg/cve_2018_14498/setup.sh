@@ -1,16 +1,17 @@
 #!/bin/bash
 
-# needed to remove `register` modifiers for all variables in the buggy function
-# so use the zip file instead of clone
-unzip source.zip
+git clone https://github.com/libjpeg-turbo/libjpeg-turbo.git source
 cd source/
+git checkout f4b8a5c
 
 export CXXFLAGS="-O0 -fsanitize=address -fsanitize=undefined"
 export CFLAGS="-O0 -fsanitize=address -fsanitize=undefined"
 # Use the debug build option
-# (non-debug option uses O3, and makes converting fix location from
-# line number to binary address very hard and inaccurate)
 cmake -DCMAKE_BUILD_TYPE=Debug CMakeLists.txt
-make -j10
+make -j`nproc`
 
 cp ./cjpeg ../
+
+# autoreconf -i
+# ./configure CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS" --without-simd --enable-static --disable-shared
+# make CFLAGS="-g -O0 -static" CXXFLAGS="$CFLAGS" -j`nproc`
