@@ -1,5 +1,0 @@
-File: tiff2pdf.c
-Function: t2p_readwrite_pdf_image_tile
-Line: 2900
-+	if (buffer + (-2)+(count) >= (char *)buffer + t2p->tiff_datasize)
-+		exit(0);
