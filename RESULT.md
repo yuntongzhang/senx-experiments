@@ -14,7 +14,7 @@
 | 8 | coreutils | gnubug_26545 | No | - |
 | 9 | jasper | cve_2016_8691 | No | - |
 | 10 | jasper | cve_2016_9557 | No | - |
-| 11 | libarchive | cve_2016_5844 | Patched | Wrong (cannot compile) |
+| 11 | libarchive | cve_2016_5844 | Yes | Wrong (cannot compile) |
 | 12 | libjpeg | cve_2012_2806 | No | - |
 | 13 | libjpeg | cve_2017_15232 | No | - |
 | 14 | libjpeg | cve_2018_14498 | No | - |
