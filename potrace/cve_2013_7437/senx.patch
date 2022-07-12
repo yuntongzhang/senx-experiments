@@ -1,0 +1,11 @@
+--- backup.c	2022-07-12 18:38:23.058846655 +0800
++++ bitmap_io.c	2022-07-12 18:39:26.248846973 +0800
+@@ -612,6 +612,8 @@
+       for (x=0; x<bmpinfo.w; x++) {
+         TRY_EOF(bmp_readint(f, bmpinfo.bits/8, &c));
+ 	c = ((c>>16) & 0xff) + ((c>>8) & 0xff) + (c & 0xff);
++        if (((bmpinfo.h)/1)*((bmpinfo.w)/1) >= ((bmpinfo.h)*(63+(bmpinfo.w)))/8)
++          exit(0);
+         BM_UPUT(bm, x, ycorr(y), c > 3 * threshold * 255 ? 0 : 1);
+       }
+       TRY(bmp_pad(f));

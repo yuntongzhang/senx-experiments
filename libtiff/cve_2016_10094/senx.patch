@@ -1,0 +1,11 @@
+--- backup.c	2022-07-12 18:47:39.098849448 +0800
++++ tiff2pdf.c	2022-07-12 18:48:08.088849593 +0800
+@@ -2897,6 +2897,8 @@
+ 			if(TIFFGetField(input, TIFFTAG_JPEGTABLES, &count, &jpt) != 0) {
+ 				if (count >= 4) {
+                     /* Ignore EOI marker of JpegTables */
++					if (buffer + (-2)+(count) >= (char *)buffer + t2p->tiff_datasize)
++						exit(0);
+ 					_TIFFmemcpy(buffer, jpt, count - 2);
+ 					bufferoffset += count - 2;
+                     /* Store last 2 bytes of the JpegTables */
