@@ -15,7 +15,9 @@ FILE_GDB_SCRIPT = "gdb_script"
 PATTERN_TALOS = "*.bc.talos"
 PATTERN_PATCH = "*.bc.patch"
 
-DEFAULT_LIST = list(range(1, 40)) # 39 entries in total
+all_in_vulnloc_bench = list(range(1, 44)) # 43 entries in total
+ffmpeg_bugs = [9, 10]
+DEFAULT_LIST = [ x for x in all_in_vulnloc_bench if x not in ffmpeg_bugs ] # 41 entries in total
 
 def main():
     parser = argparse.ArgumentParser(description="Driver to run SenX on all vulnerabilities.")

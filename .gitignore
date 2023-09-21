@@ -43,3 +43,5 @@ foo
 # others
 source/
 zziplib-manpages.tar
+
+.mypy_cache/
