@@ -5,6 +5,7 @@ import re
 import shutil
 import glob
 import subprocess
+from datetime import datetime
 
 FILE_META_DATA = "meta-data.json"
 
@@ -60,7 +61,8 @@ def main():
         bug_name = str(vulnerability['bug_id'])
         subject = str(vulnerability['subject'])
 
-        print("\n\033[34mProcessing {} {} ... \033[0m".format(subject, bug_name))
+        now = datetime.now()
+        print("\n\033[34m[{}] Processing {} {} ... \033[0m".format(now, subject, bug_name))
 
         vul_dir = os.path.join(curr_dir, subject, bug_name)
         os.chdir(vul_dir)
@@ -105,7 +107,9 @@ def main():
                 cp = subprocess.run("./senx_setup.sh", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                 if cp.returncode != 0:
                     print("\033[91m Error in setup. Please check ... \033[0m")
-                vuls_failed_setup.append(bug_name)
+                    vuls_failed_setup.append(bug_name)
+                else:
+                    print("\033[92m Setup success. \033[0m")
                 
         if not setup_only:
             os.system("./senx_run.sh")
