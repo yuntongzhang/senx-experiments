@@ -112,7 +112,34 @@ VBoxHeadless --startvm "Ubuntu 16.04 - Senx"
 ssh -p 3022 user@127.0.0.1
 ```
 
-Once land in the VM, clone this repo:
+Once land in the VM, install some deps to build experimental subjects
+
+1. remove content in `/etc/apt/apt.conf`
+2. Install python3.8
+```
+sudo apt update
+sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev
+wget https://www.python.org/ftp/python/3.8.0/Python-3.8.0.tgz
+tar -xf Python-3.8.0.tgz
+cd Python-3.8.0
+./configure --enable-optimizations
+make -j`nproc`
+sudo make altinstall
+```
+3. Install wllvm
+```
+sudo python3.8 -m pip install wllvm
+```
+4. Install llvm
+```
+sudo apt install clang llvm
+```
+5. set env var
+```
+export LLVM_COMPILER=clang
+```
+
+To run the benchmark, clone this repo first:
 
 ```bash
 git clone https://github.com/yuntongzhang/senx-experiments.git
