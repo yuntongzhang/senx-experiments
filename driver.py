@@ -50,7 +50,8 @@ def main():
 
     curr_dir = os.getcwd()
 
-    failed_setup_vuls = [] # records which one failed setup
+    vuls_failed_setup = [] # records which one failed setup
+    vuls_generated_patch = [] # records which one generated patch
 
     for vulnerability in vulnerabilities:
         if int(vulnerability['id']) not in vul_ids_to_run:
@@ -104,7 +105,7 @@ def main():
                 cp = subprocess.run("./senx_setup.sh", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                 if cp.returncode != 0:
                     print("\033[91m Error in setup. Please check ... \033[0m")
-                failed_setup_vuls.append(bug_name)
+                vuls_failed_setup.append(bug_name)
                 
         if not setup_only:
             os.system("./senx_run.sh")
@@ -112,12 +113,18 @@ def main():
             generated_patch = glob.glob("*.bc.patch")
             if generated_patch:
                 print("\033[96m A patch has been generated. Please check. \033[0m")
+                vuls_generated_patch.append(bug_name)
         os.chdir(curr_dir)
 
-    if failed_setup_vuls:
+    if vuls_failed_setup:
         print("\033[91m Failed to setup the following vulnerabilities: \033[0m")
-        for bug_name in failed_setup_vuls:
+        for bug_name in vuls_failed_setup:
             print("\033[91m {} \033[0m".format(bug_name))
+    
+    if vuls_generated_patch:
+        print("\033[96m The following vulnerabilities generated patches: \033[0m")
+        for bug_name in vuls_generated_patch:
+            print("\033[96m {} \033[0m".format(bug_name))
 
 if __name__ == "__main__":
     main()
