@@ -50,49 +50,50 @@ marked as `Correct`. Otherwise, if compilation fails after applying the patch, i
 exploit input, it is marked as `Wrong (exploit sstill fail)`.
 
 
-| Bug ID | Program | Vulnerability | Patch generated? | Patch correct? |
-| :----: | :-----: | :-----------: | :--------------: | :------------: |
-| 1 | binutils | CVE-2017-14745 | No | - |
-| 2 | binutils | CVE-2017-15020 | No | - |
-| 3 | binutils | CVE-2017-15025 | _Not applicable_ | -_Not applicable_|
-| 4 | binutils | CVE-2017-6965 | No | - |
-| 5 | coreutils | gnubug-19784 | No | - |
-| 6 | coreutils | gnubug-25003 | No | - |
-| 7 | coreutils | gnubug-25023 | No | - |
-| 8 | coreutils | gnubug-26545 | No | - |
-| 11 | jasper | CVE-2016-8691 | _Not applicable_ | _Not applicable_ |
-| 12 | jasper | CVE-2016-9557 | No | - |
-| 13 | libarchive | CVE-2016-5844 | Yes | Wrong (cannot compile) |
-| 14 | libjpeg | CVE-2012-2806 | No | - |
-| 15 | libjpeg | CVE-2017-15232 | _Not applicable_ | _Not applicable_ |
-| 16 | libjpeg | CVE-2018-14498 | No | - |
-| 17 | libjpeg | CVE-2018-19664 | No | - |
-| 18 | libming | CVE-2016-9264 | Yes | Wrong (exploit still fail) |
-| 19 | libming | CVE-2018-8806 | _Not applicable_ | _Not applicable_ |
-| 20 | libming | CVE-2018-8964 | _Not applicable_ | _Not applicable_ |
-| 21 | libtiff | bugzilla-2611 | _Not applicable_ | _Not applicable_ |
-| 22 | libtiff | bugzilla-2633 | Yes | Correct |
-| 23 | libtiff | CVE-2016-10092 | Yes | Wrong (exploit still fail) |
-| 24 | libtiff | CVE-2016-10094 | Yes | Correct |
-| 25 | libtiff | CVE-2016-10272 | Yes | Wrong (exploit still fail) |
-| 26 | libtiff | CVE-2016-3186 |   |   |
-| 27 | libtiff | CVE-2016-5314 |   |   |
-| 28 | libtiff | CVE-2016-5321 | Yes | Wrong (exploit still fail) |
-| 29 | libtiff | CVE-2016-9273 | No | - |
-| 30 | libtiff | CVE-2016-9532 | Yes | Wrong (cannot compile) |
-| 31 | libtiff | CVE-2017-5225 | Yes | Correct |
-| 32 | libtiff | CVE-2017-7595 | _Not applicable_ | _Not applicable_ |
-| 33 | libtiff | CVE-2017-7599 | No | - |
-| 34 | libtiff | CVE-2017-7600 | No | - |
-| 35 | libtiff | CVE-2017-7601 | No | - |
-| 36 | libxml2 | CVE-2012-5134 | No | - |
-| 37 | libxml2 | CVE-2016-1838 | No | - |
-| 38 | libxml2 | CVE-2016-1839 | No | - |
-| 39 | libxml2 | CVE-2017-5969 | _Not applicable_ | _NA_ (though a patch produced but cannot compile) |
-| 40 | potrace | CVE-2013-7437 | Yes | Correct |
-| 41 | zziplib | CVE-2017-5974 | No | - |
-| 42 | zziplib | CVE-2017-5975 | No | - |
-| 43 | zziplib | CVE-2017-5976 | No | - |
+| Bug ID | Program | Vulnerability | Applicable? | Generated? | Plausible? | Correct? |
+| :----: | :-----: | :-----------: | :---------: | :--------: | :--------: | :------: |
+| 1 | binutils | CVE-2017-14745 | Y | N | - | - |
+| 2 | binutils | CVE-2017-15020 | Y | N | - | - |
+| 3 | binutils | CVE-2017-15025 | N | - | - | - |
+| 4 | binutils | CVE-2017-6965 | Y | N | - | - |
+| 5 | coreutils | gnubug-19784 | Y | N | - | - |
+| 6 | coreutils | gnubug-25003 | Y | N | - | - |
+| 7 | coreutils | gnubug-25023 | Y | N | - | - |
+| 8 | coreutils | gnubug-26545 | Y | N | - | - |
+| 11 | jasper | CVE-2016-8691 | N | - | - | - |
+| 12 | jasper | CVE-2016-9557 | Y | N | - | - |
+| 13 | libarchive | CVE-2016-5844 | Y | Y | ? | ? |
+| 14 | libjpeg | CVE-2012-2806 | Y | N | - | - |
+| 15 | libjpeg | CVE-2017-15232 | N | - | - | - |
+| 16 | libjpeg | CVE-2018-14498 | Y | Y | ? | ? |
+| 17 | libjpeg | CVE-2018-19664 | Y | N | - | - |
+| 18 | libming | CVE-2016-9264 | Y | Y | ? | ? |
+| 19 | libming | CVE-2018-8806 | N | - | - | - |
+| 20 | libming | CVE-2018-8964 | N | - | - | - |
+| 21 | libtiff | bugzilla-2611 | N | - | - | - |
+| 22 | libtiff | bugzilla-2633 | Y | Y | ? | ? |
+| 23 | libtiff | CVE-2016-10092 | Y | Y | ? | ? |
+| 24 | libtiff | CVE-2016-10094 | Y | Y | ? | ? |
+| 25 | libtiff | CVE-2016-10272 | Y | Y | ? | ? |
+| 26 | libtiff | CVE-2016-3186 | Y | N | - | - |
+| 27 | libtiff | CVE-2016-5314 | Y | Y | ? | ? |
+| 28 | libtiff | CVE-2016-5321 | Y | N | - | - |
+| 29 | libtiff | CVE-2016-9273 | Y | N | - | - |
+| 30 | libtiff | CVE-2016-9532 | Y | Y | ? | ? |
+| 31 | libtiff | CVE-2017-5225 | Y | Y | ? | ? |
+| 32 | libtiff | CVE-2017-7595 | N | - | - | - |
+| 33 | libtiff | CVE-2017-7599 | Y | N | - | - |
+| 34 | libtiff | CVE-2017-7600 | Y | N | - | - |
+| 35 | libtiff | CVE-2017-7601 | Y | N | - | - |
+| 36 | libxml2 | CVE-2012-5134 | Y | N | - | - |
+| 37 | libxml2 | CVE-2016-1838 | Y | N | - | - |
+| 38 | libxml2 | CVE-2016-1839 | Y | N | - | - |
+| 39 | libxml2 | CVE-2017-5969 | N | - | - | - |
+| 40 | potrace | CVE-2013-7437 | Y | Y | ? | ? |
+| 41 | zziplib | CVE-2017-5974 | Y | N | - | - |
+| 42 | zziplib | CVE-2017-5975 | Y | N | - | - |
+| 43 | zziplib | CVE-2017-5976 | Y | N | - | - |
+|    | Total   | 41            | 33 | 11 |  |  | 
 
 
 ## Steps used in experiments
@@ -176,7 +177,11 @@ python import offsets
 Now, set up and run all the vulnerabilities with the driver script:
 
 ```bash
-python3 driver.py --setup
+python3 driver.py --setup # takes around 1.5 - 2 hours
 python3 driver.py --run
 python3 driver.py --saveres
 ```
+
+
+[yes]: ✔
+[no]: ❌

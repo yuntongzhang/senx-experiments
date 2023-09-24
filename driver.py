@@ -76,15 +76,15 @@ def main():
                     this_num = int(res_dir_pattern.match(dir).group(1))
                     num_existing_res = max(num_existing_res, this_num)
             new_dir_name = "result-" + str(num_existing_res + 1)
-            # copy files generated from previous run to new result directory
+            # move files generated from previous run to new result directory
             os.mkdir(new_dir_name)
             if os.path.isfile(FILE_ANALYZE_ERR):
-                shutil.copy2(FILE_ANALYZE_ERR, new_dir_name)
+                shutil.move(FILE_ANALYZE_ERR, new_dir_name)
             if os.path.isfile(FILE_SENX_ERR):
-                shutil.copy2(FILE_SENX_ERR, new_dir_name)
+                shutil.move(FILE_SENX_ERR, new_dir_name)
             generated_patch = glob.glob(PATTERN_PATCH)
             for p in generated_patch:
-                shutil.copy2(p, new_dir_name)
+                shutil.move(p, new_dir_name)
             continue
 
         if clean_up:
