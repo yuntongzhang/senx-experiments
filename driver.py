@@ -4,6 +4,7 @@ import os
 import re
 import shutil
 import glob
+import subprocess
 
 FILE_META_DATA = "meta-data.json"
 
@@ -48,6 +49,9 @@ def main():
         vulnerabilities = json.load(f)
 
     curr_dir = os.getcwd()
+
+    failed_setup_vuls = [] # records which one failed setup
+
     for vulnerability in vulnerabilities:
         if int(vulnerability['id']) not in vul_ids_to_run:
             continue
@@ -97,7 +101,11 @@ def main():
             if ll_file:
                 print("Already built. Skipping building of this one ...")
             else:
-                os.system("./senx_setup.sh")
+                cp = subprocess.run("./senx_setup.sh", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                if cp.returncode != 0:
+                    print("\033[91m Error in setup. Please check ... \033[0m")
+                failed_setup_vuls.append(bug_name)
+                
         if not setup_only:
             os.system("./senx_run.sh")
             # check whether a patch file is produced
@@ -106,6 +114,10 @@ def main():
                 print("\033[96m A patch has been generated. Please check. \033[0m")
         os.chdir(curr_dir)
 
+    if failed_setup_vuls:
+        print("\033[91m Failed to setup the following vulnerabilities: \033[0m")
+        for bug_name in failed_setup_vuls:
+            print("\033[91m {} \033[0m".format(bug_name))
 
 if __name__ == "__main__":
     main()
