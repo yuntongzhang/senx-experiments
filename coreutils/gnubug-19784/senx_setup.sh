@@ -2,7 +2,7 @@
 
 git clone https://github.com/coreutils/coreutils.git source
 cd source/
-git checkout 658529a
+git checkout 658529a10e05d06524d5f591a08f04c04159b4cc
 
 ./bootstrap
 export FORCE_UNSAFE_CONFIGURE=1 && CC="wllvm" CXX="wllvm++" CFLAGS="-g -O0" CXXFLAGS="$CFLAGS" ./configure
