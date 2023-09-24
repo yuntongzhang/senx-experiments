@@ -5,7 +5,7 @@ import re
 import shutil
 import glob
 
-FILE_META_DATA = "meta-data"
+FILE_META_DATA = "meta-data.json"
 
 FILE_ANALYZE_ERR = "analyze.err"
 FILE_SENX_ERR = "senx.err"
