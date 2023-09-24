@@ -1,0 +1,5691 @@
+KLEE: NOTE: Using libreadline: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libreadline.bca
+KLEE: NOTE: Using libxml2: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libxml2.bca
+KLEE: NOTE: Using libpcap: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libpcap.bca
+warning: Linking two modules of different target triples: __errno_location.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: utent.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: setbuf.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: setvbuf.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: fprintf.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: snprintf.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: sprintf.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: vsnprintf.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _stdio.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _wcommit.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: vfprintf.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _ppfs_init.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _ppfs_prepargs.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _ppfs_setargs.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _ppfs_parsespec.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: fgetc_unlocked.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: fputc_unlocked.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: fputs_unlocked.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: fwrite_unlocked.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: strnlen.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: strcmp.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: memcmp.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: memcpy.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: strncmp.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: strerror.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: __xpg_strerror_r.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: strchr.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: strlen.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: strdup.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _string_syserrmsgs.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: strcpy.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: memset.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: isatty.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: tcgetattr.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: realpath.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: rand.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: random.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: random_r.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: atoi.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: strtol.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _stdlib_strto_l.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: qsort.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: bsearch.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: getopt.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: __uClibc_main.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: __C_ctype_b.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: errno.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: __h_errno_location.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: wcrtomb.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: wcsrtombs.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: wcsnrtombs.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _READ.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _WRITE.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _fwrite.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _rfill.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _trans2r.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _trans2w.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _load_inttype.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _store_inttype.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _uintmaxtostr.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _fpmaxtostr.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: fflush_unlocked.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: memmove.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: memrchr.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: mempcpy.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: memchr.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: getenv.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: fseeko.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: fseeko64.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _adjust_pos.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: _cs_funcs.os' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+KLEE: NOTE: Using klee-uclibc : /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/klee-uclibc.bca
+KLEE: NOTE: Using model: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/libkleeRuntimePOSIX.bca
+warning: Linking two modules of different target triples: fd_32.bc' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: fd_64.bc' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: fd.bc' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: fd_init.bc' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: illegal.bc' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: klee_init_env.bc' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+warning: Linking two modules of different target triples: stubs.bc' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+KLEE: output directory is "/home/user/senx-experiments/libtiff/bugzilla-2611/./klee-out-0"
+KLEE: loadSensitiveFunctionList __assert_fail
+KLEE: loadSensitiveFunctionList sqlite3_realloc
+KLEE: loadSensitiveFunctionList sqlite3_alloc
+KLEE: Safety property for MemorySeqAccess is loaded.
+KLEE: Safety property for MemoryStructAccess is loaded.
+KLEE: Safety property for MemoryAllocation is loaded.
+KLEE: Safety property for SensitiveOperation is loaded.
+loadStructDef def_file
+	tiff tif_name:char *
+	tiff tif_fd:int
+	tiff tif_mode:int
+	tiff tif_flags:uint32
+	tiff tif_diroff:uint64
+	tiff tif_nextdiroff:uint64
+	tiff tif_dirlist:uint64 *
+	tiff tif_dirlistsize:uint16
+	tiff tif_dirnumber:uint16
+	tiff tif_dir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_customdir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_header:union {...}
+	tiff common:TIFFHeaderCommon
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff classic:TIFFHeaderClassic
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_diroff:uint32
+	tiff big:TIFFHeaderBig
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_offsetsize:uint16
+	tiff tiff_unused:uint16
+	tiff tiff_diroff:uint64
+	tiff tif_header_size:uint16
+	tiff tif_row:uint32
+	tiff tif_curdir:uint16
+	tiff tif_curstrip:uint32
+	tiff tif_curoff:uint64
+	tiff tif_dataoff:uint64
+	tiff tif_nsubifd:uint16
+	tiff tif_subifdoff:uint64
+	tiff tif_col:uint32
+	tiff tif_curtile:uint32
+	tiff tif_tilesize:tmsize_t
+	tiff tif_decodestatus:int
+	tiff tif_fixuptags:TIFFBoolMethod
+	tiff tif_setupdecode:TIFFBoolMethod
+	tiff tif_predecode:TIFFPreMethod
+	tiff tif_setupencode:TIFFBoolMethod
+	tiff tif_encodestatus:int
+	tiff tif_preencode:TIFFPreMethod
+	tiff tif_postencode:TIFFBoolMethod
+	tiff tif_decoderow:TIFFCodeMethod
+	tiff tif_encoderow:TIFFCodeMethod
+	tiff tif_decodestrip:TIFFCodeMethod
+	tiff tif_encodestrip:TIFFCodeMethod
+	tiff tif_decodetile:TIFFCodeMethod
+	tiff tif_encodetile:TIFFCodeMethod
+	tiff tif_close:TIFFVoidMethod
+	tiff tif_seek:TIFFSeekMethod
+	tiff tif_cleanup:TIFFVoidMethod
+	tiff tif_defstripsize:TIFFStripMethod
+	tiff tif_deftilesize:TIFFTileMethod
+	tiff tif_data:uint8 *
+	tiff tif_scanlinesize:tmsize_t
+	tiff tif_scanlineskew:tmsize_t
+	tiff tif_rawdata:uint8 *
+	tiff tif_rawdatasize:tmsize_t
+	tiff tif_rawdataoff:tmsize_t
+	tiff tif_rawdataloaded:tmsize_t
+	tiff tif_rawcp:uint8 *
+	tiff tif_rawcc:tmsize_t
+	tiff tif_base:uint8 *
+	tiff tif_size:tmsize_t
+	tiff tif_mapproc:TIFFMapFileProc
+	tiff tif_unmapproc:TIFFUnmapFileProc
+	tiff tif_clientdata:thandle_t
+	tiff tif_readproc:TIFFReadWriteProc
+	tiff tif_writeproc:TIFFReadWriteProc
+	tiff tif_seekproc:TIFFSeekProc
+	tiff tif_closeproc:TIFFCloseProc
+	tiff tif_sizeproc:TIFFSizeProc
+	tiff tif_postdecode:TIFFPostMethod
+	tiff tif_fields:TIFFField **
+	tiff tif_nfields:size_t
+	tiff tif_foundfield:const TIFFField *
+	tiff tif_tagmethods:TIFFTagMethods
+	tiff vsetfield:TIFFVSetMethod
+	tiff vgetfield:TIFFVGetMethod
+	tiff printdir:TIFFPrintMethod
+	tiff tif_clientinfo:TIFFClientInfoLink *
+	tiff tif_fieldscompat:TIFFFieldArray *
+	tiff tif_nfieldscompat:size_t
+	TIFFDirectory td_fieldsset:long unsigned int [4]
+	TIFFDirectory None:<range type>
+	TIFFDirectory td_imagewidth:uint32
+	TIFFDirectory td_imagelength:uint32
+	TIFFDirectory td_imagedepth:uint32
+	TIFFDirectory td_tilewidth:uint32
+	TIFFDirectory td_tilelength:uint32
+	TIFFDirectory td_tiledepth:uint32
+	TIFFDirectory td_subfiletype:uint32
+	TIFFDirectory td_bitspersample:uint16
+	TIFFDirectory td_sampleformat:uint16
+	TIFFDirectory td_compression:uint16
+	TIFFDirectory td_photometric:uint16
+	TIFFDirectory td_threshholding:uint16
+	TIFFDirectory td_fillorder:uint16
+	TIFFDirectory td_orientation:uint16
+	TIFFDirectory td_samplesperpixel:uint16
+	TIFFDirectory td_rowsperstrip:uint32
+	TIFFDirectory td_minsamplevalue:uint16
+	TIFFDirectory td_maxsamplevalue:uint16
+	TIFFDirectory td_sminsamplevalue:double *
+	TIFFDirectory td_smaxsamplevalue:double *
+	TIFFDirectory td_xresolution:float
+	TIFFDirectory td_yresolution:float
+	TIFFDirectory td_resolutionunit:uint16
+	TIFFDirectory td_planarconfig:uint16
+	TIFFDirectory td_xposition:float
+	TIFFDirectory td_yposition:float
+	TIFFDirectory td_pagenumber:uint16 [2]
+	TIFFDirectory None:<range type>
+	TIFFDirectory td_colormap:uint16 *[3]
+	TIFFDirectory None:<range type>
+	TIFFDirectory td_halftonehints:uint16 [2]
+	TIFFDirectory None:<range type>
+	TIFFDirectory td_extrasamples:uint16
+	TIFFDirectory td_sampleinfo:uint16 *
+	TIFFDirectory td_stripsperimage:uint32
+	TIFFDirectory td_nstrips:uint32
+	TIFFDirectory td_stripoffset:uint64 *
+	TIFFDirectory td_stripbytecount:uint64 *
+	TIFFDirectory td_stripbytecountsorted:int
+	TIFFDirectory td_nsubifd:uint16
+	TIFFDirectory td_subifd:uint64 *
+	TIFFDirectory td_ycbcrsubsampling:uint16 [2]
+	TIFFDirectory None:<range type>
+	TIFFDirectory td_ycbcrpositioning:uint16
+	TIFFDirectory td_transferfunction:uint16 *[3]
+	TIFFDirectory None:<range type>
+	TIFFDirectory td_refblackwhite:float *
+	TIFFDirectory td_inknameslen:int
+	TIFFDirectory td_inknames:char *
+	TIFFDirectory td_customValueCount:int
+	TIFFDirectory td_customValues:TIFFTagValue *
+	TIFFTagValue info:const TIFFField *
+	TIFFTagValue count:int
+	TIFFTagValue value:void *
+	TIFFHeaderBig tiff_magic:uint16
+	TIFFHeaderBig tiff_version:uint16
+	TIFFHeaderBig tiff_offsetsize:uint16
+	TIFFHeaderBig tiff_unused:uint16
+	TIFFHeaderBig tiff_diroff:uint64
+	TIFFTagMethods vsetfield:TIFFVSetMethod
+	TIFFTagMethods vgetfield:TIFFVGetMethod
+	TIFFTagMethods printdir:TIFFPrintMethod
+	client_info data:void *
+	client_info name:char *
+	TIFFFieldArray type:TIFFFieldArrayType
+	TIFFFieldArray allocated_size:uint32
+	TIFFFieldArray count:uint32
+	TIFFFieldArray fields:TIFFField *
+	colorbox rmin:int
+	colorbox rmax:int
+	colorbox gmin:int
+	colorbox gmax:int
+	colorbox bmin:int
+	colorbox bmax:int
+	colorbox total:uint32
+	C_cell num_ents:int
+	C_cell entries:int [256][2]
+	C_cell None:<range type>
+	tiff tif_name:char *
+	tiff tif_fd:int
+	tiff tif_mode:int
+	tiff tif_flags:uint32
+	tiff tif_diroff:uint64
+	tiff tif_nextdiroff:uint64
+	tiff tif_dirlist:uint64 *
+	tiff tif_dirlistsize:uint16
+	tiff tif_dirnumber:uint16
+	tiff tif_dir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_customdir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_header:union {...}
+	tiff common:TIFFHeaderCommon
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff classic:TIFFHeaderClassic
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_diroff:uint32
+	tiff big:TIFFHeaderBig
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_offsetsize:uint16
+	tiff tiff_unused:uint16
+	tiff tiff_diroff:uint64
+	tiff tif_header_size:uint16
+	tiff tif_row:uint32
+	tiff tif_curdir:uint16
+	tiff tif_curstrip:uint32
+	tiff tif_curoff:uint64
+	tiff tif_dataoff:uint64
+	tiff tif_nsubifd:uint16
+	tiff tif_subifdoff:uint64
+	tiff tif_col:uint32
+	tiff tif_curtile:uint32
+	tiff tif_tilesize:tmsize_t
+	tiff tif_decodestatus:int
+	tiff tif_fixuptags:TIFFBoolMethod
+	tiff tif_setupdecode:TIFFBoolMethod
+	tiff tif_predecode:TIFFPreMethod
+	tiff tif_setupencode:TIFFBoolMethod
+	tiff tif_encodestatus:int
+	tiff tif_preencode:TIFFPreMethod
+	tiff tif_postencode:TIFFBoolMethod
+	tiff tif_decoderow:TIFFCodeMethod
+	tiff tif_encoderow:TIFFCodeMethod
+	tiff tif_decodestrip:TIFFCodeMethod
+	tiff tif_encodestrip:TIFFCodeMethod
+	tiff tif_decodetile:TIFFCodeMethod
+	tiff tif_encodetile:TIFFCodeMethod
+	tiff tif_close:TIFFVoidMethod
+	tiff tif_seek:TIFFSeekMethod
+	tiff tif_cleanup:TIFFVoidMethod
+	tiff tif_defstripsize:TIFFStripMethod
+	tiff tif_deftilesize:TIFFTileMethod
+	tiff tif_data:uint8 *
+	tiff tif_scanlinesize:tmsize_t
+	tiff tif_scanlineskew:tmsize_t
+	tiff tif_rawdata:uint8 *
+	tiff tif_rawdatasize:tmsize_t
+	tiff tif_rawdataoff:tmsize_t
+	tiff tif_rawdataloaded:tmsize_t
+	tiff tif_rawcp:uint8 *
+	tiff tif_rawcc:tmsize_t
+	tiff tif_base:uint8 *
+	tiff tif_size:tmsize_t
+	tiff tif_mapproc:TIFFMapFileProc
+	tiff tif_unmapproc:TIFFUnmapFileProc
+	tiff tif_clientdata:thandle_t
+	tiff tif_readproc:TIFFReadWriteProc
+	tiff tif_writeproc:TIFFReadWriteProc
+	tiff tif_seekproc:TIFFSeekProc
+	tiff tif_closeproc:TIFFCloseProc
+	tiff tif_sizeproc:TIFFSizeProc
+	tiff tif_postdecode:TIFFPostMethod
+	tiff tif_fields:TIFFField **
+	tiff tif_nfields:size_t
+	tiff tif_foundfield:const TIFFField *
+	tiff tif_tagmethods:TIFFTagMethods
+	tiff vsetfield:TIFFVSetMethod
+	tiff vgetfield:TIFFVGetMethod
+	tiff printdir:TIFFPrintMethod
+	tiff tif_clientinfo:TIFFClientInfoLink *
+	tiff tif_fieldscompat:TIFFFieldArray *
+	tiff tif_nfieldscompat:size_t
+	TIFFTagMethods vsetfield:TIFFVSetMethod
+	TIFFTagMethods vgetfield:TIFFVGetMethod
+	TIFFTagMethods printdir:TIFFPrintMethod
+	TIFFCodec name:char *
+	TIFFCodec scheme:uint16
+	TIFFCodec init:TIFFInitMethod
+	tiff tif_name:char *
+	tiff tif_fd:int
+	tiff tif_mode:int
+	tiff tif_flags:uint32
+	tiff tif_diroff:uint64
+	tiff tif_nextdiroff:uint64
+	tiff tif_dirlist:uint64 *
+	tiff tif_dirlistsize:uint16
+	tiff tif_dirnumber:uint16
+	tiff tif_dir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_customdir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_header:union {...}
+	tiff common:TIFFHeaderCommon
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff classic:TIFFHeaderClassic
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_diroff:uint32
+	tiff big:TIFFHeaderBig
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_offsetsize:uint16
+	tiff tiff_unused:uint16
+	tiff tiff_diroff:uint64
+	tiff tif_header_size:uint16
+	tiff tif_row:uint32
+	tiff tif_curdir:uint16
+	tiff tif_curstrip:uint32
+	tiff tif_curoff:uint64
+	tiff tif_dataoff:uint64
+	tiff tif_nsubifd:uint16
+	tiff tif_subifdoff:uint64
+	tiff tif_col:uint32
+	tiff tif_curtile:uint32
+	tiff tif_tilesize:tmsize_t
+	tiff tif_decodestatus:int
+	tiff tif_fixuptags:TIFFBoolMethod
+	tiff tif_setupdecode:TIFFBoolMethod
+	tiff tif_predecode:TIFFPreMethod
+	tiff tif_setupencode:TIFFBoolMethod
+	tiff tif_encodestatus:int
+	tiff tif_preencode:TIFFPreMethod
+	tiff tif_postencode:TIFFBoolMethod
+	tiff tif_decoderow:TIFFCodeMethod
+	tiff tif_encoderow:TIFFCodeMethod
+	tiff tif_decodestrip:TIFFCodeMethod
+	tiff tif_encodestrip:TIFFCodeMethod
+	tiff tif_decodetile:TIFFCodeMethod
+	tiff tif_encodetile:TIFFCodeMethod
+	tiff tif_close:TIFFVoidMethod
+	tiff tif_seek:TIFFSeekMethod
+	tiff tif_cleanup:TIFFVoidMethod
+	tiff tif_defstripsize:TIFFStripMethod
+	tiff tif_deftilesize:TIFFTileMethod
+	tiff tif_data:uint8 *
+	tiff tif_scanlinesize:tmsize_t
+	tiff tif_scanlineskew:tmsize_t
+	tiff tif_rawdata:uint8 *
+	tiff tif_rawdatasize:tmsize_t
+	tiff tif_rawdataoff:tmsize_t
+	tiff tif_rawdataloaded:tmsize_t
+	tiff tif_rawcp:uint8 *
+	tiff tif_rawcc:tmsize_t
+	tiff tif_base:uint8 *
+	tiff tif_size:tmsize_t
+	tiff tif_mapproc:TIFFMapFileProc
+	tiff tif_unmapproc:TIFFUnmapFileProc
+	tiff tif_clientdata:thandle_t
+	tiff tif_readproc:TIFFReadWriteProc
+	tiff tif_writeproc:TIFFReadWriteProc
+	tiff tif_seekproc:TIFFSeekProc
+	tiff tif_closeproc:TIFFCloseProc
+	tiff tif_sizeproc:TIFFSizeProc
+	tiff tif_postdecode:TIFFPostMethod
+	tiff tif_fields:TIFFField **
+	tiff tif_nfields:size_t
+	tiff tif_foundfield:const TIFFField *
+	tiff tif_tagmethods:TIFFTagMethods
+	tiff vsetfield:TIFFVSetMethod
+	tiff vgetfield:TIFFVGetMethod
+	tiff printdir:TIFFPrintMethod
+	tiff tif_clientinfo:TIFFClientInfoLink *
+	tiff tif_fieldscompat:TIFFFieldArray *
+	tiff tif_nfieldscompat:size_t
+	TIFFTagMethods vsetfield:TIFFVSetMethod
+	TIFFTagMethods vgetfield:TIFFVGetMethod
+	TIFFTagMethods printdir:TIFFPrintMethod
+	TIFFCodec name:char *
+	TIFFCodec scheme:uint16
+	TIFFCodec init:TIFFInitMethod
+	tiff tif_name:char *
+	tiff tif_fd:int
+	tiff tif_mode:int
+	tiff tif_flags:uint32
+	tiff tif_diroff:uint64
+	tiff tif_nextdiroff:uint64
+	tiff tif_dirlist:uint64 *
+	tiff tif_dirlistsize:uint16
+	tiff tif_dirnumber:uint16
+	tiff tif_dir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_customdir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_header:union {...}
+	tiff common:TIFFHeaderCommon
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff classic:TIFFHeaderClassic
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_diroff:uint32
+	tiff big:TIFFHeaderBig
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_offsetsize:uint16
+	tiff tiff_unused:uint16
+	tiff tiff_diroff:uint64
+	tiff tif_header_size:uint16
+	tiff tif_row:uint32
+	tiff tif_curdir:uint16
+	tiff tif_curstrip:uint32
+	tiff tif_curoff:uint64
+	tiff tif_dataoff:uint64
+	tiff tif_nsubifd:uint16
+	tiff tif_subifdoff:uint64
+	tiff tif_col:uint32
+	tiff tif_curtile:uint32
+	tiff tif_tilesize:tmsize_t
+	tiff tif_decodestatus:int
+	tiff tif_fixuptags:TIFFBoolMethod
+	tiff tif_setupdecode:TIFFBoolMethod
+	tiff tif_predecode:TIFFPreMethod
+	tiff tif_setupencode:TIFFBoolMethod
+	tiff tif_encodestatus:int
+	tiff tif_preencode:TIFFPreMethod
+	tiff tif_postencode:TIFFBoolMethod
+	tiff tif_decoderow:TIFFCodeMethod
+	tiff tif_encoderow:TIFFCodeMethod
+	tiff tif_decodestrip:TIFFCodeMethod
+	tiff tif_encodestrip:TIFFCodeMethod
+	tiff tif_decodetile:TIFFCodeMethod
+	tiff tif_encodetile:TIFFCodeMethod
+	tiff tif_close:TIFFVoidMethod
+	tiff tif_seek:TIFFSeekMethod
+	tiff tif_cleanup:TIFFVoidMethod
+	tiff tif_defstripsize:TIFFStripMethod
+	tiff tif_deftilesize:TIFFTileMethod
+	tiff tif_data:uint8 *
+	tiff tif_scanlinesize:tmsize_t
+	tiff tif_scanlineskew:tmsize_t
+	tiff tif_rawdata:uint8 *
+	tiff tif_rawdatasize:tmsize_t
+	tiff tif_rawdataoff:tmsize_t
+	tiff tif_rawdataloaded:tmsize_t
+	tiff tif_rawcp:uint8 *
+	tiff tif_rawcc:tmsize_t
+	tiff tif_base:uint8 *
+	tiff tif_size:tmsize_t
+	tiff tif_mapproc:TIFFMapFileProc
+	tiff tif_unmapproc:TIFFUnmapFileProc
+	tiff tif_clientdata:thandle_t
+	tiff tif_readproc:TIFFReadWriteProc
+	tiff tif_writeproc:TIFFReadWriteProc
+	tiff tif_seekproc:TIFFSeekProc
+	tiff tif_closeproc:TIFFCloseProc
+	tiff tif_sizeproc:TIFFSizeProc
+	tiff tif_postdecode:TIFFPostMethod
+	tiff tif_fields:TIFFField **
+	tiff tif_nfields:size_t
+	tiff tif_foundfield:const TIFFField *
+	tiff tif_tagmethods:TIFFTagMethods
+	tiff vsetfield:TIFFVSetMethod
+	tiff vgetfield:TIFFVGetMethod
+	tiff printdir:TIFFPrintMethod
+	tiff tif_clientinfo:TIFFClientInfoLink *
+	tiff tif_fieldscompat:TIFFFieldArray *
+	tiff tif_nfieldscompat:size_t
+	TIFFTagMethods vsetfield:TIFFVSetMethod
+	TIFFTagMethods vgetfield:TIFFVGetMethod
+	TIFFTagMethods printdir:TIFFPrintMethod
+	tableentry length:unsigned short
+	tableentry code:unsigned short
+	tableentry runlen:short
+	TIFFHeaderClassic tiff_magic:uint16
+	TIFFHeaderClassic tiff_version:uint16
+	TIFFHeaderClassic tiff_diroff:uint32
+	tiff tif_name:char *
+	tiff tif_fd:int
+	tiff tif_mode:int
+	tiff tif_flags:uint32
+	tiff tif_diroff:uint64
+	tiff tif_nextdiroff:uint64
+	tiff tif_dirlist:uint64 *
+	tiff tif_dirlistsize:uint16
+	tiff tif_dirnumber:uint16
+	tiff tif_dir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_customdir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_header:union {...}
+	tiff common:TIFFHeaderCommon
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff classic:TIFFHeaderClassic
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_diroff:uint32
+	tiff big:TIFFHeaderBig
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_offsetsize:uint16
+	tiff tiff_unused:uint16
+	tiff tiff_diroff:uint64
+	tiff tif_header_size:uint16
+	tiff tif_row:uint32
+	tiff tif_curdir:uint16
+	tiff tif_curstrip:uint32
+	tiff tif_curoff:uint64
+	tiff tif_dataoff:uint64
+	tiff tif_nsubifd:uint16
+	tiff tif_subifdoff:uint64
+	tiff tif_col:uint32
+	tiff tif_curtile:uint32
+	tiff tif_tilesize:tmsize_t
+	tiff tif_decodestatus:int
+	tiff tif_fixuptags:TIFFBoolMethod
+	tiff tif_setupdecode:TIFFBoolMethod
+	tiff tif_predecode:TIFFPreMethod
+	tiff tif_setupencode:TIFFBoolMethod
+	tiff tif_encodestatus:int
+	tiff tif_preencode:TIFFPreMethod
+	tiff tif_postencode:TIFFBoolMethod
+	tiff tif_decoderow:TIFFCodeMethod
+	tiff tif_encoderow:TIFFCodeMethod
+	tiff tif_decodestrip:TIFFCodeMethod
+	tiff tif_encodestrip:TIFFCodeMethod
+	tiff tif_decodetile:TIFFCodeMethod
+	tiff tif_encodetile:TIFFCodeMethod
+	tiff tif_close:TIFFVoidMethod
+	tiff tif_seek:TIFFSeekMethod
+	tiff tif_cleanup:TIFFVoidMethod
+	tiff tif_defstripsize:TIFFStripMethod
+	tiff tif_deftilesize:TIFFTileMethod
+	tiff tif_data:uint8 *
+	tiff tif_scanlinesize:tmsize_t
+	tiff tif_scanlineskew:tmsize_t
+	tiff tif_rawdata:uint8 *
+	tiff tif_rawdatasize:tmsize_t
+	tiff tif_rawdataoff:tmsize_t
+	tiff tif_rawdataloaded:tmsize_t
+	tiff tif_rawcp:uint8 *
+	tiff tif_rawcc:tmsize_t
+	tiff tif_base:uint8 *
+	tiff tif_size:tmsize_t
+	tiff tif_mapproc:TIFFMapFileProc
+	tiff tif_unmapproc:TIFFUnmapFileProc
+	tiff tif_clientdata:thandle_t
+	tiff tif_readproc:TIFFReadWriteProc
+	tiff tif_writeproc:TIFFReadWriteProc
+	tiff tif_seekproc:TIFFSeekProc
+	tiff tif_closeproc:TIFFCloseProc
+	tiff tif_sizeproc:TIFFSizeProc
+	tiff tif_postdecode:TIFFPostMethod
+	tiff tif_fields:TIFFField **
+	tiff tif_nfields:size_t
+	tiff tif_foundfield:const TIFFField *
+	tiff tif_tagmethods:TIFFTagMethods
+	tiff vsetfield:TIFFVSetMethod
+	tiff vgetfield:TIFFVGetMethod
+	tiff printdir:TIFFPrintMethod
+	tiff tif_clientinfo:TIFFClientInfoLink *
+	tiff tif_fieldscompat:TIFFFieldArray *
+	tiff tif_nfieldscompat:size_t
+	TIFFTagMethods vsetfield:TIFFVSetMethod
+	TIFFTagMethods vgetfield:TIFFVGetMethod
+	TIFFTagMethods printdir:TIFFPrintMethod
+	TIFFDirEntry tdir_tag:uint16
+	TIFFDirEntry tdir_type:uint16
+	TIFFDirEntry tdir_count:uint64
+	TIFFDirEntry tdir_offset:union {...}
+	TIFFDirEntry toff_short:uint16
+	TIFFDirEntry toff_long:uint32
+	TIFFDirEntry toff_long8:uint64
+	tiff tif_name:char *
+	tiff tif_fd:int
+	tiff tif_mode:int
+	tiff tif_flags:uint32
+	tiff tif_diroff:uint64
+	tiff tif_nextdiroff:uint64
+	tiff tif_dirlist:uint64 *
+	tiff tif_dirlistsize:uint16
+	tiff tif_dirnumber:uint16
+	tiff tif_dir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_customdir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_header:union {...}
+	tiff common:TIFFHeaderCommon
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff classic:TIFFHeaderClassic
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_diroff:uint32
+	tiff big:TIFFHeaderBig
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_offsetsize:uint16
+	tiff tiff_unused:uint16
+	tiff tiff_diroff:uint64
+	tiff tif_header_size:uint16
+	tiff tif_row:uint32
+	tiff tif_curdir:uint16
+	tiff tif_curstrip:uint32
+	tiff tif_curoff:uint64
+	tiff tif_dataoff:uint64
+	tiff tif_nsubifd:uint16
+	tiff tif_subifdoff:uint64
+	tiff tif_col:uint32
+	tiff tif_curtile:uint32
+	tiff tif_tilesize:tmsize_t
+	tiff tif_decodestatus:int
+	tiff tif_fixuptags:TIFFBoolMethod
+	tiff tif_setupdecode:TIFFBoolMethod
+	tiff tif_predecode:TIFFPreMethod
+	tiff tif_setupencode:TIFFBoolMethod
+	tiff tif_encodestatus:int
+	tiff tif_preencode:TIFFPreMethod
+	tiff tif_postencode:TIFFBoolMethod
+	tiff tif_decoderow:TIFFCodeMethod
+	tiff tif_encoderow:TIFFCodeMethod
+	tiff tif_decodestrip:TIFFCodeMethod
+	tiff tif_encodestrip:TIFFCodeMethod
+	tiff tif_decodetile:TIFFCodeMethod
+	tiff tif_encodetile:TIFFCodeMethod
+	tiff tif_close:TIFFVoidMethod
+	tiff tif_seek:TIFFSeekMethod
+	tiff tif_cleanup:TIFFVoidMethod
+	tiff tif_defstripsize:TIFFStripMethod
+	tiff tif_deftilesize:TIFFTileMethod
+	tiff tif_data:uint8 *
+	tiff tif_scanlinesize:tmsize_t
+	tiff tif_scanlineskew:tmsize_t
+	tiff tif_rawdata:uint8 *
+	tiff tif_rawdatasize:tmsize_t
+	tiff tif_rawdataoff:tmsize_t
+	tiff tif_rawdataloaded:tmsize_t
+	tiff tif_rawcp:uint8 *
+	tiff tif_rawcc:tmsize_t
+	tiff tif_base:uint8 *
+	tiff tif_size:tmsize_t
+	tiff tif_mapproc:TIFFMapFileProc
+	tiff tif_unmapproc:TIFFUnmapFileProc
+	tiff tif_clientdata:thandle_t
+	tiff tif_readproc:TIFFReadWriteProc
+	tiff tif_writeproc:TIFFReadWriteProc
+	tiff tif_seekproc:TIFFSeekProc
+	tiff tif_closeproc:TIFFCloseProc
+	tiff tif_sizeproc:TIFFSizeProc
+	tiff tif_postdecode:TIFFPostMethod
+	tiff tif_fields:TIFFField **
+	tiff tif_nfields:size_t
+	tiff tif_foundfield:const TIFFField *
+	tiff tif_tagmethods:TIFFTagMethods
+	tiff vsetfield:TIFFVSetMethod
+	tiff vgetfield:TIFFVGetMethod
+	tiff printdir:TIFFPrintMethod
+	tiff tif_clientinfo:TIFFClientInfoLink *
+	tiff tif_fieldscompat:TIFFFieldArray *
+	tiff tif_nfieldscompat:size_t
+	TIFFTagMethods vsetfield:TIFFVSetMethod
+	TIFFTagMethods vgetfield:TIFFVGetMethod
+	TIFFTagMethods printdir:TIFFPrintMethod
+	TIFFHeaderCommon tiff_magic:uint16
+	TIFFHeaderCommon tiff_version:uint16
+	stat st_dev:__dev_t
+	stat st_ino:__ino_t
+	stat st_nlink:__nlink_t
+	stat st_mode:__mode_t
+	stat st_uid:__uid_t
+	stat st_gid:__gid_t
+	stat __pad0:int
+	stat st_rdev:__dev_t
+	stat st_size:__off_t
+	stat st_blksize:__blksize_t
+	stat st_blocks:__blkcnt_t
+	timespec tv_sec:__time_t
+	timespec tv_nsec:__syscall_slong_t
+	timespec tv_sec:__time_t
+	timespec tv_nsec:__syscall_slong_t
+	timespec tv_sec:__time_t
+	timespec tv_nsec:__syscall_slong_t
+	timespec __glibc_reserved:__syscall_slong_t [3]
+	timespec None:<range type>
+	timespec tv_sec:__time_t
+	timespec tv_nsec:__syscall_slong_t
+	TIFFPredictorState predictor:int
+	TIFFPredictorState stride:tmsize_t
+	TIFFPredictorState rowsize:tmsize_t
+	TIFFPredictorState encoderow:TIFFCodeMethod
+	TIFFPredictorState encodestrip:TIFFCodeMethod
+	TIFFPredictorState encodetile:TIFFCodeMethod
+	TIFFPredictorState encodepfunc:TIFFEncodeDecodeMethod
+	TIFFPredictorState decoderow:TIFFCodeMethod
+	TIFFPredictorState decodestrip:TIFFCodeMethod
+	TIFFPredictorState decodetile:TIFFCodeMethod
+	TIFFPredictorState decodepfunc:TIFFEncodeDecodeMethod
+	TIFFPredictorState vgetparent:TIFFVGetMethod
+	TIFFPredictorState vsetparent:TIFFVSetMethod
+	TIFFPredictorState printdir:TIFFPrintMethod
+	TIFFPredictorState setupdecode:TIFFBoolMethod
+	TIFFPredictorState setupencode:TIFFBoolMethod
+	Fax3BaseState rw_mode:int
+	Fax3BaseState mode:int
+	Fax3BaseState rowbytes:tmsize_t
+	Fax3BaseState rowpixels:uint32
+	Fax3BaseState cleanfaxdata:uint16
+	Fax3BaseState badfaxrun:uint32
+	Fax3BaseState badfaxlines:uint32
+	Fax3BaseState groupoptions:uint32
+	Fax3BaseState vgetparent:TIFFVGetMethod
+	Fax3BaseState vsetparent:TIFFVSetMethod
+	Fax3BaseState printdir:TIFFPrintMethod
+	Fax3CodecState b:Fax3BaseState
+	Fax3CodecState rw_mode:int
+	Fax3CodecState mode:int
+	Fax3CodecState rowbytes:tmsize_t
+	Fax3CodecState rowpixels:uint32
+	Fax3CodecState cleanfaxdata:uint16
+	Fax3CodecState badfaxrun:uint32
+	Fax3CodecState badfaxlines:uint32
+	Fax3CodecState groupoptions:uint32
+	Fax3CodecState vgetparent:TIFFVGetMethod
+	Fax3CodecState vsetparent:TIFFVSetMethod
+	Fax3CodecState printdir:TIFFPrintMethod
+	Fax3CodecState bitmap:const unsigned char *
+	Fax3CodecState data:uint32
+	Fax3CodecState bit:int
+	Fax3CodecState EOLcnt:int
+	Fax3CodecState fill:TIFFFaxFillFunc
+	Fax3CodecState runs:uint32 *
+	Fax3CodecState refruns:uint32 *
+	Fax3CodecState curruns:uint32 *
+	Fax3CodecState tag:Ttag
+	Fax3CodecState refline:unsigned char *
+	Fax3CodecState k:int
+	Fax3CodecState maxk:int
+	Fax3CodecState line:int
+	jpeg_memory_mgr alloc_small:void *(*)(j_common_ptr, int, size_t)
+	jpeg_memory_mgr alloc_large:void *(*)(j_common_ptr, int, size_t)
+	jpeg_memory_mgr alloc_sarray:JSAMPARRAY (*)(j_common_ptr, int, JDIMENSION, JDIMENSION)
+	jpeg_memory_mgr alloc_barray:JBLOCKARRAY (*)(j_common_ptr, int, JDIMENSION, JDIMENSION)
+	jpeg_memory_mgr request_virt_sarray:jvirt_sarray_ptr (*)(j_common_ptr, int, boolean, JDIMENSION, JDIMENSION, JDIMENSION)
+	jpeg_memory_mgr request_virt_barray:jvirt_barray_ptr (*)(j_common_ptr, int, boolean, JDIMENSION, JDIMENSION, JDIMENSION)
+	jpeg_memory_mgr realize_virt_arrays:void (*)(j_common_ptr)
+	jpeg_memory_mgr access_virt_sarray:JSAMPARRAY (*)(j_common_ptr, jvirt_sarray_ptr, JDIMENSION, JDIMENSION, boolean)
+	jpeg_memory_mgr access_virt_barray:JBLOCKARRAY (*)(j_common_ptr, jvirt_barray_ptr, JDIMENSION, JDIMENSION, boolean)
+	jpeg_memory_mgr free_pool:void (*)(j_common_ptr, int)
+	jpeg_memory_mgr self_destruct:void (*)(j_common_ptr)
+	jpeg_memory_mgr max_memory_to_use:long int
+	jpeg_memory_mgr max_alloc_chunk:long int
+	jpeg_progress_mgr client_data:void *
+	jpeg_progress_mgr is_decompressor:boolean
+	jpeg_progress_mgr global_state:int
+	jpeg_progress_mgr progress_monitor:void (*)(j_common_ptr)
+	jpeg_progress_mgr pass_counter:long int
+	jpeg_progress_mgr pass_limit:long int
+	jpeg_progress_mgr completed_passes:int
+	jpeg_progress_mgr total_passes:int
+	JQUANT_TBL quantval:UINT16 [64]
+	JQUANT_TBL None:<range type>
+	JQUANT_TBL sent_table:boolean
+	JHUFF_TBL bits:UINT8 [17]
+	JHUFF_TBL None:<range type>
+	JHUFF_TBL huffval:UINT8 [256]
+	JHUFF_TBL None:<range type>
+	JHUFF_TBL sent_table:boolean
+	jpeg_component_info component_id:int
+	jpeg_component_info component_index:int
+	jpeg_component_info h_samp_factor:int
+	jpeg_component_info v_samp_factor:int
+	jpeg_component_info quant_tbl_no:int
+	jpeg_component_info dc_tbl_no:int
+	jpeg_component_info ac_tbl_no:int
+	jpeg_component_info width_in_blocks:JDIMENSION
+	jpeg_component_info height_in_blocks:JDIMENSION
+	jpeg_component_info DCT_h_scaled_size:int
+	jpeg_component_info DCT_v_scaled_size:int
+	jpeg_component_info downsampled_width:JDIMENSION
+	jpeg_component_info downsampled_height:JDIMENSION
+	jpeg_component_info component_needed:boolean
+	jpeg_component_info MCU_width:int
+	jpeg_component_info MCU_height:int
+	jpeg_component_info MCU_blocks:int
+	jpeg_component_info MCU_sample_width:int
+	jpeg_component_info last_col_width:int
+	jpeg_component_info last_row_height:int
+	jpeg_component_info quant_table:JQUANT_TBL *
+	jpeg_component_info dct_table:void *
+	jpeg_error_mgr error_exit:void (*)(j_common_ptr)
+	jpeg_error_mgr emit_message:void (*)(j_common_ptr, int)
+	jpeg_error_mgr output_message:void (*)(j_common_ptr)
+	jpeg_error_mgr format_message:void (*)(j_common_ptr, char *)
+	jpeg_error_mgr reset_error_mgr:void (*)(j_common_ptr)
+	jpeg_error_mgr msg_code:int
+	jpeg_error_mgr msg_parm:union {...}
+	jpeg_error_mgr i:int [8]
+	jpeg_error_mgr None:<range type>
+	jpeg_error_mgr s:char [80]
+	jpeg_error_mgr None:<range type>
+	jpeg_error_mgr trace_level:int
+	jpeg_error_mgr num_warnings:long int
+	jpeg_error_mgr jpeg_message_table:const char * const *
+	jpeg_error_mgr last_jpeg_message:int
+	jpeg_error_mgr addon_message_table:const char * const *
+	jpeg_error_mgr first_addon_message:int
+	jpeg_error_mgr last_addon_message:int
+	jpeg_destination_mgr next_output_byte:JOCTET *
+	jpeg_destination_mgr free_in_buffer:size_t
+	jpeg_destination_mgr init_destination:void (*)(j_compress_ptr)
+	jpeg_destination_mgr empty_output_buffer:boolean (*)(j_compress_ptr)
+	jpeg_destination_mgr term_destination:void (*)(j_compress_ptr)
+	jpeg_scan_info comps_in_scan:int
+	jpeg_scan_info component_index:int [4]
+	jpeg_scan_info None:<range type>
+	jpeg_scan_info Ss:int
+	jpeg_scan_info Se:int
+	jpeg_scan_info Ah:int
+	jpeg_scan_info Al:int
+	jpeg_source_mgr next_input_byte:const JOCTET *
+	jpeg_source_mgr bytes_in_buffer:size_t
+	jpeg_source_mgr init_source:void (*)(j_decompress_ptr)
+	jpeg_source_mgr fill_input_buffer:boolean (*)(j_decompress_ptr)
+	jpeg_source_mgr skip_input_data:void (*)(j_decompress_ptr, long int)
+	jpeg_source_mgr resync_to_restart:boolean (*)(j_decompress_ptr, int)
+	jpeg_source_mgr term_source:void (*)(j_decompress_ptr)
+	logLuvState encoder_state:int
+	logLuvState user_datafmt:int
+	logLuvState encode_meth:int
+	logLuvState pixel_size:int
+	logLuvState tbuf:uint8 *
+	logLuvState tbuflen:tmsize_t
+	logLuvState tfunc:void (*)(LogLuvState *, uint8 *, tmsize_t)
+	logLuvState vgetparent:TIFFVSetMethod
+	logLuvState vsetparent:TIFFVSetMethod
+	LZMAState predict:TIFFPredictorState
+	LZMAState predictor:int
+	LZMAState stride:tmsize_t
+	LZMAState rowsize:tmsize_t
+	LZMAState encoderow:TIFFCodeMethod
+	LZMAState encodestrip:TIFFCodeMethod
+	LZMAState encodetile:TIFFCodeMethod
+	LZMAState encodepfunc:TIFFEncodeDecodeMethod
+	LZMAState decoderow:TIFFCodeMethod
+	LZMAState decodestrip:TIFFCodeMethod
+	LZMAState decodetile:TIFFCodeMethod
+	LZMAState decodepfunc:TIFFEncodeDecodeMethod
+	LZMAState vgetparent:TIFFVGetMethod
+	LZMAState vsetparent:TIFFVSetMethod
+	LZMAState printdir:TIFFPrintMethod
+	LZMAState setupdecode:TIFFBoolMethod
+	LZMAState setupencode:TIFFBoolMethod
+	LZMAState stream:lzma_stream
+	LZMAState next_in:const uint8_t *
+	LZMAState avail_in:size_t
+	LZMAState total_in:uint64_t
+	LZMAState next_out:uint8_t *
+	LZMAState avail_out:size_t
+	LZMAState total_out:uint64_t
+	LZMAState allocator:lzma_allocator *
+	LZMAState internal:lzma_internal *
+	LZMAState reserved_ptr1:void *
+	LZMAState reserved_ptr2:void *
+	LZMAState reserved_ptr3:void *
+	LZMAState reserved_ptr4:void *
+	LZMAState reserved_int1:uint64_t
+	LZMAState reserved_int2:uint64_t
+	LZMAState reserved_int3:size_t
+	LZMAState reserved_int4:size_t
+	LZMAState reserved_enum1:lzma_reserved_enum
+	LZMAState reserved_enum2:lzma_reserved_enum
+	LZMAState filters:lzma_filter [5]
+	LZMAState None:<range type>
+	LZMAState opt_delta:lzma_options_delta
+	LZMAState type:lzma_delta_type
+	LZMAState dist:uint32_t
+	LZMAState reserved_int1:uint32_t
+	LZMAState reserved_int2:uint32_t
+	LZMAState reserved_int3:uint32_t
+	LZMAState reserved_int4:uint32_t
+	LZMAState reserved_ptr1:void *
+	LZMAState reserved_ptr2:void *
+	LZMAState opt_lzma:lzma_options_lzma
+	LZMAState dict_size:uint32_t
+	LZMAState preset_dict:const uint8_t *
+	LZMAState preset_dict_size:uint32_t
+	LZMAState lc:uint32_t
+	LZMAState lp:uint32_t
+	LZMAState pb:uint32_t
+	LZMAState mode:lzma_mode
+	LZMAState nice_len:uint32_t
+	LZMAState mf:lzma_match_finder
+	LZMAState depth:uint32_t
+	LZMAState reserved_int1:uint32_t
+	LZMAState reserved_int2:uint32_t
+	LZMAState reserved_int3:uint32_t
+	LZMAState reserved_int4:uint32_t
+	LZMAState reserved_int5:uint32_t
+	LZMAState reserved_int6:uint32_t
+	LZMAState reserved_int7:uint32_t
+	LZMAState reserved_int8:uint32_t
+	LZMAState reserved_enum1:lzma_reserved_enum
+	LZMAState reserved_enum2:lzma_reserved_enum
+	LZMAState reserved_enum3:lzma_reserved_enum
+	LZMAState reserved_enum4:lzma_reserved_enum
+	LZMAState reserved_ptr1:void *
+	LZMAState reserved_ptr2:void *
+	LZMAState preset:int
+	LZMAState check:lzma_check
+	LZMAState state:int
+	LZMAState vgetparent:TIFFVGetMethod
+	LZMAState vsetparent:TIFFVSetMethod
+	TIFFPredictorState predictor:int
+	TIFFPredictorState stride:tmsize_t
+	TIFFPredictorState rowsize:tmsize_t
+	TIFFPredictorState encoderow:TIFFCodeMethod
+	TIFFPredictorState encodestrip:TIFFCodeMethod
+	TIFFPredictorState encodetile:TIFFCodeMethod
+	TIFFPredictorState encodepfunc:TIFFEncodeDecodeMethod
+	TIFFPredictorState decoderow:TIFFCodeMethod
+	TIFFPredictorState decodestrip:TIFFCodeMethod
+	TIFFPredictorState decodetile:TIFFCodeMethod
+	TIFFPredictorState decodepfunc:TIFFEncodeDecodeMethod
+	TIFFPredictorState vgetparent:TIFFVGetMethod
+	TIFFPredictorState vsetparent:TIFFVSetMethod
+	TIFFPredictorState printdir:TIFFPrintMethod
+	TIFFPredictorState setupdecode:TIFFBoolMethod
+	TIFFPredictorState setupencode:TIFFBoolMethod
+	lzma_stream next_in:const uint8_t *
+	lzma_stream avail_in:size_t
+	lzma_stream total_in:uint64_t
+	lzma_stream next_out:uint8_t *
+	lzma_stream avail_out:size_t
+	lzma_stream total_out:uint64_t
+	lzma_stream allocator:lzma_allocator *
+	lzma_stream internal:lzma_internal *
+	lzma_stream reserved_ptr1:void *
+	lzma_stream reserved_ptr2:void *
+	lzma_stream reserved_ptr3:void *
+	lzma_stream reserved_ptr4:void *
+	lzma_stream reserved_int1:uint64_t
+	lzma_stream reserved_int2:uint64_t
+	lzma_stream reserved_int3:size_t
+	lzma_stream reserved_int4:size_t
+	lzma_stream reserved_enum1:lzma_reserved_enum
+	lzma_stream reserved_enum2:lzma_reserved_enum
+	lzma_allocator alloc:void *(*)(void *, size_t, size_t)
+	lzma_allocator free:void (*)(void *, void *)
+	lzma_allocator opaque:void *
+	lzma_filter id:lzma_vli
+	lzma_filter options:void *
+	lzma_options_delta type:lzma_delta_type
+	lzma_options_delta dist:uint32_t
+	lzma_options_delta reserved_int1:uint32_t
+	lzma_options_delta reserved_int2:uint32_t
+	lzma_options_delta reserved_int3:uint32_t
+	lzma_options_delta reserved_int4:uint32_t
+	lzma_options_delta reserved_ptr1:void *
+	lzma_options_delta reserved_ptr2:void *
+	lzma_options_lzma dict_size:uint32_t
+	lzma_options_lzma preset_dict:const uint8_t *
+	lzma_options_lzma preset_dict_size:uint32_t
+	lzma_options_lzma lc:uint32_t
+	lzma_options_lzma lp:uint32_t
+	lzma_options_lzma pb:uint32_t
+	lzma_options_lzma mode:lzma_mode
+	lzma_options_lzma nice_len:uint32_t
+	lzma_options_lzma mf:lzma_match_finder
+	lzma_options_lzma depth:uint32_t
+	lzma_options_lzma reserved_int1:uint32_t
+	lzma_options_lzma reserved_int2:uint32_t
+	lzma_options_lzma reserved_int3:uint32_t
+	lzma_options_lzma reserved_int4:uint32_t
+	lzma_options_lzma reserved_int5:uint32_t
+	lzma_options_lzma reserved_int6:uint32_t
+	lzma_options_lzma reserved_int7:uint32_t
+	lzma_options_lzma reserved_int8:uint32_t
+	lzma_options_lzma reserved_enum1:lzma_reserved_enum
+	lzma_options_lzma reserved_enum2:lzma_reserved_enum
+	lzma_options_lzma reserved_enum3:lzma_reserved_enum
+	lzma_options_lzma reserved_enum4:lzma_reserved_enum
+	lzma_options_lzma reserved_ptr1:void *
+	lzma_options_lzma reserved_ptr2:void *
+	LZWBaseState predict:TIFFPredictorState
+	LZWBaseState predictor:int
+	LZWBaseState stride:tmsize_t
+	LZWBaseState rowsize:tmsize_t
+	LZWBaseState encoderow:TIFFCodeMethod
+	LZWBaseState encodestrip:TIFFCodeMethod
+	LZWBaseState encodetile:TIFFCodeMethod
+	LZWBaseState encodepfunc:TIFFEncodeDecodeMethod
+	LZWBaseState decoderow:TIFFCodeMethod
+	LZWBaseState decodestrip:TIFFCodeMethod
+	LZWBaseState decodetile:TIFFCodeMethod
+	LZWBaseState decodepfunc:TIFFEncodeDecodeMethod
+	LZWBaseState vgetparent:TIFFVGetMethod
+	LZWBaseState vsetparent:TIFFVSetMethod
+	LZWBaseState printdir:TIFFPrintMethod
+	LZWBaseState setupdecode:TIFFBoolMethod
+	LZWBaseState setupencode:TIFFBoolMethod
+	LZWBaseState nbits:unsigned short
+	LZWBaseState maxcode:unsigned short
+	LZWBaseState free_ent:unsigned short
+	LZWBaseState nextdata:long unsigned int
+	LZWBaseState nextbits:long int
+	LZWBaseState rw_mode:int
+	LZWCodecState base:LZWBaseState
+	LZWCodecState predict:TIFFPredictorState
+	LZWCodecState predictor:int
+	LZWCodecState stride:tmsize_t
+	LZWCodecState rowsize:tmsize_t
+	LZWCodecState encoderow:TIFFCodeMethod
+	LZWCodecState encodestrip:TIFFCodeMethod
+	LZWCodecState encodetile:TIFFCodeMethod
+	LZWCodecState encodepfunc:TIFFEncodeDecodeMethod
+	LZWCodecState decoderow:TIFFCodeMethod
+	LZWCodecState decodestrip:TIFFCodeMethod
+	LZWCodecState decodetile:TIFFCodeMethod
+	LZWCodecState decodepfunc:TIFFEncodeDecodeMethod
+	LZWCodecState vgetparent:TIFFVGetMethod
+	LZWCodecState vsetparent:TIFFVSetMethod
+	LZWCodecState printdir:TIFFPrintMethod
+	LZWCodecState setupdecode:TIFFBoolMethod
+	LZWCodecState setupencode:TIFFBoolMethod
+	LZWCodecState nbits:unsigned short
+	LZWCodecState maxcode:unsigned short
+	LZWCodecState free_ent:unsigned short
+	LZWCodecState nextdata:long unsigned int
+	LZWCodecState nextbits:long int
+	LZWCodecState rw_mode:int
+	LZWCodecState dec_nbitsmask:long int
+	LZWCodecState dec_restart:long int
+	LZWCodecState dec_bitsleft:uint64
+	LZWCodecState dec_decode:decodeFunc
+	LZWCodecState dec_codep:code_t *
+	LZWCodecState dec_oldcodep:code_t *
+	LZWCodecState dec_free_entp:code_t *
+	LZWCodecState dec_maxcodep:code_t *
+	LZWCodecState dec_codetab:code_t *
+	LZWCodecState enc_oldcode:int
+	LZWCodecState enc_checkpoint:long int
+	LZWCodecState enc_ratio:long int
+	LZWCodecState enc_incount:long int
+	LZWCodecState enc_outcount:long int
+	LZWCodecState enc_rawlimit:uint8 *
+	LZWCodecState enc_hashtab:hash_t *
+	hash_t hash:long int
+	hash_t code:hcode_t
+	PixarLogState predict:TIFFPredictorState
+	PixarLogState predictor:int
+	PixarLogState stride:tmsize_t
+	PixarLogState rowsize:tmsize_t
+	PixarLogState encoderow:TIFFCodeMethod
+	PixarLogState encodestrip:TIFFCodeMethod
+	PixarLogState encodetile:TIFFCodeMethod
+	PixarLogState encodepfunc:TIFFEncodeDecodeMethod
+	PixarLogState decoderow:TIFFCodeMethod
+	PixarLogState decodestrip:TIFFCodeMethod
+	PixarLogState decodetile:TIFFCodeMethod
+	PixarLogState decodepfunc:TIFFEncodeDecodeMethod
+	PixarLogState vgetparent:TIFFVGetMethod
+	PixarLogState vsetparent:TIFFVSetMethod
+	PixarLogState printdir:TIFFPrintMethod
+	PixarLogState setupdecode:TIFFBoolMethod
+	PixarLogState setupencode:TIFFBoolMethod
+	PixarLogState stream:z_stream
+	PixarLogState next_in:Bytef *
+	PixarLogState avail_in:uInt
+	PixarLogState total_in:uLong
+	PixarLogState next_out:Bytef *
+	PixarLogState avail_out:uInt
+	PixarLogState total_out:uLong
+	PixarLogState msg:char *
+	internal_state zalloc:alloc_func
+	internal_state zfree:free_func
+	internal_state opaque:voidpf
+	internal_state data_type:int
+	internal_state adler:uLong
+	internal_state reserved:uLong
+	internal_state tbuf_size:tmsize_t
+	internal_state tbuf:uint16 *
+	internal_state stride:uint16
+	internal_state state:int
+	internal_state user_datafmt:int
+	internal_state quality:int
+	internal_state vgetparent:TIFFVSetMethod
+	internal_state vsetparent:TIFFVSetMethod
+	internal_state ToLinearF:float *
+	internal_state ToLinear16:uint16 *
+	internal_state ToLinear8:unsigned char *
+	internal_state FromLT2:uint16 *
+	internal_state From14:uint16 *
+	internal_state From8:uint16 *
+	z_stream_s next_in:Bytef *
+	z_stream_s avail_in:uInt
+	z_stream_s total_in:uLong
+	z_stream_s next_out:Bytef *
+	z_stream_s avail_out:uInt
+	z_stream_s total_out:uLong
+	z_stream_s msg:char *
+	internal_state zalloc:alloc_func
+	internal_state zfree:free_func
+	internal_state opaque:voidpf
+	internal_state data_type:int
+	internal_state adler:uLong
+	internal_state reserved:uLong
+	internal_state dummy:int
+	tiff tif_name:char *
+	tiff tif_fd:int
+	tiff tif_mode:int
+	tiff tif_flags:uint32
+	tiff tif_diroff:uint64
+	tiff tif_nextdiroff:uint64
+	tiff tif_dirlist:uint64 *
+	tiff tif_dirlistsize:uint16
+	tiff tif_dirnumber:uint16
+	tiff tif_dir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_customdir:TIFFDirectory
+	tiff td_fieldsset:long unsigned int [4]
+	tiff None:<range type>
+	tiff td_imagewidth:uint32
+	tiff td_imagelength:uint32
+	tiff td_imagedepth:uint32
+	tiff td_tilewidth:uint32
+	tiff td_tilelength:uint32
+	tiff td_tiledepth:uint32
+	tiff td_subfiletype:uint32
+	tiff td_bitspersample:uint16
+	tiff td_sampleformat:uint16
+	tiff td_compression:uint16
+	tiff td_photometric:uint16
+	tiff td_threshholding:uint16
+	tiff td_fillorder:uint16
+	tiff td_orientation:uint16
+	tiff td_samplesperpixel:uint16
+	tiff td_rowsperstrip:uint32
+	tiff td_minsamplevalue:uint16
+	tiff td_maxsamplevalue:uint16
+	tiff td_sminsamplevalue:double *
+	tiff td_smaxsamplevalue:double *
+	tiff td_xresolution:float
+	tiff td_yresolution:float
+	tiff td_resolutionunit:uint16
+	tiff td_planarconfig:uint16
+	tiff td_xposition:float
+	tiff td_yposition:float
+	tiff td_pagenumber:uint16 [2]
+	tiff None:<range type>
+	tiff td_colormap:uint16 *[3]
+	tiff None:<range type>
+	tiff td_halftonehints:uint16 [2]
+	tiff None:<range type>
+	tiff td_extrasamples:uint16
+	tiff td_sampleinfo:uint16 *
+	tiff td_stripsperimage:uint32
+	tiff td_nstrips:uint32
+	tiff td_stripoffset:uint64 *
+	tiff td_stripbytecount:uint64 *
+	tiff td_stripbytecountsorted:int
+	tiff td_nsubifd:uint16
+	tiff td_subifd:uint64 *
+	tiff td_ycbcrsubsampling:uint16 [2]
+	tiff None:<range type>
+	tiff td_ycbcrpositioning:uint16
+	tiff td_transferfunction:uint16 *[3]
+	tiff None:<range type>
+	tiff td_refblackwhite:float *
+	tiff td_inknameslen:int
+	tiff td_inknames:char *
+	tiff td_customValueCount:int
+	tiff td_customValues:TIFFTagValue *
+	tiff tif_header:union {...}
+	tiff common:TIFFHeaderCommon
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff classic:TIFFHeaderClassic
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_diroff:uint32
+	tiff big:TIFFHeaderBig
+	tiff tiff_magic:uint16
+	tiff tiff_version:uint16
+	tiff tiff_offsetsize:uint16
+	tiff tiff_unused:uint16
+	tiff tiff_diroff:uint64
+	tiff tif_header_size:uint16
+	tiff tif_row:uint32
+	tiff tif_curdir:uint16
+	tiff tif_curstrip:uint32
+	tiff tif_curoff:uint64
+	tiff tif_dataoff:uint64
+	tiff tif_nsubifd:uint16
+	tiff tif_subifdoff:uint64
+	tiff tif_col:uint32
+	tiff tif_curtile:uint32
+	tiff tif_tilesize:tmsize_t
+	tiff tif_decodestatus:int
+	tiff tif_fixuptags:TIFFBoolMethod
+	tiff tif_setupdecode:TIFFBoolMethod
+	tiff tif_predecode:TIFFPreMethod
+	tiff tif_setupencode:TIFFBoolMethod
+	tiff tif_encodestatus:int
+	tiff tif_preencode:TIFFPreMethod
+	tiff tif_postencode:TIFFBoolMethod
+	tiff tif_decoderow:TIFFCodeMethod
+	tiff tif_encoderow:TIFFCodeMethod
+	tiff tif_decodestrip:TIFFCodeMethod
+	tiff tif_encodestrip:TIFFCodeMethod
+	tiff tif_decodetile:TIFFCodeMethod
+	tiff tif_encodetile:TIFFCodeMethod
+	tiff tif_close:TIFFVoidMethod
+	tiff tif_seek:TIFFSeekMethod
+	tiff tif_cleanup:TIFFVoidMethod
+	tiff tif_defstripsize:TIFFStripMethod
+	tiff tif_deftilesize:TIFFTileMethod
+	tiff tif_data:uint8 *
+	tiff tif_scanlinesize:tmsize_t
+	tiff tif_scanlineskew:tmsize_t
+	tiff tif_rawdata:uint8 *
+	tiff tif_rawdatasize:tmsize_t
+	tiff tif_rawdataoff:tmsize_t
+	tiff tif_rawdataloaded:tmsize_t
+	tiff tif_rawcp:uint8 *
+	tiff tif_rawcc:tmsize_t
+	tiff tif_base:uint8 *
+	tiff tif_size:tmsize_t
+	tiff tif_mapproc:TIFFMapFileProc
+	tiff tif_unmapproc:TIFFUnmapFileProc
+	tiff tif_clientdata:thandle_t
+	tiff tif_readproc:TIFFReadWriteProc
+	tiff tif_writeproc:TIFFReadWriteProc
+	tiff tif_seekproc:TIFFSeekProc
+	tiff tif_closeproc:TIFFCloseProc
+	tiff tif_sizeproc:TIFFSizeProc
+	tiff tif_postdecode:TIFFPostMethod
+	tiff tif_fields:TIFFField **
+	tiff tif_nfields:size_t
+	tiff tif_foundfield:const TIFFField *
+	tiff tif_tagmethods:TIFFTagMethods
+	tiff vsetfield:TIFFVSetMethod
+	tiff vgetfield:TIFFVGetMethod
+	tiff printdir:TIFFPrintMethod
+	tiff tif_clientinfo:TIFFClientInfoLink *
+	tiff tif_fieldscompat:TIFFFieldArray *
+	tiff tif_nfieldscompat:size_t
+	TIFFTagMethods vsetfield:TIFFVSetMethod
+	TIFFTagMethods vgetfield:TIFFVGetMethod
+	TIFFTagMethods printdir:TIFFPrintMethod
+	TIFFPredictorState predictor:int
+	TIFFPredictorState stride:tmsize_t
+	TIFFPredictorState rowsize:tmsize_t
+	TIFFPredictorState encoderow:TIFFCodeMethod
+	TIFFPredictorState encodestrip:TIFFCodeMethod
+	TIFFPredictorState encodetile:TIFFCodeMethod
+	TIFFPredictorState encodepfunc:TIFFEncodeDecodeMethod
+	TIFFPredictorState decoderow:TIFFCodeMethod
+	TIFFPredictorState decodestrip:TIFFCodeMethod
+	TIFFPredictorState decodetile:TIFFCodeMethod
+	TIFFPredictorState decodepfunc:TIFFEncodeDecodeMethod
+	TIFFPredictorState vgetparent:TIFFVGetMethod
+	TIFFPredictorState vsetparent:TIFFVSetMethod
+	TIFFPredictorState printdir:TIFFPrintMethod
+	TIFFPredictorState setupdecode:TIFFBoolMethod
+	TIFFPredictorState setupencode:TIFFBoolMethod
+	ZIPState predict:TIFFPredictorState
+	ZIPState predictor:int
+	ZIPState stride:tmsize_t
+	ZIPState rowsize:tmsize_t
+	ZIPState encoderow:TIFFCodeMethod
+	ZIPState encodestrip:TIFFCodeMethod
+	ZIPState encodetile:TIFFCodeMethod
+	ZIPState encodepfunc:TIFFEncodeDecodeMethod
+	ZIPState decoderow:TIFFCodeMethod
+	ZIPState decodestrip:TIFFCodeMethod
+	ZIPState decodetile:TIFFCodeMethod
+	ZIPState decodepfunc:TIFFEncodeDecodeMethod
+	ZIPState vgetparent:TIFFVGetMethod
+	ZIPState vsetparent:TIFFVSetMethod
+	ZIPState printdir:TIFFPrintMethod
+	ZIPState setupdecode:TIFFBoolMethod
+	ZIPState setupencode:TIFFBoolMethod
+	ZIPState stream:z_stream
+	ZIPState next_in:Bytef *
+	ZIPState avail_in:uInt
+	ZIPState total_in:uLong
+	ZIPState next_out:Bytef *
+	ZIPState avail_out:uInt
+	ZIPState total_out:uLong
+	ZIPState msg:char *
+	internal_state zalloc:alloc_func
+	internal_state zfree:free_func
+	internal_state opaque:voidpf
+	internal_state data_type:int
+	internal_state adler:uLong
+	internal_state reserved:uLong
+	internal_state zipquality:int
+	internal_state state:int
+	internal_state vgetparent:TIFFVGetMethod
+	internal_state vsetparent:TIFFVSetMethod
+KLEE: Using Z3 solver backend
+warning: Linking two modules of different target triples: /home/user/Projects/Senx/code/build3.8/Release+Debug+Asserts/lib/kleeRuntimeIntrinsic.bc' is 'x86_64-unknown-linux-gnu' whereas './tiffmedian.bc' is 'x86_64-pc-linux-gnu'
+
+global variable rowsperstrip
+	1 elements of 4bytes
+global variable compression
+	1 elements of 2bytes
+global variable bitspersample
+	1 elements of 2bytes
+global variable predictor
+	1 elements of 2bytes
+global variable num_colors
+	1 elements of 4bytes
+global variable in
+	1 elements of 8bytes
+global variable imagewidth
+	1 elements of 4bytes
+global variable imagelength
+	1 elements of 4bytes
+global variable samplesperpixel
+	1 elements of 2bytes
+global variable usedboxes
+	1 elements of 8bytes
+global variable freeboxes
+	1 elements of 8bytes
+global variable rm
+	256 elements of 2bytes
+global variable gm
+	256 elements of 2bytes
+global variable bm
+	256 elements of 2bytes
+global variable ColorCells
+	1 elements of 8bytes
+global variable out
+	1 elements of 8bytes
+global variable stuff
+	14 elements of 8bytes
+global variable .str.7
+	49 elements of 1bytes
+global variable .str.8
+	19 elements of 1bytes
+global variable .str.9
+	48 elements of 1bytes
+global variable .str.10
+	40 elements of 1bytes
+global variable .str.11
+	35 elements of 1bytes
+global variable .str.12
+	64 elements of 1bytes
+global variable .str.13
+	53 elements of 1bytes
+global variable .str.14
+	52 elements of 1bytes
+global variable .str.15
+	48 elements of 1bytes
+global variable .str.16
+	1 elements of 1bytes
+global variable .str.17
+	25 elements of 1bytes
+global variable .str.18
+	24 elements of 1bytes
+global variable .str.19
+	75 elements of 1bytes
+global variable histogram
+	32 elements of 4096bytes
+global variable .str
+	8 elements of 1bytes
+global variable .str.20
+	5 elements of 1bytes
+global variable .str.21
+	9 elements of 1bytes
+global variable .str.22
+	4 elements of 1bytes
+global variable .str.23
+	4 elements of 1bytes
+global variable .str.24
+	5 elements of 1bytes
+global variable .str.25
+	4 elements of 1bytes
+global variable .str.1
+	30 elements of 1bytes
+global variable .str.2
+	2 elements of 1bytes
+global variable .str.3
+	44 elements of 1bytes
+global variable .str.4
+	30 elements of 1bytes
+global variable .str.5
+	45 elements of 1bytes
+global variable .str.26
+	30 elements of 1bytes
+global variable .str.27
+	40 elements of 1bytes
+global variable .str.6
+	2 elements of 1bytes
+global variable .str.28
+	5 elements of 1bytes
+global variable .str.8.33
+	8 elements of 1bytes
+global variable .str.9.34
+	1 elements of 1bytes
+global variable .str.6.35
+	13 elements of 1bytes
+global variable .str.7.36
+	21 elements of 1bytes
+global variable .str.10.37
+	41 elements of 1bytes
+global variable _TIFFextender
+	1 elements of 8bytes
+global variable _TIFFVSetField.module
+	15 elements of 1bytes
+global variable .str.11.42
+	110 elements of 1bytes
+global variable .str.12.43
+	110 elements of 1bytes
+global variable .str.13.44
+	40 elements of 1bytes
+global variable .str.14.45
+	41 elements of 1bytes
+global variable .str.15.46
+	31 elements of 1bytes
+global variable .str.27.47
+	57 elements of 1bytes
+global variable .str.16.48
+	48 elements of 1bytes
+global variable .str.17.49
+	55 elements of 1bytes
+global variable .str.18.50
+	31 elements of 1bytes
+global variable .str.19.51
+	38 elements of 1bytes
+global variable .str.4.52
+	10 elements of 1bytes
+global variable __PRETTY_FUNCTION__._TIFFVSetField
+	59 elements of 1bytes
+global variable .str.20.53
+	63 elements of 1bytes
+global variable .str.21.54
+	25 elements of 1bytes
+global variable .str.22.55
+	9 elements of 1bytes
+global variable .str.23.56
+	15 elements of 1bytes
+global variable .str.25.57
+	8 elements of 1bytes
+global variable .str.24.58
+	30 elements of 1bytes
+global variable .str.26.59
+	30 elements of 1bytes
+global variable .str.28.60
+	15 elements of 1bytes
+global variable __PRETTY_FUNCTION__._TIFFVGetField
+	59 elements of 1bytes
+global variable TIFFAdvanceDirectory.module
+	21 elements of 1bytes
+global variable .str.29
+	31 elements of 1bytes
+global variable .str.30
+	30 elements of 1bytes
+global variable .str.31
+	39 elements of 1bytes
+global variable .str.32
+	35 elements of 1bytes
+global variable .str.33
+	34 elements of 1bytes
+global variable TIFFNumberOfDirectories.module
+	24 elements of 1bytes
+global variable .str.61
+	61 elements of 1bytes
+global variable TIFFUnlinkDirectory.module
+	20 elements of 1bytes
+global variable .str.1.62
+	43 elements of 1bytes
+global variable .str.2.63
+	28 elements of 1bytes
+global variable .str.3.64
+	27 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFUnlinkDirectory
+	40 elements of 1bytes
+global variable .str.5.65
+	29 elements of 1bytes
+global variable tiffFieldArray
+	1 elements of 24bytes
+global variable tiffFields
+	153 elements of 48bytes
+global variable .str.13.68
+	12 elements of 1bytes
+global variable .str.14.69
+	15 elements of 1bytes
+global variable .str.15.70
+	11 elements of 1bytes
+global variable .str.16.71
+	12 elements of 1bytes
+global variable .str.17.72
+	14 elements of 1bytes
+global variable .str.18.73
+	12 elements of 1bytes
+global variable .str.19.74
+	26 elements of 1bytes
+global variable .str.20.75
+	14 elements of 1bytes
+global variable .str.21.76
+	10 elements of 1bytes
+global variable .str.22.77
+	11 elements of 1bytes
+global variable .str.23.78
+	10 elements of 1bytes
+global variable .str.24.79
+	13 elements of 1bytes
+global variable .str.25.80
+	17 elements of 1bytes
+global variable .str.26.81
+	5 elements of 1bytes
+global variable .str.27.82
+	6 elements of 1bytes
+global variable .str.28.83
+	13 elements of 1bytes
+global variable .str.29.84
+	12 elements of 1bytes
+global variable .str.30.85
+	16 elements of 1bytes
+global variable .str.31.86
+	13 elements of 1bytes
+global variable .str.32.87
+	16 elements of 1bytes
+global variable .str.33.88
+	15 elements of 1bytes
+global variable .str.34
+	15 elements of 1bytes
+global variable .str.35
+	12 elements of 1bytes
+global variable .str.36
+	12 elements of 1bytes
+global variable .str.37
+	20 elements of 1bytes
+global variable .str.38
+	9 elements of 1bytes
+global variable .str.39
+	10 elements of 1bytes
+global variable .str.40
+	10 elements of 1bytes
+global variable .str.41
+	12 elements of 1bytes
+global variable .str.42
+	15 elements of 1bytes
+global variable .str.43
+	17 elements of 1bytes
+global variable .str.44
+	18 elements of 1bytes
+global variable .str.45
+	15 elements of 1bytes
+global variable .str.46
+	11 elements of 1bytes
+global variable .str.47
+	18 elements of 1bytes
+global variable .str.48
+	17 elements of 1bytes
+global variable .str.49
+	9 elements of 1bytes
+global variable .str.50
+	9 elements of 1bytes
+global variable .str.51
+	7 elements of 1bytes
+global variable .str.52
+	13 elements of 1bytes
+global variable .str.53
+	11 elements of 1bytes
+global variable .str.54
+	22 elements of 1bytes
+global variable .str.55
+	9 elements of 1bytes
+global variable .str.56
+	14 elements of 1bytes
+global variable .str.57
+	10 elements of 1bytes
+global variable .str.58
+	11 elements of 1bytes
+global variable .str.59
+	12 elements of 1bytes
+global variable .str.60
+	15 elements of 1bytes
+global variable .str.61.89
+	7 elements of 1bytes
+global variable .str.62
+	7 elements of 1bytes
+global variable .str.63
+	9 elements of 1bytes
+global variable .str.64
+	13 elements of 1bytes
+global variable .str.65
+	9 elements of 1bytes
+global variable .str.66
+	14 elements of 1bytes
+global variable .str.67
+	13 elements of 1bytes
+global variable .str.68
+	13 elements of 1bytes
+global variable .str.69
+	16 elements of 1bytes
+global variable .str.70
+	16 elements of 1bytes
+global variable .str.71
+	9 elements of 1bytes
+global variable .str.72
+	15 elements of 1bytes
+global variable .str.73
+	15 elements of 1bytes
+global variable .str.74
+	18 elements of 1bytes
+global variable .str.75
+	17 elements of 1bytes
+global variable .str.76
+	17 elements of 1bytes
+global variable .str.77
+	20 elements of 1bytes
+global variable .str.78
+	10 elements of 1bytes
+global variable .str.79
+	9 elements of 1bytes
+global variable .str.80
+	9 elements of 1bytes
+global variable .str.81
+	11 elements of 1bytes
+global variable .str.82
+	10 elements of 1bytes
+global variable .str.83
+	15 elements of 1bytes
+global variable .str.84
+	16 elements of 1bytes
+global variable .str.85
+	14 elements of 1bytes
+global variable .str.86
+	17 elements of 1bytes
+global variable .str.87
+	21 elements of 1bytes
+global variable .str.88
+	20 elements of 1bytes
+global variable .str.89
+	20 elements of 1bytes
+global variable .str.90
+	20 elements of 1bytes
+global variable .str.91
+	11 elements of 1bytes
+global variable .str.92
+	10 elements of 1bytes
+global variable .str.93
+	13 elements of 1bytes
+global variable .str.94
+	10 elements of 1bytes
+global variable .str.95
+	14 elements of 1bytes
+global variable exifFieldArray
+	1 elements of 24bytes
+global variable exifFields
+	56 elements of 48bytes
+global variable .str.165
+	13 elements of 1bytes
+global variable .str.166
+	8 elements of 1bytes
+global variable .str.167
+	16 elements of 1bytes
+global variable .str.168
+	20 elements of 1bytes
+global variable .str.169
+	16 elements of 1bytes
+global variable .str.170
+	29 elements of 1bytes
+global variable .str.171
+	12 elements of 1bytes
+global variable .str.172
+	17 elements of 1bytes
+global variable .str.173
+	18 elements of 1bytes
+global variable .str.174
+	24 elements of 1bytes
+global variable .str.175
+	23 elements of 1bytes
+global variable .str.176
+	18 elements of 1bytes
+global variable .str.177
+	14 elements of 1bytes
+global variable .str.178
+	16 elements of 1bytes
+global variable .str.179
+	18 elements of 1bytes
+global variable .str.180
+	17 elements of 1bytes
+global variable .str.181
+	16 elements of 1bytes
+global variable .str.182
+	13 elements of 1bytes
+global variable .str.183
+	12 elements of 1bytes
+global variable .str.184
+	6 elements of 1bytes
+global variable .str.185
+	12 elements of 1bytes
+global variable .str.186
+	12 elements of 1bytes
+global variable .str.187
+	10 elements of 1bytes
+global variable .str.188
+	12 elements of 1bytes
+global variable .str.189
+	11 elements of 1bytes
+global variable .str.190
+	19 elements of 1bytes
+global variable .str.191
+	20 elements of 1bytes
+global variable .str.192
+	16 elements of 1bytes
+global variable .str.193
+	11 elements of 1bytes
+global variable .str.194
+	16 elements of 1bytes
+global variable .str.195
+	16 elements of 1bytes
+global variable .str.196
+	17 elements of 1bytes
+global variable .str.197
+	12 elements of 1bytes
+global variable .str.198
+	25 elements of 1bytes
+global variable .str.199
+	22 elements of 1bytes
+global variable .str.200
+	22 elements of 1bytes
+global variable .str.201
+	25 elements of 1bytes
+global variable .str.202
+	16 elements of 1bytes
+global variable .str.203
+	14 elements of 1bytes
+global variable .str.204
+	14 elements of 1bytes
+global variable .str.205
+	11 elements of 1bytes
+global variable .str.206
+	10 elements of 1bytes
+global variable .str.207
+	15 elements of 1bytes
+global variable .str.208
+	13 elements of 1bytes
+global variable .str.209
+	13 elements of 1bytes
+global variable .str.210
+	17 elements of 1bytes
+global variable .str.211
+	22 elements of 1bytes
+global variable .str.212
+	17 elements of 1bytes
+global variable .str.213
+	12 elements of 1bytes
+global variable .str.214
+	9 elements of 1bytes
+global variable .str.215
+	11 elements of 1bytes
+global variable .str.216
+	10 elements of 1bytes
+global variable .str.217
+	25 elements of 1bytes
+global variable .str.218
+	21 elements of 1bytes
+global variable .str.219
+	14 elements of 1bytes
+global variable .str.96
+	12 elements of 1bytes
+global variable .str.97
+	13 elements of 1bytes
+global variable .str.98
+	14 elements of 1bytes
+global variable .str.99
+	14 elements of 1bytes
+global variable .str.100
+	12 elements of 1bytes
+global variable .str.101
+	7 elements of 1bytes
+global variable .str.102
+	8 elements of 1bytes
+global variable .str.103
+	26 elements of 1bytes
+global variable .str.104
+	11 elements of 1bytes
+global variable .str.105
+	19 elements of 1bytes
+global variable .str.106
+	18 elements of 1bytes
+global variable .str.107
+	21 elements of 1bytes
+global variable .str.108
+	14 elements of 1bytes
+global variable .str.109
+	10 elements of 1bytes
+global variable .str.110
+	19 elements of 1bytes
+global variable .str.111
+	20 elements of 1bytes
+global variable .str.112
+	11 elements of 1bytes
+global variable .str.113
+	17 elements of 1bytes
+global variable .str.114
+	17 elements of 1bytes
+global variable .str.115
+	11 elements of 1bytes
+global variable .str.116
+	13 elements of 1bytes
+global variable .str.117
+	17 elements of 1bytes
+global variable .str.118
+	18 elements of 1bytes
+global variable .str.119
+	16 elements of 1bytes
+global variable .str.120
+	13 elements of 1bytes
+global variable .str.121
+	13 elements of 1bytes
+global variable .str.122
+	19 elements of 1bytes
+global variable .str.123
+	19 elements of 1bytes
+global variable .str.124
+	17 elements of 1bytes
+global variable .str.125
+	17 elements of 1bytes
+global variable .str.126
+	14 elements of 1bytes
+global variable .str.127
+	14 elements of 1bytes
+global variable .str.128
+	14 elements of 1bytes
+global variable .str.129
+	17 elements of 1bytes
+global variable .str.130
+	14 elements of 1bytes
+global variable .str.131
+	18 elements of 1bytes
+global variable .str.132
+	16 elements of 1bytes
+global variable .str.133
+	20 elements of 1bytes
+global variable .str.134
+	19 elements of 1bytes
+global variable .str.135
+	9 elements of 1bytes
+global variable .str.136
+	17 elements of 1bytes
+global variable .str.137
+	18 elements of 1bytes
+global variable .str.138
+	12 elements of 1bytes
+global variable .str.139
+	15 elements of 1bytes
+global variable .str.140
+	16 elements of 1bytes
+global variable .str.141
+	23 elements of 1bytes
+global variable .str.142
+	23 elements of 1bytes
+global variable .str.143
+	16 elements of 1bytes
+global variable .str.144
+	20 elements of 1bytes
+global variable .str.145
+	20 elements of 1bytes
+global variable .str.146
+	11 elements of 1bytes
+global variable .str.147
+	12 elements of 1bytes
+global variable .str.148
+	17 elements of 1bytes
+global variable .str.149
+	23 elements of 1bytes
+global variable .str.150
+	18 elements of 1bytes
+global variable .str.151
+	24 elements of 1bytes
+global variable .str.152
+	10 elements of 1bytes
+global variable .str.153
+	8 elements of 1bytes
+global variable .str.154
+	20 elements of 1bytes
+global variable .str.155
+	12 elements of 1bytes
+global variable .str.156
+	11 elements of 1bytes
+global variable .str.157
+	14 elements of 1bytes
+global variable .str.158
+	12 elements of 1bytes
+global variable .str.159
+	11 elements of 1bytes
+global variable .str.160
+	7 elements of 1bytes
+global variable .str.161
+	15 elements of 1bytes
+global variable .str.162
+	11 elements of 1bytes
+global variable .str.163
+	15 elements of 1bytes
+global variable .str.164
+	11 elements of 1bytes
+global variable .str.220
+	5 elements of 1bytes
+global variable _TIFFMergeFields.reason
+	17 elements of 1bytes
+global variable _TIFFMergeFields.module
+	17 elements of 1bytes
+global variable .str.3.221
+	32 elements of 1bytes
+global variable .str.1.224
+	17 elements of 1bytes
+global variable .str.2.225
+	29 elements of 1bytes
+global variable .str.4.226
+	6 elements of 1bytes
+global variable .str.6.227
+	5 elements of 1bytes
+global variable .str.7.228
+	6 elements of 1bytes
+global variable .str.5.229
+	50 elements of 1bytes
+global variable .str.8.234
+	17 elements of 1bytes
+global variable .str.9.235
+	33 elements of 1bytes
+global variable .str.10.236
+	18 elements of 1bytes
+global variable .str.11.237
+	31 elements of 1bytes
+global variable .str.12.238
+	7 elements of 1bytes
+global variable TIFFMergeFieldInfo.reason
+	17 elements of 1bytes
+global variable TIFFMergeFieldInfo.module
+	19 elements of 1bytes
+global variable .str.53.241
+	19 elements of 1bytes
+global variable .str.54.242
+	47 elements of 1bytes
+global variable .str.55.243
+	13 elements of 1bytes
+global variable .str.58.244
+	5 elements of 1bytes
+global variable .str.5.245
+	14 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFFetchDirectory
+	69 elements of 1bytes
+global variable TIFFFetchDirectory.module
+	19 elements of 1bytes
+global variable .str.59.246
+	40 elements of 1bytes
+global variable .str.60.247
+	38 elements of 1bytes
+global variable .str.61.248
+	80 elements of 1bytes
+global variable .str.62.249
+	23 elements of 1bytes
+global variable .str.63.250
+	36 elements of 1bytes
+global variable .str.64.251
+	34 elements of 1bytes
+global variable .str.65.252
+	75 elements of 1bytes
+global variable .str.66.253
+	28 elements of 1bytes
+global variable TIFFReadDirectory.module
+	18 elements of 1bytes
+global variable .str.254
+	39 elements of 1bytes
+global variable TIFFReadDirectoryCheckOrder.module
+	28 elements of 1bytes
+global variable .str.49.255
+	63 elements of 1bytes
+global variable .str.67.256
+	19 elements of 1bytes
+global variable .str.68.257
+	31 elements of 1bytes
+global variable .str.69.258
+	12 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFFetchNormalTag
+	52 elements of 1bytes
+global variable .str.70.259
+	39 elements of 1bytes
+global variable .str.71.260
+	37 elements of 1bytes
+global variable .str.72.261
+	24 elements of 1bytes
+global variable .str.47.262
+	21 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFReadDirEntryArray
+	98 elements of 1bytes
+global variable .str.48.263
+	18 elements of 1bytes
+global variable .str.31.264
+	7 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFReadDirEntryData
+	80 elements of 1bytes
+global variable TIFFFetchNormalTag.module
+	19 elements of 1bytes
+global variable .str.73.265
+	131 elements of 1bytes
+global variable .str.74.266
+	51 elements of 1bytes
+global variable .str.75.267
+	24 elements of 1bytes
+global variable .str.76.268
+	24 elements of 1bytes
+global variable .str.77.269
+	51 elements of 1bytes
+global variable .str.78.270
+	24 elements of 1bytes
+global variable .str.79.271
+	52 elements of 1bytes
+global variable .str.80.272
+	36 elements of 1bytes
+global variable .str.81.273
+	24 elements of 1bytes
+global variable .str.82.274
+	74 elements of 1bytes
+global variable .str.83.275
+	37 elements of 1bytes
+global variable .str.39.276
+	2 elements of 1bytes
+global variable .str.32.277
+	25 elements of 1bytes
+global variable .str.33.278
+	27 elements of 1bytes
+global variable .str.34.279
+	32 elements of 1bytes
+global variable .str.35.280
+	25 elements of 1bytes
+global variable .str.36.281
+	51 elements of 1bytes
+global variable .str.37.282
+	42 elements of 1bytes
+global variable .str.38.283
+	30 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFReadDirEntryOutputErr
+	98 elements of 1bytes
+global variable .str.40.284
+	38 elements of 1bytes
+global variable .str.41.285
+	40 elements of 1bytes
+global variable .str.42.286
+	45 elements of 1bytes
+global variable .str.43.287
+	38 elements of 1bytes
+global variable .str.44.288
+	64 elements of 1bytes
+global variable .str.45.289
+	55 elements of 1bytes
+global variable .str.46.290
+	43 elements of 1bytes
+global variable .str.1.291
+	12 elements of 1bytes
+global variable .str.2.292
+	45 elements of 1bytes
+global variable .str.3.293
+	54 elements of 1bytes
+global variable .str.4.294
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFReadDirectory
+	30 elements of 1bytes
+global variable .str.6.297
+	84 elements of 1bytes
+global variable .str.7.298
+	12 elements of 1bytes
+global variable MissingRequired.module
+	16 elements of 1bytes
+global variable .str.52.299
+	46 elements of 1bytes
+global variable .str.9.300
+	6 elements of 1bytes
+global variable .str.10.301
+	7 elements of 1bytes
+global variable .str.8.302
+	32 elements of 1bytes
+global variable .str.11.303
+	12 elements of 1bytes
+global variable .str.12.304
+	13 elements of 1bytes
+global variable .str.13.305
+	16 elements of 1bytes
+global variable TIFFFetchStripThing.module
+	20 elements of 1bytes
+global variable .str.84.306
+	16 elements of 1bytes
+global variable .str.14.307
+	46 elements of 1bytes
+global variable .str.15.308
+	40 elements of 1bytes
+global variable .str.16.309
+	51 elements of 1bytes
+global variable .str.17.310
+	79 elements of 1bytes
+global variable .str.18.311
+	57 elements of 1bytes
+global variable .str.19.312
+	76 elements of 1bytes
+global variable .str.20.313
+	76 elements of 1bytes
+global variable .str.21.314
+	9 elements of 1bytes
+global variable .str.22.315
+	16 elements of 1bytes
+global variable .str.23.316
+	89 elements of 1bytes
+global variable .str.50.317
+	28 elements of 1bytes
+global variable EstimateStripByteCounts.module
+	24 elements of 1bytes
+global variable .str.51.318
+	45 elements of 1bytes
+global variable .str.24.319
+	73 elements of 1bytes
+global variable .str.25.320
+	73 elements of 1bytes
+global variable .str.86.321
+	43 elements of 1bytes
+global variable __PRETTY_FUNCTION__.ChopUpSingleUncompressedStrip
+	43 elements of 1bytes
+global variable .str.87.322
+	36 elements of 1bytes
+global variable .str.88.323
+	33 elements of 1bytes
+global variable .str.26.324
+	33 elements of 1bytes
+global variable .str.27.325
+	29 elements of 1bytes
+global variable .str.28.326
+	30 elements of 1bytes
+global variable TIFFReadCustomDirectory.module
+	24 elements of 1bytes
+global variable .str.29.327
+	46 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFReadCustomDirectory
+	68 elements of 1bytes
+global variable .str.30.328
+	41 elements of 1bytes
+global variable .str.56.329
+	64 elements of 1bytes
+global variable .str.57.330
+	64 elements of 1bytes
+global variable TIFFFetchSubjectDistance.module
+	25 elements of 1bytes
+global variable .str.85.331
+	16 elements of 1bytes
+global variable _TIFFerrorHandlerExt
+	1 elements of 8bytes
+global variable .str.336
+	15 elements of 1bytes
+global variable .str.1.337
+	9 elements of 1bytes
+global variable .str.2.338
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFClientOpen
+	177 elements of 1bytes
+global variable TIFFClientOpen.module
+	15 elements of 1bytes
+global variable .str.3.339
+	35 elements of 1bytes
+global variable .str.4.340
+	46 elements of 1bytes
+global variable .str.5.341
+	24 elements of 1bytes
+global variable .str.6.342
+	26 elements of 1bytes
+global variable .str.7.343
+	51 elements of 1bytes
+global variable .str.8.344
+	46 elements of 1bytes
+global variable .str.9.345
+	50 elements of 1bytes
+global variable .str.10.346
+	46 elements of 1bytes
+global variable .str.11.347
+	25 elements of 1bytes
+global variable .str.30.352
+	26 elements of 1bytes
+global variable .str.31.353
+	41 elements of 1bytes
+global variable .str.32.354
+	42 elements of 1bytes
+global variable .str.18.355
+	31 elements of 1bytes
+global variable .str.19.356
+	34 elements of 1bytes
+global variable TIFFFillStrip.module
+	14 elements of 1bytes
+global variable .str.4.357
+	41 elements of 1bytes
+global variable .str.5.358
+	55 elements of 1bytes
+global variable .str.3.359
+	17 elements of 1bytes
+global variable .str.6.360
+	40 elements of 1bytes
+global variable .str.10.361
+	35 elements of 1bytes
+global variable .str.11.362
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFReadBufferSetup
+	50 elements of 1bytes
+global variable TIFFReadBufferSetup.module
+	20 elements of 1bytes
+global variable .str.12.363
+	20 elements of 1bytes
+global variable .str.13.364
+	41 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFReadRawStrip1
+	75 elements of 1bytes
+global variable .str.23.365
+	38 elements of 1bytes
+global variable .str.24.366
+	58 elements of 1bytes
+global variable .str.25.367
+	69 elements of 1bytes
+global variable .str.20.368
+	8 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFFillStripPartial
+	53 elements of 1bytes
+global variable TIFFFillStripPartial.module
+	21 elements of 1bytes
+global variable .str.21.369
+	48 elements of 1bytes
+global variable .str.22.370
+	36 elements of 1bytes
+global variable TIFFReadEncodedStrip.module
+	21 elements of 1bytes
+global variable .str.371
+	33 elements of 1bytes
+global variable TIFFReadRawStrip.module
+	17 elements of 1bytes
+global variable .str.1.372
+	68 elements of 1bytes
+global variable .str.2.373
+	42 elements of 1bytes
+global variable TIFFReadEncodedTile.module
+	20 elements of 1bytes
+global variable .str.7.374
+	32 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFReadRawTile1
+	74 elements of 1bytes
+global variable .str.26.375
+	41 elements of 1bytes
+global variable .str.27.376
+	62 elements of 1bytes
+global variable .str.28.377
+	72 elements of 1bytes
+global variable TIFFFillTile.module
+	13 elements of 1bytes
+global variable .str.8.378
+	40 elements of 1bytes
+global variable .str.9.379
+	39 elements of 1bytes
+global variable TIFFStartTile.module
+	14 elements of 1bytes
+global variable .str.29.380
+	11 elements of 1bytes
+global variable TIFFReadRawTile.module
+	16 elements of 1bytes
+global variable .str.14.385
+	14 elements of 1bytes
+global variable __PRETTY_FUNCTION__._TIFFSwab16BitData
+	51 elements of 1bytes
+global variable .str.15.388
+	14 elements of 1bytes
+global variable __PRETTY_FUNCTION__._TIFFSwab24BitData
+	51 elements of 1bytes
+global variable .str.16.391
+	14 elements of 1bytes
+global variable __PRETTY_FUNCTION__._TIFFSwab32BitData
+	51 elements of 1bytes
+global variable .str.17.394
+	14 elements of 1bytes
+global variable __PRETTY_FUNCTION__._TIFFSwab64BitData
+	51 elements of 1bytes
+global variable TIFFComputeStrip.module
+	17 elements of 1bytes
+global variable .str.395
+	34 elements of 1bytes
+global variable .str.1.398
+	19 elements of 1bytes
+global variable TIFFVStripSize64.module
+	17 elements of 1bytes
+global variable .str.2.399
+	33 elements of 1bytes
+global variable .str.3.400
+	34 elements of 1bytes
+global variable TIFFScanlineSize64.module
+	19 elements of 1bytes
+global variable .str.6.403
+	26 elements of 1bytes
+global variable .str.7.404
+	31 elements of 1bytes
+global variable TIFFVStripSize.module
+	15 elements of 1bytes
+global variable .str.4.407
+	17 elements of 1bytes
+global variable TIFFRawStripSize64.module
+	19 elements of 1bytes
+global variable .str.5.408
+	42 elements of 1bytes
+global variable TIFFRawStripSize.module
+	17 elements of 1bytes
+global variable TIFFStripSize.module
+	14 elements of 1bytes
+global variable TIFFScanlineSize.module
+	17 elements of 1bytes
+global variable .str.8.415
+	28 elements of 1bytes
+global variable TIFFRasterScanlineSize64.module
+	25 elements of 1bytes
+global variable TIFFRasterScanlineSize.module
+	23 elements of 1bytes
+global variable TIFFBitRevTable
+	256 elements of 1bytes
+global variable TIFFNoBitRevTable
+	256 elements of 1bytes
+global variable .str.438
+	31 elements of 1bytes
+global variable .str.1.439
+	31 elements of 1bytes
+global variable .str.2.440
+	33 elements of 1bytes
+global variable .str.3.441
+	34 elements of 1bytes
+global variable .str.4.444
+	18 elements of 1bytes
+global variable TIFFTileRowSize64.module
+	18 elements of 1bytes
+global variable .str.5.445
+	20 elements of 1bytes
+global variable .str.6.446
+	19 elements of 1bytes
+global variable .str.7.447
+	16 elements of 1bytes
+global variable .str.8.448
+	26 elements of 1bytes
+global variable .str.9.449
+	31 elements of 1bytes
+global variable TIFFTileRowSize.module
+	16 elements of 1bytes
+global variable .str.10.450
+	17 elements of 1bytes
+global variable TIFFVTileSize64.module
+	16 elements of 1bytes
+global variable .str.11.453
+	34 elements of 1bytes
+global variable TIFFVTileSize.module
+	14 elements of 1bytes
+global variable TIFFTileSize.module
+	13 elements of 1bytes
+global variable TIFFVersion
+	106 elements of 1bytes
+global variable _TIFFwarningHandlerExt
+	1 elements of 8bytes
+global variable TIFFWriteScanline.module
+	18 elements of 1bytes
+global variable .str.6.464
+	26 elements of 1bytes
+global variable .str.7.465
+	40 elements of 1bytes
+global variable .str.8.466
+	41 elements of 1bytes
+global variable .str.9.467
+	42 elements of 1bytes
+global variable .str.10.468
+	51 elements of 1bytes
+global variable .str.12.469
+	5 elements of 1bytes
+global variable .str.13.470
+	6 elements of 1bytes
+global variable .str.11.471
+	23 elements of 1bytes
+global variable TIFFWriteBufferSetup.module
+	21 elements of 1bytes
+global variable .str.14.472
+	27 elements of 1bytes
+global variable .str.473
+	56 elements of 1bytes
+global variable .str.1.474
+	34 elements of 1bytes
+global variable .str.15.475
+	43 elements of 1bytes
+global variable .str.16.476
+	12 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFGrowStrips
+	49 elements of 1bytes
+global variable .str.17.477
+	32 elements of 1bytes
+global variable .str.2.478
+	22 elements of 1bytes
+global variable TIFFWriteEncodedStrip.module
+	22 elements of 1bytes
+global variable .str.3.479
+	56 elements of 1bytes
+global variable .str.18.480
+	19 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFAppendToStrip
+	57 elements of 1bytes
+global variable TIFFAppendToStrip.module
+	18 elements of 1bytes
+global variable .str.19.481
+	27 elements of 1bytes
+global variable .str.20.482
+	32 elements of 1bytes
+global variable .str.21.483
+	28 elements of 1bytes
+global variable TIFFWriteRawStrip.module
+	18 elements of 1bytes
+global variable TIFFWriteEncodedTile.module
+	21 elements of 1bytes
+global variable .str.4.484
+	31 elements of 1bytes
+global variable .str.5.485
+	11 elements of 1bytes
+global variable TIFFWriteRawTile.module
+	17 elements of 1bytes
+global variable _TIFFwarningHandler
+	1 elements of 8bytes
+global variable .str.2.490
+	5 elements of 1bytes
+global variable .str.3.491
+	10 elements of 1bytes
+global variable .str.4.492
+	3 elements of 1bytes
+global variable _TIFFerrorHandler
+	1 elements of 8bytes
+global variable TIFFOpen.module
+	9 elements of 1bytes
+global variable .str.497
+	7 elements of 1bytes
+global variable .str.1.498
+	16 elements of 1bytes
+global variable .str.511
+	23 elements of 1bytes
+global variable .str.1.516
+	66 elements of 1bytes
+global variable .str.2.519
+	55 elements of 1bytes
+global variable TIFFVGetFieldDefaulted.ycbcrcoeffs
+	3 elements of 4bytes
+global variable TIFFVGetFieldDefaulted.whitepoint
+	2 elements of 4bytes
+global variable .str.3.520
+	36 elements of 1bytes
+global variable .str.523
+	9 elements of 1bytes
+global variable registeredCODECS
+	1 elements of 8bytes
+global variable .str.8.524
+	34 elements of 1bytes
+global variable .str.9.525
+	53 elements of 1bytes
+global variable .str.1.526
+	6 elements of 1bytes
+global variable .str.2.527
+	5 elements of 1bytes
+global variable .str.10.528
+	34 elements of 1bytes
+global variable .str.11.529
+	53 elements of 1bytes
+global variable .str.3.530
+	53 elements of 1bytes
+global variable .str.4.535
+	18 elements of 1bytes
+global variable .str.5.536
+	43 elements of 1bytes
+global variable .str.6.537
+	20 elements of 1bytes
+global variable .str.7.538
+	52 elements of 1bytes
+global variable TIFFWriteDirectorySec.module
+	22 elements of 1bytes
+global variable .str.14.539
+	43 elements of 1bytes
+global variable .str.15.540
+	43 elements of 1bytes
+global variable .str.31.541
+	21 elements of 1bytes
+global variable .str.17.542
+	15 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagData
+	104 elements of 1bytes
+global variable TIFFWriteDirectoryTagData.module
+	26 elements of 1bytes
+global variable .str.28.543
+	32 elements of 1bytes
+global variable .str.32.544
+	26 elements of 1bytes
+global variable .str.33.545
+	24 elements of 1bytes
+global variable .str.34.546
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagCheckedRational
+	91 elements of 1bytes
+global variable TIFFWriteDirectoryTagShortPerSample.module
+	36 elements of 1bytes
+global variable .str.27.547
+	14 elements of 1bytes
+global variable .str.35.548
+	17 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagCheckedShortArray
+	103 elements of 1bytes
+global variable .str.37.549
+	17 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagCheckedLong8Array
+	103 elements of 1bytes
+global variable .str.38.550
+	28 elements of 1bytes
+global variable TIFFWriteDirectoryTagLongLong8Array.module
+	36 elements of 1bytes
+global variable .str.36.551
+	68 elements of 1bytes
+global variable .str.39.552
+	17 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagCheckedLongArray
+	102 elements of 1bytes
+global variable TIFFWriteDirectoryTagColormap.module
+	30 elements of 1bytes
+global variable TIFFWriteDirectoryTagSampleformatArray.module
+	39 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagCheckedFloatArray
+	102 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagCheckedDoubleArray
+	104 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagCheckedSshortArray
+	103 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagCheckedSlongArray
+	102 elements of 1bytes
+global variable TIFFWriteDirectoryTagCheckedRationalArray.module
+	42 elements of 1bytes
+global variable TIFFWriteDirectoryTagTransferfunction.module
+	38 elements of 1bytes
+global variable TIFFWriteDirectoryTagSubifd.module
+	28 elements of 1bytes
+global variable .str.40.553
+	8 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagSubifd
+	66 elements of 1bytes
+global variable .str.41.554
+	20 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagCheckedIfdArray
+	101 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagCheckedIfd8Array
+	102 elements of 1bytes
+global variable .str.16.555
+	26 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectorySec
+	54 elements of 1bytes
+global variable .str.18.556
+	34 elements of 1bytes
+global variable .str.19.557
+	22 elements of 1bytes
+global variable .str.20.558
+	26 elements of 1bytes
+global variable .str.21.559
+	22 elements of 1bytes
+global variable .str.22.560
+	25 elements of 1bytes
+global variable .str.23.561
+	30 elements of 1bytes
+global variable .str.24.562
+	35 elements of 1bytes
+global variable .str.25.563
+	22 elements of 1bytes
+global variable .str.26.564
+	2 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFWriteDirectoryTagCheckedSlong8Array
+	103 elements of 1bytes
+global variable TIFFWriteDirectoryTagCheckedSrationalArray.module
+	43 elements of 1bytes
+global variable TIFFWriteDirectoryTagIfdIfd8Array.module
+	34 elements of 1bytes
+global variable TIFFLinkDirectory.module
+	18 elements of 1bytes
+global variable .str.42.565
+	36 elements of 1bytes
+global variable .str.43.566
+	26 elements of 1bytes
+global variable .str.1.567
+	31 elements of 1bytes
+global variable .str.2.568
+	30 elements of 1bytes
+global variable .str.3.569
+	29 elements of 1bytes
+global variable .str.4.570
+	54 elements of 1bytes
+global variable .str.29.571
+	8 elements of 1bytes
+global variable .str.30.572
+	27 elements of 1bytes
+global variable .str.575
+	27 elements of 1bytes
+global variable TIFFRewriteDirectory.module
+	21 elements of 1bytes
+global variable _TIFFRewriteField.module
+	15 elements of 1bytes
+global variable .str.5.578
+	64 elements of 1bytes
+global variable .str.6.579
+	57 elements of 1bytes
+global variable .str.7.580
+	40 elements of 1bytes
+global variable .str.8.581
+	38 elements of 1bytes
+global variable .str.9.582
+	39 elements of 1bytes
+global variable .str.10.583
+	27 elements of 1bytes
+global variable .str.11.584
+	18 elements of 1bytes
+global variable .str.12.585
+	42 elements of 1bytes
+global variable .str.13.586
+	40 elements of 1bytes
+global variable _TIFFBuiltinCODECS
+	19 elements of 24bytes
+global variable .str.589
+	5 elements of 1bytes
+global variable .str.1.590
+	4 elements of 1bytes
+global variable .str.2.591
+	9 elements of 1bytes
+global variable .str.3.592
+	12 elements of 1bytes
+global variable .str.4.593
+	5 elements of 1bytes
+global variable .str.5.594
+	5 elements of 1bytes
+global variable .str.6.595
+	15 elements of 1bytes
+global variable .str.7.596
+	10 elements of 1bytes
+global variable .str.8.597
+	12 elements of 1bytes
+global variable .str.9.598
+	14 elements of 1bytes
+global variable .str.10.599
+	14 elements of 1bytes
+global variable .str.11.600
+	9 elements of 1bytes
+global variable .str.18.601
+	3 elements of 1bytes
+global variable .str.19.602
+	41 elements of 1bytes
+global variable .str.12.603
+	8 elements of 1bytes
+global variable .str.13.604
+	13 elements of 1bytes
+global variable .str.14.605
+	9 elements of 1bytes
+global variable .str.15.606
+	7 elements of 1bytes
+global variable .str.16.607
+	9 elements of 1bytes
+global variable .str.17.608
+	5 elements of 1bytes
+global variable DumpModeDecode.module
+	15 elements of 1bytes
+global variable .str.613
+	106 elements of 1bytes
+global variable .str.1.614
+	6 elements of 1bytes
+global variable .str.2.615
+	15 elements of 1bytes
+global variable __PRETTY_FUNCTION__.DumpModeEncode
+	54 elements of 1bytes
+global variable TIFFFaxWhiteCodes
+	109 elements of 6bytes
+global variable TIFFFaxBlackCodes
+	109 elements of 6bytes
+global variable _TIFFFax3fillruns._fillmasks
+	9 elements of 1bytes
+global variable .str.616
+	11 elements of 1bytes
+global variable .str.1.617
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__._TIFFFax3fillruns
+	68 elements of 1bytes
+global variable faxFields
+	5 elements of 48bytes
+global variable .str.9.620
+	8 elements of 1bytes
+global variable .str.10.621
+	12 elements of 1bytes
+global variable .str.11.622
+	12 elements of 1bytes
+global variable .str.12.623
+	13 elements of 1bytes
+global variable .str.13.624
+	23 elements of 1bytes
+global variable .str.6.625
+	14 elements of 1bytes
+global variable .str.7.626
+	52 elements of 1bytes
+global variable InitCCITTFax3.module
+	14 elements of 1bytes
+global variable .str.8.627
+	25 elements of 1bytes
+global variable .str.14.628
+	8 elements of 1bytes
+global variable __PRETTY_FUNCTION__.Fax3VGetField
+	58 elements of 1bytes
+global variable __PRETTY_FUNCTION__.Fax3VSetField
+	58 elements of 1bytes
+global variable .str.15.629
+	20 elements of 1bytes
+global variable __PRETTY_FUNCTION__.Fax3PrintDir
+	40 elements of 1bytes
+global variable .str.16.630
+	2 elements of 1bytes
+global variable .str.17.631
+	19 elements of 1bytes
+global variable .str.18.632
+	20 elements of 1bytes
+global variable .str.19.633
+	19 elements of 1bytes
+global variable .str.20.634
+	15 elements of 1bytes
+global variable .str.21.635
+	2 elements of 1bytes
+global variable .str.22.636
+	14 elements of 1bytes
+global variable .str.23.637
+	16 elements of 1bytes
+global variable .str.24.638
+	12 elements of 1bytes
+global variable .str.25.639
+	7 elements of 1bytes
+global variable .str.26.640
+	22 elements of 1bytes
+global variable .str.27.641
+	20 elements of 1bytes
+global variable .str.28.642
+	14 elements of 1bytes
+global variable .str.29.643
+	22 elements of 1bytes
+global variable .str.30.644
+	34 elements of 1bytes
+global variable Fax3SetupState.module
+	15 elements of 1bytes
+global variable .str.31.645
+	54 elements of 1bytes
+global variable .str.32.646
+	43 elements of 1bytes
+global variable .str.33.647
+	25 elements of 1bytes
+global variable Fax3Decode2D.module
+	13 elements of 1bytes
+global variable .str.35.648
+	36 elements of 1bytes
+global variable .str.37.649
+	5 elements of 1bytes
+global variable .str.38.650
+	6 elements of 1bytes
+global variable .str.36.651
+	41 elements of 1bytes
+global variable .str.39.652
+	41 elements of 1bytes
+global variable .str.41.653
+	14 elements of 1bytes
+global variable .str.42.654
+	21 elements of 1bytes
+global variable .str.40.655
+	45 elements of 1bytes
+global variable .str.43.656
+	61 elements of 1bytes
+global variable .str.34.657
+	38 elements of 1bytes
+global variable .str.44.658
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.Fax3PreDecode
+	34 elements of 1bytes
+global variable Fax3Decode1D.module
+	13 elements of 1bytes
+global variable __PRETTY_FUNCTION__.Fax3PreEncode
+	34 elements of 1bytes
+global variable Fax3Encode.module
+	11 elements of 1bytes
+global variable .str.45.659
+	39 elements of 1bytes
+global variable .str.46.660
+	10 elements of 1bytes
+global variable __PRETTY_FUNCTION__.Fax3PutEOL
+	24 elements of 1bytes
+global variable _msbmask
+	9 elements of 4bytes
+global variable .str.47.661
+	11 elements of 1bytes
+global variable zeroruns
+	256 elements of 1bytes
+global variable __PRETTY_FUNCTION__.putspan
+	48 elements of 1bytes
+global variable .str.48.662
+	27 elements of 1bytes
+global variable oneruns
+	256 elements of 1bytes
+global variable horizcode
+	1 elements of 6bytes
+global variable __PRETTY_FUNCTION__.Fax3PutBits
+	53 elements of 1bytes
+global variable vcodes
+	7 elements of 6bytes
+global variable passcode
+	1 elements of 6bytes
+global variable __PRETTY_FUNCTION__.Fax3Cleanup
+	25 elements of 1bytes
+global variable fax3Fields
+	1 elements of 48bytes
+global variable .str.49.663
+	14 elements of 1bytes
+global variable .str.2.664
+	18 elements of 1bytes
+global variable .str.3.665
+	47 elements of 1bytes
+global variable fax4Fields
+	1 elements of 48bytes
+global variable .str.50.668
+	14 elements of 1bytes
+global variable .str.4.669
+	18 elements of 1bytes
+global variable .str.5.670
+	47 elements of 1bytes
+global variable Fax4Decode.module
+	11 elements of 1bytes
+global variable Fax4Encode.module
+	11 elements of 1bytes
+global variable Fax3DecodeRLE.module
+	14 elements of 1bytes
+global variable TIFFFaxMainTable
+	128 elements of 4bytes
+global variable TIFFFaxWhiteTable
+	4096 elements of 4bytes
+global variable TIFFFaxBlackTable
+	8192 elements of 4bytes
+global variable .str.683
+	27 elements of 1bytes
+global variable .str.1.684
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFInitJPEG
+	30 elements of 1bytes
+global variable jpegFields
+	4 elements of 48bytes
+global variable .str.6.685
+	11 elements of 1bytes
+global variable .str.7.686
+	1 elements of 1bytes
+global variable .str.2.687
+	13 elements of 1bytes
+global variable .str.3.688
+	40 elements of 1bytes
+global variable .str.4.689
+	30 elements of 1bytes
+global variable .str.8.690
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.JPEGVGetField
+	58 elements of 1bytes
+global variable __PRETTY_FUNCTION__.JPEGVSetField
+	58 elements of 1bytes
+global variable __PRETTY_FUNCTION__.JPEGPrintDir
+	40 elements of 1bytes
+global variable .str.9.691
+	28 elements of 1bytes
+global variable JPEGFixupTagsSubsampling.module
+	25 elements of 1bytes
+global variable .str.10.692
+	93 elements of 1bytes
+global variable .str.14.693
+	15 elements of 1bytes
+global variable __PRETTY_FUNCTION__.JPEGFixupTagsSubsamplingReadByte
+	85 elements of 1bytes
+global variable JPEGFixupTagsSubsamplingSec.module
+	28 elements of 1bytes
+global variable .str.12.694
+	122 elements of 1bytes
+global variable .str.13.695
+	118 elements of 1bytes
+global variable .str.11.696
+	124 elements of 1bytes
+global variable .str.18.697
+	8 elements of 1bytes
+global variable .str.19.698
+	3 elements of 1bytes
+global variable __PRETTY_FUNCTION__.JPEGSetupDecode
+	28 elements of 1bytes
+global variable .str.15.699
+	31 elements of 1bytes
+global variable std_fill_input_buffer.dummy_EOI
+	2 elements of 1bytes
+global variable .str.16.700
+	16 elements of 1bytes
+global variable .str.17.701
+	23 elements of 1bytes
+global variable __PRETTY_FUNCTION__.JPEGPreDecode
+	34 elements of 1bytes
+global variable JPEGPreDecode.module
+	14 elements of 1bytes
+global variable .str.20.702
+	57 elements of 1bytes
+global variable .str.21.703
+	76 elements of 1bytes
+global variable .str.22.704
+	30 elements of 1bytes
+global variable .str.23.705
+	29 elements of 1bytes
+global variable .str.24.706
+	65 elements of 1bytes
+global variable .str.25.707
+	31 elements of 1bytes
+global variable .str.26.708
+	17 elements of 1bytes
+global variable .str.27.709
+	141 elements of 1bytes
+global variable .str.28.710
+	14 elements of 1bytes
+global variable .str.29.711
+	50 elements of 1bytes
+global variable .str.30.712
+	77 elements of 1bytes
+global variable .str.31.713
+	29 elements of 1bytes
+global variable __PRETTY_FUNCTION__.JPEGSetupEncode
+	28 elements of 1bytes
+global variable .str.32.714
+	32 elements of 1bytes
+global variable JPEGSetupEncode.module
+	16 elements of 1bytes
+global variable .str.33.715
+	50 elements of 1bytes
+global variable .str.34.716
+	38 elements of 1bytes
+global variable .str.35.717
+	40 elements of 1bytes
+global variable .str.36.718
+	39 elements of 1bytes
+global variable .str.37.719
+	45 elements of 1bytes
+global variable .str.38.720
+	10 elements of 1bytes
+global variable .str.39.721
+	21 elements of 1bytes
+global variable .str.40.722
+	24 elements of 1bytes
+global variable __PRETTY_FUNCTION__.JPEGPreEncode
+	34 elements of 1bytes
+global variable JPEGPreEncode.module
+	14 elements of 1bytes
+global variable .str.41.723
+	30 elements of 1bytes
+global variable __PRETTY_FUNCTION__.JPEGEncodeRaw
+	53 elements of 1bytes
+global variable .str.42.724
+	30 elements of 1bytes
+global variable __PRETTY_FUNCTION__.JPEGEncode
+	50 elements of 1bytes
+global variable .str.43.725
+	11 elements of 1bytes
+global variable .str.44.726
+	26 elements of 1bytes
+global variable .str.45.727
+	8 elements of 1bytes
+global variable __PRETTY_FUNCTION__.JPEGCleanup
+	25 elements of 1bytes
+global variable .str.5.728
+	42 elements of 1bytes
+global variable oog_encode.initialized
+	1 elements of 4bytes
+global variable uv_row
+	163 elements of 8bytes
+global variable oog_encode.oog_table
+	100 elements of 4bytes
+global variable .str.731
+	63 elements of 1bytes
+global variable .str.1.732
+	10 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFInitSGILog
+	32 elements of 1bytes
+global variable LogLuvFields
+	2 elements of 48bytes
+global variable .str.4.733
+	14 elements of 1bytes
+global variable .str.5.734
+	13 elements of 1bytes
+global variable TIFFInitSGILog.module
+	15 elements of 1bytes
+global variable .str.2.735
+	42 elements of 1bytes
+global variable .str.8.736
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogLuvInitState
+	28 elements of 1bytes
+global variable .str.9.737
+	41 elements of 1bytes
+global variable LogLuvInitState.module
+	16 elements of 1bytes
+global variable .str.10.738
+	53 elements of 1bytes
+global variable .str.11.739
+	53 elements of 1bytes
+global variable .str.12.740
+	39 elements of 1bytes
+global variable .str.13.741
+	7 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogLuvDecode24
+	54 elements of 1bytes
+global variable LogLuvDecode24.module
+	15 elements of 1bytes
+global variable .str.14.742
+	29 elements of 1bytes
+global variable .str.15.743
+	47 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogLuvDecode32
+	54 elements of 1bytes
+global variable LogLuvDecode32.module
+	15 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogL16InitState
+	28 elements of 1bytes
+global variable .str.16.744
+	39 elements of 1bytes
+global variable LogL16InitState.module
+	16 elements of 1bytes
+global variable .str.17.745
+	44 elements of 1bytes
+global variable .str.18.746
+	14 elements of 1bytes
+global variable .str.19.747
+	51 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogL16Decode
+	52 elements of 1bytes
+global variable LogL16Decode.module
+	13 elements of 1bytes
+global variable LogLuvSetupDecode.module
+	18 elements of 1bytes
+global variable .str.6.748
+	71 elements of 1bytes
+global variable .str.7.749
+	30 elements of 1bytes
+global variable .str.20.750
+	15 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogLuvDecodeStrip
+	57 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogLuvDecodeTile
+	56 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogLuvEncode24
+	54 elements of 1bytes
+global variable LogLuvEncode24.module
+	15 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogLuvEncode32
+	54 elements of 1bytes
+global variable LogLuvEncode32.module
+	15 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogL16Encode
+	52 elements of 1bytes
+global variable LogL16Encode.module
+	13 elements of 1bytes
+global variable LogLuvSetupEncode.module
+	18 elements of 1bytes
+global variable .str.22.751
+	5 elements of 1bytes
+global variable .str.23.752
+	9 elements of 1bytes
+global variable .str.21.753
+	54 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogLuvEncodeStrip
+	57 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogLuvEncodeTile
+	56 elements of 1bytes
+global variable .str.24.754
+	8 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogLuvClose
+	25 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LogLuvCleanup
+	27 elements of 1bytes
+global variable .str.25.755
+	46 elements of 1bytes
+global variable LogLuvVSetField.module
+	16 elements of 1bytes
+global variable .str.26.756
+	43 elements of 1bytes
+global variable .str.3.757
+	36 elements of 1bytes
+global variable .str.760
+	27 elements of 1bytes
+global variable .str.1.761
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFInitLZMA
+	30 elements of 1bytes
+global variable lzmaFields
+	1 elements of 48bytes
+global variable .str.4.762
+	25 elements of 1bytes
+global variable TIFFInitLZMA.module
+	13 elements of 1bytes
+global variable .str.2.763
+	41 elements of 1bytes
+global variable .str.6.764
+	33 elements of 1bytes
+global variable .str.7.765
+	26 elements of 1bytes
+global variable .str.8.766
+	36 elements of 1bytes
+global variable .str.9.767
+	37 elements of 1bytes
+global variable .str.10.768
+	38 elements of 1bytes
+global variable .str.11.769
+	23 elements of 1bytes
+global variable .str.12.770
+	31 elements of 1bytes
+global variable .str.13.771
+	27 elements of 1bytes
+global variable .str.14.772
+	31 elements of 1bytes
+global variable .str.15.773
+	16 elements of 1bytes
+global variable .str.16.774
+	57 elements of 1bytes
+global variable .str.17.775
+	18 elements of 1bytes
+global variable .str.18.776
+	27 elements of 1bytes
+global variable LZMAVSetField.module
+	14 elements of 1bytes
+global variable .str.5.777
+	18 elements of 1bytes
+global variable .str.19.778
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZMASetupDecode
+	28 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZMAPreDecode
+	34 elements of 1bytes
+global variable LZMAPreDecode.module
+	14 elements of 1bytes
+global variable .str.20.779
+	43 elements of 1bytes
+global variable .str.21.780
+	42 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZMADecode
+	50 elements of 1bytes
+global variable .str.22.781
+	32 elements of 1bytes
+global variable LZMADecode.module
+	11 elements of 1bytes
+global variable .str.23.782
+	35 elements of 1bytes
+global variable .str.24.783
+	50 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZMASetupEncode
+	28 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZMAPreEncode
+	34 elements of 1bytes
+global variable LZMAPreEncode.module
+	14 elements of 1bytes
+global variable LZMAPostEncode.module
+	15 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZMAEncode
+	50 elements of 1bytes
+global variable .str.25.784
+	32 elements of 1bytes
+global variable LZMAEncode.module
+	11 elements of 1bytes
+global variable .str.26.785
+	35 elements of 1bytes
+global variable .str.27.786
+	8 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZMACleanup
+	25 elements of 1bytes
+global variable .str.3.787
+	31 elements of 1bytes
+global variable .str.790
+	26 elements of 1bytes
+global variable .str.1.791
+	10 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFInitLZW
+	29 elements of 1bytes
+global variable LZWSetupDecode.module
+	15 elements of 1bytes
+global variable .str.2.792
+	29 elements of 1bytes
+global variable .str.3.793
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZWSetupDecode
+	27 elements of 1bytes
+global variable .str.4.794
+	28 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZWPreDecode
+	33 elements of 1bytes
+global variable LZWPreDecode.module
+	13 elements of 1bytes
+global variable .str.5.795
+	34 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZWDecodeCompat
+	55 elements of 1bytes
+global variable LZWDecodeCompat.module
+	16 elements of 1bytes
+global variable .str.6.796
+	49 elements of 1bytes
+global variable .str.7.797
+	46 elements of 1bytes
+global variable .str.8.798
+	35 elements of 1bytes
+global variable .str.9.799
+	71 elements of 1bytes
+global variable .str.10.800
+	21 elements of 1bytes
+global variable .str.11.801
+	50 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZWDecode
+	49 elements of 1bytes
+global variable .str.12.802
+	24 elements of 1bytes
+global variable LZWDecode.module
+	10 elements of 1bytes
+global variable .str.14.803
+	52 elements of 1bytes
+global variable .str.13.804
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZWSetupEncode
+	27 elements of 1bytes
+global variable LZWSetupEncode.module
+	15 elements of 1bytes
+global variable .str.15.805
+	28 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZWPreEncode
+	33 elements of 1bytes
+global variable .str.16.806
+	24 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZWEncode
+	49 elements of 1bytes
+global variable .str.17.807
+	18 elements of 1bytes
+global variable .str.18.808
+	19 elements of 1bytes
+global variable __PRETTY_FUNCTION__.LZWCleanup
+	24 elements of 1bytes
+global variable TIFFInitLZW.module
+	12 elements of 1bytes
+global variable NeXTPreDecode.module
+	14 elements of 1bytes
+global variable .str.811
+	31 elements of 1bytes
+global variable NeXTDecode.module
+	11 elements of 1bytes
+global variable .str.1.812
+	36 elements of 1bytes
+global variable .str.2.813
+	30 elements of 1bytes
+global variable .str.3.814
+	33 elements of 1bytes
+global variable .str.817
+	26 elements of 1bytes
+global variable .str.1.818
+	12 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFInitOJPEG
+	31 elements of 1bytes
+global variable ojpegFields
+	7 elements of 48bytes
+global variable .str.4.819
+	22 elements of 1bytes
+global variable .str.5.820
+	28 elements of 1bytes
+global variable .str.6.821
+	12 elements of 1bytes
+global variable .str.7.822
+	13 elements of 1bytes
+global variable .str.8.823
+	13 elements of 1bytes
+global variable .str.9.824
+	9 elements of 1bytes
+global variable .str.10.825
+	20 elements of 1bytes
+global variable TIFFInitOJPEG.module
+	14 elements of 1bytes
+global variable .str.2.826
+	44 elements of 1bytes
+global variable .str.3.827
+	31 elements of 1bytes
+global variable OJPEGSetupDecode.module
+	17 elements of 1bytes
+global variable .str.59.828
+	144 elements of 1bytes
+global variable .str.11.829
+	31 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGSubsamplingCorrect
+	37 elements of 1bytes
+global variable OJPEGSubsamplingCorrect.module
+	24 elements of 1bytes
+global variable .str.12.830
+	76 elements of 1bytes
+global variable .str.22.831
+	4 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGReadBufferFill
+	38 elements of 1bytes
+global variable .str.23.832
+	16 elements of 1bytes
+global variable .str.24.833
+	8 elements of 1bytes
+global variable .str.25.834
+	35 elements of 1bytes
+global variable .str.26.835
+	30 elements of 1bytes
+global variable .str.21.836
+	21 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGReadBytePeek
+	45 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGReadByteAdvance
+	40 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGReadByte
+	41 elements of 1bytes
+global variable OJPEGReadHeaderInfoSec.module
+	23 elements of 1bytes
+global variable .str.18.837
+	18 elements of 1bytes
+global variable .str.27.838
+	22 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGReadSkip
+	41 elements of 1bytes
+global variable OJPEGReadHeaderInfoSecStreamDri.module
+	32 elements of 1bytes
+global variable .str.28.839
+	32 elements of 1bytes
+global variable OJPEGReadHeaderInfoSecStreamDqt.module
+	32 elements of 1bytes
+global variable .str.29.840
+	32 elements of 1bytes
+global variable .str.30.841
+	14 elements of 1bytes
+global variable .str.31.842
+	6 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGReadBlock
+	49 elements of 1bytes
+global variable OJPEGReadHeaderInfoSecStreamDht.module
+	32 elements of 1bytes
+global variable .str.32.843
+	32 elements of 1bytes
+global variable OJPEGReadHeaderInfoSecStreamSof.module
+	32 elements of 1bytes
+global variable .str.33.844
+	32 elements of 1bytes
+global variable .str.34.845
+	60 elements of 1bytes
+global variable .str.35.846
+	68 elements of 1bytes
+global variable .str.36.847
+	49 elements of 1bytes
+global variable .str.37.848
+	48 elements of 1bytes
+global variable .str.38.849
+	62 elements of 1bytes
+global variable .str.39.850
+	61 elements of 1bytes
+global variable .str.19.851
+	27 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGReadHeaderInfoSec
+	35 elements of 1bytes
+global variable .str.40.852
+	26 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGReadHeaderInfoSecStreamSos
+	44 elements of 1bytes
+global variable OJPEGReadHeaderInfoSecStreamSos.module
+	32 elements of 1bytes
+global variable .str.41.853
+	32 elements of 1bytes
+global variable .str.20.854
+	36 elements of 1bytes
+global variable OJPEGReadHeaderInfoSecTablesQTable.module
+	35 elements of 1bytes
+global variable .str.42.855
+	20 elements of 1bytes
+global variable .str.43.856
+	30 elements of 1bytes
+global variable OJPEGReadHeaderInfoSecTablesDcTable.module
+	36 elements of 1bytes
+global variable .str.44.857
+	31 elements of 1bytes
+global variable OJPEGReadHeaderInfoSecTablesAcTable.module
+	36 elements of 1bytes
+global variable .str.45.858
+	31 elements of 1bytes
+global variable .str.13.859
+	155 elements of 1bytes
+global variable .str.14.860
+	133 elements of 1bytes
+global variable .str.15.861
+	230 elements of 1bytes
+global variable .str.16.862
+	208 elements of 1bytes
+global variable .str.17.863
+	51 elements of 1bytes
+global variable .str.60.864
+	23 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGReadHeaderInfo
+	32 elements of 1bytes
+global variable OJPEGReadHeaderInfo.module
+	20 elements of 1bytes
+global variable .str.61.865
+	61 elements of 1bytes
+global variable .str.62.866
+	62 elements of 1bytes
+global variable .str.63.867
+	4 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGReadSecondarySos
+	42 elements of 1bytes
+global variable .str.64.868
+	4 elements of 1bytes
+global variable .str.65.869
+	22 elements of 1bytes
+global variable .str.66.870
+	22 elements of 1bytes
+global variable .str.67.871
+	30 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGLibjpegSessionAbort
+	38 elements of 1bytes
+global variable .str.70.872
+	8 elements of 1bytes
+global variable .str.71.873
+	3 elements of 1bytes
+global variable .str.73.874
+	23 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGWriteStream
+	48 elements of 1bytes
+global variable .str.74.875
+	52 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGWriteStreamSof
+	52 elements of 1bytes
+global variable .str.75.876
+	41 elements of 1bytes
+global variable .str.76.877
+	52 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGWriteStreamSos
+	52 elements of 1bytes
+global variable .str.77.878
+	41 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGWriteStreamCompressed
+	58 elements of 1bytes
+global variable .str.72.879
+	27 elements of 1bytes
+global variable .str.78.880
+	17 elements of 1bytes
+global variable .str.68.881
+	36 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGWriteHeaderInfo
+	33 elements of 1bytes
+global variable .str.69.882
+	38 elements of 1bytes
+global variable OJPEGWriteHeaderInfo.module
+	21 elements of 1bytes
+global variable OJPEGPreDecodeSkipScanlines.module
+	28 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGPostDecode
+	48 elements of 1bytes
+global variable OJPEGDecodeRaw.module
+	15 elements of 1bytes
+global variable .str.79.883
+	29 elements of 1bytes
+global variable .str.80.884
+	5 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGDecodeRaw
+	46 elements of 1bytes
+global variable OJPEGDecodeScanlines.module
+	21 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGDecodeScanlines
+	52 elements of 1bytes
+global variable OJPEGSetupEncode.module
+	17 elements of 1bytes
+global variable .str.81.885
+	69 elements of 1bytes
+global variable OJPEGPreEncode.module
+	15 elements of 1bytes
+global variable OJPEGPostEncode.module
+	16 elements of 1bytes
+global variable OJPEGEncode.module
+	12 elements of 1bytes
+global variable OJPEGVSetField.module
+	15 elements of 1bytes
+global variable .str.46.886
+	36 elements of 1bytes
+global variable .str.47.887
+	37 elements of 1bytes
+global variable .str.48.888
+	37 elements of 1bytes
+global variable .str.49.889
+	9 elements of 1bytes
+global variable __PRETTY_FUNCTION__.OJPEGPrintDir
+	41 elements of 1bytes
+global variable .str.50.890
+	30 elements of 1bytes
+global variable .str.51.891
+	36 elements of 1bytes
+global variable .str.52.892
+	15 elements of 1bytes
+global variable .str.53.893
+	5 elements of 1bytes
+global variable .str.54.894
+	2 elements of 1bytes
+global variable .str.55.895
+	16 elements of 1bytes
+global variable .str.56.896
+	16 elements of 1bytes
+global variable .str.57.897
+	16 elements of 1bytes
+global variable .str.58.898
+	27 elements of 1bytes
+global variable PackBitsDecode.module
+	15 elements of 1bytes
+global variable .str.901
+	45 elements of 1bytes
+global variable .str.1.902
+	48 elements of 1bytes
+global variable .str.2.903
+	33 elements of 1bytes
+global variable .str.906
+	31 elements of 1bytes
+global variable .str.1.907
+	15 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFInitPixarLog
+	34 elements of 1bytes
+global variable pixarlogFields
+	2 elements of 48bytes
+global variable .str.4.908
+	1 elements of 1bytes
+global variable TIFFInitPixarLog.module
+	17 elements of 1bytes
+global variable .str.2.909
+	44 elements of 1bytes
+global variable .str.5.910
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PixarLogSetupDecode
+	32 elements of 1bytes
+global variable PixarLogSetupDecode.module
+	20 elements of 1bytes
+global variable .str.6.912
+	81 elements of 1bytes
+global variable .str.7.913
+	6 elements of 1bytes
+global variable .str.9.914
+	7 elements of 1bytes
+global variable .str.8.915
+	3 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PixarLogPreDecode
+	38 elements of 1bytes
+global variable PixarLogPreDecode.module
+	18 elements of 1bytes
+global variable .str.10.916
+	40 elements of 1bytes
+global variable PixarLogDecode.module
+	15 elements of 1bytes
+global variable .str.11.917
+	39 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PixarLogDecode
+	54 elements of 1bytes
+global variable .str.12.918
+	37 elements of 1bytes
+global variable .str.13.919
+	35 elements of 1bytes
+global variable .str.14.920
+	15 elements of 1bytes
+global variable .str.15.921
+	50 elements of 1bytes
+global variable .str.16.922
+	67 elements of 1bytes
+global variable .str.17.923
+	28 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PixarLogSetupEncode
+	32 elements of 1bytes
+global variable PixarLogSetupEncode.module
+	20 elements of 1bytes
+global variable .str.18.924
+	58 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PixarLogPreEncode
+	38 elements of 1bytes
+global variable PixarLogPreEncode.module
+	18 elements of 1bytes
+global variable PixarLogPostEncode.module
+	19 elements of 1bytes
+global variable PixarLogEncode.module
+	15 elements of 1bytes
+global variable .str.19.925
+	30 elements of 1bytes
+global variable Fltsize
+	1 elements of 4bytes
+global variable LogK1
+	1 elements of 4bytes
+global variable LogK2
+	1 elements of 4bytes
+global variable .str.20.926
+	18 elements of 1bytes
+global variable .str.21.927
+	8 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PixarLogClose
+	27 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PixarLogCleanup
+	29 elements of 1bytes
+global variable PixarLogVSetField.module
+	18 elements of 1bytes
+global variable .str.3.928
+	34 elements of 1bytes
+global variable .str.931
+	8 elements of 1bytes
+global variable .str.1.932
+	14 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFPredictorInit
+	30 elements of 1bytes
+global variable predictFields
+	1 elements of 48bytes
+global variable .str.4.933
+	10 elements of 1bytes
+global variable .str.2.934
+	18 elements of 1bytes
+global variable .str.3.935
+	45 elements of 1bytes
+global variable .str.5.936
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PredictorVGetField
+	63 elements of 1bytes
+global variable .str.6.937
+	23 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PredictorVSetField
+	63 elements of 1bytes
+global variable .str.7.938
+	23 elements of 1bytes
+global variable .str.8.939
+	14 elements of 1bytes
+global variable .str.9.940
+	6 elements of 1bytes
+global variable .str.10.941
+	25 elements of 1bytes
+global variable .str.11.942
+	26 elements of 1bytes
+global variable .str.12.943
+	11 elements of 1bytes
+global variable PredictorSetup.module
+	15 elements of 1bytes
+global variable .str.13.944
+	70 elements of 1bytes
+global variable .str.14.945
+	61 elements of 1bytes
+global variable .str.15.946
+	61 elements of 1bytes
+global variable .str.16.947
+	35 elements of 1bytes
+global variable .str.17.948
+	8 elements of 1bytes
+global variable .str.18.949
+	3 elements of 1bytes
+global variable .str.19.950
+	15 elements of 1bytes
+global variable .str.20.951
+	9 elements of 1bytes
+global variable .str.21.952
+	18 elements of 1bytes
+global variable .str.22.953
+	9 elements of 1bytes
+global variable .str.23.954
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PredictorDecodeRow
+	58 elements of 1bytes
+global variable .str.24.955
+	22 elements of 1bytes
+global variable .str.25.956
+	24 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PredictorDecodeTile
+	59 elements of 1bytes
+global variable .str.26.957
+	23 elements of 1bytes
+global variable .str.27.958
+	12 elements of 1bytes
+global variable .str.28.959
+	20 elements of 1bytes
+global variable .str.29.960
+	18 elements of 1bytes
+global variable .str.30.961
+	6 elements of 1bytes
+global variable .str.31.962
+	20 elements of 1bytes
+global variable .str.32.963
+	9 elements of 1bytes
+global variable .str.33.964
+	19 elements of 1bytes
+global variable .str.34.965
+	10 elements of 1bytes
+global variable .str.35.966
+	19 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PredictorEncodeRow
+	58 elements of 1bytes
+global variable .str.36.967
+	24 elements of 1bytes
+global variable .str.37.968
+	22 elements of 1bytes
+global variable __PRETTY_FUNCTION__.PredictorEncodeTile
+	59 elements of 1bytes
+global variable .str.38.969
+	23 elements of 1bytes
+global variable PredictorEncodeTile.module
+	20 elements of 1bytes
+global variable .str.39.970
+	47 elements of 1bytes
+global variable .str.40.971
+	20 elements of 1bytes
+global variable .str.41.972
+	17 elements of 1bytes
+global variable .str.42.973
+	7 elements of 1bytes
+global variable .str.43.974
+	21 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFPredictorCleanup
+	33 elements of 1bytes
+global variable ThunderSetupDecode.module
+	19 elements of 1bytes
+global variable .str.979
+	80 elements of 1bytes
+global variable ThunderDecodeRow.module
+	17 elements of 1bytes
+global variable .str.1.980
+	36 elements of 1bytes
+global variable twobitdeltas
+	4 elements of 4bytes
+global variable threebitdeltas
+	8 elements of 4bytes
+global variable .str.3.981
+	11 elements of 1bytes
+global variable .str.4.982
+	9 elements of 1bytes
+global variable ThunderDecode.module
+	14 elements of 1bytes
+global variable .str.2.983
+	39 elements of 1bytes
+global variable .str.986
+	73 elements of 1bytes
+global variable .str.1.987
+	10 elements of 1bytes
+global variable __PRETTY_FUNCTION__.TIFFInitZIP
+	29 elements of 1bytes
+global variable zipFields
+	1 elements of 48bytes
+global variable .str.4.988
+	1 elements of 1bytes
+global variable TIFFInitZIP.module
+	12 elements of 1bytes
+global variable .str.2.989
+	43 elements of 1bytes
+global variable ZIPVSetField.module
+	13 elements of 1bytes
+global variable .str.5.990
+	15 elements of 1bytes
+global variable .str.6.991
+	11 elements of 1bytes
+global variable __PRETTY_FUNCTION__.ZIPSetupDecode
+	27 elements of 1bytes
+global variable .str.7.992
+	6 elements of 1bytes
+global variable ZIPSetupDecode.module
+	15 elements of 1bytes
+global variable .str.8.993
+	3 elements of 1bytes
+global variable __PRETTY_FUNCTION__.ZIPPreDecode
+	33 elements of 1bytes
+global variable ZIPPreDecode.module
+	13 elements of 1bytes
+global variable .str.9.994
+	40 elements of 1bytes
+global variable __PRETTY_FUNCTION__.ZIPDecode
+	49 elements of 1bytes
+global variable .str.10.995
+	32 elements of 1bytes
+global variable ZIPDecode.module
+	10 elements of 1bytes
+global variable .str.11.996
+	35 elements of 1bytes
+global variable .str.12.997
+	50 elements of 1bytes
+global variable __PRETTY_FUNCTION__.ZIPSetupEncode
+	27 elements of 1bytes
+global variable ZIPSetupEncode.module
+	15 elements of 1bytes
+global variable __PRETTY_FUNCTION__.ZIPPreEncode
+	33 elements of 1bytes
+global variable ZIPPreEncode.module
+	13 elements of 1bytes
+global variable ZIPPostEncode.module
+	14 elements of 1bytes
+global variable __PRETTY_FUNCTION__.ZIPEncode
+	49 elements of 1bytes
+global variable .str.13.998
+	32 elements of 1bytes
+global variable ZIPEncode.module
+	10 elements of 1bytes
+global variable .str.14.999
+	18 elements of 1bytes
+global variable .str.15.1000
+	8 elements of 1bytes
+global variable __PRETTY_FUNCTION__.ZIPCleanup
+	24 elements of 1bytes
+global variable .str.3.1001
+	29 elements of 1bytes
+global variable static_fd
+	1 elements of 4bytes
+global variable static_ut_name
+	1 elements of 8bytes
+global variable default_file_name
+	14 elements of 1bytes
+global variable static_utmp
+	1 elements of 400bytes
+global variable stdin
+	1 elements of 8bytes
+global variable _stdio_streams
+	3 elements of 80bytes
+global variable stdout
+	1 elements of 8bytes
+global variable stderr
+	1 elements of 8bytes
+global variable __stdin
+	1 elements of 8bytes
+global variable __stdout
+	1 elements of 8bytes
+global variable _stdio_openlist
+	1 elements of 8bytes
+global variable _do_one_spec.spec_base
+	7 elements of 1bytes
+global variable .str.221
+	6 elements of 1bytes
+global variable .str.1.222
+	7 elements of 1bytes
+global variable _do_one_spec.prefix
+	12 elements of 1bytes
+global variable _ppfs_parsespec.spec_flags
+	8 elements of 1bytes
+global variable _ppfs_parsespec.qual_chars
+	20 elements of 1bytes
+global variable _ppfs_parsespec.spec_chars
+	21 elements of 1bytes
+global variable _ppfs_parsespec.spec_ranges
+	9 elements of 1bytes
+global variable _ppfs_parsespec.spec_or_mask
+	8 elements of 2bytes
+global variable _ppfs_parsespec.spec_and_mask
+	8 elements of 2bytes
+global variable type_codes
+	12 elements of 2bytes
+global variable type_sizes
+	12 elements of 1bytes
+global variable strerror.buf
+	50 elements of 1bytes
+global variable __xpg_strerror_r.unknown
+	14 elements of 1bytes
+global variable _string_syserrmsgs
+	2906 elements of 1bytes
+global variable unsafe_state
+	1 elements of 48bytes
+global variable randtbl
+	32 elements of 4bytes
+global variable random_poly_info
+	1 elements of 40bytes
+global variable optind
+	1 elements of 4bytes
+global variable opterr
+	1 elements of 4bytes
+global variable optopt
+	1 elements of 4bytes
+global variable optarg
+	1 elements of 8bytes
+global variable getopt_data
+	1 elements of 56bytes
+global variable .str.11.297
+	16 elements of 1bytes
+global variable .str.298
+	3 elements of 1bytes
+global variable .str.1.299
+	30 elements of 1bytes
+global variable .str.2.300
+	45 elements of 1bytes
+global variable .str.3.301
+	45 elements of 1bytes
+global variable .str.4.302
+	38 elements of 1bytes
+global variable .str.5.303
+	32 elements of 1bytes
+global variable .str.6.304
+	32 elements of 1bytes
+global variable .str.7.305
+	1 elements of 1bytes
+global variable .str.8.306
+	26 elements of 1bytes
+global variable .str.9.307
+	26 elements of 1bytes
+global variable .str.10.308
+	39 elements of 1bytes
+global variable __libc_stack_end
+	1 elements of 8bytes
+global variable __uclibc_progname
+	1 elements of 8bytes
+global variable .str.311
+	1 elements of 1bytes
+global variable __environ
+	1 elements of 8bytes
+global variable __pagesize
+	1 elements of 8bytes
+global variable __app_fini
+	1 elements of 8bytes
+global variable __rtld_fini
+	1 elements of 8bytes
+global variable __uClibc_init.been_there_done_that
+	1 elements of 4bytes
+global variable .str.1.314
+	10 elements of 1bytes
+global variable __C_ctype_b_data
+	384 elements of 2bytes
+global variable __C_ctype_b
+	1 elements of 8bytes
+global variable __ctype_b
+	1 elements of 8bytes
+global variable errno
+	1 elements of 4bytes
+global variable h_errno
+	1 elements of 4bytes
+global variable fmt
+	20 elements of 1bytes
+global variable exp10_table
+	13 elements of 16bytes
+global variable .str.1.379
+	47 elements of 1bytes
+global variable .str.2.382
+	44 elements of 1bytes
+global variable close.n_calls
+	1 elements of 4bytes
+global variable read.n_calls
+	1 elements of 4bytes
+global variable .str.3.387
+	12 elements of 1bytes
+global variable .str.4.388
+	59 elements of 1bytes
+global variable __PRETTY_FUNCTION__.read
+	34 elements of 1bytes
+global variable write.n_calls
+	1 elements of 4bytes
+global variable .str.5.391
+	7 elements of 1bytes
+global variable __PRETTY_FUNCTION__.write
+	41 elements of 1bytes
+global variable .str.6.392
+	2 elements of 1bytes
+global variable .str.7.393
+	24 elements of 1bytes
+global variable .str.8.396
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__fd_lseek
+	38 elements of 1bytes
+global variable .str.9.401
+	33 elements of 1bytes
+global variable chmod.n_calls
+	1 elements of 4bytes
+global variable fchmod.n_calls
+	1 elements of 4bytes
+global variable .str.24.402
+	32 elements of 1bytes
+global variable __fd_ftruncate.n_calls
+	1 elements of 4bytes
+global variable .str.10.407
+	30 elements of 1bytes
+global variable .str.11.410
+	33 elements of 1bytes
+global variable .str.12.411
+	18 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__fd_getdents
+	65 elements of 1bytes
+global variable .str.13.414
+	41 elements of 1bytes
+global variable .str.14.415
+	42 elements of 1bytes
+global variable .str.15.416
+	43 elements of 1bytes
+global variable .str.16.417
+	43 elements of 1bytes
+global variable .str.17.418
+	45 elements of 1bytes
+global variable .str.18.419
+	46 elements of 1bytes
+global variable .str.19.420
+	43 elements of 1bytes
+global variable .str.20.421
+	44 elements of 1bytes
+global variable .str.21.426
+	32 elements of 1bytes
+global variable .str.22.427
+	17 elements of 1bytes
+global variable getcwd.n_calls
+	1 elements of 4bytes
+global variable .str.23.432
+	18 elements of 1bytes
+global variable __exe_env
+	1 elements of 784bytes
+global variable __exe_fs
+	1 elements of 104bytes
+global variable klee_init_fds.name
+	32 elements of 1bytes
+global variable .str.437
+	2 elements of 1bytes
+global variable .str.9.438
+	6 elements of 1bytes
+global variable .str.10.439
+	5 elements of 1bytes
+global variable .str.11.440
+	64 elements of 1bytes
+global variable __PRETTY_FUNCTION__.__create_new_dfile
+	88 elements of 1bytes
+global variable .str.1.441
+	6 elements of 1bytes
+global variable .str.2.442
+	10 elements of 1bytes
+global variable .str.3.443
+	11 elements of 1bytes
+global variable .str.4.445
+	11 elements of 1bytes
+global variable .str.5.446
+	15 elements of 1bytes
+global variable .str.6.447
+	12 elements of 1bytes
+global variable .str.7.448
+	7 elements of 1bytes
+global variable .str.8.449
+	14 elements of 1bytes
+global variable .str.450
+	17 elements of 1bytes
+global variable .str.1.453
+	9 elements of 1bytes
+global variable .str.2.456
+	64 elements of 1bytes
+global variable .str.3.457
+	20 elements of 1bytes
+global variable .str.4.458
+	8 elements of 1bytes
+global variable .str.5.459
+	18 elements of 1bytes
+global variable .str.6.460
+	18 elements of 1bytes
+global variable .str.463
+	7 elements of 1bytes
+global variable .str.1.464
+	964 elements of 1bytes
+global variable .str.24.465
+	70 elements of 1bytes
+global variable .str.25.466
+	9 elements of 1bytes
+global variable .str.2.467
+	10 elements of 1bytes
+global variable .str.3.468
+	9 elements of 1bytes
+global variable .str.4.469
+	48 elements of 1bytes
+global variable .str.26.470
+	37 elements of 1bytes
+global variable .str.5.471
+	11 elements of 1bytes
+global variable .str.6.472
+	10 elements of 1bytes
+global variable .str.7.473
+	77 elements of 1bytes
+global variable .str.8.474
+	7 elements of 1bytes
+global variable .str.9.475
+	12 elements of 1bytes
+global variable .str.10.476
+	11 elements of 1bytes
+global variable .str.11.477
+	109 elements of 1bytes
+global variable .str.12.478
+	12 elements of 1bytes
+global variable .str.13.479
+	11 elements of 1bytes
+global variable .str.14.480
+	57 elements of 1bytes
+global variable .str.15.481
+	13 elements of 1bytes
+global variable .str.16.482
+	12 elements of 1bytes
+global variable .str.17.483
+	18 elements of 1bytes
+global variable .str.18.484
+	17 elements of 1bytes
+global variable .str.19.485
+	10 elements of 1bytes
+global variable .str.20.486
+	9 elements of 1bytes
+global variable .str.21.487
+	11 elements of 1bytes
+global variable .str.22.488
+	10 elements of 1bytes
+global variable .str.23.489
+	54 elements of 1bytes
+global variable .str.490
+	18 elements of 1bytes
+global variable .str.1.491
+	24 elements of 1bytes
+global variable .str.2.492
+	15 elements of 1bytes
+global variable .str.3.493
+	18 elements of 1bytes
+global variable .str.4.494
+	17 elements of 1bytes
+global variable .str.5.495
+	13 elements of 1bytes
+global variable .str.6.496
+	40 elements of 1bytes
+global variable .str.7.497
+	17 elements of 1bytes
+global variable .str.8.500
+	21 elements of 1bytes
+global variable .str.9.501
+	18 elements of 1bytes
+global variable .str.10.502
+	32 elements of 1bytes
+global variable str.13
+	18 elements of 1bytes
+global variable str
+	17 elements of 1bytes
+global variable getnameinfo.hostname
+	10 elements of 1bytes
+global variable getnameinfo.service
+	10 elements of 1bytes
+global variable .str.509
+	80 elements of 1bytes
+global variable .str.1.510
+	15 elements of 1bytes
+global variable .str.2.511
+	8 elements of 1bytes
+global variable .str.3.514
+	8 elements of 1bytes
+global variable .str.1.4
+	16 elements of 1bytes
+global variable .str.2.5
+	14 elements of 1bytes
+global variable .str.6.517
+	71 elements of 1bytes
+global variable .str.1.7
+	14 elements of 1bytes
+global variable .str.2.8
+	5 elements of 1bytes
+KLEE: WARNING: undefined reference to function: atan2
+KLEE: WARNING: undefined reference to function: deflate
+KLEE: WARNING: undefined reference to function: deflateEnd
+KLEE: WARNING: undefined reference to function: deflateInit_
+KLEE: WARNING: undefined reference to function: deflateParams
+KLEE: WARNING: undefined reference to function: deflateReset
+KLEE: WARNING: undefined reference to function: exp
+KLEE: WARNING: undefined reference to function: fabs
+KLEE: WARNING: undefined reference to function: floor
+KLEE: WARNING: undefined reference to function: inflate
+KLEE: WARNING: undefined reference to function: inflateEnd
+KLEE: WARNING: undefined reference to function: inflateInit_
+KLEE: WARNING: undefined reference to function: inflateReset
+KLEE: WARNING: undefined reference to function: inflateSync
+KLEE: WARNING: undefined reference to function: jpeg_CreateCompress
+KLEE: WARNING: undefined reference to function: jpeg_CreateDecompress
+KLEE: WARNING: undefined reference to function: jpeg_abort
+KLEE: WARNING: undefined reference to function: jpeg_destroy
+KLEE: WARNING: undefined reference to function: jpeg_finish_compress
+KLEE: WARNING: undefined reference to function: jpeg_finish_decompress
+KLEE: WARNING: undefined reference to function: jpeg_read_header
+KLEE: WARNING: undefined reference to function: jpeg_read_raw_data
+KLEE: WARNING: undefined reference to function: jpeg_read_scanlines
+KLEE: WARNING: undefined reference to function: jpeg_resync_to_restart
+KLEE: WARNING: undefined reference to function: jpeg_set_colorspace
+KLEE: WARNING: undefined reference to function: jpeg_set_defaults
+KLEE: WARNING: undefined reference to function: jpeg_set_quality
+KLEE: WARNING: undefined reference to function: jpeg_start_compress
+KLEE: WARNING: undefined reference to function: jpeg_start_decompress
+KLEE: WARNING: undefined reference to function: jpeg_std_error
+KLEE: WARNING: undefined reference to function: jpeg_suppress_tables
+KLEE: WARNING: undefined reference to function: jpeg_write_raw_data
+KLEE: WARNING: undefined reference to function: jpeg_write_scanlines
+KLEE: WARNING: undefined reference to function: jpeg_write_tables
+KLEE: WARNING: undefined reference to function: log
+KLEE: WARNING: undefined reference to function: lzma_code
+KLEE: WARNING: undefined reference to function: lzma_end
+KLEE: WARNING: undefined reference to function: lzma_lzma_preset
+KLEE: WARNING: undefined reference to function: lzma_memusage
+KLEE: WARNING: undefined reference to function: lzma_stream_decoder
+KLEE: WARNING: undefined reference to function: lzma_stream_encoder
+KLEE: WARNING: undefined reference to function: pow
+KLEE: WARNING: undefined reference to function: puts
+KLEE: WARNING: undefined reference to function: sqrt
+KLEE: WARNING: undefined reference to function: strncpy
+KLEE: ARGV 0: ./tiffmedian.bc
+
+KLEE: ARGV 1: ./exploit
+
+KLEE: ARGV 2: out.tmp
+
+Undefined struct struct.exe_sym_env_t
+Undefined struct struct.exe_file_t
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 137341248)
+124340:  + @ st_mode
+124363:  + @ st_mode
+124381:  + @ st_mode
+Undefined struct struct.exe_disk_file_t
+Undefined struct struct.__kernel_termios.1633
+Undefined struct struct.termios.1628
+Undefined struct struct.Elf64_auxv_t
+KLEE: WARNING ONCE: calling __user_main with extra arguments.
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+	pointer parm derived from itself!
+KLEE: 0xbc14f30: Symbolic value  used to determine branching at /home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_init.c:100 (125951)
+Undefined struct struct._getopt_data
+33455: tif + @ tif_name
+33458: tif + @ tif_name
+33465: tif + @ tif_mode
+33468: tif + @ td_imagedepth
+33471: tif + @ td_tilelength
+33474: tif + @ td_tilewidth
+33477: tif + @ td_imagelength
+33481: tif + @ td_ycbcrpositioning
+33507: tif + @ td_transferfunction
+33511: tif + @ None
+33515: tif + @ td_refblackwhite
+33519: tif + @ td_inknameslen
+33523: tif + @ td_inknames
+33532: tif + @ td_ycbcrsubsampling
+33550: tif + @ None
+46706: tif + @ td_fillorder
+46709: tif + @ td_threshholding
+46712: tif + @ td_orientation
+46715: tif + @ td_samplesperpixel
+46718: tif + @ td_smaxsamplevalue
+46722: tif + @ td_yresolution
+46726: tif + @ td_planarconfig
+46730: tif + @ td_minsamplevalue
+46733: tif + @ td_rowsperstrip
+46736: tif + @ td_maxsamplevalue
+46739: tif + @ td_sminsamplevalue
+46742: tif + @ td_xresolution
+46746: tif + @ td_resolutionunit
+46750: tif + @ td_xposition
+46754: tif + @ td_yposition
+46757: tif + @ td_pagenumber
+46760: tif + @ None
+46763: tif + @ td_colormap
+46766: tif + @ None
+46769: tif + @ tif_flags
+33564: tif + @ tif_flags
+33572: tif + @ tif_flags
+33588: tif + @ tif_flags
+33757: tif + @ td_transferfunction
+33760: tif + @ td_ycbcrpositioning
+33763: tif + @ None
+33957: tif + @ None
+33959: tif@None + . tiff_magic
+33967: tif + @ None
+33969: tif@None + . tiff_magic
+34007: tif + @ None
+34009: tif@None + . tiff_magic
+34025: tif + @ tif_flags
+34041: tif + @ None
+34043: tif@None + . tiff_version
+34051: tif + @ None
+34053: tif@None + . tiff_version
+34081: tif + @ None
+34083: tif@None + . tiff_version
+34112: tif + @ td_transferfunction
+34115: tif + @ td_ycbcrpositioning
+34118: tif + @ None
+34134: tif + @ tif_flags
+34155: tif + @ None
+34157: tif@None + . tiff_offsetsize
+34184: tif + @ None
+34186: tif@None + . tiff_unused
+34213: tif + @ td_imagewidth
+34216: tif + @ tif_flags
+34224: tif + @ tif_flags
+34229: tif + @ td_sampleinfo
+34232: tif + @ td_stripbytecount
+34235: tif + @ td_stripsperimage
+34238: tif + @ td_nstrips
+34241: tif + @ td_stripoffset
+34254: tif + @ tif_flags
+34259: tif + @ None
+34274: tif@None + . tiff_diroff
+34277: tif + @ tif_nextdiroff
+34283: tif + @ tif_flags
+34291: tif + @ td_ycbcrsubsampling
+34294: tif + @ td_ycbcrpositioning
+34297: tif + @ td_nsubifd
+120370: tmp + . st_mode
+KLEE: IntegerOverflow (32:2147483647): cast 4294967329204 @/home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_32.c:44(120373)
+
+120374: buf + . st_mode
+120376: tmp + . st_nlink
+120378: buf + . st_nlink
+120384: buf + . st_uid
+120386: tmp + . st_gid
+120388: buf + . st_gid
+120390: tmp + . st_rdev
+120391: buf + . st_rdev
+WARNING: struct.stat has 11 fields , but index is 11@120396
+120396: tmp + . st_dev
+WARNING: struct.stat has 11 fields , but index is 11@120398
+120398: buf + . st_dev
+WARNING: struct.stat has 11 fields , but index is 12@120400
+120400: tmp + . st_dev
+WARNING: struct.stat has 11 fields , but index is 12@120402
+120402: buf + . st_dev
+WARNING: struct.stat has 11 fields , but index is 13@120404
+120404: tmp + . st_dev
+WARNING: struct.stat has 11 fields , but index is 13@120406
+120406: buf + . st_dev
+120408: tmp + . st_blksize
+120409: buf + . st_blksize
+44245: sb + . st_size
+KLEE: WARNING ONCE: calling external: getpagesize()
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+	pointer parm derived from other vars!
+34305: tif + @ td_subifd
+34308: tif + @ td_subifd
+34328: tif + @ tif_flags
+16668: tif + @ tif_nextdiroff
+16671: tif + @ tif_diroff
+16675: tif + @ tif_nextdiroff
+18547: tif + @ tif_dirnumber
+18569: tif + @ tif_dirnumber
+18606: tif + @ tif_dirnumber
+18611: tif + @ tif_dirlist
+18631: tif + @ tif_dirlist
+18635: tif + @ tif_dirnumber
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+18651: tif + @ tif_dirnumber
+18664: tif + @ tif_dirnumber
+18670: tif + @ tif_dirlistsize
+18677: tif + @ tif_dirlist
+18684: tif + @ tif_dirnumber
+18690: tif + @ tif_dirlist
+16687: tif + @ None
+16692: tif + @ td_imagedepth
+16697: tif + @ tif_nextdiroff
+16703: tif + @ tif_nextdiroff
+18737: tif + @ tif_diroff
+18750: tif + @ tif_flags
+19016: tif + @ tif_diroff
+19021: tif + @ tif_diroff
+19035: tif + @ tif_flags
+19123: tif + @ td_subifd
+19139: tif + @ td_nsubifd
+19148: tif + @ tif_flags
+19234: tif + @ td_subifd
+19252: tif + @ td_nsubifd
+19276: tif + @ tif_flags
+19349: tif + @ td_subifd
+19363: tif + @ td_nsubifd
+19372: tif + @ tif_flags
+19417: tif + @ tif_flags
+19434: mb + @ tdir_tag
+19440: tif + @ tif_flags
+19457: mb + @ tdir_type
+19463: tif + @ tif_flags
+19468: tif + @ tif_flags
+19519: mb + @ tdir_count
+19527: mb + @ tdir_offset
+	nextdiroff=0
+	__arg_3=0
+19644: o + @ tdir_tag
+19661: o + @ tdir_tag
+KLEE: IntegerOverflow (16:32767): cast 33411 @tif_dirread.c:4111(19665)
+
+19654: tif + @ td_ycbcrpositioning
+KLEE: WARNING ONCE: calling external: vprintf(139469792, 194305568)
+Undefined struct struct.__STDIO_FILE_STRUCT.1497
+Undefined struct struct.ppfs_t
+Undefined struct struct.__STDIO_FILE_STRUCT.1416
+Invalid TIFF directory; tags are not sorted in ascending order	pointer parm derived from itself!
+16757: ma + @ tdir_tag
+16761: na + @ tdir_tag
+16769: na + @ tdir_tag
+16792: tif + @ tif_flags
+16797: tif + @ tif_flags
+6508: tif + @ tif_dir
+6511: td + @ td_fieldsset
+6516: td + @ td_maxsamplevalue
+6534: td + @ td_sminsamplevalue
+6552: td + @ td_pagenumber
+6573: td + @ td_pagenumber
+6594: td + @ td_pagenumber
+6615: td + @ None
+6633: td + @ td_stripoffset
+6651: td + @ None
+6668: td + @ td_subifd
+6686: td + @ td_nsubifd
+6707: td + @ td_nsubifd
+6728: td + @ td_nsubifd
+6749: td + @ td_extrasamples
+6767: td + @ td_sampleinfo
+6785: tif + @ tif_dir
+6786: tif@tif_dir + . td_fieldsset
+6792: tif + @ tif_dir
+6793: tif@tif_dir + . td_fieldsset
+6804: td + @ td_ycbcrpositioning
+6841: td + @ td_ycbcrpositioning
+6844: td + @ td_transferfunction
+6909: tif + @ tif_dir
+14750: tif + @ td_customValues
+Undefined struct struct._TIFFFieldArray
+14864: tif + @ td_fieldsset
+14867: tif + @ td_customValues
+14905: tif + @ td_customValues
+14911: tif + @ td_customValues
+Undefined struct struct._TIFFField
+15007: tif + @ td_fieldsset
+15046: tif + @ td_customValues
+15064: tif + @ td_customValues
+15068: tif + @ tif_customdir
+15085: tif + @ td_fieldsset
+14954: tif + @ tif_customdir
+14957: tif + @ td_customValues
+14962: tif + @ tif_customdir
+15014: tif + @ td_fieldsset
+14975: tif + @ td_customValues
+14979: tif + @ tif_customdir
+6920: td + @ td_threshholding
+6923: td + @ td_subfiletype
+6926: td + @ td_photometric
+6929: td + @ td_fillorder
+6932: td + @ td_orientation
+6935: td + @ td_samplesperpixel
+6938: td + @ td_imagedepth
+6941: td + @ td_tilewidth
+6944: td + @ td_tilelength
+6947: td + @ td_stripsperimage
+6950: td + @ td_yresolution
+6953: td + @ td_bitspersample
+6956: td + @ td_imagelength
+6959: td + @ td_stripbytecount
+6963: td + @ td_stripbytecount
+6967: td + @ td_stripbytecountsorted
+6970: tif + @ td_customValueCount
+6973: tif + @ td_fieldsset
+6976: tif + @ None
+6977: tif@None + . vsetfield
+6980: tif + @ None
+6981: tif@None + . vgetfield
+6984: tif + @ None
+6985: tif@None + . printdir
+6988: tif + @ td_imagedepth
+6205: tif + @ tif_flags
+6153: tif + @ None
+6154: tif@None + . vsetfield
+7120: tif + @ tif_dir
+15039: tif + @ td_fieldsset
+Undefined struct struct.__va_list_tag
+7442: tif + @ tif_dir
+7443: tif@tif_dir + . td_fieldsset
+46504: c + @ name
+46511: c + @ scheme
+46819: c + @ init
+55427: tif + @ td_fillorder
+55430: tif + @ td_smaxsamplevalue
+55433: tif + @ td_yresolution
+55436: tif + @ td_planarconfig
+55439: tif + @ td_xresolution
+55442: tif + @ td_resolutionunit
+55445: tif + @ td_xposition
+55448: tif + @ td_pagenumber
+7484: td + @ td_sampleformat
+10412: tif + @ tif_dir
+10413: tif@tif_dir + . td_fieldsset
+10422: tif + @ tif_flags
+7066: tif + @ tif_flags
+7071: tif + @ tif_flags
+8157: td + @ td_resolutionunit
+19708: m + @ tdir_tag
+19815: dp + @ tdir_tag
+22345: tif + @ tif_customdir
+22374: tif + @ td_customValues
+22389: tif + @ td_customValues
+22419: tif + @ td_customValues
+	pointer parm derived from other vars!
+19838: tif + @ td_customValues
+24064: direntry + @ tdir_count
+24075: direntry + @ tdir_type
+23773: direntry + @ tdir_offset
+23779: tif + @ tif_flags
+20196: dp + @ tdir_tag
+7685: td + @ td_orientation
+7693: td + @ td_maxsamplevalue
+7722: td + @ td_sminsamplevalue
+7753: td + @ td_orientation
+16825: dp + @ tdir_tag
+7452: td + @ td_sampleformat
+7461: tif + @ None
+7466: tif + @ tif_flags
+14874: tif + @ tif_customdir
+14882: tif + @ td_customValues
+14886: tif + @ tif_customdir
+14894: tif + @ td_customValues
+Undefined struct struct.OJPEGState
+9081: td + @ td_stripbytecount
+9112: td + @ td_stripbytecount
+85563: tif + @ td_fillorder
+85566: tif + @ td_orientation
+85569: tif + @ td_samplesperpixel
+85572: tif + @ td_customValueCount
+85575: tif + @ td_smaxsamplevalue
+85578: tif + @ td_yresolution
+85581: tif + @ td_planarconfig
+85584: tif + @ td_rowsperstrip
+85587: tif + @ td_maxsamplevalue
+85590: tif + @ td_sminsamplevalue
+85593: tif + @ td_xresolution
+85596: tif + @ td_resolutionunit
+85599: tif + @ td_xposition
+85602: tif + @ None
+85607: tif + @ td_halftonehints
+85610: tif + @ None
+85611: tif@None + . vgetfield
+85617: tif + @ None
+85618: tif@None + . vgetfield
+85621: tif + @ None
+85622: tif@None + . vsetfield
+85628: tif + @ None
+85629: tif@None + . vsetfield
+85632: tif + @ None
+85633: tif@None + . printdir
+85639: tif + @ None
+85640: tif@None + . printdir
+85643: tif + @ tif_flags
+16875: dp + @ tdir_tag
+16900: dp + @ tdir_tag
+16909: dp + @ tdir_tag
+16977: dp + @ tdir_tag
+16987: tif + @ td_customValues
+16998: dp + @ tdir_tag
+24440: direntry + @ tdir_count
+24451: direntry + @ tdir_type
+	pointer parm derived from other vars!
+20245: dp + @ tdir_tag
+94049: tif + @ td_halftonehints
+7253: td + @ None
+17060: dp + @ tdir_tag
+7285: td + @ td_imagewidth
+17043: tif + @ tif_dir
+17044: tif@tif_dir + . td_fieldsset
+16918: tif + @ td_ycbcrpositioning
+16921: dp + @ tdir_tag
+16925: dp + @ tdir_tag
+Undefined struct struct.printf_info.1499
+Unknown field with tag 33410	pointer parm derived from other vars!
+ (0x8282) encountered16932: dp + @ tdir_tag
+16936: dp + @ tdir_type
+Undefined struct struct.__STDIO_FILE_STRUCT.1428
+Undefined struct struct._Int64Parts
+16964: dp + @ tdir_tag
+17075: tif + @ tif_dir
+17076: tif@tif_dir + . td_sampleformat
+17084: tif + @ tif_dir
+17085: tif@tif_dir + . td_resolutionunit
+17144: tif + @ tif_dir
+17145: tif@tif_dir + . td_fieldsset
+17158: tif + @ tif_dir
+17159: tif@tif_dir + . td_fieldsset
+38166: tif + @ tif_dir
+38169: td + @ td_samplesperpixel
+38188: td + @ td_imagewidth
+38191: td + @ td_samplesperpixel
+38196: td + @ td_samplesperpixel
+38176: td + @ td_imagewidth
+38179: td + @ td_samplesperpixel
+38207: td + @ td_resolutionunit
+17170: tif + @ tif_dir
+17171: tif@tif_dir + . None
+17174: tif + @ tif_dir
+17175: tif@tif_dir + . None
+17178: tif + @ tif_dir
+17179: tif@tif_dir + . td_imagedepth
+17182: tif + @ tif_dir
+17183: tif@tif_dir + . td_samplesperpixel
+17186: tif + @ tif_dir
+17187: tif@tif_dir + . td_tilewidth
+17190: tif + @ tif_dir
+17191: tif@tif_dir + . td_imagelength
+17194: tif + @ tif_dir
+17195: tif@tif_dir + . td_tilelength
+17198: tif + @ tif_flags
+17219: tif + @ tif_dir
+17220: tif@tif_dir + . None
+17239: tif + @ tif_dir
+17240: tif@tif_dir + . None
+17243: tif + @ tif_dir
+17244: tif@tif_dir + . td_halftonehints
+17247: tif + @ tif_dir
+17248: tif@tif_dir + . td_resolutionunit
+17272: tif + @ tif_dir
+17273: tif@tif_dir + . td_fieldsset
+17344: dp + @ tdir_tag
+31401: direntry + @ tdir_count
+31404: tif + @ tif_dir
+31405: tif@tif_dir + . td_orientation
+25944: direntry + @ tdir_type
+22969: direntry + @ tdir_type
+22975: direntry + @ tdir_count
+22997: direntry + @ tdir_count
+23013: direntry + @ tdir_count
+23024: direntry + @ tdir_count
+23062: tif + @ tif_flags
+23127: direntry + @ tdir_offset
+	pointer parm derived from other vars!
+25983: direntry + @ tdir_type
+25997: tif + @ tif_flags
+	pointer parm derived from other vars!
+31433: tif + @ tif_dir
+31434: tif@tif_dir + . td_orientation
+	pointer parm derived from other vars!
+17386: dp + @ tdir_tag
+7318: td + @ td_subfiletype
+7321: tif + @ tif_flags
+17420: dp + @ tdir_tag
+7521: td + @ td_compression
+22480: direntry + @ tdir_type
+23136: direntry + @ tdir_offset
+23141: tif + @ tif_flags
+23205: tif + @ tif_flags
+23281: tif + @ td_subifd
+23293: tif + @ td_nsubifd
+22521: direntry + @ tdir_type
+	pointer parm derived from other vars!
+19945: dp + @ tdir_count
+19971: dp + @ tdir_count
+19979: tif + @ td_ycbcrpositioning
+ASCII value for tag "DocumentName" contains null byte in value; value incorrectly truncated during reading due to implementation limitations20086: dp + @ tdir_tag
+9378: td + @ td_ycbcrpositioning
+9435: td + @ td_ycbcrpositioning
+9440: td + @ td_transferfunction
+9444: td + @ td_ycbcrpositioning
+9469: td + @ td_transferfunction
+9472: td + @ td_transferfunction
+9475: td + @ td_ycbcrpositioning
+9483: tv + @ info
+9486: tv + @ value
+9489: tv + @ count
+9641: tv + @ count
+9644: tv + @ value
+17516: tif + @ tif_dir
+17517: tif@tif_dir + . None
+17520: tif + @ tif_dir
+17521: tif@tif_dir + . td_extrasamples
+27626: direntry + @ tdir_type
+27665: direntry + @ tdir_type
+27679: tif + @ tif_flags
+	pointer parm derived from other vars!
+31574: dir + @ tdir_count
+	pointer parm derived from other vars!
+17530: tif + @ tif_dir
+17531: tif@tif_dir + . None
+17534: tif + @ tif_dir
+17535: tif@tif_dir + . td_sampleinfo
+27775: direntry + @ tdir_type
+27871: tif + @ tif_flags
+17772: tif + @ tif_dir
+17773: tif@tif_dir + . td_sampleformat
+17781: tif + @ tif_dir
+17782: tif@tif_dir + . td_fieldsset
+17800: tif + @ tif_dir
+17801: tif@tif_dir + . td_compression
+17820: tif + @ tif_dir
+17821: tif@tif_dir + . td_fieldsset
+17840: tif + @ tif_dir
+17841: tif@tif_dir + . td_fieldsset
+17911: tif + @ tif_dir
+17912: tif@tif_dir + . td_compression
+17920: tif + @ tif_dir
+17921: tif@tif_dir + . td_fieldsset
+17930: tif + @ tif_dir
+17931: tif@tif_dir + . td_subfiletype
+17939: tif + @ tif_dir
+17940: tif@tif_dir + . td_orientation
+17948: tif + @ tif_dir
+17949: tif@tif_dir + . td_compression
+17975: tif + @ tif_dir
+17976: tif@tif_dir + . td_sampleformat
+18257: tif + @ tif_dir
+18258: tif@tif_dir + . td_fieldsset
+18267: tif + @ tif_dir
+18268: tif@tif_dir + . td_subfiletype
+18273: tif + @ tif_dir
+18282: tif@tif_dir + . td_subfiletype
+18292: tif + @ tif_dir
+18293: tif@tif_dir + . td_minsamplevalue
+18299: tif + @ tif_dir
+18300: tif@tif_dir + . None
+18358: tif + @ td_fillorder
+18364: tif + @ tif_dir
+18365: tif@tif_dir + . td_resolutionunit
+18373: tif + @ tif_dir
+18374: tif@tif_dir + . None
+18381: tif + @ tif_dir
+18382: tif@tif_dir + . td_sampleformat
+18421: tif + @ tif_flags
+18426: tif + @ tif_flags
+18431: tif + @ td_imagelength
+18434: tif + @ td_tilewidth
+18437: tif + @ td_sampleformat
+18440: tif + @ td_compression
+18443: tif + @ td_photometric
+38493: tif + @ tif_dir
+38496: td + @ td_resolutionunit
+38504: td + @ td_compression
+38671: td + @ None
+38675: td + @ td_orientation
+38683: td + @ td_subfiletype
+18448: tif + @ None
+18451: tif + @ None
+18465: tif + @ tif_flags
+38854: tif + @ tif_dir
+38857: td + @ td_samplesperpixel
+38862: td + @ td_imagewidth
+38869: td + @ td_imagewidth
+38244: tif + @ tif_dir
+38259: td + @ td_resolutionunit
+38267: td + @ td_compression
+34346: tif + @ td_stripbytecountsorted
+34349: tif + @ tif_flags
+43978: tif + @ tif_fd
+6468: tif + @ tif_dir
+6469: tif@tif_dir + . td_fieldsset
+6487: tif + @ None
+6488: tif@None + . vgetfield
+93592: tif + @ td_halftonehints
+10923: tif + @ tif_dir
+11034: td + @ None
+11067: td + @ td_imagewidth
+11100: td + @ td_subfiletype
+11298: td + @ td_orientation
+11166: td + @ td_compression
+11732: td + @ td_resolutionunit
+1797: freeboxes + . rmin
+1801: freeboxes + . rmax
+1823: freeboxes[i] + . rmin
+1834: freeboxes[i] + . rmax
+1847: freeboxes[(num_colors)-(1)] + . rmin
+1859: freeboxes[(num_colors)-(1)] + . rmax
+1864: ptr + @ rmin
+1873: freeboxes + @ rmax
+1880: ptr + @ rmin
+1885: ptr + @ rmin
+2475: box + @ total
+2478: box + @ bmin
+2481: box + @ gmin
+WARNING: struct.colorbox has 7 fields , but index is 7@2484
+2487: box + @ bmax
+2490: box + @ gmax
+WARNING: struct.colorbox has 7 fields , but index is 8@2496
+34789: tif + @ tif_mode
+34808: tif + @ tif_flags
+34854: tif + @ tif_dir
+34859: td + @ td_imagewidth
+34883: td + @ td_resolutionunit
+34937: td + @ td_samplesperpixel
+34963: tif + @ td_tilewidth
+35134: tif + @ tif_dir
+35143: tif + @ tif_dir
+35144: tif@tif_dir + . td_sampleinfo
+35155: tif + @ tif_flags
+35854: tif + @ tif_dir
+35863: tif + @ tif_dir
+35864: tif@tif_dir + . td_sampleinfo
+35875: tif + @ tif_flags
+35883: tif + @ td_orientation
+85668: tif + @ td_ycbcrpositioning
+Depreciated and troublesome old-style JPEG compression mode, please convert to new-style JPEG compression and notify vendor of writing software35896: tif + @ tif_flags
+35905: tif + @ td_tilewidth
+35909: td + @ td_halftonehints
+35915: td + @ td_samplesperpixel
+35919: tif + @ td_imagelength
+35922: tif + @ tif_flags
+35927: tif + @ tif_flags
+35935: tif + @ td_stripbytecount
+35938: tif + @ td_stripbytecountsorted
+35962: tif + @ td_samplesperpixel
+35967: td + @ td_halftonehints
+85684: tif + @ td_halftonehints
+85983: tif + @ td_halftonehints
+86002: tif + @ tif_dir
+86003: tif@tif_dir + . td_orientation
+86011: tif + @ tif_dir
+86012: tif@tif_dir + . td_compression
+86020: tif + @ tif_dir
+86021: tif@tif_dir + . td_compression
+89800: tif + @ td_halftonehints
+89817: tif + @ tif_dir
+89818: tif@tif_dir + . None
+89824: tif + @ tif_dir
+89825: tif@tif_dir + . td_imagewidth
+89831: tif + @ tif_flags
+89883: tif + @ tif_dir
+89884: tif@tif_dir + . td_samplesperpixel
+89899: tif + @ tif_dir
+89900: tif@tif_dir + . td_orientation
+89929: tif + @ tif_dir
+89930: tif@tif_dir + . td_orientation
+89956: tif + @ tif_dir
+89957: tif@tif_dir + . td_resolutionunit
+86232: tif + @ td_halftonehints
+86244: tif + @ td_inknames
+86247: tif + @ td_ycbcrpositioning
+KLEE: IntegerOverflow (32:2147483647): cast 4294967329204 @/home/james/Projects/Senx/code/klee_src/runtime/POSIX/fd_32.c:44(120373)
+
+86322: tif + @ tif_dir
+86323: tif@tif_dir + . None
+86996: sp@0 + @ tif_dir
+86997: sp@0@tif_dir + . td_extrasamples
+87006: sp@0 + @ tif_dir
+87007: sp@0@tif_dir + . td_sampleinfo
+87039: sp@0 + @ tif_dir
+87040: sp@0@tif_dir + . td_extrasamples
+	pointer parm derived from other vars!
+2720: p + @ gmax
+2723: p + @ gmin
+2730: p + @ bmax
+2733: p + @ bmin
+WARNING: struct.colorbox has 7 fields , but index is 7@2740
+2743: p + @ total
+2766: p + @ rmin
+1939: ptr + @ gmin
+1942: ptr + @ gmax
+1957: ptr + @ bmin
+1960: ptr + @ bmax
+1975: ptr + @ total
+WARNING: struct.colorbox has 7 fields , but index is 7@1978
+1996: ptr + @ rmin
+33771: tif + @ tif_mode
+33785: tif + @ tif_flags
+33792: tif + @ None
+33794: tif@None + . tiff_magic
+33797: tif + @ tif_flags
+33802: tif + @ None
+33804: tif@None + . tiff_version
+33810: tif + @ None
+33812: tif@None + . tiff_diroff
+33815: tif + @ tif_flags
+33831: tif + @ td_imagewidth
+33880: tif + @ td_refblackwhite
+33883: tif + @ td_ycbcrpositioning
+33887: tif + @ None
+33890: tif + @ td_ycbcrpositioning
+33893: tif + @ None
+33896: tif + @ td_imagewidth
+33901: tif + @ td_imagewidth
+33916: tif + @ None
+33918: tif@None + . tiff_magic
+33940: tif + @ tif_diroff
+33943: tif + @ tif_dirlist
+33946: tif + @ tif_dirlistsize
+33949: tif + @ tif_dirnumber
+11133: td + @ td_sampleformat
+38917: tif + @ td_colormap
+7792: td + @ td_samplesperpixel
+7795: tif + @ tif_dir
+7796: tif@tif_dir + . td_fieldsset
+7806: td + @ td_tilewidth
+7809: td + @ None
+7812: td + @ td_imagedepth
+35048: tif + @ td_imagelength
+35084: tif + @ td_imagelength
+34738: tif + @ td_smaxsamplevalue
+34743: tif + @ None
+92805: tif + @ td_halftonehints
+92868: tif + @ td_halftonehints
+KLEE: ERROR: tif_ojpeg.c:818: divide by zero
+KLEE: NOTE: now ignoring this error at this location
+
+KLEE: done: total instructions = 2023252
+KLEE: done: completed paths = 1
+KLEE: done: generated tests = 1
