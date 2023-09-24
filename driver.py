@@ -55,7 +55,7 @@ def main():
         bug_name = str(vulnerability['bug_id'])
         subject = str(vulnerability['subject'])
 
-        print("\n\033[96m Processing {} {} ... \033[0m".format(subject, bug_name))
+        print("\n\033[34mProcessing {} {} ... \033[0m".format(subject, bug_name))
 
         vul_dir = os.path.join(curr_dir, subject, bug_name)
         os.chdir(vul_dir)

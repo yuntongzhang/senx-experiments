@@ -144,6 +144,7 @@ To run the benchmark, clone this repo first:
 ```bash
 git clone https://github.com/yuntongzhang/senx-experiments.git
 cd senx-experiments
+git checkout fuzzrepair-instr
 ```
 
 Next, put the file `offsets.py` at correct place:
