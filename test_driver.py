@@ -19,6 +19,7 @@ def main():
 
     curr_dir = os.getcwd()
 
+    patch_validated = []
     patch_fail_build = []
     patch_still_crash = []
     patch_plausible = []
@@ -48,6 +49,7 @@ def main():
             continue
 
         # now we finally should process patch for this bug
+        patch_validated.append(bug_name)
         now = datetime.now()
         print("\n\033[34m[{}] Processing {} {} ... \033[0m".format(now, subject, bug_name))
 
@@ -67,20 +69,24 @@ def main():
         
         os.chdir(curr_dir)
 
+    print("\nValidated patches for {} vulnerabilities.".format(len(patch_validated)))
     if patch_fail_build:
-        print("\033[91m Patched program failed to build for the following vulnerabilities: \033[0m")
+        print("\n\033[91m Patched program failed to build for the following vulnerabilities: \033[0m")
         for bug_name in patch_fail_build:
             print("\033[91m {} \033[0m".format(bug_name))
+        print("    Count : {}".format(len(patch_fail_build)))
 
     if patch_still_crash:
-        print("\033[91m Patched program still crashes for the following vulnerabilities: \033[0m")
+        print("\n\033[91m Patched program still crashes for the following vulnerabilities: \033[0m")
         for bug_name in patch_still_crash:
             print("\033[91m {} \033[0m".format(bug_name))
+        print("    Count : {}".format(len(patch_still_crash)))
     
     if patch_plausible:
-        print("\033[96m Patch is plausible for the following vulnerabilities: \033[0m")
+        print("\n\033[96m Patch is plausible for the following vulnerabilities: \033[0m")
         for bug_name in patch_plausible:
             print("\033[96m {} \033[0m".format(bug_name))
+        print("    Count : {}".format(len(patch_plausible)))
 
 if __name__ == "__main__":
     main()
