@@ -1,0 +1,13 @@
+diff --git a/tools/tiff2ps.c b/tools/tiff2ps.c
+index 635665a7..9b608e8c 100644
+--- a/tools/tiff2ps.c
++++ b/tools/tiff2ps.c
+@@ -2468,6 +2468,8 @@ if(0) return;
+ 				 *    Cback * (1 - Aimage)
+ 				 * where Cback = 1.
+ 				 */
++				if ((cp)+(nc) + (h)*(1+((tf_bytesperrow)/(samplesperpixel))) >= (char *)tf_buf + tf_bytesperrow)
++					exit(0);
+ 				adjust = 255 - cp[nc];
+ 				switch (nc) {
+ 				case 4: c = *cp++ + adjust; PUTHEX(c,fd);
