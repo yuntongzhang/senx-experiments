@@ -62,25 +62,25 @@ exploit input, it is marked as `Wrong (exploit sstill fail)`.
 | 8 | coreutils | gnubug-26545 | Y | N | - | - |
 | 11 | jasper | CVE-2016-8691 | N | - | - | - |
 | 12 | jasper | CVE-2016-9557 | Y | N | - | - |
-| 13 | libarchive | CVE-2016-5844 | Y | Y | ? | ? |
+| 13 | libarchive | CVE-2016-5844 | Y | Y | N | - |
 | 14 | libjpeg | CVE-2012-2806 | Y | N | - | - |
 | 15 | libjpeg | CVE-2017-15232 | N | - | - | - |
-| 16 | libjpeg | CVE-2018-14498 | Y | Y | ? | ? |
+| 16 | libjpeg | CVE-2018-14498 | Y | Y | N | - |
 | 17 | libjpeg | CVE-2018-19664 | Y | N | - | - |
-| 18 | libming | CVE-2016-9264 | Y | Y | ? | ? |
+| 18 | libming | CVE-2016-9264 | Y | Y | N | - |
 | 19 | libming | CVE-2018-8806 | N | - | - | - |
 | 20 | libming | CVE-2018-8964 | N | - | - | - |
 | 21 | libtiff | bugzilla-2611 | N | - | - | - |
-| 22 | libtiff | bugzilla-2633 | Y | Y | ? | ? |
-| 23 | libtiff | CVE-2016-10092 | Y | Y | ? | ? |
-| 24 | libtiff | CVE-2016-10094 | Y | Y | ? | ? |
-| 25 | libtiff | CVE-2016-10272 | Y | Y | ? | ? |
+| 22 | libtiff | bugzilla-2633 | Y | Y | Y | N |
+| 23 | libtiff | CVE-2016-10092 | Y | Y | N | - |
+| 24 | libtiff | CVE-2016-10094 | Y | Y | Y | N |
+| 25 | libtiff | CVE-2016-10272 | Y | Y | N | - |
 | 26 | libtiff | CVE-2016-3186 | Y | N | - | - |
-| 27 | libtiff | CVE-2016-5314 | Y | Y | ? | ? |
+| 27 | libtiff | CVE-2016-5314 | Y | Y | N | - |
 | 28 | libtiff | CVE-2016-5321 | Y | N | - | - |
 | 29 | libtiff | CVE-2016-9273 | Y | N | - | - |
-| 30 | libtiff | CVE-2016-9532 | Y | Y | ? | ? |
-| 31 | libtiff | CVE-2017-5225 | Y | Y | ? | ? |
+| 30 | libtiff | CVE-2016-9532 | Y | Y | N | - |
+| 31 | libtiff | CVE-2017-5225 | Y | Y | Y | N |
 | 32 | libtiff | CVE-2017-7595 | N | - | - | - |
 | 33 | libtiff | CVE-2017-7599 | Y | N | - | - |
 | 34 | libtiff | CVE-2017-7600 | Y | N | - | - |
@@ -89,14 +89,14 @@ exploit input, it is marked as `Wrong (exploit sstill fail)`.
 | 37 | libxml2 | CVE-2016-1838 | Y | N | - | - |
 | 38 | libxml2 | CVE-2016-1839 | Y | N | - | - |
 | 39 | libxml2 | CVE-2017-5969 | N | - | - | - |
-| 40 | potrace | CVE-2013-7437 | Y | Y | ? | ? |
+| 40 | potrace | CVE-2013-7437 | Y | Y | Y | N |
 | 41 | zziplib | CVE-2017-5974 | Y | N | - | - |
 | 42 | zziplib | CVE-2017-5975 | Y | N | - | - |
 | 43 | zziplib | CVE-2017-5976 | Y | N | - | - |
-|    | Total   | 41            | 33 | 11 |  |  | 
+|    | Total   | 41            | 33 | 11 | 4 | 0 | 
 
 
-## Steps used in experiments
+## Steps to set up experiment environment
 
 To run SenX on the experiment benchmark, first set up the SenX VM:
 
@@ -152,6 +152,9 @@ sudo apt install automake autopoint bear bison ca-certificates cmake curl flex g
     tk-dev mercurial tcl-dev tix-dev unzip wget clang rsync
 ```
 
+
+## Steps to set up and run the benchmark programs
+
 To run the benchmark, clone this repo first:
 
 ```bash
@@ -178,10 +181,33 @@ Now, set up and run all the vulnerabilities with the driver script:
 
 ```bash
 python3 driver.py --setup # takes around 1.5 - 2 hours
-python3 driver.py --run
+python3 driver.py --run   # takes around 0.5 - 1 hour
 python3 driver.py --saveres
 ```
 
+The results will be saved to a `result-N` directory in the bug directory. The largest N corresponds 
+to the results from the latest run.
+
+
+## Steps for translating patches and test plausibility
+
+**First, manually translate SenX-generated patches:**
+
+1. Setup a new source code directory, with same clone and instrumentations.
+2. Commit as before-patch.
+3. Manually apply the patch file.
+4. Commit as after-patch.
+5. git diff HEAD~1 > formatted.patch
+
+The formatted patches should be saved somewhere inside the bug directory. In each bug directory (for which a patch is generated),
+there is also a `senx_test.sh` script. Now edit each of these scripts, such that it uses the patch
+at the correct locations (these formatted patches were just saved from last step).
+
+**Now, validate these patches with the driver script:**
+
+```bash
+python3 test_driver.py
+```
 
 [yes]: ✔
 [no]: ❌
